@@ -1,0 +1,2144 @@
+{
+  "1": {
+    "formation_name": "4-3-3",
+    "samples": [
+      {
+        "fixture_id": 334220,
+        "club_id": 605,
+        "play_style": 2,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 363898,
+            "player_name": "Kevin Hysolli",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 9991,
+            "player_name": "Lucas Veríssimo",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "positions": [
+              "LB",
+              "DMC",
+              "RM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 290148,
+            "player_name": "Yuri dos Santos",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 125405,
+            "player_name": "Borja Díaz Herrero",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 321770,
+            "player_name": "Ardit Nikaj",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 15891,
+            "player_name": "Simon Hedlund",
+            "positions": [
+              "LM",
+              "RM",
+              "AMR",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 281227,
+            "player_name": "Bismark Kwarema",
+            "positions": [
+              "FL"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "formation_name": "5-3-2",
+    "samples": [
+      {
+        "fixture_id": 334228,
+        "club_id": 3340,
+        "play_style": 4,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "positions": [
+              "RB",
+              "DMC",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "positions": [
+              "DMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334209,
+        "club_id": 605,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 74636,
+            "player_name": "Elvis Prençi",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 363899,
+            "player_name": "Ergi Zenullari",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "positions": [
+              "LB",
+              "DMC",
+              "RM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 290148,
+            "player_name": "Yuri dos Santos",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 511688,
+            "player_name": "Héctor Nahuel Alejandro Zapatiel",
+            "positions": [
+              "CM",
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 321770,
+            "player_name": "Ardit Nikaj",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 281227,
+            "player_name": "Bismark Kwarema",
+            "positions": [
+              "FL"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 125405,
+            "player_name": "Borja Díaz Herrero",
+            "positions": [
+              "DMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334222,
+        "club_id": 3340,
+        "play_style": 2,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "positions": [
+              "RB",
+              "DMC",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 345184,
+            "player_name": "Marios Paja",
+            "positions": [
+              "DML",
+              "AMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334208,
+        "club_id": 3340,
+        "play_style": 2,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "positions": [
+              "RB",
+              "DMC",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334200,
+        "club_id": 3340,
+        "play_style": 2,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "positions": [
+              "RB",
+              "DMC",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 384605,
+            "player_name": "Irgi Kasalla",
+            "positions": [
+              "AMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334195,
+        "club_id": 3340,
+        "play_style": 2,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "positions": [
+              "RB",
+              "DMC",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 298011,
+            "player_name": "Segerso Geci",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 384605,
+            "player_name": "Irgi Kasalla",
+            "positions": [
+              "AMC"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "formation_name": "unknown",
+    "samples": [
+      {
+        "fixture_id": 363194,
+        "club_id": 49,
+        "play_style": 4,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 18959,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 152953,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 336671,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 19145,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 22094,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 47380,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 135519,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 19545,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 283058,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 152982,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 1864,
+            "player_name": null,
+            "positions": []
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "formation_name": "4-1-4-1",
+    "samples": [
+      {
+        "fixture_id": 334216,
+        "club_id": 3340,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3885,
+            "player_name": "Gresild Lika",
+            "positions": [
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 345184,
+            "player_name": "Marios Paja",
+            "positions": [
+              "DML",
+              "AMC"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "12": {
+    "formation_name": "4-2-3-1",
+    "samples": [
+      {
+        "fixture_id": 334212,
+        "club_id": 3340,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "positions": [
+              "RB",
+              "DMC",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3885,
+            "player_name": "Gresild Lika",
+            "positions": [
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 345184,
+            "player_name": "Marios Paja",
+            "positions": [
+              "DML",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 273259,
+            "player_name": "Okseold Sefa",
+            "positions": [
+              "LM"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334204,
+        "club_id": 3340,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3885,
+            "player_name": "Gresild Lika",
+            "positions": [
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 216576,
+            "player_name": "Idris Nuradeen",
+            "positions": [
+              "CM",
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 273259,
+            "player_name": "Okseold Sefa",
+            "positions": [
+              "LM"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "13": {
+    "formation_name": "4-1-2-2-1v2",
+    "samples": [
+      {
+        "fixture_id": 334203,
+        "club_id": 605,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 363898,
+            "player_name": "Kevin Hysolli",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 9991,
+            "player_name": "Lucas Veríssimo",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 511688,
+            "player_name": "Héctor Nahuel Alejandro Zapatiel",
+            "positions": [
+              "CM",
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3620,
+            "player_name": "Albi Doka",
+            "positions": [
+              "AMR"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 15891,
+            "player_name": "Simon Hedlund",
+            "positions": [
+              "LM",
+              "RM",
+              "AMR",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 385537,
+            "player_name": "Foti Çuçka",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 392036,
+            "player_name": "Etienne Tare",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "positions": [
+              "LB",
+              "DMC",
+              "RM",
+              "AMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334197,
+        "club_id": 605,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 363898,
+            "player_name": "Kevin Hysolli",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 9991,
+            "player_name": "Lucas Veríssimo",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 511688,
+            "player_name": "Héctor Nahuel Alejandro Zapatiel",
+            "positions": [
+              "CM",
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3620,
+            "player_name": "Albi Doka",
+            "positions": [
+              "AMR"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 15891,
+            "player_name": "Simon Hedlund",
+            "positions": [
+              "LM",
+              "RM",
+              "AMR",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 385537,
+            "player_name": "Foti Çuçka",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 392036,
+            "player_name": "Etienne Tare",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "positions": [
+              "LB",
+              "DMC",
+              "RM",
+              "AMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334191,
+        "club_id": 605,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 363898,
+            "player_name": "Kevin Hysolli",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 9991,
+            "player_name": "Lucas Veríssimo",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 511688,
+            "player_name": "Héctor Nahuel Alejandro Zapatiel",
+            "positions": [
+              "CM",
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3620,
+            "player_name": "Albi Doka",
+            "positions": [
+              "AMR"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 15891,
+            "player_name": "Simon Hedlund",
+            "positions": [
+              "LM",
+              "RM",
+              "AMR",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 385537,
+            "player_name": "Foti Çuçka",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 392036,
+            "player_name": "Etienne Tare",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "positions": [
+              "LB",
+              "DMC",
+              "RM",
+              "AMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334183,
+        "club_id": 605,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 363898,
+            "player_name": "Kevin Hysolli",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 9991,
+            "player_name": "Lucas Veríssimo",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 511688,
+            "player_name": "Héctor Nahuel Alejandro Zapatiel",
+            "positions": [
+              "CM",
+              "RM"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3620,
+            "player_name": "Albi Doka",
+            "positions": [
+              "AMR"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 15891,
+            "player_name": "Simon Hedlund",
+            "positions": [
+              "LM",
+              "RM",
+              "AMR",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 385537,
+            "player_name": "Foti Çuçka",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 392036,
+            "player_name": "Etienne Tare",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "positions": [
+              "LB",
+              "DMC",
+              "RM",
+              "AMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334216,
+        "club_id": 20406,
+        "play_style": 3,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 175425,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 74480,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 196348,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 3469,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 42724,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 3540,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 4264,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 3847,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 6696,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 406275,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 41593,
+            "player_name": null,
+            "positions": []
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "formation_name": "4-3-1-2",
+    "samples": [
+      {
+        "fixture_id": 334197,
+        "club_id": 2256,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3588,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 315987,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 302089,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 74658,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 300005,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 43217,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 157998,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 161953,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 338304,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 337481,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 341109,
+            "player_name": null,
+            "positions": []
+          }
+        ]
+      },
+      {
+        "fixture_id": 334183,
+        "club_id": 3340,
+        "play_style": 3,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 391741,
+            "player_name": "Agim Xhabafti",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "positions": [
+              "CM"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 384605,
+            "player_name": "Irgi Kasalla",
+            "positions": [
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          }
+        ]
+      },
+      {
+        "fixture_id": 334189,
+        "club_id": 3340,
+        "play_style": 3,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "positions": [
+              "RB"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "positions": [
+              "LB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 391741,
+            "player_name": "Agim Xhabafti",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 216576,
+            "player_name": "Idris Nuradeen",
+            "positions": [
+              "CM",
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "positions": [
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 384605,
+            "player_name": "Irgi Kasalla",
+            "positions": [
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "positions": [
+              "FC",
+              "FR"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "positions": [
+              "DMC"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "18": {
+    "formation_name": "unknown",
+    "samples": [
+      {
+        "fixture_id": 334194,
+        "club_id": 3339,
+        "play_style": 2,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 3735,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 338109,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 122742,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 297536,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 45501,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 14614,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 135226,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 169481,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 53555,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 3475,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 277767,
+            "player_name": null,
+            "positions": []
+          }
+        ]
+      }
+    ]
+  },
+  "20": {
+    "formation_name": "4-2-2-2",
+    "samples": [
+      {
+        "fixture_id": 363194,
+        "club_id": 50,
+        "play_style": 5,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 61142,
+            "player_name": "Dominik Greif",
+            "positions": [
+              "GK"
+            ]
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 5,
+            "player_name": "Manuel Akanji",
+            "positions": [
+              "LB",
+              "CB",
+              "RB",
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 129033,
+            "player_name": "Joško Gvardiol",
+            "positions": [
+              "LB",
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 567,
+            "player_name": "Rúben dos Santos",
+            "positions": [
+              "CB"
+            ]
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 626,
+            "player_name": "John Stones",
+            "positions": [
+              "CB",
+              "RB",
+              "DMC"
+            ]
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 2291,
+            "player_name": "Mateo Kovačić",
+            "positions": [
+              "DMC",
+              "LM",
+              "CM",
+              "AMC"
+            ]
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 636,
+            "player_name": "Bernardo Mota Veiga",
+            "positions": [
+              "DMC",
+              "RM",
+              "AMC",
+              "AMR"
+            ]
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 41621,
+            "player_name": "Matheus Nunes",
+            "positions": [
+              "RB",
+              "DMC",
+              "RM",
+              "AML"
+            ]
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 1100,
+            "player_name": "Erling Braut Haaland",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 313353,
+            "player_name": "Promise Akinpelu",
+            "positions": [
+              "FC"
+            ]
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 1422,
+            "player_name": "Jérémy Doku",
+            "positions": [
+              "AML",
+              "AMC",
+              "AMR",
+              "FL"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "23": {
+    "formation_name": "3-2-2-2-1",
+    "samples": [
+      {
+        "fixture_id": 334189,
+        "club_id": 2256,
+        "play_style": 0,
+        "autopicked": null,
+        "lineup": [
+          {
+            "slot_ix": 0,
+            "player_id": 322122,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 1,
+            "player_id": 74658,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 2,
+            "player_id": 378171,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 3,
+            "player_id": 16881,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 4,
+            "player_id": 43217,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 5,
+            "player_id": 435256,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 6,
+            "player_id": 169199,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 7,
+            "player_id": 196437,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 8,
+            "player_id": 337481,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 9,
+            "player_id": 3495,
+            "player_name": null,
+            "positions": []
+          },
+          {
+            "slot_ix": 10,
+            "player_id": 3918,
+            "player_name": null,
+            "positions": []
+          }
+        ]
+      }
+    ]
+  }
+}

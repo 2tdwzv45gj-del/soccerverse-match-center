@@ -1,0 +1,4218 @@
+{
+  "club_id": 605,
+  "source_dataset": "data/raw/club_605_formation_history.json",
+  "player_ids": [
+    1832,
+    3620,
+    4353,
+    9991,
+    15891,
+    30061,
+    74636,
+    125405,
+    136060,
+    152714,
+    169112,
+    178372,
+    281227,
+    290148,
+    311563,
+    321770,
+    363898,
+    363899,
+    373653,
+    385537,
+    392036,
+    507657,
+    511688,
+    512689,
+    513164
+  ],
+  "players": {
+    "1832": {
+      "player_id": 1832,
+      "position": 1,
+      "multi_position": 1,
+      "position_mask": null,
+      "raw": {
+        "player_id": 1832,
+        "fitness": 98,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1786816800,
+        "injury_id": 1,
+        "wages": 15000000,
+        "contract": 1,
+        "form": "666777",
+        "position": 1,
+        "position_main": "GK",
+        "multi_position": 1,
+        "positions": [
+          "GK"
+        ],
+        "rating": 60,
+        "rating_gk": 60,
+        "rating_tackling": 50,
+        "rating_passing": 50,
+        "rating_shooting": 50,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 956707200,
+        "side": "C",
+        "value": 820125000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 26,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "3620": {
+      "player_id": 3620,
+      "position": 4096,
+      "multi_position": 4096,
+      "position_mask": null,
+      "raw": {
+        "player_id": 3620,
+        "fitness": 64,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1792519200,
+        "injury_id": 2,
+        "wages": 64300000,
+        "contract": 2,
+        "form": "666666",
+        "position": 4096,
+        "position_main": "AMR",
+        "multi_position": 4096,
+        "positions": [
+          "AMR"
+        ],
+        "rating": 68,
+        "rating_gk": 50,
+        "rating_tackling": 67,
+        "rating_passing": 68,
+        "rating_shooting": 66,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 867283200,
+        "side": "R",
+        "value": 2562874222,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 29,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "4353": {
+      "player_id": 4353,
+      "position": 2,
+      "multi_position": 2,
+      "position_mask": null,
+      "raw": {
+        "player_id": 4353,
+        "fitness": 80,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 1,
+        "injured": 1771869600,
+        "injury_id": 1,
+        "wages": 18000000,
+        "contract": 1,
+        "form": "466694",
+        "position": 2,
+        "position_main": "LB",
+        "multi_position": 2,
+        "positions": [
+          "LB"
+        ],
+        "rating": 62,
+        "rating_gk": 50,
+        "rating_tackling": 62,
+        "rating_passing": 57,
+        "rating_shooting": 59,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 942796800,
+        "side": "L",
+        "value": 1062882000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 26,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "9991": {
+      "player_id": 9991,
+      "position": 4,
+      "multi_position": 4,
+      "position_mask": null,
+      "raw": {
+        "player_id": 9991,
+        "fitness": 45,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1781805600,
+        "injury_id": 1,
+        "wages": 331400000,
+        "contract": 2,
+        "form": "656666",
+        "position": 4,
+        "position_main": "CB",
+        "multi_position": 4,
+        "positions": [
+          "CB"
+        ],
+        "rating": 77,
+        "rating_gk": 50,
+        "rating_tackling": 77,
+        "rating_passing": 64,
+        "rating_shooting": 68,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 804643200,
+        "side": "C",
+        "value": 10699262504,
+        "country_id": "BRA",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1737451544,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 31,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "15891": {
+      "player_id": 15891,
+      "position": 512,
+      "multi_position": 37504,
+      "position_mask": null,
+      "raw": {
+        "player_id": 15891,
+        "fitness": 58,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1777140000,
+        "injury_id": 1,
+        "wages": 92550000,
+        "contract": 2,
+        "form": "666566",
+        "position": 512,
+        "position_main": "RM",
+        "multi_position": 37504,
+        "positions": [
+          "LM",
+          "RM",
+          "AMR",
+          "FR"
+        ],
+        "rating": 70,
+        "rating_gk": 50,
+        "rating_tackling": 69,
+        "rating_passing": 63,
+        "rating_shooting": 70,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 731808000,
+        "side": "RL",
+        "value": 2420264221,
+        "country_id": "SWE",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1742552708,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 33,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "30061": {
+      "player_id": 30061,
+      "position": 16384,
+      "multi_position": 16384,
+      "position_mask": null,
+      "raw": {
+        "player_id": 30061,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 4,
+        "injured": 1749051001,
+        "injury_id": 1,
+        "wages": 31050000,
+        "contract": 2,
+        "form": "639566",
+        "position": 16384,
+        "position_main": "FC",
+        "multi_position": 16384,
+        "positions": [
+          "FC"
+        ],
+        "rating": 64,
+        "rating_gk": 50,
+        "rating_tackling": 61,
+        "rating_passing": 58,
+        "rating_shooting": 64,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 887673600,
+        "side": "C",
+        "value": 1375103587,
+        "country_id": "IRN",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1788530370,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 28,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "74636": {
+      "player_id": 74636,
+      "position": 4,
+      "multi_position": 4,
+      "position_mask": null,
+      "raw": {
+        "player_id": 74636,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1762192801,
+        "injury_id": 1,
+        "wages": 21600000,
+        "contract": 1,
+        "form": "355666",
+        "position": 4,
+        "position_main": "CB",
+        "multi_position": 4,
+        "positions": [
+          "CB"
+        ],
+        "rating": 62,
+        "rating_gk": 50,
+        "rating_tackling": 62,
+        "rating_passing": 57,
+        "rating_shooting": 57,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 741052800,
+        "side": "C",
+        "value": 564859072,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 33,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "125405": {
+      "player_id": 125405,
+      "position": 32,
+      "multi_position": 32,
+      "position_mask": null,
+      "raw": {
+        "player_id": 125405,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 0,
+        "injury_id": 0,
+        "wages": 44700000,
+        "contract": 5,
+        "form": "---666",
+        "position": 32,
+        "position_main": "DMC",
+        "multi_position": 32,
+        "positions": [
+          "DMC"
+        ],
+        "rating": 59,
+        "rating_gk": 50,
+        "rating_tackling": 59,
+        "rating_passing": 59,
+        "rating_shooting": 59,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 657504000,
+        "side": "C",
+        "value": 281193904,
+        "country_id": "ESP",
+        "club_id": 605,
+        "agent_name": "DDoctor",
+        "last_transfer": 1766583301,
+        "desired_contract": 4,
+        "allow_transfer": 1,
+        "allow_renew": 0,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 35,
+        "last_price": 4,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "last_7days_price": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "agent_last_active_unix": 1788948484
+      }
+    },
+    "136060": {
+      "player_id": 136060,
+      "position": 32,
+      "multi_position": 32,
+      "position_mask": null,
+      "raw": {
+        "player_id": 136060,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1781114400,
+        "injury_id": 1,
+        "wages": 44700000,
+        "contract": 1,
+        "form": "--6646",
+        "position": 32,
+        "position_main": "DMC",
+        "multi_position": 32,
+        "positions": [
+          "DMC"
+        ],
+        "rating": 58,
+        "rating_gk": 50,
+        "rating_tackling": 57,
+        "rating_passing": 58,
+        "rating_shooting": 56,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 949795200,
+        "side": "C",
+        "value": 792787500,
+        "country_id": "NGA",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 26,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "152714": {
+      "player_id": 152714,
+      "position": 4,
+      "multi_position": 4,
+      "position_mask": null,
+      "raw": {
+        "player_id": 152714,
+        "fitness": 79,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 1,
+        "injured": 1775152801,
+        "injury_id": 1,
+        "wages": 21600000,
+        "contract": 1,
+        "form": "466676",
+        "position": 4,
+        "position_main": "CB",
+        "multi_position": 4,
+        "positions": [
+          "CB"
+        ],
+        "rating": 63,
+        "rating_gk": 50,
+        "rating_tackling": 63,
+        "rating_passing": 57,
+        "rating_shooting": 59,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 920419200,
+        "side": "C",
+        "value": 1274474250,
+        "country_id": "BRA",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 27,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "169112": {
+      "player_id": 169112,
+      "position": 8,
+      "multi_position": 10,
+      "position_mask": null,
+      "raw": {
+        "player_id": 169112,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 0,
+        "injury_id": 0,
+        "wages": 37250000,
+        "contract": 1,
+        "form": "-66665",
+        "position": 8,
+        "position_main": "RB",
+        "multi_position": 10,
+        "positions": [
+          "LB",
+          "RB"
+        ],
+        "rating": 59,
+        "rating_gk": 50,
+        "rating_tackling": 59,
+        "rating_passing": 53,
+        "rating_shooting": 54,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "dob": 813715200,
+        "side": "RL",
+        "value": 476204349,
+        "country_id": "KGZ",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1780674000,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 30,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "178372": {
+      "player_id": 178372,
+      "position": 32,
+      "multi_position": 2594,
+      "position_mask": null,
+      "raw": {
+        "player_id": 178372,
+        "fitness": 85,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 0,
+        "injury_id": 0,
+        "wages": 37250000,
+        "contract": 2,
+        "form": "666666",
+        "position": 32,
+        "position_main": "DMC",
+        "multi_position": 2594,
+        "positions": [
+          "LB",
+          "DMC",
+          "RM",
+          "AMC"
+        ],
+        "rating": 65,
+        "rating_gk": 50,
+        "rating_tackling": 63,
+        "rating_passing": 65,
+        "rating_shooting": 62,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "dob": 953078400,
+        "side": "RLC",
+        "value": 2036643750,
+        "country_id": "KOS",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 26,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "281227": {
+      "player_id": 281227,
+      "position": 8192,
+      "multi_position": 8192,
+      "position_mask": null,
+      "raw": {
+        "player_id": 281227,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 4,
+        "injured": 1780336800,
+        "injury_id": 1,
+        "wages": 18000000,
+        "contract": 1,
+        "form": "666966",
+        "position": 8192,
+        "position_main": "FL",
+        "multi_position": 8192,
+        "positions": [
+          "FL"
+        ],
+        "rating": 61,
+        "rating_gk": 50,
+        "rating_tackling": 59,
+        "rating_passing": 56,
+        "rating_shooting": 61,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 990835200,
+        "side": "L",
+        "value": 1093500000,
+        "country_id": "GHA",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 25,
+        "last_price": 40,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "last_7days_price": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "agent_last_active_unix": null
+      }
+    },
+    "290148": {
+      "player_id": 290148,
+      "position": 32,
+      "multi_position": 32,
+      "position_mask": null,
+      "raw": {
+        "player_id": 290148,
+        "fitness": 82,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1760558401,
+        "injury_id": 1,
+        "wages": 18000000,
+        "contract": 1,
+        "form": "646666",
+        "position": 32,
+        "position_main": "DMC",
+        "multi_position": 32,
+        "positions": [
+          "DMC"
+        ],
+        "rating": 61,
+        "rating_gk": 50,
+        "rating_tackling": 59,
+        "rating_passing": 61,
+        "rating_shooting": 58,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 906249600,
+        "side": "C",
+        "value": 797161500,
+        "country_id": "BRA",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 27,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "311563": {
+      "player_id": 311563,
+      "position": 1,
+      "multi_position": 1,
+      "position_mask": null,
+      "raw": {
+        "player_id": 311563,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 1,
+        "injured": 1743444001,
+        "injury_id": 1,
+        "wages": 14500000,
+        "contract": 1,
+        "form": "668656",
+        "position": 1,
+        "position_main": "GK",
+        "multi_position": 1,
+        "positions": [
+          "GK"
+        ],
+        "rating": 59,
+        "rating_gk": 59,
+        "rating_tackling": 50,
+        "rating_passing": 50,
+        "rating_shooting": 50,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1048896000,
+        "side": "C",
+        "value": 1106250000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 23,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "321770": {
+      "player_id": 321770,
+      "position": 16384,
+      "multi_position": 16384,
+      "position_mask": null,
+      "raw": {
+        "player_id": 321770,
+        "fitness": 78,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1770746401,
+        "injury_id": 1,
+        "wages": 31050000,
+        "contract": 2,
+        "form": "566665",
+        "position": 16384,
+        "position_main": "FC",
+        "multi_position": 16384,
+        "positions": [
+          "FC"
+        ],
+        "rating": 64,
+        "rating_gk": 50,
+        "rating_tackling": 63,
+        "rating_passing": 60,
+        "rating_shooting": 64,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1016928000,
+        "side": "C",
+        "value": 2095875000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 24,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "363898": {
+      "player_id": 363898,
+      "position": 8,
+      "multi_position": 8,
+      "position_mask": null,
+      "raw": {
+        "player_id": 363898,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1787767200,
+        "injury_id": 1,
+        "wages": 18000000,
+        "contract": 1,
+        "form": "546646",
+        "position": 8,
+        "position_main": "RB",
+        "multi_position": 8,
+        "positions": [
+          "RB"
+        ],
+        "rating": 61,
+        "rating_gk": 50,
+        "rating_tackling": 61,
+        "rating_passing": 57,
+        "rating_shooting": 59,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 1054684800,
+        "side": "R",
+        "value": 1350000000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 23,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "363899": {
+      "player_id": 363899,
+      "position": 4,
+      "multi_position": 4,
+      "position_mask": null,
+      "raw": {
+        "player_id": 363899,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 4,
+        "injured": 1759003200,
+        "injury_id": 1,
+        "wages": 18000000,
+        "contract": 1,
+        "form": "----66",
+        "position": 4,
+        "position_main": "CB",
+        "multi_position": 4,
+        "positions": [
+          "CB"
+        ],
+        "rating": 61,
+        "rating_gk": 50,
+        "rating_tackling": 61,
+        "rating_passing": 57,
+        "rating_shooting": 59,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1042243200,
+        "side": "C",
+        "value": 1350000000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 23,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "373653": {
+      "player_id": 373653,
+      "position": 8,
+      "multi_position": 8,
+      "position_mask": null,
+      "raw": {
+        "player_id": 373653,
+        "fitness": 83,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1761325200,
+        "injury_id": 1,
+        "wages": 37250000,
+        "contract": 2,
+        "form": "376566",
+        "position": 8,
+        "position_main": "RB",
+        "multi_position": 8,
+        "positions": [
+          "RB"
+        ],
+        "rating": 65,
+        "rating_gk": 50,
+        "rating_tackling": 65,
+        "rating_passing": 61,
+        "rating_shooting": 63,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1046131200,
+        "side": "R",
+        "value": 2793750000,
+        "country_id": "EST",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1788609199,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 23,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "385537": {
+      "player_id": 385537,
+      "position": 16384,
+      "multi_position": 16384,
+      "position_mask": null,
+      "raw": {
+        "player_id": 385537,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1786384800,
+        "injury_id": 1,
+        "wages": 14750000,
+        "contract": 1,
+        "form": "566655",
+        "position": 16384,
+        "position_main": "FC",
+        "multi_position": 16384,
+        "positions": [
+          "FC"
+        ],
+        "rating": 59,
+        "rating_gk": 50,
+        "rating_tackling": 59,
+        "rating_passing": 56,
+        "rating_shooting": 59,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 1062892800,
+        "side": "C",
+        "value": 1106250000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 23,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "392036": {
+      "player_id": 392036,
+      "position": 16384,
+      "multi_position": 16384,
+      "position_mask": null,
+      "raw": {
+        "player_id": 392036,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 1,
+        "injured": 1781460000,
+        "injury_id": 1,
+        "wages": 14750000,
+        "contract": 1,
+        "form": "665556",
+        "position": 16384,
+        "position_main": "FC",
+        "multi_position": 16384,
+        "positions": [
+          "FC"
+        ],
+        "rating": 62,
+        "rating_gk": 50,
+        "rating_tackling": 62,
+        "rating_passing": 59,
+        "rating_shooting": 62,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "dob": 1063411200,
+        "side": "C",
+        "value": 1620000000,
+        "country_id": "ALB",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 0,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 22,
+        "last_price": 40,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "last_7days_price": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "agent_last_active_unix": null
+      }
+    },
+    "507657": {
+      "player_id": 507657,
+      "position": 8192,
+      "multi_position": 8192,
+      "position_mask": null,
+      "raw": {
+        "player_id": 507657,
+        "fitness": 78,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 0,
+        "injury_id": 0,
+        "wages": 31050000,
+        "contract": 2,
+        "form": "----96",
+        "position": 8192,
+        "position_main": "FL",
+        "multi_position": 8192,
+        "positions": [
+          "FL"
+        ],
+        "rating": 64,
+        "rating_gk": 50,
+        "rating_tackling": 63,
+        "rating_passing": 61,
+        "rating_shooting": 64,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1090972800,
+        "side": "L",
+        "value": 2328750000,
+        "country_id": "CHL",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1788531349,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 22,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "511688": {
+      "player_id": 511688,
+      "position": 256,
+      "multi_position": 768,
+      "position_mask": null,
+      "raw": {
+        "player_id": 511688,
+        "fitness": 78,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 1781892001,
+        "injury_id": 1,
+        "wages": 31050000,
+        "contract": 2,
+        "form": "666663",
+        "position": 256,
+        "position_main": "CM",
+        "multi_position": 768,
+        "positions": [
+          "CM",
+          "RM"
+        ],
+        "rating": 64,
+        "rating_gk": 50,
+        "rating_tackling": 63,
+        "rating_passing": 64,
+        "rating_shooting": 63,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1090454400,
+        "side": "RC",
+        "value": 2328750000,
+        "country_id": "ARG",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1780368069,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 22,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "512689": {
+      "player_id": 512689,
+      "position": 4,
+      "multi_position": 6,
+      "position_mask": null,
+      "raw": {
+        "player_id": 512689,
+        "fitness": 100,
+        "retired": 0,
+        "morale": 0,
+        "concerns": 4,
+        "injured": 1783533600,
+        "injury_id": 1,
+        "wages": 44700000,
+        "contract": 1,
+        "form": "------",
+        "position": 4,
+        "position_main": "CB",
+        "multi_position": 6,
+        "positions": [
+          "LB",
+          "CB"
+        ],
+        "rating": 56,
+        "rating_gk": 50,
+        "rating_tackling": 56,
+        "rating_passing": 55,
+        "rating_shooting": 56,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 1158710400,
+        "side": "LC",
+        "value": 1050000000,
+        "country_id": "FRA",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1780049325,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 19,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    },
+    "513164": {
+      "player_id": 513164,
+      "position": 16384,
+      "multi_position": 16384,
+      "position_mask": null,
+      "raw": {
+        "player_id": 513164,
+        "fitness": 80,
+        "retired": 0,
+        "morale": 1,
+        "concerns": 0,
+        "injured": 0,
+        "injury_id": 0,
+        "wages": 25900000,
+        "contract": 2,
+        "form": "----76",
+        "position": 16384,
+        "position_main": "FC",
+        "multi_position": 16384,
+        "positions": [
+          "FC"
+        ],
+        "rating": 63,
+        "rating_gk": 50,
+        "rating_tackling": 60,
+        "rating_passing": 57,
+        "rating_shooting": 63,
+        "rating_stamina": 50,
+        "rating_aggression": 20,
+        "banned": 0,
+        "cup_tied": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "dob": 918432000,
+        "side": "C",
+        "value": 1274474250,
+        "country_id": "PRY",
+        "club_id": 605,
+        "agent_name": null,
+        "last_transfer": 1788351228,
+        "desired_contract": 2,
+        "allow_transfer": 1,
+        "allow_renew": 1,
+        "loan_offered": null,
+        "loan_offer_accepted": null,
+        "loaned_to_club": null,
+        "age": 27,
+        "last_price": 0,
+        "volume_1_day": 0,
+        "volume_7_day": 0,
+        "last_7days": [],
+        "last_7days_price": [],
+        "agent_last_active_unix": null
+      }
+    }
+  },
+  "formations": {
+    "0": {
+      "formation_id": 0,
+      "action_count": 2,
+      "valid_count": 0,
+      "autopicked_count": 2,
+      "position_counts": {
+        "1": 4,
+        "8": 2,
+        "32": 8,
+        "4": 8,
+        "256": 2,
+        "512": 2,
+        "16384": 6,
+        "4096": 2,
+        "8192": 2
+      },
+      "valid_actions": [],
+      "autopicked_actions": [
+        {
+          "fixture_id": 334152,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "invalid_player",
+          "lineup_player_ids": [
+            1832,
+            363898,
+            178372,
+            9991,
+            152714,
+            511688,
+            15891,
+            290148,
+            321770,
+            392036,
+            125405,
+            311563,
+            74636,
+            363899,
+            136060,
+            3620,
+            385537,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334215,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "invalid_player",
+          "lineup_player_ids": [
+            1832,
+            363898,
+            178372,
+            9991,
+            152714,
+            290148,
+            3620,
+            511688,
+            321770,
+            392036,
+            15891,
+            311563,
+            74636,
+            363899,
+            136060,
+            125405,
+            385537,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "formation_id": 1,
+      "action_count": 10,
+      "valid_count": 4,
+      "autopicked_count": 6,
+      "position_counts": {
+        "1": 17,
+        "8": 11,
+        "32": 36,
+        "4": 40,
+        "256": 10,
+        "4096": 7,
+        "16384": 32,
+        "512": 10,
+        "8192": 10,
+        "2": 7
+      },
+      "valid_actions": [
+        {
+          "fixture_id": 334158,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 2,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            169112,
+            178372,
+            9991,
+            74636,
+            511688,
+            3620,
+            136060,
+            321770,
+            385537,
+            15891,
+            311563,
+            363899,
+            152714,
+            290148,
+            125405,
+            392036,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 169112,
+              "position": 8,
+              "multi_position": 10,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334170,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 2,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            169112,
+            178372,
+            9991,
+            74636,
+            511688,
+            3620,
+            136060,
+            321770,
+            385537,
+            15891,
+            311563,
+            363899,
+            152714,
+            290148,
+            125405,
+            392036,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 169112,
+              "position": 8,
+              "multi_position": 10,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334175,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 2,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            169112,
+            178372,
+            9991,
+            74636,
+            511688,
+            3620,
+            136060,
+            321770,
+            385537,
+            15891,
+            311563,
+            363899,
+            152714,
+            290148,
+            125405,
+            392036,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 169112,
+              "position": 8,
+              "multi_position": 10,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334220,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 2,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            363898,
+            4353,
+            9991,
+            152714,
+            178372,
+            290148,
+            125405,
+            321770,
+            15891,
+            281227,
+            311563,
+            74636,
+            363899,
+            392036,
+            136060,
+            385537,
+            511688
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            }
+          ]
+        }
+      ],
+      "autopicked_actions": [
+        {
+          "fixture_id": 334164,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "dud_players",
+          "lineup_player_ids": [
+            311563,
+            363898,
+            178372,
+            9991,
+            152714,
+            511688,
+            15891,
+            290148,
+            321770,
+            392036,
+            281227,
+            4353,
+            363899,
+            74636,
+            125405,
+            136060,
+            385537,
+            3620
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 335079,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "dud_players",
+          "lineup_player_ids": [
+            311563,
+            363898,
+            4353,
+            9991,
+            152714,
+            178372,
+            3620,
+            15891,
+            392036,
+            321770,
+            281227,
+            169112,
+            363899,
+            74636,
+            290148,
+            511688,
+            385537,
+            125405
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 169112,
+              "position": 8,
+              "multi_position": 10,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334179,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "dud_players",
+          "lineup_player_ids": [
+            311563,
+            169112,
+            178372,
+            9991,
+            363899,
+            290148,
+            3620,
+            15891,
+            392036,
+            321770,
+            281227,
+            4353,
+            74636,
+            152714,
+            125405,
+            511688,
+            385537,
+            136060
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 169112,
+              "position": 8,
+              "multi_position": 10,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334187,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "dud_players",
+          "lineup_player_ids": [
+            1832,
+            169112,
+            4353,
+            9991,
+            152714,
+            511688,
+            3620,
+            15891,
+            392036,
+            385537,
+            281227,
+            311563,
+            74636,
+            363899,
+            290148,
+            125405,
+            321770,
+            178372
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 169112,
+              "position": 8,
+              "multi_position": 10,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334224,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "invalid_player",
+          "lineup_player_ids": [
+            1832,
+            373653,
+            4353,
+            9991,
+            74636,
+            511688,
+            15891,
+            178372,
+            513164,
+            30061,
+            507657,
+            311563,
+            152714,
+            363899,
+            125405,
+            290148,
+            321770,
+            392036
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 373653,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 513164,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 30061,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 507657,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334228,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": "invalid_player",
+          "lineup_player_ids": [
+            1832,
+            373653,
+            4353,
+            9991,
+            152714,
+            511688,
+            15891,
+            290148,
+            321770,
+            513164,
+            507657,
+            311563,
+            74636,
+            363899,
+            178372,
+            125405,
+            30061,
+            392036
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 373653,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 513164,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 507657,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 30061,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "formation_id": 13,
+      "action_count": 4,
+      "valid_count": 4,
+      "autopicked_count": 0,
+      "position_counts": {
+        "1": 8,
+        "8": 4,
+        "2": 4,
+        "4": 16,
+        "256": 4,
+        "4096": 4,
+        "512": 4,
+        "16384": 12,
+        "32": 12,
+        "8192": 4
+      },
+      "valid_actions": [
+        {
+          "fixture_id": 334183,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            363898,
+            4353,
+            9991,
+            152714,
+            511688,
+            3620,
+            15891,
+            385537,
+            392036,
+            178372,
+            311563,
+            74636,
+            363899,
+            125405,
+            136060,
+            321770,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334191,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            363898,
+            4353,
+            9991,
+            152714,
+            511688,
+            3620,
+            15891,
+            385537,
+            392036,
+            178372,
+            311563,
+            74636,
+            363899,
+            125405,
+            136060,
+            321770,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334197,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            363898,
+            4353,
+            9991,
+            152714,
+            511688,
+            3620,
+            15891,
+            385537,
+            392036,
+            178372,
+            311563,
+            74636,
+            363899,
+            125405,
+            136060,
+            321770,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        },
+        {
+          "fixture_id": 334203,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            363898,
+            4353,
+            9991,
+            152714,
+            511688,
+            3620,
+            15891,
+            385537,
+            392036,
+            178372,
+            311563,
+            74636,
+            363899,
+            125405,
+            136060,
+            321770,
+            281227
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 363898,
+              "position": 8,
+              "multi_position": 8,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 3620,
+              "position": 4096,
+              "multi_position": 4096,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            }
+          ]
+        }
+      ],
+      "autopicked_actions": []
+    },
+    "7": {
+      "formation_id": 7,
+      "action_count": 1,
+      "valid_count": 1,
+      "autopicked_count": 0,
+      "position_counts": {
+        "1": 2,
+        "4": 5,
+        "32": 4,
+        "2": 1,
+        "256": 1,
+        "16384": 3,
+        "8192": 1,
+        "512": 1
+      },
+      "valid_actions": [
+        {
+          "fixture_id": 334209,
+          "action_index": 0,
+          "time": 0,
+          "situation": 0,
+          "goal_margin": 0,
+          "play_style": 0,
+          "autopicked": null,
+          "lineup_player_ids": [
+            1832,
+            152714,
+            74636,
+            363899,
+            178372,
+            4353,
+            290148,
+            511688,
+            321770,
+            281227,
+            125405,
+            311563,
+            9991,
+            512689,
+            136060,
+            15891,
+            392036,
+            385537
+          ],
+          "players": [
+            {
+              "lineup_index": 0,
+              "player_id": 1832,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 1,
+              "player_id": 152714,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 2,
+              "player_id": 74636,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 3,
+              "player_id": 363899,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 4,
+              "player_id": 178372,
+              "position": 32,
+              "multi_position": 2594,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 5,
+              "player_id": 4353,
+              "position": 2,
+              "multi_position": 2,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 6,
+              "player_id": 290148,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 7,
+              "player_id": 511688,
+              "position": 256,
+              "multi_position": 768,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 8,
+              "player_id": 321770,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 9,
+              "player_id": 281227,
+              "position": 8192,
+              "multi_position": 8192,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 10,
+              "player_id": 125405,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 11,
+              "player_id": 311563,
+              "position": 1,
+              "multi_position": 1,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 12,
+              "player_id": 9991,
+              "position": 4,
+              "multi_position": 4,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 13,
+              "player_id": 512689,
+              "position": 4,
+              "multi_position": 6,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 14,
+              "player_id": 136060,
+              "position": 32,
+              "multi_position": 32,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 15,
+              "player_id": 15891,
+              "position": 512,
+              "multi_position": 37504,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 16,
+              "player_id": 392036,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            },
+            {
+              "lineup_index": 17,
+              "player_id": 385537,
+              "position": 16384,
+              "multi_position": 16384,
+              "position_mask": null
+            }
+          ]
+        }
+      ],
+      "autopicked_actions": []
+    }
+  }
+}

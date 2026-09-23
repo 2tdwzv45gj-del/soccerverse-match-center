@@ -1,0 +1,27 @@
+{
+  "search": {
+    "quick_search": "RICERCA RAPIDA",
+    "placeholder": "Cerca direttamente una squadra…",
+    "button": "CERCA",
+    "double_click_hint": "Doppio clic su una partita per aprire il Match Center.",
+    "enter_team": "Inserisci il nome di una squadra.",
+    "searching": "RICERCA IN CORSO…",
+    "error": "Errore",
+    "load_error": "Errore caricando le partite",
+    "results": "RISULTATI"
+  },
+  "world": {
+    "brand": "SOCCERVERSE",
+    "subtitle": "WORLD MAP  •  MATCH CENTER",
+    "breadcrumb": "WORLD",
+    "title": "WORLD MAP",
+    "description": "Seleziona un paese per entrare nelle sue divisioni e raggiungere direttamente i club.",
+    "saved_clubs": "I MIEI CLUB  •  10 SLOT",
+    "remove": "RIMUOVI",
+    "filter_countries": "Filtra paesi…",
+    "refresh": "↻  AGGIORNA",
+    "matches": "PARTITE",
+    "save_club": "★  SALVA CLUB",
+    "back_club": "←  CLUB"
+  }
+}

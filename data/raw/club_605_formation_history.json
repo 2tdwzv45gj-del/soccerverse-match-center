@@ -1,0 +1,5593 @@
+[
+  {
+    "fixture": {
+      "attendance": 1119,
+      "away_club": 605,
+      "away_goals": 1,
+      "away_manager": "KevinYan",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1784397600,
+      "fixture_id": 334152,
+      "home_club": 2256,
+      "home_goals": 2,
+      "home_manager": "angelRoblezz",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 3,
+      "turn_id": 41695,
+      "datetime": "2026-07-18 18:00",
+      "datetime_utc": "2026-07-18 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-07-18",
+      "home_club_name": "Laç",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334152,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 0,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "invalid_player",
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 0,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 512689,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        null,
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        null,
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 0,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "invalid_player"
+  },
+  {
+    "fixture": {
+      "attendance": 1179,
+      "away_club": 3320,
+      "away_goals": 3,
+      "away_manager": "caiobrito96",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1784743200,
+      "fixture_id": 334158,
+      "home_club": 605,
+      "home_goals": 3,
+      "home_manager": "DDoctor",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41696,
+      "datetime": "2026-07-22 18:00",
+      "datetime_utc": "2026-07-22 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-07-22",
+      "home_club_name": "Korçë",
+      "away_club_name": "Durrës",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334158,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 2,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 10,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 169112,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 2,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 10,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 2
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1099,
+      "away_club": 605,
+      "away_goals": 0,
+      "away_manager": "DDoctor",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1785002400,
+      "fixture_id": 334164,
+      "home_club": 3325,
+      "home_goals": 2,
+      "home_manager": "mikenation",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2164,
+      "turn_id": 41697,
+      "datetime": "2026-07-25 18:00",
+      "datetime_utc": "2026-07-25 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-07-25",
+      "home_club_name": "Ballsh",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334164,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "dud_players",
+        "lineup": [
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 10,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 2
+        }
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "dud_players"
+  },
+  {
+    "fixture": {
+      "attendance": 1199,
+      "away_club": 3326,
+      "away_goals": 2,
+      "away_manager": "BADGIRL",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1785348000,
+      "fixture_id": 334170,
+      "home_club": 605,
+      "home_goals": 2,
+      "home_manager": "DDoctor",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41698,
+      "datetime": "2026-07-29 18:00",
+      "datetime_utc": "2026-07-29 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-07-29",
+      "home_club_name": "Korçë",
+      "away_club_name": "Dinamo",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334170,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 2,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 10,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 169112,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 2,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 10,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 2
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1295,
+      "away_club": 708,
+      "away_goals": 3,
+      "away_manager": "Tirana",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1785607200,
+      "fixture_id": 334175,
+      "home_club": 605,
+      "home_goals": 1,
+      "home_manager": "DDoctor",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41699,
+      "datetime": "2026-08-01 18:00",
+      "datetime_utc": "2026-08-01 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-08-01",
+      "home_club_name": "Korçë",
+      "away_club_name": "Tirana Red",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334175,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 2,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 10,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 169112,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 2,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 10,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 2
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1431,
+      "away_club": 3836,
+      "away_goals": 0,
+      "away_manager": "",
+      "away_pen_score": 0,
+      "comp_type": 1,
+      "country_id": "ALB",
+      "date": 1785780000,
+      "fixture_id": 335079,
+      "home_club": 605,
+      "home_goals": 2,
+      "home_manager": "DDoctor",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41875,
+      "datetime": "2026-08-03 18:00",
+      "datetime_utc": "2026-08-03 18:00:00 UTC",
+      "day_of_week": "Monday",
+      "date_formatted": "2026-08-03",
+      "home_club_name": "Korçë",
+      "away_club_name": "Pukë",
+      "comp_type_name": "National Cup"
+    },
+    "fixture_id": 335079,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "dud_players",
+        "lineup": [
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 169112,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 10,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 2
+        }
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "dud_players"
+  },
+  {
+    "fixture": {
+      "attendance": 1197,
+      "away_club": 605,
+      "away_goals": 0,
+      "away_manager": "DDoctor",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1785952800,
+      "fixture_id": 334179,
+      "home_club": 3339,
+      "home_goals": 2,
+      "home_manager": "Fnku",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 1966,
+      "turn_id": 41700,
+      "datetime": "2026-08-05 18:00",
+      "datetime_utc": "2026-08-05 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-08-05",
+      "home_club_name": "Shkodër",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334179,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "dud_players",
+        "lineup": [
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 169112,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 10,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 2
+        }
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "dud_players"
+  },
+  {
+    "fixture": {
+      "attendance": 1501,
+      "away_club": 3340,
+      "away_goals": 1,
+      "away_manager": "Infantino",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1786212000,
+      "fixture_id": 334183,
+      "home_club": 605,
+      "home_goals": 0,
+      "home_manager": "Dhani",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41701,
+      "datetime": "2026-08-08 18:00",
+      "datetime_utc": "2026-08-08 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-08-08",
+      "home_club_name": "Korçë",
+      "away_club_name": "Vora",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334183,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 13,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        },
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 1,
+          "target_man": 9,
+          "time": 15,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1179,
+      "away_club": 605,
+      "away_goals": 1,
+      "away_manager": "Dhani",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1786557600,
+      "fixture_id": 334187,
+      "home_club": 3327,
+      "home_goals": 0,
+      "home_manager": "",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 12601,
+      "turn_id": 41702,
+      "datetime": "2026-08-12 18:00",
+      "datetime_utc": "2026-08-12 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-08-12",
+      "home_club_name": "Rrogozhinë",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334187,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "dud_players",
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 169112,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        },
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 1,
+          "target_man": 9,
+          "time": 15,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 169112,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "dud_players"
+  },
+  {
+    "fixture": {
+      "attendance": 1216,
+      "away_club": 605,
+      "away_goals": 1,
+      "away_manager": "Dhani",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1786816800,
+      "fixture_id": 334191,
+      "home_club": 20406,
+      "home_goals": 2,
+      "home_manager": "karina",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 333332,
+      "turn_id": 41703,
+      "datetime": "2026-08-15 18:00",
+      "datetime_utc": "2026-08-15 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-08-15",
+      "home_club_name": "Elbasan",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334191,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 13,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        },
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 1,
+          "target_man": 9,
+          "time": 15,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 988,
+      "away_club": 2256,
+      "away_goals": 4,
+      "away_manager": "ramones",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1787162400,
+      "fixture_id": 334197,
+      "home_club": 605,
+      "home_goals": 0,
+      "home_manager": "Dhani",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41704,
+      "datetime": "2026-08-19 18:00",
+      "datetime_utc": "2026-08-19 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-08-19",
+      "home_club_name": "Korçë",
+      "away_club_name": "Laç",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334197,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 13,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        },
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 1,
+          "target_man": 9,
+          "time": 15,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1344,
+      "away_club": 605,
+      "away_goals": 1,
+      "away_manager": "Dhani",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1787421600,
+      "fixture_id": 334203,
+      "home_club": 3320,
+      "home_goals": 1,
+      "home_manager": "caiobrito96",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2159,
+      "turn_id": 41705,
+      "datetime": "2026-08-22 18:00",
+      "datetime_utc": "2026-08-22 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-08-22",
+      "home_club_name": "Durrës",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334203,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 13,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        },
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 13,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 1,
+          "target_man": 9,
+          "time": 15,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 885,
+      "away_club": 3325,
+      "away_goals": 1,
+      "away_manager": "",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1787767200,
+      "fixture_id": 334209,
+      "home_club": 605,
+      "home_goals": 1,
+      "home_manager": "RibaJr",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41706,
+      "datetime": "2026-08-26 18:00",
+      "datetime_utc": "2026-08-26 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-08-26",
+      "home_club_name": "Korçë",
+      "away_club_name": "Ballsh",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334209,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 7,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 8,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 512689,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 2
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 2
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 7,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 8,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 512689,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 2,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 2,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1525,
+      "away_club": 605,
+      "away_goals": 0,
+      "away_manager": "DDoctor",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1788026400,
+      "fixture_id": 334215,
+      "home_club": 3326,
+      "home_goals": 1,
+      "home_manager": "BADGIRL",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2,
+      "turn_id": 41707,
+      "datetime": "2026-08-29 18:00",
+      "datetime_utc": "2026-08-29 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-08-29",
+      "home_club_name": "Dinamo",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334215,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 0,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "invalid_player",
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 3620,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [],
+      "team_sheet": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 0,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 3620,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "invalid_player"
+  },
+  {
+    "fixture": {
+      "attendance": 2011,
+      "away_club": 605,
+      "away_goals": 3,
+      "away_manager": "DDoctor",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1788372000,
+      "fixture_id": 334220,
+      "home_club": 708,
+      "home_goals": 3,
+      "home_manager": "Tirana",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 19776,
+      "turn_id": 41708,
+      "datetime": "2026-09-02 18:00",
+      "datetime_utc": "2026-09-02 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-09-02",
+      "home_club_name": "Tirana Red",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334220,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 2,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 9,
+        "penalty_taker": 9,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": null,
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363898,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 2,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 281227,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 136060,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 385537,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 9,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 9,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        },
+        {
+          "captain": 9,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            12,
+            5,
+            6,
+            15,
+            14,
+            9,
+            10,
+            11,
+            4,
+            13,
+            8,
+            7,
+            16,
+            17
+          ],
+          "penalty_taker": 9,
+          "play_style": 2,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 60,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363898,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 2
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 281227,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 136060,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 385537,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "auto_tactics": null,
+    "reason_for_auto": null
+  },
+  {
+    "fixture": {
+      "attendance": 1158,
+      "away_club": 3339,
+      "away_goals": 0,
+      "away_manager": "Fnku",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1788631200,
+      "fixture_id": 334224,
+      "home_club": 605,
+      "home_goals": 2,
+      "home_manager": "DDoctor",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 2155,
+      "turn_id": 41709,
+      "datetime": "2026-09-05 18:00",
+      "datetime_utc": "2026-09-05 18:00:00 UTC",
+      "day_of_week": "Saturday",
+      "date_formatted": "2026-09-05",
+      "home_club_name": "Korçë",
+      "away_club_name": "Shkodër",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334224,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "invalid_player",
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 373653,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 513164,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 30061,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 507657,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [],
+      "team_sheet": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 373653,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 513164,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 30061,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 507657,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "invalid_player"
+  },
+  {
+    "fixture": {
+      "attendance": 1292,
+      "away_club": 605,
+      "away_goals": 0,
+      "away_manager": "DDoctor",
+      "away_pen_score": 0,
+      "comp_type": 0,
+      "country_id": "ALB",
+      "date": 1788976800,
+      "fixture_id": 334228,
+      "home_club": 3340,
+      "home_goals": 1,
+      "home_manager": "Infantino",
+      "home_pen_score": 0,
+      "penalties": 0,
+      "played": 1,
+      "stadium_id": 20286,
+      "turn_id": 41710,
+      "datetime": "2026-09-09 18:00",
+      "datetime_utc": "2026-09-09 18:00:00 UTC",
+      "day_of_week": "Wednesday",
+      "date_formatted": "2026-09-09",
+      "home_club_name": "Vora",
+      "away_club_name": "Korçë",
+      "comp_type_name": "National League",
+      "league_name": "ALB Division 1",
+      "comp_name": "ALB Division 1"
+    },
+    "fixture_id": 334228,
+    "club_id": 605,
+    "tactic_actions": [
+      {
+        "time": 0,
+        "situation": 0,
+        "goal_margin": 0,
+        "formation_id": 1,
+        "play_style": 0,
+        "use_playmaker": 0,
+        "use_target_man": 0,
+        "captain": 7,
+        "penalty_taker": 10,
+        "free_kicks": 7,
+        "corner_taker": 7,
+        "playmaker": 7,
+        "target_man": 9,
+        "autopicked": "invalid_player",
+        "lineup": [
+          {
+            "player_id": 1832,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 373653,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 4353,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 9991,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 152714,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 511688,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 15891,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 290148,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 321770,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 513164,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 507657,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 311563,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 74636,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 363899,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 178372,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 125405,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 30061,
+            "tempo": 1,
+            "tackling_style": 1
+          },
+          {
+            "player_id": 392036,
+            "tempo": 1,
+            "tackling_style": 1
+          }
+        ]
+      }
+    ],
+    "set_tactics": {
+      "tactic_actions": [],
+      "team_sheet": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "auto_tactics": {
+      "tactic_actions": [
+        {
+          "captain": 7,
+          "corner_taker": 7,
+          "formation_id": 1,
+          "free_kicks": 7,
+          "goal_margin": 0,
+          "lineup": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "penalty_taker": 10,
+          "play_style": 0,
+          "playmaker": 7,
+          "situation": 0,
+          "target_man": 9,
+          "time": 0,
+          "use_playmaker": 0,
+          "use_target_man": 0
+        }
+      ],
+      "team_sheet": [
+        {
+          "player_id": 1832,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 373653,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 4353,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 9991,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 152714,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 511688,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 15891,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 290148,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 321770,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 513164,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 507657,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 311563,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 74636,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 363899,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 178372,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 125405,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 30061,
+          "tackling_style": 1,
+          "tempo": 1
+        },
+        {
+          "player_id": 392036,
+          "tackling_style": 1,
+          "tempo": 1
+        }
+      ]
+    },
+    "reason_for_auto": "invalid_player"
+  }
+]

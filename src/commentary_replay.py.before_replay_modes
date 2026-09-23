@@ -1,0 +1,86 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from enum import Enum
+
+
+class ReplayMode(Enum):
+    M3 = 180
+    M6 = 360
+    M12 = 720
+    ONE_TO_ONE = 5400
+
+    @property
+    def total_seconds(self) -> int:
+        return self.value
+
+
+@dataclass(frozen=True)
+class ReplayScene:
+    action_id: int
+    match_minute: int
+    kind: str
+    club_name: str | None = None
+    player_name: str | None = None
+
+
+@dataclass(frozen=True)
+class ReplayScheduleItem:
+    scene: ReplayScene
+    replay_seconds: float
+
+
+GOAL_POST_TAIL_SECONDS = 4.0
+
+
+def build_replay_schedule(scenes, mode):
+    """
+    Maps official Soccerverse event minutes directly onto the replay clock.
+
+    Every match minute has the same duration in the selected replay mode.
+    Official event minutes and event order are never modified.
+    Multiple events in the same minute keep their original action order.
+    """
+    if not scenes:
+        return ()
+
+    ordered = tuple(
+        sorted(
+            scenes,
+            key=lambda scene: (scene.match_minute, scene.action_id),
+        )
+    )
+
+    total = float(mode.total_seconds)
+
+    # Regulation time is 90 minutes. If official data contains
+    # stoppage-time events, extend the replay clock accordingly.
+    match_duration_minutes = max(
+        90,
+        max(
+            (
+                scene.match_minute
+                for scene in ordered
+                if scene.match_minute >= 0
+            ),
+            default=90,
+        ),
+    )
+
+    result = []
+
+    for scene in ordered:
+        minute = max(0, scene.match_minute)
+
+        replay_seconds = (
+            total * minute / float(match_duration_minutes)
+        )
+
+        result.append(
+            ReplayScheduleItem(
+                scene=scene,
+                replay_seconds=min(total, replay_seconds),
+            )
+        )
+
+    return tuple(result)

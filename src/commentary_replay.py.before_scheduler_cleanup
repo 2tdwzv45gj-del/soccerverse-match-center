@@ -1,0 +1,169 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from enum import Enum
+
+
+class ReplayMode(Enum):
+    M3 = 180
+    M6 = 360
+    M12 = 720
+    ONE_TO_ONE = 5400
+
+    @property
+    def total_seconds(self) -> int:
+        return self.value
+
+
+@dataclass(frozen=True)
+class ReplayScene:
+    action_id: int
+    match_minute: int
+    kind: str
+    club_name: str | None = None
+    player_name: str | None = None
+
+
+@dataclass(frozen=True)
+class ReplayScheduleItem:
+    scene: ReplayScene
+    replay_seconds: float
+
+
+GOAL_POST_TAIL_SECONDS = 4.0
+
+
+def build_replay_schedule(scenes, mode):
+    """
+    Maps every official Soccerverse event minute directly onto the replay
+    clock.
+
+    The match clock is continuous: every match minute has exactly the same
+    duration in the selected replay mode.
+
+    Official event order and official minutes are never changed.
+    Multiple events occurring in the same minute share the same replay
+    timestamp and retain their original action order.
+    """
+    if not scenes:
+        return ()
+
+    ordered = tuple(
+        sorted(
+            scenes,
+            key=lambda scene: (scene.match_minute, scene.action_id),
+        )
+    )
+
+    total = float(mode.total_seconds)
+
+    # Regulation time is 90 minutes, but official stoppage-time events
+    # extend the replay clock when necessary (e.g. an event at 92').
+    match_duration_minutes = max(
+        90,
+        max(
+            (scene.match_minute for scene in ordered if scene.match_minute >= 0),
+            default=90,
+        ),
+    )
+
+    result = []
+
+    for scene in ordered:
+        minute = max(0, scene.match_minute)
+
+        replay_seconds = (
+            total * (minute / float(match_duration_minutes))
+        )
+
+        result.append(
+            ReplayScheduleItem(
+                scene=scene,
+                replay_seconds=min(total, replay_seconds),
+            )
+        )
+
+    return tuple(result)
+
+
+def build_replay_schedule(
+    scenes: tuple[ReplayScene, ...],
+    mode: ReplayMode,
+) -> tuple[ReplayScheduleItem, ...]:
+    if not scenes:
+        return ()
+
+    ordered = tuple(
+        sorted(
+            scenes,
+            key=lambda scene: (scene.match_minute, scene.action_id),
+        )
+    )
+
+    if len(ordered) == 1:
+        return (
+            ReplayScheduleItem(
+                scene=ordered[0],
+                replay_seconds=0.0,
+            ),
+        )
+
+    total = float(mode.total_seconds)
+
+    # Riserviamo esplicitamente una piccola coda al gol.
+    # Questa quota viene sottratta dal tempo disponibile per la
+    # distribuzione degli intervalli normali.
+    goal_count = sum(scene.kind == "goal" for scene in ordered)
+    reserved_goal_tail = min(
+        total,
+        goal_count * GOAL_POST_TAIL_SECONDS,
+    )
+    distributable = total - reserved_goal_tail
+
+    weights = tuple(_weight(scene) for scene in ordered)
+    total_weight = sum(weights)
+
+    if total_weight <= 0:
+        return tuple(
+            ReplayScheduleItem(scene=scene, replay_seconds=0.0)
+            for scene in ordered
+        )
+
+    intervals = tuple(
+        distributable * (weight / total_weight)
+        for weight in weights
+    )
+
+    result: list[ReplayScheduleItem] = []
+    elapsed = 0.0
+
+    for index, scene in enumerate(ordered):
+        if index == 0:
+            result.append(
+                ReplayScheduleItem(
+                    scene=scene,
+                    replay_seconds=0.0,
+                )
+            )
+            continue
+
+        elapsed += intervals[index - 1]
+
+        # Un gol ha una piccola coda editoriale:
+        # il suo intervallo successivo non viene eliminato,
+        # quindi il replay lascia respirare il momento.
+        result.append(
+            ReplayScheduleItem(
+                scene=scene,
+                replay_seconds=min(total, elapsed),
+            )
+        )
+
+    # Garantisce che l'ultima scena chiuda esattamente il replay.
+    if result:
+        result[-1] = ReplayScheduleItem(
+            scene=result[-1].scene,
+            replay_seconds=total,
+        )
+
+    return tuple(result)

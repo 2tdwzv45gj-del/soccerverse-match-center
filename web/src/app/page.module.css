@@ -1,0 +1,732 @@
+.page {
+  min-height: 100vh;
+  background: #080b12;
+  color: #f5f7fb;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroundGlow {
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  top: -350px;
+  right: -200px;
+  background: rgba(56, 189, 248, 0.10);
+  filter: blur(100px);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.container {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: #101722;
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 12px;
+  font-size: 21px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+}
+
+.brand p {
+  margin: 3px 0 0;
+  color: #8792a5;
+  font-size: 12px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #9ca8ba;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.statusDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 10px rgba(74,222,128,0.8);
+}
+
+.hero {
+  padding: 95px 0 75px;
+  max-width: 760px;
+}
+
+.eyebrow {
+  color: #55c2ff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.hero h2 {
+  margin: 14px 0 14px;
+  font-size: clamp(42px, 7vw, 72px);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.heroText {
+  max-width: 610px;
+  color: #9ba6b8;
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0 0 36px;
+}
+
+.searchBox {
+  max-width: 650px;
+  padding: 18px;
+  background: rgba(16, 23, 34, 0.88);
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 18px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.28);
+}
+
+.searchBox label {
+  display: block;
+  color: #8792a5;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin: 0 0 9px 3px;
+}
+
+.searchRow {
+  display: flex;
+  gap: 10px;
+}
+
+.searchRow input {
+  flex: 1;
+  min-width: 0;
+  height: 52px;
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 12px;
+  background: #090d14;
+  color: #fff;
+  padding: 0 16px;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchRow input:focus {
+  border-color: rgba(85,194,255,0.7);
+}
+
+.searchRow button {
+  height: 52px;
+  padding: 0 27px;
+  border: 0;
+  border-radius: 12px;
+  background: #55c2ff;
+  color: #06101a;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.searchRow button:hover {
+  filter: brightness(1.08);
+}
+
+.matches {
+  padding: 28px;
+  background: rgba(13, 18, 28, 0.80);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sectionHeader h3 {
+  margin: 7px 0 0;
+  font-size: 25px;
+}
+
+.liveBadge {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(74,222,128,0.10);
+  color: #6ee7a0;
+  border: 1px solid rgba(74,222,128,0.20);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.emptyState {
+  margin-top: 22px;
+  padding: 58px 20px;
+  text-align: center;
+  border: 1px dashed rgba(255,255,255,0.10);
+  border-radius: 15px;
+}
+
+.emptyIcon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.emptyState h4 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.emptyState p {
+  margin: 0;
+  color: #778397;
+  font-size: 13px;
+}
+
+.footer {
+  padding: 30px 2px 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #667286;
+  font-size: 11px;
+}
+
+.footer a { display:flex; align-items:center; justify-content:center; gap:9px; min-width:220px; padding:13px 20px; border:1px solid rgba(85,194,255,.35); border-radius:12px; background:linear-gradient(135deg,rgba(85,194,255,.14),rgba(85,194,255,.035)); color:#9cddff; text-decoration:none; font-size:11px; font-weight:900; letter-spacing:.08em; box-shadow:0 0 24px rgba(85,194,255,.08),inset 0 1px 0 rgba(255,255,255,.05); transition:transform .18s ease,border-color .18s ease,background .18s ease,box-shadow .18s ease; }
+
+.footer a:hover { transform:translateY(-2px); border-color:rgba(85,194,255,.75); background:linear-gradient(135deg,rgba(85,194,255,.22),rgba(85,194,255,.06)); box-shadow:0 8px 28px rgba(85,194,255,.18),0 0 20px rgba(85,194,255,.12),inset 0 1px 0 rgba(255,255,255,.08); }
+
+@media (max-width: 650px) {
+  .container {
+    width: min(100% - 24px, 1080px);
+  }
+
+  .hero {
+    padding: 65px 0 50px;
+  }
+
+  .hero h2 {
+    font-size: 46px;
+  }
+
+  .searchRow {
+    flex-direction: column;
+  }
+
+  .searchRow button {
+    width: 100%;
+  }
+
+  .matches {
+    padding: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
+
+
+.error {
+  margin: 10px 3px 0;
+  color: #fb7185;
+  font-size: 12px;
+}
+
+.searchRow button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+.clubCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  padding: 24px 28px;
+  background: rgba(13, 18, 28, 0.90);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 20px;
+}
+
+.clubAccent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+}
+
+.clubLogoWrap {
+  width: 86px;
+  height: 86px;
+  flex: 0 0 86px;
+  display: grid;
+  place-items: center;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+}
+
+.clubLogo {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
+
+.clubLogoFallback {
+  font-size: 34px;
+}
+
+.clubInfo h3 {
+  margin: 6px 0 4px;
+  font-size: 32px;
+  letter-spacing: -0.03em;
+}
+
+.clubInfo p {
+  margin: 0;
+  color: #7f8b9f;
+  font-size: 13px;
+}
+
+.colorRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 13px;
+  color: #7f8b9f;
+  font-size: 11px;
+  font-family: monospace;
+}
+
+.colorSwatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+@media (max-width: 650px) {
+  .clubCard {
+    padding: 20px;
+  }
+
+  .clubLogoWrap {
+    width: 68px;
+    height: 68px;
+    flex-basis: 68px;
+  }
+
+  .clubLogo {
+    width: 54px;
+    height: 54px;
+  }
+
+  .clubInfo h3 {
+    font-size: 25px;
+  }
+}
+
+/* SV LIVE SCORE — homepage favorites + minimal match cards */
+.favoriteBar {
+  margin-top: 14px;
+  padding: 13px 14px;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 14px;
+  background: rgba(9,13,20,0.72);
+}
+
+.favoriteBarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  color: #69758a;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.favoriteList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.favoriteChip,
+.favoriteChipActive {
+  border: 1px solid rgba(255,255,255,0.09);
+  background: rgba(255,255,255,0.035);
+  color: #cbd5e1;
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 11px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.favoriteChip:hover,
+.favoriteChipActive {
+  border-color: rgba(85,194,255,0.38);
+  color: #fff;
+  background: rgba(85,194,255,0.08);
+}
+
+
+
+.favoriteToggle,
+.favoriteToggleActive {
+  margin-left: auto;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 999px;
+  padding: 8px 11px;
+  background: rgba(255,255,255,0.035);
+  color: #9aa6b8;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  cursor: pointer;
+}
+
+.favoriteToggle {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.favoriteToggleActive {
+  border-color: rgba(250,204,21,0.28);
+  background: rgba(250,204,21,0.08);
+  color: #facc15;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.favoriteToggle span {
+  color: #aab4c4;
+  font-size: 9px;
+}
+
+.favoriteToggleActive span {
+  color: #facc15;
+  font-size: 9px;
+}
+
+.favoriteToggle:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.teams {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px !important;
+  padding: 10px 0 6px;
+}
+
+.teams > :first-child {
+  justify-self: end;
+}
+
+.teams > :last-child {
+  justify-self: start;
+}
+
+.teams .teamCompact {
+  min-width: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.teams .teamCompact .rowLogo {
+  width: 34px !important;
+  height: 34px !important;
+  flex: 0 0 34px;
+}
+
+.teams .teamCompact .rowLogo img {
+  width: 25px !important;
+  height: 25px !important;
+  object-fit: contain;
+}
+
+.teams .teamCompact strong,
+.teams .teamCompact span {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.scoreBlock {
+  min-width: 48px;
+  text-align: center;
+}
+
+.scoreBlock strong {
+  font-size: 18px !important;
+  letter-spacing: -0.02em;
+}
+
+.matchCard {
+  padding: 16px 18px !important;
+}
+
+.clubCard {
+  padding: 18px 22px !important;
+  gap: 16px !important;
+}
+
+.clubLogoWrap {
+  width: 64px !important;
+  height: 64px !important;
+  flex-basis: 64px !important;
+  border-radius: 14px !important;
+}
+
+.clubLogo {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.clubInfo h3 {
+  font-size: 25px !important;
+}
+
+@media (max-width: 650px) {
+  .favoriteToggle,
+  .favoriteToggleActive {
+    padding: 7px 9px;
+  }
+
+  .favoriteToggle span,
+  .favoriteToggleActive span {
+    display: none;
+  }
+
+  .teams {
+    gap: 7px !important;
+  }
+
+  .teams .teamCompact {
+    gap: 5px;
+  }
+
+  .teams .teamCompact .rowLogo {
+    width: 30px !important;
+    height: 30px !important;
+    flex-basis: 30px;
+  }
+
+  .teams .teamCompact .rowLogo img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+
+  .teams .teamCompact strong,
+  .teams .teamCompact span {
+    font-size: 11px;
+  }
+
+  .scoreBlock {
+    min-width: 40px;
+  }
+
+  .scoreBlock strong {
+    font-size: 16px !important;
+  }
+}
+
+.matchCardNext{border-color:rgba(74,222,128,.38)!important;background:linear-gradient(135deg,rgba(74,222,128,.07),rgba(255,255,255,.025));box-shadow:0 0 22px rgba(74,222,128,.08)}.matchCardNext .scoreBlock strong{font-size:20px!important}.matchCardNext .teamLogo{width:40px!important;height:40px!important;flex-basis:40px}.matchCardNext .teamLogo img{width:30px!important;height:30px!important}.matchCardNext .matchDate{color:#b9c5d6;font-weight:600}.matchCardNext .matchMeta{color:#8d9aae}.matchCardNext .nextBadge{box-shadow:0 0 12px rgba(74,222,128,.18)}
+
+.favoriteChip,.favoriteChipActive{display:inline-flex;align-items:center;gap:7px}.favoriteChipLogo{width:24px;height:24px;object-fit:contain;flex:0 0 24px;border-radius:6px}/* SV LIVE SCORE — COMPACT HOME CALENDAR */
+.featuredGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.matchCard{padding:14px 16px;border-radius:14px}.matchCardTop{display:flex;align-items:center;justify-content:space-between;gap:10px}.matchDate{margin-top:7px;font-size:11px;color:#7f8b9f}.matchCard .teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;margin-top:12px}.matchCard .team{display:flex;align-items:center;gap:7px;min-width:0}.matchCard .teamLogo{width:34px!important;height:34px!important;flex:0 0 34px;border-radius:8px!important;box-shadow:none!important}.matchCard .teamLogo img{width:25px!important;height:25px!important;object-fit:contain}.matchCard .team span{font-size:12px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchCard .scoreBlock{min-width:34px;text-align:center}.matchCard .scoreBlock strong{font-size:16px;letter-spacing:-.02em}.matchMeta{display:flex;justify-content:space-between;gap:10px;margin-top:10px;font-size:10px;color:#687589}.calendarHeader{margin-top:20px;margin-bottom:8px}.calendar{display:flex;flex-direction:column;gap:6px}.matchRow{display:grid;grid-template-columns:88px minmax(0,1fr) 44px minmax(0,1fr) 125px;align-items:center;gap:10px;min-height:50px;padding:7px 10px;border:1px solid rgba(255,255,255,.07);border-radius:11px;background:rgba(255,255,255,.018);transition:background .15s ease,border-color .15s ease}.matchRow:hover{background:rgba(255,255,255,.035);border-color:rgba(85,194,255,.18)}.rowDate{display:flex;flex-direction:column;gap:1px;min-width:0}.rowDate strong{font-size:10px;line-height:1.15;color:#dce3ed;font-weight:700}.rowDate span{font-size:10px;color:#667286}.teamCompact{display:flex;align-items:center;gap:7px;min-width:0}.rowLogo{width:30px!important;height:30px!important;flex:0 0 30px;display:grid;place-items:center;border-radius:7px!important;background:rgba(255,255,255,.025);box-shadow:none!important}.rowLogo img{width:22px!important;height:22px!important;object-fit:contain}.teamCompact span{min-width:0;font-size:11px;line-height:1.15;color:#e7ebf2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rowScore{text-align:center;font-size:12px;font-weight:800;color:#dce3ed}.rowCompetition{min-width:0;text-align:right;font-size:10px;color:#667286;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media (max-width:650px){.featuredGrid{grid-template-columns:1fr}.matchRow{grid-template-columns:68px minmax(0,1fr) 34px minmax(0,1fr);gap:7px;padding:7px 8px}.rowCompetition{display:none}.rowLogo{width:26px!important;height:26px!important;flex-basis:26px}.rowLogo img{width:19px!important;height:19px!important}.teamCompact span{font-size:10px}.matchCard .teamLogo{width:30px!important;height:30px!important;flex-basis:30px}.matchCard .teamLogo img{width:22px!important;height:22px!important}}
+.matchRowPlayed{opacity:.82}.matchRowUpcoming{border-color:rgba(74,222,128,.16);background:rgba(74,222,128,.025)}.matchRowUpcoming .rowScore{color:#8ee6a8}
+
+.matchCard{cursor:pointer;transition:transform .16s ease,background .16s ease,border-color .16s ease,box-shadow .16s ease}.matchCard:hover{transform:translateY(-2px);background:rgba(255,255,255,.035);border-color:rgba(85,194,255,.28)!important;box-shadow:0 8px 24px rgba(0,0,0,.18)}.matchCard:focus-visible,.matchRow:focus-visible{outline:2px solid rgba(85,194,255,.8);outline-offset:2px}.matchRow{cursor:pointer}.matchCard{position:relative;overflow:hidden;border-color:color-mix(in srgb,var(--home-color,#55c2ff) 35%,rgba(255,255,255,.08))!important;background:linear-gradient(135deg,color-mix(in srgb,var(--home-color,#55c2ff) 12%,transparent),rgba(255,255,255,.018))}.matchCard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--home-color,#55c2ff);box-shadow:0 0 16px var(--home-color,#55c2ff)}.matchCard:hover{border-color:var(--home-color,#55c2ff)!important;box-shadow:0 8px 28px color-mix(in srgb,var(--home-color,#55c2ff) 22%,transparent)}.matchCard .scoreBlock strong{color:var(--home-color,#55c2ff)}.matchRowUpcoming{position:relative;overflow:hidden;border-color:color-mix(in srgb,var(--home-color,#55c2ff) 30%,rgba(255,255,255,.07))!important;background:linear-gradient(90deg,color-mix(in srgb,var(--home-color,#55c2ff) 8%,transparent),rgba(255,255,255,.018))}.matchRowUpcoming::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--home-color,#55c2ff);box-shadow:0 0 12px var(--home-color,#55c2ff)}.matchRowUpcoming .rowScore{color:var(--home-color,#55c2ff)!important}@media (max-width:650px){.favoriteList{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}.favoriteChip,.favoriteChipActive{flex:0 0 auto;white-space:nowrap}}/* SV LIVE SCORE — END COMPACT HOME CALENDAR */
+
+
+/* SV LIVE SCORE — community support */
+.supportCard {
+  position: relative;
+  overflow: hidden;
+  margin: 18px 0 6px;
+  padding: 1px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255,183,77,.42), rgba(255,255,255,.08), rgba(85,194,255,.16));
+  box-shadow: 0 18px 55px rgba(0,0,0,.28), 0 0 35px rgba(255,183,77,.06);
+}
+
+.supportCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(255,183,77,.08), transparent 45%, rgba(85,194,255,.05));
+  pointer-events: none;
+}
+
+.supportGlow {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  right: -90px;
+  top: -120px;
+  border-radius: 50%;
+  background: rgba(255,183,77,.12);
+  filter: blur(55px);
+  pointer-events: none;
+}
+
+.supportContent {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 22px;
+  padding: 25px 26px;
+  border-radius: 21px;
+  background: rgba(13,18,28,.94);
+}
+
+.supportIcon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 17px;
+  background: rgba(255,183,77,.10);
+  border: 1px solid rgba(255,183,77,.22);
+  font-size: 27px;
+  box-shadow: 0 0 25px rgba(255,183,77,.08);
+}
+
+.supportText {
+  min-width: 0;
+}
+
+.supportEyebrow {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffbf66;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .14em;
+}
+
+.supportText h3 {
+  margin: 0 0 6px;
+  font-size: 21px;
+  letter-spacing: -.02em;
+}
+
+.supportText p {
+  max-width: 690px;
+  margin: 0;
+  color: #929db0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.supportNote {
+  display: block;
+  margin-top: 8px;
+  color: #68758a;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.supportButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  min-height: 48px;
+  padding: 0 20px;
+  border: 1px solid rgba(255,191,102,.42);
+  border-radius: 13px;
+  background: linear-gradient(135deg, #ffbf66, #f59e0b);
+  color: #1b1205;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .07em;
+  box-shadow: 0 8px 25px rgba(245,158,11,.18), inset 0 1px 0 rgba(255,255,255,.35);
+  transition: transform .18s ease, filter .18s ease, box-shadow .18s ease;
+}
+
+.supportButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.07);
+  box-shadow: 0 12px 30px rgba(245,158,11,.28), 0 0 20px rgba(255,191,102,.12), inset 0 1px 0 rgba(255,255,255,.4);
+}
+
+@media (max-width: 650px) {
+  .supportContent {
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .supportIcon {
+    width: 48px;
+    height: 48px;
+    font-size: 23px;
+    border-radius: 14px;
+  }
+
+  .supportText h3 {
+    font-size: 19px;
+  }
+
+  .supportText p {
+    font-size: 12px;
+  }
+
+  .supportButton {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+}

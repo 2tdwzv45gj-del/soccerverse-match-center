@@ -1,0 +1,56 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Any
+
+
+@dataclass(frozen=True)
+class MatchData:
+    fixture_id: int
+    fixture: dict[str, Any]
+    events: tuple[dict[str, Any], ...]
+    commentary: tuple[dict[str, Any], ...]
+    substitutions: tuple[dict[str, Any], ...]
+
+
+class MatchDataService:
+    """Loads and normalizes all official data required by Match Center."""
+
+    def __init__(self, mcp: Any) -> None:
+        self.mcp = mcp
+
+    def load(self, fixture_id: int) -> MatchData:
+        fixture_id = int(fixture_id)
+
+        if fixture_id <= 0:
+            raise ValueError("Fixture ID must be positive")
+
+        fixture = self.mcp.get_fixture(fixture_id)
+        events = self.mcp.get_match_events(fixture_id)
+        commentary = self.mcp.get_match_commentary(fixture_id)
+        substitutions = self.mcp.get_match_subs(fixture_id)
+
+        if not isinstance(fixture, dict):
+            raise ValueError("Invalid fixture response")
+
+        if not isinstance(events, list):
+            raise ValueError("Invalid events response")
+
+        if isinstance(commentary, dict):
+            commentary_items = commentary.get("commentary", [])
+        else:
+            commentary_items = commentary
+
+        if not isinstance(commentary_items, list):
+            raise ValueError("Invalid commentary response")
+
+        if not isinstance(substitutions, list):
+            raise ValueError("Invalid substitutions response")
+
+        return MatchData(
+            fixture_id=fixture_id,
+            fixture=fixture,
+            events=tuple(events),
+            commentary=tuple(commentary_items),
+            substitutions=tuple(substitutions),
+        )

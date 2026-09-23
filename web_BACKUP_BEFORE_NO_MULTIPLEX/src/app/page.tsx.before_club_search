@@ -1,0 +1,86 @@
+"use client";
+
+import { useState } from "react";
+import styles from "./page.module.css";
+
+export default function Home() {
+  const [clubId, setClubId] = useState("");
+
+  return (
+    <main className={styles.page}>
+      <div className={styles.backgroundGlow} />
+
+      <section className={styles.container}>
+        <header className={styles.header}>
+          <div className={styles.brand}>
+            <div className={styles.logo}>⚽</div>
+            <div>
+              <h1>SV LIVE SCORE</h1>
+              <p>Soccerverse Match Center</p>
+            </div>
+          </div>
+
+          <div className={styles.status}>
+            <span className={styles.statusDot} />
+            ONLINE
+          </div>
+        </header>
+
+        <section className={styles.hero}>
+          <span className={styles.eyebrow}>SOCCERVERSE MATCH CENTER</span>
+          <h2>Segui le tue partite.</h2>
+          <p className={styles.heroText}>
+            Inserisci il Club ID per trovare rapidamente le partite e seguire
+            il match con risultato e cronaca live.
+          </p>
+
+          <div className={styles.searchBox}>
+            <label htmlFor="clubId">CLUB ID</label>
+            <div className={styles.searchRow}>
+              <input
+                id="clubId"
+                type="number"
+                min="1"
+                placeholder="Es. 3340"
+                value={clubId}
+                onChange={(event) => setClubId(event.target.value)}
+              />
+              <button type="button">
+                CERCA
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.matches}>
+          <div className={styles.sectionHeader}>
+            <div>
+              <span className={styles.eyebrow}>MATCH CENTER</span>
+              <h3>Le tue partite</h3>
+            </div>
+            <span className={styles.liveBadge}>LIVE READY</span>
+          </div>
+
+          <div className={styles.emptyState}>
+            <div className={styles.emptyIcon}>⚽</div>
+            <h4>Nessuna partita selezionata</h4>
+            <p>
+              Inserisci un Club ID qui sopra per iniziare.
+            </p>
+          </div>
+        </section>
+
+        <footer className={styles.footer}>
+          <span>SV LIVE SCORE</span>
+          <a
+            href="https://play.soccerverse.com/profile?user=SirAlex79"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ☕ Supporta il progetto
+          </a>
+        </footer>
+      </section>
+    </main>
+  );
+}

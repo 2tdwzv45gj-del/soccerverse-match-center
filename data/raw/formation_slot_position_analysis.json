@@ -1,0 +1,1729 @@
+{
+  "metadata": {
+    "sample_count": 22,
+    "formation_count": 10,
+    "player_position_count": 180,
+    "warning": "MCP positions are current squad positions. They are useful for slot correlation but are not automatically historical natural positions."
+  },
+  "formations": {
+    "1": {
+      "formation_id": 1,
+      "formation_name": "4-3-3",
+      "samples": 1,
+      "fixtures": [
+        334220
+      ],
+      "clubs": [
+        "605"
+      ],
+      "slots": {
+        "0": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 1
+          },
+          "players": {
+            "Marco Alia [1832]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 1
+          },
+          "players": {
+            "Kevin Hysolli [363898]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1
+          },
+          "players": {
+            "Klevis Shaqe [4353]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Lucas Veríssimo [9991]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Marcos de Oliveira [152714]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "DMC": 1,
+            "RM": 1,
+            "AMC": 1
+          },
+          "players": {
+            "Erolind Krasniqi [178372]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1
+          },
+          "players": {
+            "Yuri dos Santos [290148]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1
+          },
+          "players": {
+            "Borja Díaz Herrero [125405]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "8": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1
+          },
+          "players": {
+            "Ardit Nikaj [321770]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LM": 1,
+            "RM": 1,
+            "AMR": 1,
+            "FR": 1
+          },
+          "players": {
+            "Simon Hedlund [15891]": 1
+          },
+          "dominant_position": "LM",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FL": 1
+          },
+          "players": {
+            "Bismark Kwarema [281227]": 1
+          },
+          "dominant_position": "FL",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    },
+    "7": {
+      "formation_id": 7,
+      "formation_name": "5-3-2",
+      "samples": 6,
+      "fixtures": [
+        334195,
+        334200,
+        334208,
+        334209,
+        334222,
+        334228
+      ],
+      "clubs": [
+        "3340",
+        "605"
+      ],
+      "slots": {
+        "0": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 6
+          },
+          "players": {
+            "Shkëlzen Ruçi [3645]": 5,
+            "Marco Alia [1832]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 5,
+            "CB": 1
+          },
+          "players": {
+            "Ysni Ismaili [293318]": 5,
+            "Marcos de Oliveira [152714]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 0.833
+        },
+        "2": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 5,
+            "CB": 1
+          },
+          "players": {
+            "Dajan Shehi [3691]": 5,
+            "Elvis Prençi [74636]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 0.833
+        },
+        "3": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 6
+          },
+          "players": {
+            "Eni Imami [3623]": 4,
+            "Ergi Zenullari [363899]": 1,
+            "Nikolin Duka [189040]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 6,
+            "AMC": 6,
+            "RB": 5,
+            "CM": 5,
+            "LB": 1,
+            "RM": 1
+          },
+          "players": {
+            "Xhuljo Tabaku [25867]": 5,
+            "Erolind Krasniqi [178372]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 6
+          },
+          "players": {
+            "Ionuț Albu [437037]": 5,
+            "Klevis Shaqe [4353]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CM": 4,
+            "DMC": 2
+          },
+          "players": {
+            "Kevin Dalipi [385752]": 4,
+            "Yuri dos Santos [290148]": 1,
+            "Jurgen Vrapi [3789]": 1
+          },
+          "dominant_position": "CM",
+          "dominant_position_frequency": 0.667
+        },
+        "7": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 5,
+            "CM": 1,
+            "RM": 1
+          },
+          "players": {
+            "Jurgen Vrapi [3789]": 4,
+            "Héctor Nahuel Alejandro Zapatiel [511688]": 1,
+            "Odirah Ntephe [3912]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 0.833
+        },
+        "8": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 6,
+            "FR": 3
+          },
+          "players": {
+            "Patrik Bardhi [3704]": 3,
+            "Manfredas Ruzgis [25874]": 2,
+            "Ardit Nikaj [321770]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 5,
+            "FL": 1,
+            "FR": 1
+          },
+          "players": {
+            "Manfredas Ruzgis [25874]": 3,
+            "Bismark Kwarema [281227]": 1,
+            "Patrik Bardhi [3704]": 1,
+            "Segerso Geci [298011]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 0.833
+        },
+        "10": {
+          "observations": 6,
+          "known_position_observations": 6,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AMC": 3,
+            "DMC": 2,
+            "DML": 1,
+            "CM": 1
+          },
+          "players": {
+            "Irgi Kasalla [384605]": 2,
+            "Odirah Ntephe [3912]": 1,
+            "Borja Díaz Herrero [125405]": 1,
+            "Marios Paja [345184]": 1,
+            "Kevin Dalipi [385752]": 1
+          },
+          "dominant_position": "AMC",
+          "dominant_position_frequency": 0.5
+        }
+      }
+    },
+    "8": {
+      "formation_id": 8,
+      "formation_name": "UNKNOWN",
+      "samples": 1,
+      "fixtures": [
+        363194
+      ],
+      "clubs": [
+        "49"
+      ],
+      "slots": {
+        "0": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 1
+          },
+          "players": {
+            "Robert Lynch Sánchez [18959]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "CB": 1
+          },
+          "players": {
+            "Levi Samuels Colwill [152953]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "CB": 1,
+            "DMC": 1,
+            "CM": 1
+          },
+          "players": {
+            "Renato da Palma [336671]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Abdul-Nasir Oluwadoyinsolami Adarabioyo [19145]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1,
+            "RB": 1
+          },
+          "players": {
+            "Wesley Fofana [22094]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "RB": 1
+          },
+          "players": {
+            "Marc Cucurella Saseta [47380]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AMC": 1,
+            "AMR": 1,
+            "FR": 1
+          },
+          "players": {
+            "Gustav Tang Isaksen [135519]": 1
+          },
+          "dominant_position": "AMC",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "RB": 1,
+            "DMC": 1
+          },
+          "players": {
+            "Reece James [19545]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "8": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AML": 1,
+            "FC": 1
+          },
+          "players": {
+            "Player #283058 [283058]": 1
+          },
+          "dominant_position": "AML",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AMC": 1,
+            "AMR": 1,
+            "FC": 1,
+            "FR": 1
+          },
+          "players": {
+            "Cole Palmer [152982]": 1
+          },
+          "dominant_position": "AMC",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AML": 1,
+            "AMR": 1,
+            "FC": 1,
+            "FR": 1
+          },
+          "players": {
+            "Pedro Lomba Neto [1864]": 1
+          },
+          "dominant_position": "AML",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    },
+    "11": {
+      "formation_id": 11,
+      "formation_name": "4-1-4-1",
+      "samples": 1,
+      "fixtures": [
+        334216
+      ],
+      "clubs": [
+        "3340"
+      ],
+      "slots": {
+        "0": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 1
+          },
+          "players": {
+            "Shkëlzen Ruçi [3645]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 1
+          },
+          "players": {
+            "Ysni Ismaili [293318]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1
+          },
+          "players": {
+            "Dajan Shehi [3691]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Eni Imami [3623]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Nikolin Duka [189040]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1
+          },
+          "players": {
+            "Jurgen Vrapi [3789]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RM": 1
+          },
+          "players": {
+            "Gresild Lika [3885]": 1
+          },
+          "dominant_position": "RM",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CM": 1
+          },
+          "players": {
+            "Kevin Dalipi [385752]": 1
+          },
+          "dominant_position": "CM",
+          "dominant_position_frequency": 1.0
+        },
+        "8": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1,
+            "FR": 1
+          },
+          "players": {
+            "Patrik Bardhi [3704]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1
+          },
+          "players": {
+            "Odirah Ntephe [3912]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DML": 1,
+            "AMC": 1
+          },
+          "players": {
+            "Marios Paja [345184]": 1
+          },
+          "dominant_position": "DML",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    },
+    "12": {
+      "formation_id": 12,
+      "formation_name": "4-2-3-1",
+      "samples": 2,
+      "fixtures": [
+        334204,
+        334212
+      ],
+      "clubs": [
+        "3340"
+      ],
+      "slots": {
+        "0": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 2
+          },
+          "players": {
+            "Shkëlzen Ruçi [3645]": 2
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 2,
+            "DMC": 1,
+            "CM": 1,
+            "AMC": 1
+          },
+          "players": {
+            "Xhuljo Tabaku [25867]": 1,
+            "Ysni Ismaili [293318]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 2
+          },
+          "players": {
+            "Dajan Shehi [3691]": 2
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 2
+          },
+          "players": {
+            "Eni Imami [3623]": 2
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 2
+          },
+          "players": {
+            "Nikolin Duka [189040]": 2
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1,
+            "CM": 1
+          },
+          "players": {
+            "Jurgen Vrapi [3789]": 1,
+            "Kevin Dalipi [385752]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 0.5
+        },
+        "6": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RM": 2
+          },
+          "players": {
+            "Gresild Lika [3885]": 2
+          },
+          "dominant_position": "RM",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CM": 1,
+            "DMC": 1
+          },
+          "players": {
+            "Kevin Dalipi [385752]": 1,
+            "Odirah Ntephe [3912]": 1
+          },
+          "dominant_position": "CM",
+          "dominant_position_frequency": 0.5
+        },
+        "8": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 2,
+            "FR": 2
+          },
+          "players": {
+            "Patrik Bardhi [3704]": 2
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DML": 1,
+            "AMC": 1,
+            "CM": 1,
+            "FC": 1,
+            "FR": 1
+          },
+          "players": {
+            "Marios Paja [345184]": 1,
+            "Idris Nuradeen [216576]": 1
+          },
+          "dominant_position": "DML",
+          "dominant_position_frequency": 0.5
+        },
+        "10": {
+          "observations": 2,
+          "known_position_observations": 2,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LM": 2
+          },
+          "players": {
+            "Okseold Sefa [273259]": 2
+          },
+          "dominant_position": "LM",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    },
+    "13": {
+      "formation_id": 13,
+      "formation_name": "4-1-2-2-1v2",
+      "samples": 5,
+      "fixtures": [
+        334183,
+        334191,
+        334197,
+        334203,
+        334216
+      ],
+      "clubs": [
+        "20406",
+        "605"
+      ],
+      "slots": {
+        "0": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 5
+          },
+          "players": {
+            "Marco Alia [1832]": 4,
+            "Razak Abalora [175425]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 5
+          },
+          "players": {
+            "Kevin Hysolli [363898]": 4,
+            "Bledar Lila [74480]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 4,
+            "RB": 1
+          },
+          "players": {
+            "Klevis Shaqe [4353]": 4,
+            "Rei Zaimi [196348]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 0.8
+        },
+        "3": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 5
+          },
+          "players": {
+            "Lucas Veríssimo [9991]": 4,
+            "Ardit Hila [3469]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 5,
+            "DMC": 1,
+            "LM": 1,
+            "CM": 1
+          },
+          "players": {
+            "Marcos de Oliveira [152714]": 4,
+            "Cristian Dros [42724]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CM": 4,
+            "RM": 4,
+            "DMC": 1
+          },
+          "players": {
+            "Héctor Nahuel Alejandro Zapatiel [511688]": 4,
+            "Esin Hakaj [3540]": 1
+          },
+          "dominant_position": "CM",
+          "dominant_position_frequency": 0.8
+        },
+        "6": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AMR": 4,
+            "DMC": 1
+          },
+          "players": {
+            "Albi Doka [3620]": 4,
+            "Arsen Kasa [4264]": 1
+          },
+          "dominant_position": "AMR",
+          "dominant_position_frequency": 0.8
+        },
+        "7": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LM": 4,
+            "RM": 4,
+            "AMR": 4,
+            "FR": 4,
+            "AMC": 1
+          },
+          "players": {
+            "Simon Hedlund [15891]": 4,
+            "Xhonathan Lajthia [3847]": 1
+          },
+          "dominant_position": "LM",
+          "dominant_position_frequency": 0.8
+        },
+        "8": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 5
+          },
+          "players": {
+            "Foti Çuçka [385537]": 4,
+            "Gonzalo Rodríguez [6696]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 5
+          },
+          "players": {
+            "Etienne Tare [392036]": 4,
+            "Amarildo Gjoni [406275]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 5,
+          "known_position_observations": 5,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 4,
+            "DMC": 4,
+            "RM": 4,
+            "AMC": 4,
+            "FC": 1
+          },
+          "players": {
+            "Erolind Krasniqi [178372]": 4,
+            "José Gomes [41593]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 0.8
+        }
+      }
+    },
+    "15": {
+      "formation_id": 15,
+      "formation_name": "4-3-1-2",
+      "samples": 3,
+      "fixtures": [
+        334183,
+        334189,
+        334197
+      ],
+      "clubs": [
+        "2256",
+        "3340"
+      ],
+      "slots": {
+        "0": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 3
+          },
+          "players": {
+            "Shkëlzen Ruçi [3645]": 2,
+            "Mario Dajsinani [3588]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 2,
+            "CB": 1
+          },
+          "players": {
+            "Ysni Ismaili [293318]": 2,
+            "Arlind Kurti [315987]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 0.667
+        },
+        "2": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 3
+          },
+          "players": {
+            "Christian Lima [302089]": 1,
+            "Ionuț Albu [437037]": 1,
+            "Dajan Shehi [3691]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 3
+          },
+          "players": {
+            "Agim Xhabafti [391741]": 2,
+            "Indrit Prodani [74658]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 3
+          },
+          "players": {
+            "Opex Samuel [300005]": 1,
+            "Eni Imami [3623]": 1,
+            "Nikolin Duka [189040]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CM": 2,
+            "DMC": 1,
+            "FC": 1,
+            "FR": 1
+          },
+          "players": {
+            "Enriko Papa [43217]": 1,
+            "Kevin Dalipi [385752]": 1,
+            "Idris Nuradeen [216576]": 1
+          },
+          "dominant_position": "CM",
+          "dominant_position_frequency": 0.667
+        },
+        "6": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 3
+          },
+          "players": {
+            "Odirah Ntephe [3912]": 2,
+            "Altin Kryeziu [157998]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AMC": 2,
+            "FC": 1
+          },
+          "players": {
+            "Irgi Kasalla [384605]": 2,
+            "Emiliano Bullari [161953]": 1
+          },
+          "dominant_position": "AMC",
+          "dominant_position_frequency": 0.667
+        },
+        "8": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 3,
+            "FR": 2
+          },
+          "players": {
+            "Patrik Bardhi [3704]": 2,
+            "Leo Ballhysa [338304]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 3
+          },
+          "players": {
+            "Manfredas Ruzgis [25874]": 2,
+            "Ardit Destani [337481]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 3,
+          "known_position_observations": 3,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 2,
+            "LM": 1
+          },
+          "players": {
+            "Jurgen Vrapi [3789]": 2,
+            "Ramon Smirnov [341109]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 0.667
+        }
+      }
+    },
+    "18": {
+      "formation_id": 18,
+      "formation_name": "UNKNOWN",
+      "samples": 1,
+      "fixtures": [
+        334194
+      ],
+      "clubs": [
+        "3339"
+      ],
+      "slots": {
+        "0": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 1
+          },
+          "players": {
+            "Kristi Qarri [3735]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 1
+          },
+          "players": {
+            "Flori Spahija [338109]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "DML": 1
+          },
+          "players": {
+            "Roberto Corral García [122742]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Melos Bajrami [297536]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Miloš Stojanović [45501]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Marko Jurić [14614]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AML": 1,
+            "AMR": 1
+          },
+          "players": {
+            "Eslit Sala [135226]": 1
+          },
+          "dominant_position": "AML",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CM": 1
+          },
+          "players": {
+            "Amir Kahrimanović [169481]": 1
+          },
+          "dominant_position": "CM",
+          "dominant_position_frequency": 1.0
+        },
+        "8": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1
+          },
+          "players": {
+            "Bekim Balaj [53555]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FL": 1
+          },
+          "players": {
+            "Esat Mala [3475]": 1
+          },
+          "dominant_position": "FL",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AML": 1
+          },
+          "players": {
+            "Mehdi Çoba [277767]": 1
+          },
+          "dominant_position": "AML",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    },
+    "20": {
+      "formation_id": 20,
+      "formation_name": "4-2-2-2",
+      "samples": 1,
+      "fixtures": [
+        363194
+      ],
+      "clubs": [
+        "50"
+      ],
+      "slots": {
+        "0": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 1
+          },
+          "players": {
+            "Dominik Greif [61142]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "CB": 1,
+            "RB": 1,
+            "DMC": 1
+          },
+          "players": {
+            "Manuel Akanji [5]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1,
+            "CB": 1
+          },
+          "players": {
+            "Joško Gvardiol [129033]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Rúben dos Santos [567]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1,
+            "RB": 1,
+            "DMC": 1
+          },
+          "players": {
+            "John Stones [626]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1,
+            "LM": 1,
+            "CM": 1,
+            "AMC": 1
+          },
+          "players": {
+            "Mateo Kovačić [2291]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1,
+            "RM": 1,
+            "AMC": 1,
+            "AMR": 1
+          },
+          "players": {
+            "Bernardo Mota Veiga [636]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "RB": 1,
+            "DMC": 1,
+            "RM": 1,
+            "AML": 1
+          },
+          "players": {
+            "Matheus Nunes [41621]": 1
+          },
+          "dominant_position": "RB",
+          "dominant_position_frequency": 1.0
+        },
+        "8": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1
+          },
+          "players": {
+            "Erling Braut Haaland [1100]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1
+          },
+          "players": {
+            "Promise Akinpelu [313353]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "AML": 1,
+            "AMC": 1,
+            "AMR": 1,
+            "FL": 1
+          },
+          "players": {
+            "Jérémy Doku [1422]": 1
+          },
+          "dominant_position": "AML",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    },
+    "23": {
+      "formation_id": 23,
+      "formation_name": "3-2-2-2-1",
+      "samples": 1,
+      "fixtures": [
+        334189
+      ],
+      "clubs": [
+        "2256"
+      ],
+      "slots": {
+        "0": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "GK": 1
+          },
+          "players": {
+            "Georg Wurm [322122]": 1
+          },
+          "dominant_position": "GK",
+          "dominant_position_frequency": 1.0
+        },
+        "1": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Indrit Prodani [74658]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "2": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LB": 1
+          },
+          "players": {
+            "Maximilian Mortensen Balatoni [378171]": 1
+          },
+          "dominant_position": "LB",
+          "dominant_position_frequency": 1.0
+        },
+        "3": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "CB": 1
+          },
+          "players": {
+            "Islam Salah [16881]": 1
+          },
+          "dominant_position": "CB",
+          "dominant_position_frequency": 1.0
+        },
+        "4": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1
+          },
+          "players": {
+            "Enriko Papa [43217]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "5": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMC": 1
+          },
+          "players": {
+            "Oegi Cena [435256]": 1
+          },
+          "dominant_position": "DMC",
+          "dominant_position_frequency": 1.0
+        },
+        "6": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "DMR": 1
+          },
+          "players": {
+            "Kleandro Lleshi [169199]": 1
+          },
+          "dominant_position": "DMR",
+          "dominant_position_frequency": 1.0
+        },
+        "7": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "LM": 1
+          },
+          "players": {
+            "Mario Álvarez López [196437]": 1
+          },
+          "dominant_position": "LM",
+          "dominant_position_frequency": 1.0
+        },
+        "8": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1
+          },
+          "players": {
+            "Ardit Destani [337481]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "9": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FC": 1,
+            "FR": 1
+          },
+          "players": {
+            "William Cordeiro Melo [3495]": 1
+          },
+          "dominant_position": "FC",
+          "dominant_position_frequency": 1.0
+        },
+        "10": {
+          "observations": 1,
+          "known_position_observations": 1,
+          "unknown_position_observations": 0,
+          "positions": {
+            "FL": 1,
+            "FR": 1
+          },
+          "players": {
+            "Mario Barjamaj [3918]": 1
+          },
+          "dominant_position": "FL",
+          "dominant_position_frequency": 1.0
+        }
+      }
+    }
+  }
+}

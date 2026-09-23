@@ -1,0 +1,687 @@
+import sys
+
+from PySide6.QtCore import Qt, QTimer
+from PySide6.QtGui import QFont, QPixmap
+from PySide6.QtWidgets import (
+    QApplication,
+    QFrame,
+    QHBoxLayout,
+    QLabel,
+    QMainWindow,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
+)
+
+from src.commentary_mcp import SoccerverseMCPClient
+from src.match_data_service import MatchDataService
+from src.datapack_resolver import DatapackResolver
+from src.commentary_replay import ReplayMode
+
+from app_match_center.replay_controller import MatchReplayController
+from app_match_center.audio_player import MatchAudioPlayer
+from src.match_audio import MatchAudioEngine
+
+
+FIXTURE_ID = 386995
+
+HOME_LOGO = "https://pack.elrincondeldt.com/sv/photos/teams/541.png"
+AWAY_LOGO = "https://pack.elrincondeldt.com/sv/photos/teams/740.png"
+STADIUM_IMAGE = "https://pack.elrincondeldt.com/sv/photos/venues/1456.png"
+
+HOME_RGB = (255, 255, 255)
+AWAY_RGB = (255, 0, 0)
+
+
+def load_image(url: str, size: int) -> QPixmap:
+    try:
+        import subprocess
+
+        result = subprocess.run(
+            ["curl", "-L", "-s", "--fail", url],
+            capture_output=True,
+            timeout=10,
+            check=True,
+        )
+        pixmap = QPixmap()
+        if not pixmap.loadFromData(result.stdout):
+            return QPixmap()
+        return pixmap.scaled(
+            size,
+            size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation,
+        )
+    except Exception:
+        return QPixmap()
+
+
+def rgb(value):
+    return f"rgb({value[0]}, {value[1]}, {value[2]})"
+
+
+class MatchCenterWindow(QMainWindow):
+    def __init__(self) -> None:
+        super().__init__()
+
+        self.setWindowTitle("Soccerverse Match Center")
+        self.resize(1280, 860)
+
+        mcp = SoccerverseMCPClient()
+        self.match_data = MatchDataService(mcp).load(FIXTURE_ID)
+
+        fixture = self.match_data.fixture
+        attendance = int(fixture.get("attendance") or 0)
+
+        self.audio_engine = MatchAudioEngine(
+            attendance=attendance,
+            home_club_id=int(fixture["home_club"]),
+            away_club_id=int(fixture["away_club"]),
+        )
+        self.audio_player = MatchAudioPlayer()
+        self._last_audio_action_id: int | None = None
+        self._audio_started = False
+        self._audio_finished = False
+
+        self.replay = MatchReplayController(
+            self.match_data,
+            ReplayMode.M3,
+        )
+
+        self.timer = QTimer(self)
+        self.timer.setInterval(100)
+        self.timer.timeout.connect(self.tick)
+
+        self._build_ui()
+        self._apply_style()
+        self.reset_replay()
+
+    def _build_ui(self) -> None:
+        root = QWidget()
+        root.setObjectName("root")
+
+        main = QVBoxLayout(root)
+        main.setContentsMargins(28, 24, 28, 24)
+        main.setSpacing(14)
+
+        top = QHBoxLayout()
+
+        brand = QLabel("SOCCERVERSE")
+        brand.setObjectName("brand")
+
+        competition = QLabel("CONTINENTAL LEAGUE  •  MATCH 441900")
+        competition.setObjectName("competition")
+
+        live = QLabel("●  MATCH CENTER")
+        live.setObjectName("live")
+
+        top.addWidget(brand)
+        top.addStretch()
+        top.addWidget(competition)
+        top.addSpacing(24)
+        top.addWidget(live)
+
+        main.addLayout(top)
+
+        hero = QFrame()
+        hero.setObjectName("hero")
+
+        hero_layout = QVBoxLayout(hero)
+        hero_layout.setContentsMargins(0, 0, 0, 0)
+
+        stadium = QLabel()
+        stadium.setObjectName("stadium")
+
+        pixmap = load_image(STADIUM_IMAGE, 900)
+
+        if not pixmap.isNull():
+            stadium.setPixmap(pixmap)
+        else:
+            stadium.setText("ESTADIO SANTIAGO BERNABÉU")
+
+        stadium.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        stadium.setFixedHeight(125)
+
+        hero_layout.addWidget(stadium)
+
+        stadium_info = QHBoxLayout()
+
+        stadium_name = QLabel("🏟  ESTADIO SANTIAGO BERNABÉU")
+        stadium_name.setObjectName("stadiumName")
+
+        attendance = QLabel("ATTENDANCE  85,418")
+        attendance.setObjectName("attendance")
+
+        stadium_info.addWidget(stadium_name)
+        stadium_info.addStretch()
+        stadium_info.addWidget(attendance)
+
+        hero_layout.addLayout(stadium_info)
+
+        main.addWidget(hero)
+
+        scoreboard = QFrame()
+        scoreboard.setObjectName("scoreboard")
+
+        score_layout = QHBoxLayout(scoreboard)
+        score_layout.setContentsMargins(32, 22, 32, 22)
+
+        home_column = QVBoxLayout()
+        home_column.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        home_logo = QLabel()
+        home_logo.setPixmap(load_image(HOME_LOGO, 78))
+        home_logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        home_pack = DatapackResolver().get_club(self.match_data.fixture["home_club"])
+        home_name = home_pack["n"] if home_pack else self.match_data.fixture["home_club_name"]
+        self.home_label = QLabel(home_name.upper())
+        self.home_label.setObjectName("teamHome")
+        self.home_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        home_column.addWidget(home_logo)
+        home_column.addWidget(self.home_label)
+
+        center = QVBoxLayout()
+        center.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.status = QLabel("READY")
+        self.status.setObjectName("status")
+
+        self.score = QLabel("0  —  0")
+        self.score.setObjectName("score")
+        self.score.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.scorer = QLabel("")
+        self.scorer.setObjectName("scorer")
+        self.scorer.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.minute = QLabel("2'")
+        self.minute.setObjectName("minute")
+        self.minute.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        center.addWidget(self.status)
+        center.addWidget(self.score)
+        center.addWidget(self.minute)
+        center.addWidget(self.scorer)
+
+        away_column = QVBoxLayout()
+        away_column.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        away_logo = QLabel()
+        away_logo.setPixmap(load_image(AWAY_LOGO, 78))
+        away_logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        away_pack = DatapackResolver().get_club(self.match_data.fixture["away_club"])
+        away_name = away_pack["n"] if away_pack else self.match_data.fixture["away_club_name"]
+        self.away_label = QLabel(away_name.upper())
+        self.away_label.setObjectName("teamAway")
+        self.away_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        away_column.addWidget(away_logo)
+        away_column.addWidget(self.away_label)
+
+        score_layout.addLayout(home_column, 1)
+        score_layout.addLayout(center, 1)
+        score_layout.addLayout(away_column, 1)
+
+        main.addWidget(scoreboard)
+
+        content = QHBoxLayout()
+        content.setSpacing(14)
+
+        stadium_card = QFrame()
+        stadium_card.setObjectName("stadiumCard")
+
+        stadium_card_layout = QVBoxLayout(stadium_card)
+        stadium_card_layout.setContentsMargins(14, 14, 14, 14)
+        stadium_card_layout.setSpacing(8)
+
+        stadium_thumb = QLabel()
+        stadium_thumb.setObjectName("stadiumThumb")
+        stadium_thumb.setFixedSize(170, 170)
+        stadium_thumb.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        stadium_pixmap = load_image(STADIUM_IMAGE, 170)
+        if not stadium_pixmap.isNull():
+            stadium_thumb.setPixmap(stadium_pixmap)
+        else:
+            stadium_thumb.setText("STADIO")
+
+        stadium_card_layout.addWidget(
+            stadium_thumb,
+            alignment=Qt.AlignmentFlag.AlignCenter,
+        )
+
+        stadium_card_name = QLabel("ESTADIO SANTIAGO BERNABÉU")
+        stadium_card_name.setObjectName("stadiumCardName")
+        stadium_card_name.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        stadium_card_name.setWordWrap(True)
+
+        stadium_card_layout.addWidget(stadium_card_name)
+
+        stadium_card_attendance = QLabel("85,418 PRESENTI")
+        stadium_card_attendance.setObjectName("stadiumCardAttendance")
+        stadium_card_attendance.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        stadium_card_layout.addWidget(stadium_card_attendance)
+
+        content.addWidget(stadium_card, 0)
+
+        commentary = QFrame()
+        commentary.setObjectName("commentary")
+
+        commentary_layout = QVBoxLayout(commentary)
+        commentary_layout.setContentsMargins(24, 20, 24, 20)
+
+        commentary_title = QLabel("MATCH TIMELINE")
+        commentary_title.setObjectName("section")
+
+        commentary_layout.addWidget(commentary_title)
+
+        self.feed_layout = QVBoxLayout()
+        commentary_layout.addLayout(self.feed_layout)
+        commentary_layout.addStretch()
+
+        content.addWidget(commentary, 2)
+
+        main.addLayout(content, 1)
+
+        controls = QFrame()
+        controls.setObjectName("controls")
+
+        controls_layout = QHBoxLayout(controls)
+        controls_layout.setContentsMargins(18, 12, 18, 12)
+
+        replay_label = QLabel("REPLAY")
+        replay_label.setObjectName("replayLabel")
+
+        controls_layout.addWidget(replay_label)
+        controls_layout.addSpacing(12)
+
+        self.play_button = QPushButton("▶  PLAY")
+        self.play_button.setObjectName("play")
+        self.play_button.clicked.connect(self.toggle_play)
+
+        controls_layout.addWidget(self.play_button)
+
+        reset = QPushButton("↺")
+        reset.clicked.connect(self.reset_replay)
+        controls_layout.addWidget(reset)
+
+        for text, mode in (
+            ("3'", ReplayMode.M3),
+            ("6'", ReplayMode.M6),
+            ("12'", ReplayMode.M12),
+            ("1:1", ReplayMode.ONE_TO_ONE),
+        ):
+            button = QPushButton(text)
+            button.clicked.connect(
+                lambda checked=False, selected=mode: self.change_mode(selected)
+            )
+            controls_layout.addWidget(button)
+
+        controls_layout.addStretch()
+
+        self.replay_status = QLabel("0.0 / 180.0s")
+        self.replay_status.setObjectName("replayStatus")
+
+        controls_layout.addWidget(self.replay_status)
+
+        main.addWidget(controls)
+
+        self.setCentralWidget(root)
+
+    def _apply_style(self) -> None:
+        self.setStyleSheet(
+            f"""
+            QWidget#root {{
+                background: #07090d;
+                color: #f4f5f7;
+            }}
+
+            QLabel#brand {{
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#competition {{
+                color: #858d9c;
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 1.5px;
+            }}
+
+            QLabel#live {{
+                color: #ff4d5a;
+                font-size: 12px;
+                font-weight: 900;
+                letter-spacing: 1px;
+            }}
+
+            QFrame#hero {{
+                background: #0d1118;
+                border: 1px solid #252c37;
+                border-radius: 16px;
+            }}
+
+            QLabel#stadium {{
+                background: #10151d;
+                color: #687283;
+                font-size: 20px;
+                font-weight: 800;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+            }}
+
+            QLabel#stadiumName {{
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: 800;
+                padding: 8px 12px;
+            }}
+
+            QLabel#attendance {{
+                color: #7e8797;
+                font-size: 11px;
+                font-weight: 700;
+                padding: 8px 12px;
+            }}
+
+            QFrame#scoreboard {{
+                background: #10141b;
+                border: 1px solid #282f3b;
+                border-radius: 18px;
+            }}
+
+            QLabel#teamHome {{
+                color: {rgb(HOME_RGB)};
+                font-size: 27px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#teamAway {{
+                color: {rgb(AWAY_RGB)};
+                font-size: 27px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#status {{
+                color: #737d8d;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 2px;
+            }}
+
+            QLabel#score {{
+                color: #ffffff;
+                font-size: 58px;
+                font-weight: 950;
+            }}
+
+            QLabel#minute {{
+                color: #aeb6c2;
+                font-size: 16px;
+                font-weight: 900;
+            }}
+
+            QLabel#scorer {{
+                color: #9ba4b3;
+                font-size: 11px;
+                font-weight: 800;
+                letter-spacing: 1px;
+            }}
+
+            QFrame#moment,
+            QFrame#commentary {{
+                background: #0d1219;
+                border: 1px solid #222a35;
+                border-radius: 15px;
+            }}
+
+            QLabel#section {{
+                color: #697486;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 2px;
+            }}
+
+            QLabel#headline {{
+                color: #ffffff;
+                font-size: 22px;
+                font-weight: 900;
+            }}
+
+            QLabel#description {{
+                color: #d0d5dd;
+                font-size: 17px;
+            }}
+
+            QLabel#feedMinute {{
+                color: #687384;
+                font-size: 12px;
+                font-weight: 800;
+            }}
+
+            QLabel#feedItem {{
+                color: #c1c7d0;
+                font-size: 14px;
+                padding: 4px 0;
+            }}
+
+            QLabel#goalFeed {{
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 900;
+                padding: 5px 0;
+            }}
+
+            QFrame#controls {{
+                background: #10141b;
+                border: 1px solid #252c37;
+                border-radius: 13px;
+            }}
+
+            QLabel#replayLabel {{
+                color: #778294;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 1.5px;
+            }}
+
+            QLabel#replayStatus {{
+                color: #697486;
+                font-size: 11px;
+                font-weight: 700;
+            }}
+
+            QPushButton {{
+                background: #171c25;
+                color: #e9ecf1;
+                border: 1px solid #303846;
+                border-radius: 8px;
+                padding: 9px 16px;
+                font-weight: 800;
+            }}
+
+            QPushButton:hover {{
+                background: #242b36;
+            }}
+
+            QPushButton#play {{
+                padding-left: 22px;
+                padding-right: 22px;
+            }}
+            """
+        )
+
+    def toggle_play(self) -> None:
+        if self.timer.isActive():
+            self.timer.stop()
+            self.play_button.setText("▶  PLAY")
+            self.status.setText("PAUSED")
+        else:
+            if self.replay.elapsed_seconds >= self.replay.duration_seconds:
+                self.reset_replay()
+
+            if not self._audio_started:
+                self.audio_player.start_whistle()
+                self._audio_started = True
+
+            self.timer.start()
+            self.play_button.setText("Ⅱ  PAUSE")
+            self.status.setText("LIVE")
+
+    def tick(self) -> None:
+        state = self.replay.advance(0.1)
+
+        self.score.setText(
+            f"{state.home_score}  —  {state.away_score}"
+        )
+        self.minute.setText(f"{state.match_minute}'")
+
+        # Audio: trigger una sola volta quando entra una nuova scena.
+        if state.current_action_id != self._last_audio_action_id:
+            self._last_audio_action_id = state.current_action_id
+
+            if state.current_action_id is not None:
+                official_event = next(
+                    (
+                        event
+                        for event in self.match_data.events
+                        if int(event.get("time", -1)) == state.match_minute
+                        and str(event.get("event_type", "")).upper()
+                        in {
+                            "GOAL",
+                            "REDCARD",
+                            "RED_CARD",
+                            "SENDING_OFF",
+                            "SUB",
+                            "SUBSTITUTION",
+                        }
+                    ),
+                    None,
+                )
+
+                if official_event is not None:
+                    event_type = str(
+                        official_event.get("event_type", "")
+                    ).upper()
+                    event_id = int(
+                        official_event.get("match_event_id", state.current_action_id)
+                    )
+
+                    if event_type == "GOAL":
+                        intensity = self.audio_engine.goal_intensity(False)
+                        self.audio_player.goal(event_id, intensity)
+
+                    elif event_type in {
+                        "REDCARD",
+                        "RED_CARD",
+                        "SENDING_OFF",
+                    }:
+                        intensity = self.audio_engine.red_card_intensity()
+                        self.audio_player.red_card(event_id, intensity)
+
+                    elif event_type in {
+                        "SUB",
+                        "SUBSTITUTION",
+                    }:
+                        intensity = self.audio_engine.substitution_intensity()
+                        self.audio_player.substitution(event_id, intensity)
+
+        if state.current_kind == "goal":
+            current_scene = (
+                state.visible_scenes[-1].scene
+                if state.visible_scenes
+                else None
+            )
+            goal_minute = (
+                current_scene.match_minute
+                if current_scene
+                else state.match_minute
+            )
+            goal_player = (
+                current_scene.player_name
+                if current_scene and current_scene.player_name
+                else "Azione di squadra"
+            )
+            self.scorer.setText(
+                f"{goal_minute}'  {goal_player.upper()}"
+            )
+        else:
+            self.scorer.setText("")
+
+        self.replay_status.setText(
+            f"{state.elapsed_seconds:05.1f} / "
+            f"{self.replay.duration_seconds:.1f}s"
+        )
+
+        while self.feed_layout.count():
+            item = self.feed_layout.takeAt(0)
+            if item.widget() is not None:
+                item.widget().deleteLater()
+
+        for visible in state.visible_scenes[-12:]:
+            scene = visible.scene
+            player = scene.player_name or "Azione di squadra"
+            club = scene.club_name or "MATCH"
+            label = QLabel(f"{scene.match_minute}\x27   {club.upper()}   •   {player}")
+            label.setObjectName("feedItem")
+            self.feed_layout.addWidget(label)
+
+        if state.current_kind == "goal":
+            self.status.setText("GOAL")
+
+        if self.replay.elapsed_seconds >= self.replay.duration_seconds:
+            if not self._audio_finished:
+                self.audio_player.final_whistle()
+                self._audio_finished = True
+
+            self.timer.stop()
+            self.play_button.setText("↻  REPLAY")
+            self.status.setText("FINAL")
+
+    def reset_replay(self) -> None:
+        self.timer.stop()
+
+        self.audio_player.reset()
+        self._last_audio_action_id = None
+        self._audio_started = False
+        self._audio_finished = False
+
+        state = self.replay.reset()
+
+        self.play_button.setText("▶  PLAY")
+        self.status.setText("READY")
+        self.score.setText(
+            f"{state.home_score}  —  {state.away_score}"
+        )
+        self.minute.setText(f"{state.match_minute}'")
+        self.scorer.setText("")
+        self.replay_status.setText(
+            f"0.0 / {self.replay.duration_seconds:.1f}s"
+        )
+
+    def change_mode(self, mode: ReplayMode) -> None:
+        self.timer.stop()
+
+        self.replay = MatchReplayController(
+            self.replay.match_data,
+            mode,
+        )
+
+        self.reset_replay()
+
+
+app = QApplication(sys.argv)
+app.setFont(QFont("Arial", 10))
+
+window = MatchCenterWindow()
+window.show()
+
+sys.exit(app.exec())

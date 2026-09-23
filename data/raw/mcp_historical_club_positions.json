@@ -1,0 +1,6957 @@
+{
+  "20406": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 20406,
+        "club_name": "Elbasan"
+      },
+      "league_standing": {
+        "club_id": 20406,
+        "league_id": 1538,
+        "manager_name": "karina",
+        "manager_last_active_unix": 1788964401,
+        "country_id": "ALB",
+        "division": 1,
+        "club_ix": 0,
+        "played": 16,
+        "won": 7,
+        "drawn": 3,
+        "lost": 6,
+        "goals_for": 18,
+        "goals_against": 15,
+        "pts": 24,
+        "form": "LLWDWW",
+        "old_position": 5,
+        "new_position": 4,
+        "season_id": 4,
+        "stadium_size": 12000,
+        "fanbase": 1363,
+        "balance": "4006043.99 SVC",
+        "avg_player_rating": 63,
+        "top_3_players": [
+          74480,
+          3469,
+          3847
+        ],
+        "club_name": "Elbasan",
+        "league_name": "ALB Division 1",
+        "manager_last_active_datetime": "2026-09-09 14:33:21 UTC",
+        "manager_last_active_date": "2026-09-09",
+        "manager_last_active_day": "Wednesday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 334226,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 18:00",
+          "result": "W",
+          "score": "0-2",
+          "home_away": "A",
+          "opponent": "Rrogozhinë",
+          "opponent_id": 3327,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 334221,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 18:00",
+          "result": "W",
+          "score": "2-0",
+          "home_away": "H",
+          "opponent": "Ballsh",
+          "opponent_id": 3325,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 334216,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 18:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "A",
+          "opponent": "Vora",
+          "opponent_id": 3340,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 334211,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 18:00",
+          "result": "W",
+          "score": "3-0",
+          "home_away": "H",
+          "opponent": "Durrës",
+          "opponent_id": 3320,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334206,
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "datetime": "2026-08-26 18:00",
+          "result": "L",
+          "score": "2-1",
+          "home_away": "A",
+          "opponent": "Shkodër",
+          "opponent_id": 3339,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334201,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 18:00",
+          "result": "L",
+          "score": "0-1",
+          "home_away": "H",
+          "opponent": "Laç",
+          "opponent_id": 2256,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334196,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 18:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "A",
+          "opponent": "Tirana Red",
+          "opponent_id": 708,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334191,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 18:00",
+          "result": "W",
+          "score": "2-1",
+          "home_away": "H",
+          "opponent": "Korçë",
+          "opponent_id": 605,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334186,
+          "date": "2026-08-12",
+          "day": "Wednesday",
+          "datetime": "2026-08-12 18:00",
+          "result": "L",
+          "score": "3-1",
+          "home_away": "A",
+          "opponent": "Dinamo",
+          "opponent_id": 3326,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334181,
+          "date": "2026-08-08",
+          "day": "Saturday",
+          "datetime": "2026-08-08 18:00",
+          "result": "W",
+          "score": "2-0",
+          "home_away": "H",
+          "opponent": "Rrogozhinë",
+          "opponent_id": 3327,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "4-1-2-2-1v2": 3,
+          "4-4-2": 4,
+          "4-3-3": 3
+        },
+        "play_style_counts": {
+          "Passing": 3,
+          "Normal": 7
+        },
+        "most_used_formation": "4-4-2",
+        "most_used_formation_id": 0,
+        "most_used_play_style": "Normal",
+        "most_used_play_style_int": 0,
+        "most_used_play_style_letter": "N",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 12,
+          "formation_name": "4-2-3-1",
+          "best_play_style": "Attacking",
+          "squad_fit_pct": 56.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Frixos Grivas (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Frixos Grivas (5%)"
+          ]
+        },
+        {
+          "formation_id": 14,
+          "formation_name": "4-4-1-1",
+          "best_play_style": "Attacking",
+          "squad_fit_pct": 56.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Frixos Grivas (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Frixos Grivas (5%)"
+          ]
+        },
+        {
+          "formation_id": 2,
+          "formation_name": "4-5-1",
+          "best_play_style": "Attacking",
+          "squad_fit_pct": 56.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Frixos Grivas (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Frixos Grivas (5%)"
+          ]
+        },
+        {
+          "formation_id": 11,
+          "formation_name": "4-1-4-1",
+          "best_play_style": "Attacking",
+          "squad_fit_pct": 56.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Frixos Grivas (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Frixos Grivas (5%)"
+          ]
+        },
+        {
+          "formation_id": 20,
+          "formation_name": "4-2-2-2",
+          "best_play_style": "Attacking",
+          "squad_fit_pct": 56.0,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 3,
+          "oop_players": [
+            "Frixos Grivas (5%)",
+            "Klevis Kasa (1%)",
+            "Gabriel Mihoreanu (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 3,
+          "position_penalty_players": [
+            "Frixos Grivas (5%)",
+            "Klevis Kasa (1%)",
+            "Gabriel Mihoreanu (5%)"
+          ]
+        }
+      ],
+      "squad_overview": {
+        "total_players": 24,
+        "available": 20,
+        "injured": [
+          {
+            "player_id": 3847,
+            "player_name": "Xhonathan Lajthia",
+            "rating": 66,
+            "positions": "AMC",
+            "injury_until": 1792692000,
+            "injury_until_datetime": "2026-10-22 18:00:00 UTC",
+            "injury_until_formatted": "2026-10-22"
+          },
+          {
+            "player_id": 42724,
+            "player_name": "Cristian Dros",
+            "rating": 66,
+            "positions": "CB, DMC, LM, CM",
+            "injury_until": 1790013600,
+            "injury_until_datetime": "2026-09-21 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-21"
+          },
+          {
+            "player_id": 418214,
+            "player_name": "Lassina Traoré",
+            "rating": 65,
+            "positions": "DML",
+            "injury_until": 1789149600,
+            "injury_until_datetime": "2026-09-11 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-11"
+          },
+          {
+            "player_id": 461705,
+            "player_name": "Kron Abdiu",
+            "rating": 63,
+            "positions": "CB, AMC",
+            "injury_until": 1789840800,
+            "injury_until_datetime": "2026-09-19 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-19"
+          }
+        ],
+        "banned": [],
+        "best_11_avg": 64.5,
+        "avg_rating": 61.2,
+        "players": [
+          {
+            "player_id": 74480,
+            "player_name": "Bledar Lila",
+            "rating": 67,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 71,
+            "form": "565666",
+            "available": true
+          },
+          {
+            "player_id": 3469,
+            "player_name": "Ardit Hila",
+            "rating": 66,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 78,
+            "form": "546666",
+            "available": true
+          },
+          {
+            "player_id": 3847,
+            "player_name": "Xhonathan Lajthia",
+            "rating": 66,
+            "positions": "AMC",
+            "multi_position": 2048,
+            "fitness": 77,
+            "form": "666666",
+            "available": false,
+            "injury_until": 1792692000,
+            "injury_until_datetime": "2026-10-22 18:00:00 UTC",
+            "injury_until_formatted": "2026-10-22"
+          },
+          {
+            "player_id": 42724,
+            "player_name": "Cristian Dros",
+            "rating": 66,
+            "positions": "CB, DMC, LM, CM",
+            "multi_position": 420,
+            "fitness": 83,
+            "form": "666666",
+            "available": false,
+            "injury_until": 1790013600,
+            "injury_until_datetime": "2026-09-21 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-21"
+          },
+          {
+            "player_id": 175425,
+            "player_name": "Razak Abalora",
+            "rating": 66,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 94,
+            "form": "566668",
+            "available": true
+          },
+          {
+            "player_id": 203695,
+            "player_name": "William Rocha Josefa",
+            "rating": 66,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 79,
+            "form": "966668",
+            "available": true
+          },
+          {
+            "player_id": 3540,
+            "player_name": "Esin Hakaj",
+            "rating": 65,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 64,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 418214,
+            "player_name": "Lassina Traoré",
+            "rating": 65,
+            "positions": "DML",
+            "multi_position": 16,
+            "fitness": 93,
+            "form": "466586",
+            "available": false,
+            "injury_until": 1789149600,
+            "injury_until_datetime": "2026-09-11 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-11"
+          },
+          {
+            "player_id": 4264,
+            "player_name": "Arsen Kasa",
+            "rating": 64,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 98,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 475305,
+            "player_name": "Gabriel Eduardo Fuentes Álvarez",
+            "rating": 64,
+            "positions": "FL, FC",
+            "multi_position": 24576,
+            "fitness": 78,
+            "form": "656669",
+            "available": true
+          },
+          {
+            "player_id": 56043,
+            "player_name": "Kristi Qose",
+            "rating": 63,
+            "positions": "LM, CM, RM",
+            "multi_position": 896,
+            "fitness": 100,
+            "form": "657636",
+            "available": true
+          },
+          {
+            "player_id": 137313,
+            "player_name": "Frixos Grivas",
+            "rating": 63,
+            "positions": "DML, DMR",
+            "multi_position": 80,
+            "fitness": 80,
+            "form": "-66776",
+            "available": true
+          },
+          {
+            "player_id": 340581,
+            "player_name": "Klevis Kasa",
+            "rating": 63,
+            "positions": "LM, CM",
+            "multi_position": 384,
+            "fitness": 87,
+            "form": "-66666",
+            "available": true
+          },
+          {
+            "player_id": 406275,
+            "player_name": "Amarildo Gjoni",
+            "rating": 63,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 79,
+            "form": "669696",
+            "available": true
+          },
+          {
+            "player_id": 461705,
+            "player_name": "Kron Abdiu",
+            "rating": 63,
+            "positions": "CB, AMC",
+            "multi_position": 2052,
+            "fitness": 100,
+            "form": "---669",
+            "available": false,
+            "injury_until": 1789840800,
+            "injury_until_datetime": "2026-09-19 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-19"
+          },
+          {
+            "player_id": 6696,
+            "player_name": "Gonzalo Rodríguez",
+            "rating": 61,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 78,
+            "form": "696666",
+            "available": true
+          },
+          {
+            "player_id": 196348,
+            "player_name": "Rei Zaimi",
+            "rating": 61,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 80,
+            "form": "636666",
+            "available": true
+          },
+          {
+            "player_id": 41593,
+            "player_name": "José Gomes",
+            "rating": 60,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 96,
+            "form": "-66668",
+            "available": true
+          },
+          {
+            "player_id": 503893,
+            "player_name": "Gabriel Mihoreanu",
+            "rating": 58,
+            "positions": "AML, AMC",
+            "multi_position": 3072,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 521392,
+            "player_name": "Otto Pajunen",
+            "rating": 58,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 454293,
+            "player_name": "Felype Gabriel Alencar Carvalho",
+            "rating": 57,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 126095,
+            "player_name": "Yan Mosquera Palacios",
+            "rating": 55,
+            "positions": "CM",
+            "multi_position": 256,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 71135,
+            "player_name": "James Musa",
+            "rating": 54,
+            "positions": "AML, AMC",
+            "multi_position": 3072,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 345105,
+            "player_name": "Sebastian Drömert",
+            "rating": 51,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "formation_id": 13,
+        "formation_name": "4-1-2-2-1v2",
+        "play_style": "Passing",
+        "play_style_int": 3,
+        "num_tactic_actions": 1,
+        "starting_xi": [
+          {
+            "team_sheet_index": 0,
+            "player_id": 175425,
+            "player_name": "Razak Abalora",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 0,
+            "position": "GK"
+          },
+          {
+            "team_sheet_index": 1,
+            "player_id": 74480,
+            "player_name": "Bledar Lila",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 1,
+            "position": "DFR"
+          },
+          {
+            "team_sheet_index": 2,
+            "player_id": 196348,
+            "player_name": "Rei Zaimi",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 2,
+            "position": "DFL"
+          },
+          {
+            "team_sheet_index": 3,
+            "player_id": 3469,
+            "player_name": "Ardit Hila",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 3,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 4,
+            "player_id": 203695,
+            "player_name": "William Rocha Josefa",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 4,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 5,
+            "player_id": 3540,
+            "player_name": "Esin Hakaj",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 5,
+            "position": "DMC"
+          },
+          {
+            "team_sheet_index": 6,
+            "player_id": 137313,
+            "player_name": "Frixos Grivas",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 6,
+            "position": "MFR"
+          },
+          {
+            "team_sheet_index": 7,
+            "player_id": 418214,
+            "player_name": "Lassina Traoré",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 7,
+            "position": "MFL"
+          },
+          {
+            "team_sheet_index": 8,
+            "player_id": 406275,
+            "player_name": "Amarildo Gjoni",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 8,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 9,
+            "player_id": 475305,
+            "player_name": "Gabriel Eduardo Fuentes Álvarez",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 9,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 10,
+            "player_id": 6696,
+            "player_name": "Gonzalo Rodríguez",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 10,
+            "position": "FWC"
+          }
+        ],
+        "bench": [
+          {
+            "team_sheet_index": 11,
+            "player_id": 345105,
+            "player_name": "Sebastian Drömert",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 11
+          },
+          {
+            "team_sheet_index": 12,
+            "player_id": 521392,
+            "player_name": "Otto Pajunen",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 12
+          },
+          {
+            "team_sheet_index": 13,
+            "player_id": 454293,
+            "player_name": "Felype Gabriel Alencar Carvalho",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 13
+          },
+          {
+            "team_sheet_index": 14,
+            "player_id": 340581,
+            "player_name": "Klevis Kasa",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 14
+          },
+          {
+            "team_sheet_index": 15,
+            "player_id": 4264,
+            "player_name": "Arsen Kasa",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 15
+          },
+          {
+            "team_sheet_index": 16,
+            "player_id": 41593,
+            "player_name": "José Gomes",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 16
+          },
+          {
+            "team_sheet_index": 17,
+            "player_id": 56043,
+            "player_name": "Kristi Qose",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 17
+          }
+        ],
+        "roles": {
+          "penalty_taker": {
+            "lineup_position": 10,
+            "team_sheet_index": 10,
+            "player_id": 6696,
+            "player_name": "Gonzalo Rodríguez"
+          }
+        },
+        "validation": "valid"
+      }
+    },
+    "players": [
+      {
+        "player_id": 74480,
+        "player_name": "Bledar Lila",
+        "positions": [
+          "RB"
+        ],
+        "rating": 67,
+        "fitness": 71,
+        "available": true
+      },
+      {
+        "player_id": 3469,
+        "player_name": "Ardit Hila",
+        "positions": [
+          "CB"
+        ],
+        "rating": 66,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 3847,
+        "player_name": "Xhonathan Lajthia",
+        "positions": [
+          "AMC"
+        ],
+        "rating": 66,
+        "fitness": 77,
+        "available": false
+      },
+      {
+        "player_id": 42724,
+        "player_name": "Cristian Dros",
+        "positions": [
+          "CB",
+          "DMC",
+          "LM",
+          "CM"
+        ],
+        "rating": 66,
+        "fitness": 83,
+        "available": false
+      },
+      {
+        "player_id": 175425,
+        "player_name": "Razak Abalora",
+        "positions": [
+          "GK"
+        ],
+        "rating": 66,
+        "fitness": 94,
+        "available": true
+      },
+      {
+        "player_id": 203695,
+        "player_name": "William Rocha Josefa",
+        "positions": [
+          "CB"
+        ],
+        "rating": 66,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 3540,
+        "player_name": "Esin Hakaj",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 65,
+        "fitness": 64,
+        "available": true
+      },
+      {
+        "player_id": 418214,
+        "player_name": "Lassina Traoré",
+        "positions": [
+          "DML"
+        ],
+        "rating": 65,
+        "fitness": 93,
+        "available": false
+      },
+      {
+        "player_id": 4264,
+        "player_name": "Arsen Kasa",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 64,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 475305,
+        "player_name": "Gabriel Eduardo Fuentes Álvarez",
+        "positions": [
+          "FL",
+          "FC"
+        ],
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 56043,
+        "player_name": "Kristi Qose",
+        "positions": [
+          "LM",
+          "CM",
+          "RM"
+        ],
+        "rating": 63,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 137313,
+        "player_name": "Frixos Grivas",
+        "positions": [
+          "DML",
+          "DMR"
+        ],
+        "rating": 63,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 340581,
+        "player_name": "Klevis Kasa",
+        "positions": [
+          "LM",
+          "CM"
+        ],
+        "rating": 63,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 406275,
+        "player_name": "Amarildo Gjoni",
+        "positions": [
+          "FC"
+        ],
+        "rating": 63,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 461705,
+        "player_name": "Kron Abdiu",
+        "positions": [
+          "CB",
+          "AMC"
+        ],
+        "rating": 63,
+        "fitness": 100,
+        "available": false
+      },
+      {
+        "player_id": 6696,
+        "player_name": "Gonzalo Rodríguez",
+        "positions": [
+          "FC"
+        ],
+        "rating": 61,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 196348,
+        "player_name": "Rei Zaimi",
+        "positions": [
+          "RB"
+        ],
+        "rating": 61,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 41593,
+        "player_name": "José Gomes",
+        "positions": [
+          "FC"
+        ],
+        "rating": 60,
+        "fitness": 96,
+        "available": true
+      },
+      {
+        "player_id": 503893,
+        "player_name": "Gabriel Mihoreanu",
+        "positions": [
+          "AML",
+          "AMC"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 521392,
+        "player_name": "Otto Pajunen",
+        "positions": [
+          "CB"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 454293,
+        "player_name": "Felype Gabriel Alencar Carvalho",
+        "positions": [
+          "CB"
+        ],
+        "rating": 57,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 126095,
+        "player_name": "Yan Mosquera Palacios",
+        "positions": [
+          "CM"
+        ],
+        "rating": 55,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 71135,
+        "player_name": "James Musa",
+        "positions": [
+          "AML",
+          "AMC"
+        ],
+        "rating": 54,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 345105,
+        "player_name": "Sebastian Drömert",
+        "positions": [
+          "GK"
+        ],
+        "rating": 51,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 24
+  },
+  "2256": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 2256,
+        "club_name": "Laç"
+      },
+      "league_standing": {
+        "club_id": 2256,
+        "league_id": 1538,
+        "manager_name": "ramones",
+        "manager_last_active_unix": 1788798684,
+        "country_id": "ALB",
+        "division": 1,
+        "club_ix": 2,
+        "played": 16,
+        "won": 5,
+        "drawn": 2,
+        "lost": 9,
+        "goals_for": 21,
+        "goals_against": 26,
+        "pts": 17,
+        "form": "WLWDLL",
+        "old_position": 8,
+        "new_position": 9,
+        "season_id": 4,
+        "stadium_size": 3000,
+        "fanbase": 1315,
+        "balance": "3032951.55 SVC",
+        "avg_player_rating": 60,
+        "top_3_players": [
+          43217,
+          300005,
+          3588
+        ],
+        "club_name": "Laç",
+        "league_name": "ALB Division 1",
+        "manager_last_active_datetime": "2026-09-07 16:31:24 UTC",
+        "manager_last_active_date": "2026-09-07",
+        "manager_last_active_day": "Monday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 334230,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 18:00",
+          "result": "L",
+          "score": "1-0",
+          "home_away": "A",
+          "opponent": "Shkodër",
+          "opponent_id": 3339,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Defensive"
+        },
+        {
+          "fixture_id": 334225,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 18:00",
+          "result": "L",
+          "score": "4-0",
+          "home_away": "A",
+          "opponent": "Tirana Red",
+          "opponent_id": 708,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334219,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 18:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "H",
+          "opponent": "Dinamo",
+          "opponent_id": 3326,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334213,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 18:00",
+          "result": "W",
+          "score": "0-2",
+          "home_away": "A",
+          "opponent": "Ballsh",
+          "opponent_id": 3325,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334207,
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "datetime": "2026-08-26 18:00",
+          "result": "L",
+          "score": "1-2",
+          "home_away": "H",
+          "opponent": "Durrës",
+          "opponent_id": 3320,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334201,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 18:00",
+          "result": "W",
+          "score": "0-1",
+          "home_away": "A",
+          "opponent": "Elbasan",
+          "opponent_id": 20406,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334197,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 18:00",
+          "result": "W",
+          "score": "0-4",
+          "home_away": "A",
+          "opponent": "Korçë",
+          "opponent_id": 605,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334193,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 18:00",
+          "result": "L",
+          "score": "1-2",
+          "home_away": "H",
+          "opponent": "Rrogozhinë",
+          "opponent_id": 3327,
+          "comp_type": "National League",
+          "formation": "3-2-2-2-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334189,
+          "date": "2026-08-12",
+          "day": "Wednesday",
+          "datetime": "2026-08-12 18:00",
+          "result": "L",
+          "score": "2-1",
+          "home_away": "A",
+          "opponent": "Vora",
+          "opponent_id": 3340,
+          "comp_type": "National League",
+          "formation": "3-2-2-2-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334185,
+          "date": "2026-08-08",
+          "day": "Saturday",
+          "datetime": "2026-08-08 18:00",
+          "result": "L",
+          "score": "1-2",
+          "home_away": "H",
+          "opponent": "Shkodër",
+          "opponent_id": 3339,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "4-3-1-2": 5,
+          "4-4-2": 1,
+          "4-3-3": 2,
+          "3-2-2-2-1": 2
+        },
+        "play_style_counts": {
+          "Defensive": 1,
+          "Normal": 9
+        },
+        "most_used_formation": "4-3-1-2",
+        "most_used_formation_id": 15,
+        "most_used_play_style": "Normal",
+        "most_used_play_style_int": 0,
+        "most_used_play_style_letter": "N",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 10,
+          "formation_name": "4-1-2-2-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 55.7,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Kleandro Lleshi (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Kleandro Lleshi (5%)"
+          ]
+        },
+        {
+          "formation_id": 12,
+          "formation_name": "4-2-3-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 55.6,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 2,
+          "oop_players": [
+            "Kleandro Lleshi (5%)",
+            "Mario Barjamaj (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 2,
+          "position_penalty_players": [
+            "Kleandro Lleshi (5%)",
+            "Mario Barjamaj (5%)"
+          ]
+        },
+        {
+          "formation_id": 19,
+          "formation_name": "4-2-4",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 55.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 2,
+          "oop_players": [
+            "Kleandro Lleshi (5%)",
+            "Stiven Bibo (10%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 2,
+          "position_penalty_players": [
+            "Kleandro Lleshi (5%)",
+            "Stiven Bibo (10%)"
+          ]
+        },
+        {
+          "formation_id": 11,
+          "formation_name": "4-1-4-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 55.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 2,
+          "oop_players": [
+            "Kleandro Lleshi (5%)",
+            "Mario Barjamaj (15%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 2,
+          "position_penalty_players": [
+            "Kleandro Lleshi (5%)",
+            "Mario Barjamaj (15%)"
+          ]
+        },
+        {
+          "formation_id": 2,
+          "formation_name": "4-5-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 55.0,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 2,
+          "oop_players": [
+            "Kleandro Lleshi (5%)",
+            "Mario Barjamaj (15%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 2,
+          "position_penalty_players": [
+            "Kleandro Lleshi (5%)",
+            "Mario Barjamaj (15%)"
+          ]
+        }
+      ],
+      "squad_overview": {
+        "total_players": 26,
+        "available": 25,
+        "injured": [
+          {
+            "player_id": 3495,
+            "player_name": "William Cordeiro Melo",
+            "rating": 57,
+            "positions": "FC, FR",
+            "injury_until": 1789581600,
+            "injury_until_datetime": "2026-09-16 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-16"
+          }
+        ],
+        "banned": [],
+        "best_11_avg": 63.3,
+        "avg_rating": 59.5,
+        "players": [
+          {
+            "player_id": 43217,
+            "player_name": "Enriko Papa",
+            "rating": 69,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 62,
+            "form": "665636",
+            "available": true
+          },
+          {
+            "player_id": 300005,
+            "player_name": "Opex Samuel",
+            "rating": 67,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 79,
+            "form": "669666",
+            "available": true
+          },
+          {
+            "player_id": 3588,
+            "player_name": "Mario Dajsinani",
+            "rating": 65,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 99,
+            "form": "766667",
+            "available": true
+          },
+          {
+            "player_id": 3918,
+            "player_name": "Mario Barjamaj",
+            "rating": 63,
+            "positions": "FL, FR",
+            "multi_position": 40960,
+            "fitness": 95,
+            "form": "566555",
+            "available": true
+          },
+          {
+            "player_id": 74658,
+            "player_name": "Indrit Prodani",
+            "rating": 63,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 87,
+            "form": "668665",
+            "available": true
+          },
+          {
+            "player_id": 157998,
+            "player_name": "Altin Kryeziu",
+            "rating": 63,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 64,
+            "form": "866666",
+            "available": true
+          },
+          {
+            "player_id": 302089,
+            "player_name": "Christian Lima",
+            "rating": 63,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 86,
+            "form": "766666",
+            "available": true
+          },
+          {
+            "player_id": 161953,
+            "player_name": "Emiliano Bullari",
+            "rating": 61,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 70,
+            "form": "867654",
+            "available": true
+          },
+          {
+            "player_id": 337481,
+            "player_name": "Ardit Destani",
+            "rating": 61,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 57,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 341109,
+            "player_name": "Ramon Smirnov",
+            "rating": 61,
+            "positions": "LM",
+            "multi_position": 128,
+            "fitness": 76,
+            "form": "655666",
+            "available": true
+          },
+          {
+            "player_id": 435255,
+            "player_name": "Khalil Taleb",
+            "rating": 60,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 100,
+            "form": "566565",
+            "available": true
+          },
+          {
+            "player_id": 315987,
+            "player_name": "Arlind Kurti",
+            "rating": 59,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 82,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 338304,
+            "player_name": "Leo Ballhysa",
+            "rating": 59,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 88,
+            "form": "666656",
+            "available": true
+          },
+          {
+            "player_id": 16881,
+            "player_name": "Islam Salah",
+            "rating": 58,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 93,
+            "form": "685543",
+            "available": true
+          },
+          {
+            "player_id": 322122,
+            "player_name": "Georg Wurm",
+            "rating": 58,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "676666",
+            "available": true
+          },
+          {
+            "player_id": 348209,
+            "player_name": "Stiven Bibo",
+            "rating": 58,
+            "positions": "AMC",
+            "multi_position": 2048,
+            "fitness": 100,
+            "form": "-63666",
+            "available": true
+          },
+          {
+            "player_id": 373462,
+            "player_name": "Ortelio Biba",
+            "rating": 58,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "-----6",
+            "available": true
+          },
+          {
+            "player_id": 435256,
+            "player_name": "Oegi Cena",
+            "rating": 58,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "667666",
+            "available": true
+          },
+          {
+            "player_id": 3495,
+            "player_name": "William Cordeiro Melo",
+            "rating": 57,
+            "positions": "FC, FR",
+            "multi_position": 49152,
+            "fitness": 100,
+            "form": "545656",
+            "available": false,
+            "injury_until": 1789581600,
+            "injury_until_datetime": "2026-09-16 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-16"
+          },
+          {
+            "player_id": 388991,
+            "player_name": "Olsi Myrta",
+            "rating": 57,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "-----6",
+            "available": true
+          },
+          {
+            "player_id": 169199,
+            "player_name": "Kleandro Lleshi",
+            "rating": 56,
+            "positions": "DMR",
+            "multi_position": 64,
+            "fitness": 100,
+            "form": "366466",
+            "available": true
+          },
+          {
+            "player_id": 196437,
+            "player_name": "Mario Álvarez López",
+            "rating": 56,
+            "positions": "LM",
+            "multi_position": 128,
+            "fitness": 100,
+            "form": "--3538",
+            "available": true
+          },
+          {
+            "player_id": 391734,
+            "player_name": "Mateo Caushaj",
+            "rating": 55,
+            "positions": "FR",
+            "multi_position": 32768,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 378171,
+            "player_name": "Maximilian Mortensen Balatoni",
+            "rating": 54,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 94,
+            "form": "--9666",
+            "available": true
+          },
+          {
+            "player_id": 409885,
+            "player_name": "Çağdaş Şendur",
+            "rating": 54,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 193627,
+            "player_name": "Thierry Ventura",
+            "rating": 51,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "formation_id": 15,
+        "formation_name": "4-3-1-2",
+        "play_style": "Defensive",
+        "play_style_int": 1,
+        "num_tactic_actions": 2,
+        "starting_xi": [
+          {
+            "team_sheet_index": 0,
+            "player_id": 3588,
+            "player_name": "Mario Dajsinani",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 0,
+            "position": "GK"
+          },
+          {
+            "team_sheet_index": 1,
+            "player_id": 315987,
+            "player_name": "Arlind Kurti",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 1,
+            "position": "DFR"
+          },
+          {
+            "team_sheet_index": 2,
+            "player_id": 302089,
+            "player_name": "Christian Lima",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 2,
+            "position": "DFL"
+          },
+          {
+            "team_sheet_index": 3,
+            "player_id": 74658,
+            "player_name": "Indrit Prodani",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 3,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 4,
+            "player_id": 300005,
+            "player_name": "Opex Samuel",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 4,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 5,
+            "player_id": 43217,
+            "player_name": "Enriko Papa",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 5,
+            "position": "MFR"
+          },
+          {
+            "team_sheet_index": 6,
+            "player_id": 157998,
+            "player_name": "Altin Kryeziu",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 6,
+            "position": "MFC"
+          },
+          {
+            "team_sheet_index": 7,
+            "player_id": 161953,
+            "player_name": "Emiliano Bullari",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 7,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 8,
+            "player_id": 338304,
+            "player_name": "Leo Ballhysa",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 8,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 9,
+            "player_id": 337481,
+            "player_name": "Ardit Destani",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 9,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 10,
+            "player_id": 341109,
+            "player_name": "Ramon Smirnov",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 10,
+            "position": "MFL"
+          }
+        ],
+        "bench": [
+          {
+            "team_sheet_index": 11,
+            "player_id": 322122,
+            "player_name": "Georg Wurm",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 11
+          },
+          {
+            "team_sheet_index": 12,
+            "player_id": 378171,
+            "player_name": "Maximilian Mortensen Balatoni",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 12
+          },
+          {
+            "team_sheet_index": 13,
+            "player_id": 16881,
+            "player_name": "Islam Salah",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 13
+          },
+          {
+            "team_sheet_index": 14,
+            "player_id": 348209,
+            "player_name": "Stiven Bibo",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 14
+          },
+          {
+            "team_sheet_index": 15,
+            "player_id": 388991,
+            "player_name": "Olsi Myrta",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 15
+          },
+          {
+            "team_sheet_index": 16,
+            "player_id": 3918,
+            "player_name": "Mario Barjamaj",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 16
+          },
+          {
+            "team_sheet_index": 17,
+            "player_id": 193627,
+            "player_name": "Thierry Ventura",
+            "tempo": 0,
+            "tackling_style": 1,
+            "slot": 17
+          }
+        ],
+        "roles": {
+          "penalty_taker": {
+            "lineup_position": 10,
+            "team_sheet_index": 10,
+            "player_id": 341109,
+            "player_name": "Ramon Smirnov"
+          }
+        },
+        "situational_styles": [
+          {
+            "time": 60,
+            "situation": 0,
+            "goal_margin": 0,
+            "play_style": "Attacking",
+            "play_style_int": 2,
+            "formation_id": 15,
+            "formation_name": "4-3-1-2"
+          }
+        ],
+        "note": "play_style is the base (minute 0) instruction only — situational_styles lists every later or conditional switch, keyed by time/situation/goal_margin. planned_substitutions are lineup changes relative to the submitted XI.",
+        "planned_substitutions": [
+          {
+            "minute": 60,
+            "situation": 0,
+            "slot": 2,
+            "position": "DFL",
+            "off_player_id": 302089,
+            "off_player_name": "Christian Lima",
+            "on_player_id": 378171,
+            "on_player_name": "Maximilian Mortensen Balatoni"
+          },
+          {
+            "minute": 60,
+            "situation": 0,
+            "slot": 3,
+            "position": "DFC",
+            "off_player_id": 74658,
+            "off_player_name": "Indrit Prodani",
+            "on_player_id": 16881,
+            "on_player_name": "Islam Salah"
+          },
+          {
+            "minute": 60,
+            "situation": 0,
+            "slot": 8,
+            "position": "FWC",
+            "off_player_id": 338304,
+            "off_player_name": "Leo Ballhysa",
+            "on_player_id": 3918,
+            "on_player_name": "Mario Barjamaj"
+          }
+        ],
+        "validation": "valid"
+      }
+    },
+    "players": [
+      {
+        "player_id": 43217,
+        "player_name": "Enriko Papa",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 69,
+        "fitness": 62,
+        "available": true
+      },
+      {
+        "player_id": 300005,
+        "player_name": "Opex Samuel",
+        "positions": [
+          "CB"
+        ],
+        "rating": 67,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 3588,
+        "player_name": "Mario Dajsinani",
+        "positions": [
+          "GK"
+        ],
+        "rating": 65,
+        "fitness": 99,
+        "available": true
+      },
+      {
+        "player_id": 3918,
+        "player_name": "Mario Barjamaj",
+        "positions": [
+          "FL",
+          "FR"
+        ],
+        "rating": 63,
+        "fitness": 95,
+        "available": true
+      },
+      {
+        "player_id": 74658,
+        "player_name": "Indrit Prodani",
+        "positions": [
+          "CB"
+        ],
+        "rating": 63,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 157998,
+        "player_name": "Altin Kryeziu",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 63,
+        "fitness": 64,
+        "available": true
+      },
+      {
+        "player_id": 302089,
+        "player_name": "Christian Lima",
+        "positions": [
+          "LB"
+        ],
+        "rating": 63,
+        "fitness": 86,
+        "available": true
+      },
+      {
+        "player_id": 161953,
+        "player_name": "Emiliano Bullari",
+        "positions": [
+          "FC"
+        ],
+        "rating": 61,
+        "fitness": 70,
+        "available": true
+      },
+      {
+        "player_id": 337481,
+        "player_name": "Ardit Destani",
+        "positions": [
+          "FC"
+        ],
+        "rating": 61,
+        "fitness": 57,
+        "available": true
+      },
+      {
+        "player_id": 341109,
+        "player_name": "Ramon Smirnov",
+        "positions": [
+          "LM"
+        ],
+        "rating": 61,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 435255,
+        "player_name": "Khalil Taleb",
+        "positions": [
+          "LB"
+        ],
+        "rating": 60,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 315987,
+        "player_name": "Arlind Kurti",
+        "positions": [
+          "CB"
+        ],
+        "rating": 59,
+        "fitness": 82,
+        "available": true
+      },
+      {
+        "player_id": 338304,
+        "player_name": "Leo Ballhysa",
+        "positions": [
+          "FC"
+        ],
+        "rating": 59,
+        "fitness": 88,
+        "available": true
+      },
+      {
+        "player_id": 16881,
+        "player_name": "Islam Salah",
+        "positions": [
+          "CB"
+        ],
+        "rating": 58,
+        "fitness": 93,
+        "available": true
+      },
+      {
+        "player_id": 322122,
+        "player_name": "Georg Wurm",
+        "positions": [
+          "GK"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 348209,
+        "player_name": "Stiven Bibo",
+        "positions": [
+          "AMC"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 373462,
+        "player_name": "Ortelio Biba",
+        "positions": [
+          "GK"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 435256,
+        "player_name": "Oegi Cena",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 3495,
+        "player_name": "William Cordeiro Melo",
+        "positions": [
+          "FC",
+          "FR"
+        ],
+        "rating": 57,
+        "fitness": 100,
+        "available": false
+      },
+      {
+        "player_id": 388991,
+        "player_name": "Olsi Myrta",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 57,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 169199,
+        "player_name": "Kleandro Lleshi",
+        "positions": [
+          "DMR"
+        ],
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 196437,
+        "player_name": "Mario Álvarez López",
+        "positions": [
+          "LM"
+        ],
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 391734,
+        "player_name": "Mateo Caushaj",
+        "positions": [
+          "FR"
+        ],
+        "rating": 55,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 378171,
+        "player_name": "Maximilian Mortensen Balatoni",
+        "positions": [
+          "LB"
+        ],
+        "rating": 54,
+        "fitness": 94,
+        "available": true
+      },
+      {
+        "player_id": 409885,
+        "player_name": "Çağdaş Şendur",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 54,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 193627,
+        "player_name": "Thierry Ventura",
+        "positions": [
+          "FC"
+        ],
+        "rating": 51,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 26
+  },
+  "3339": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 3339,
+        "club_name": "Shkodër"
+      },
+      "league_standing": {
+        "club_id": 3339,
+        "league_id": 1538,
+        "manager_name": "Fnku",
+        "manager_last_active_unix": 1788967338,
+        "country_id": "ALB",
+        "division": 1,
+        "club_ix": 4,
+        "played": 16,
+        "won": 7,
+        "drawn": 5,
+        "lost": 4,
+        "goals_for": 22,
+        "goals_against": 22,
+        "pts": 26,
+        "form": "DWWDLW",
+        "old_position": 3,
+        "new_position": 3,
+        "season_id": 4,
+        "stadium_size": 16000,
+        "fanbase": 1390,
+        "balance": "2966595.49 SVC",
+        "avg_player_rating": 65,
+        "top_3_players": [
+          3741,
+          45501,
+          3475
+        ],
+        "club_name": "Shkodër",
+        "league_name": "ALB Division 1",
+        "manager_last_active_datetime": "2026-09-09 15:22:18 UTC",
+        "manager_last_active_date": "2026-09-09",
+        "manager_last_active_day": "Wednesday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 334230,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 18:00",
+          "result": "W",
+          "score": "1-0",
+          "home_away": "H",
+          "opponent": "Laç",
+          "opponent_id": 2256,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334224,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 18:00",
+          "result": "L",
+          "score": "2-0",
+          "home_away": "A",
+          "opponent": "Korçë",
+          "opponent_id": 605,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334218,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 18:00",
+          "result": "D",
+          "score": "3-3",
+          "home_away": "H",
+          "opponent": "Rrogozhinë",
+          "opponent_id": 3327,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334212,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 18:00",
+          "result": "W",
+          "score": "0-1",
+          "home_away": "A",
+          "opponent": "Vora",
+          "opponent_id": 3340,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334206,
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "datetime": "2026-08-26 18:00",
+          "result": "W",
+          "score": "2-1",
+          "home_away": "H",
+          "opponent": "Elbasan",
+          "opponent_id": 20406,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334202,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 18:00",
+          "result": "D",
+          "score": "4-4",
+          "home_away": "H",
+          "opponent": "Tirana Red",
+          "opponent_id": 708,
+          "comp_type": "National League",
+          "formation": "3-4-3",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334198,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 18:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "A",
+          "opponent": "Dinamo",
+          "opponent_id": 3326,
+          "comp_type": "National League",
+          "formation": "1-4-3-2v2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334194,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 18:00",
+          "result": "W",
+          "score": "2-1",
+          "home_away": "H",
+          "opponent": "Ballsh",
+          "opponent_id": 3325,
+          "comp_type": "National League",
+          "formation": "1-4-3-2v2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334190,
+          "date": "2026-08-12",
+          "day": "Wednesday",
+          "datetime": "2026-08-12 18:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "A",
+          "opponent": "Durrës",
+          "opponent_id": 3320,
+          "comp_type": "National League",
+          "formation": "1-4-3-2v2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334185,
+          "date": "2026-08-08",
+          "day": "Saturday",
+          "datetime": "2026-08-08 18:00",
+          "result": "W",
+          "score": "1-2",
+          "home_away": "A",
+          "opponent": "Laç",
+          "opponent_id": 2256,
+          "comp_type": "National League",
+          "formation": "3-4-3",
+          "play_style": "Attacking"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "4-4-2": 4,
+          "4-3-3": 1,
+          "3-4-3": 2,
+          "1-4-3-2v2": 3
+        },
+        "play_style_counts": {
+          "Normal": 2,
+          "Attacking": 8
+        },
+        "most_used_formation": "4-4-2",
+        "most_used_formation_id": 0,
+        "most_used_play_style": "Attacking",
+        "most_used_play_style_int": 2,
+        "most_used_play_style_letter": "A",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 1,
+          "formation_name": "4-3-3",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 61.3,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Antonio Delaj (3%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Antonio Delaj (3%)"
+          ]
+        },
+        {
+          "formation_id": 3,
+          "formation_name": "3-4-3",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 60.8,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Eslit Sala (3%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Eslit Sala (3%)"
+          ]
+        },
+        {
+          "formation_id": 5,
+          "formation_name": "3-3-4",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 60.7,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Antonio Delaj (3%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Antonio Delaj (3%)"
+          ]
+        },
+        {
+          "formation_id": 18,
+          "formation_name": "1-4-3-2v2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 60.4,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 11,
+          "formation_name": "4-1-4-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 60.3,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Arton Podrimcaku (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Arton Podrimcaku (5%)"
+          ]
+        }
+      ],
+      "squad_overview": {
+        "total_players": 24,
+        "available": 23,
+        "injured": [
+          {
+            "player_id": 3741,
+            "player_name": "Erdenis Gurishta",
+            "rating": 69,
+            "positions": "RB",
+            "injury_until": 1791050400,
+            "injury_until_datetime": "2026-10-03 18:00:00 UTC",
+            "injury_until_formatted": "2026-10-03"
+          }
+        ],
+        "banned": [],
+        "best_11_avg": 66.8,
+        "avg_rating": 64.0,
+        "players": [
+          {
+            "player_id": 3741,
+            "player_name": "Erdenis Gurishta",
+            "rating": 69,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 75,
+            "form": "--6666",
+            "available": false,
+            "injury_until": 1791050400,
+            "injury_until_datetime": "2026-10-03 18:00:00 UTC",
+            "injury_until_formatted": "2026-10-03"
+          },
+          {
+            "player_id": 45501,
+            "player_name": "Miloš Stojanović",
+            "rating": 69,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "566669",
+            "available": true
+          },
+          {
+            "player_id": 3475,
+            "player_name": "Esat Mala",
+            "rating": 68,
+            "positions": "FL",
+            "multi_position": 8192,
+            "fitness": 100,
+            "form": "666566",
+            "available": true
+          },
+          {
+            "player_id": 135226,
+            "player_name": "Eslit Sala",
+            "rating": 67,
+            "positions": "AML, AMR",
+            "multi_position": 5120,
+            "fitness": 79,
+            "form": "666736",
+            "available": true
+          },
+          {
+            "player_id": 169481,
+            "player_name": "Amir Kahrimanović",
+            "rating": 67,
+            "positions": "CM",
+            "multi_position": 256,
+            "fitness": 77,
+            "form": "768666",
+            "available": true
+          },
+          {
+            "player_id": 277767,
+            "player_name": "Mehdi Çoba",
+            "rating": 67,
+            "positions": "AML",
+            "multi_position": 1024,
+            "fitness": 73,
+            "form": "566658",
+            "available": true
+          },
+          {
+            "player_id": 297536,
+            "player_name": "Melos Bajrami",
+            "rating": 67,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 81,
+            "form": "666668",
+            "available": true
+          },
+          {
+            "player_id": 338109,
+            "player_name": "Flori Spahija",
+            "rating": 67,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 83,
+            "form": "766666",
+            "available": true
+          },
+          {
+            "player_id": 419649,
+            "player_name": "Gledjan Pusi",
+            "rating": 67,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 100,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 3735,
+            "player_name": "Kristi Qarri",
+            "rating": 66,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 98,
+            "form": "668668",
+            "available": true
+          },
+          {
+            "player_id": 3749,
+            "player_name": "Ardit Krymi",
+            "rating": 65,
+            "positions": "CM",
+            "multi_position": 256,
+            "fitness": 81,
+            "form": "686666",
+            "available": true
+          },
+          {
+            "player_id": 14614,
+            "player_name": "Marko Jurić",
+            "rating": 65,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 83,
+            "form": "666646",
+            "available": true
+          },
+          {
+            "player_id": 140971,
+            "player_name": "Ildi Gruda",
+            "rating": 65,
+            "positions": "FL",
+            "multi_position": 8192,
+            "fitness": 100,
+            "form": "585686",
+            "available": true
+          },
+          {
+            "player_id": 3576,
+            "player_name": "Ardit Deliu",
+            "rating": 64,
+            "positions": "RM",
+            "multi_position": 512,
+            "fitness": 100,
+            "form": "666665",
+            "available": true
+          },
+          {
+            "player_id": 122742,
+            "player_name": "Roberto Corral García",
+            "rating": 64,
+            "positions": "LB, DML",
+            "multi_position": 18,
+            "fitness": 92,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 390632,
+            "player_name": "Aron Jukaj",
+            "rating": 64,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 387358,
+            "player_name": "Antonio Delaj",
+            "rating": 63,
+            "positions": "AMC, AMR",
+            "multi_position": 6144,
+            "fitness": 100,
+            "form": "676669",
+            "available": true
+          },
+          {
+            "player_id": 424506,
+            "player_name": "Edlin Essang Matouti",
+            "rating": 63,
+            "positions": "AML",
+            "multi_position": 1024,
+            "fitness": 100,
+            "form": "----68",
+            "available": true
+          },
+          {
+            "player_id": 53555,
+            "player_name": "Bekim Balaj",
+            "rating": 62,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 81,
+            "form": "655765",
+            "available": true
+          },
+          {
+            "player_id": 476260,
+            "player_name": "Alessandro Marrancone",
+            "rating": 61,
+            "positions": "DML, FL, FC",
+            "multi_position": 24592,
+            "fitness": 85,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 503168,
+            "player_name": "Edoardo Polizzi",
+            "rating": 61,
+            "positions": "LB, CB",
+            "multi_position": 6,
+            "fitness": 80,
+            "form": "-----6",
+            "available": true
+          },
+          {
+            "player_id": 4336,
+            "player_name": "Dritmir Beci",
+            "rating": 60,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "-----8",
+            "available": true
+          },
+          {
+            "player_id": 322600,
+            "player_name": "Arton Podrimcaku",
+            "rating": 58,
+            "positions": "CB, RB",
+            "multi_position": 12,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 493758,
+            "player_name": "Rei Duçka",
+            "rating": 52,
+            "positions": "LM",
+            "multi_position": 128,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "status": "hidden (committed)",
+        "commitment": "c59a5882ad241523cbbcee882b71984c94e4f61043ef211490f5bc70ebc27681"
+      }
+    },
+    "players": [
+      {
+        "player_id": 3741,
+        "player_name": "Erdenis Gurishta",
+        "positions": [
+          "RB"
+        ],
+        "rating": 69,
+        "fitness": 75,
+        "available": false
+      },
+      {
+        "player_id": 45501,
+        "player_name": "Miloš Stojanović",
+        "positions": [
+          "CB"
+        ],
+        "rating": 69,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 3475,
+        "player_name": "Esat Mala",
+        "positions": [
+          "FL"
+        ],
+        "rating": 68,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 135226,
+        "player_name": "Eslit Sala",
+        "positions": [
+          "AML",
+          "AMR"
+        ],
+        "rating": 67,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 169481,
+        "player_name": "Amir Kahrimanović",
+        "positions": [
+          "CM"
+        ],
+        "rating": 67,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 277767,
+        "player_name": "Mehdi Çoba",
+        "positions": [
+          "AML"
+        ],
+        "rating": 67,
+        "fitness": 73,
+        "available": true
+      },
+      {
+        "player_id": 297536,
+        "player_name": "Melos Bajrami",
+        "positions": [
+          "CB"
+        ],
+        "rating": 67,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 338109,
+        "player_name": "Flori Spahija",
+        "positions": [
+          "RB"
+        ],
+        "rating": 67,
+        "fitness": 83,
+        "available": true
+      },
+      {
+        "player_id": 419649,
+        "player_name": "Gledjan Pusi",
+        "positions": [
+          "RB"
+        ],
+        "rating": 67,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 3735,
+        "player_name": "Kristi Qarri",
+        "positions": [
+          "GK"
+        ],
+        "rating": 66,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 3749,
+        "player_name": "Ardit Krymi",
+        "positions": [
+          "CM"
+        ],
+        "rating": 65,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 14614,
+        "player_name": "Marko Jurić",
+        "positions": [
+          "CB"
+        ],
+        "rating": 65,
+        "fitness": 83,
+        "available": true
+      },
+      {
+        "player_id": 140971,
+        "player_name": "Ildi Gruda",
+        "positions": [
+          "FL"
+        ],
+        "rating": 65,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 3576,
+        "player_name": "Ardit Deliu",
+        "positions": [
+          "RM"
+        ],
+        "rating": 64,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 122742,
+        "player_name": "Roberto Corral García",
+        "positions": [
+          "LB",
+          "DML"
+        ],
+        "rating": 64,
+        "fitness": 92,
+        "available": true
+      },
+      {
+        "player_id": 390632,
+        "player_name": "Aron Jukaj",
+        "positions": [
+          "GK"
+        ],
+        "rating": 64,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 387358,
+        "player_name": "Antonio Delaj",
+        "positions": [
+          "AMC",
+          "AMR"
+        ],
+        "rating": 63,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 424506,
+        "player_name": "Edlin Essang Matouti",
+        "positions": [
+          "AML"
+        ],
+        "rating": 63,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 53555,
+        "player_name": "Bekim Balaj",
+        "positions": [
+          "FC"
+        ],
+        "rating": 62,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 476260,
+        "player_name": "Alessandro Marrancone",
+        "positions": [
+          "DML",
+          "FL",
+          "FC"
+        ],
+        "rating": 61,
+        "fitness": 85,
+        "available": true
+      },
+      {
+        "player_id": 503168,
+        "player_name": "Edoardo Polizzi",
+        "positions": [
+          "LB",
+          "CB"
+        ],
+        "rating": 61,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 4336,
+        "player_name": "Dritmir Beci",
+        "positions": [
+          "CB"
+        ],
+        "rating": 60,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 322600,
+        "player_name": "Arton Podrimcaku",
+        "positions": [
+          "CB",
+          "RB"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 493758,
+        "player_name": "Rei Duçka",
+        "positions": [
+          "LM"
+        ],
+        "rating": 52,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 24
+  },
+  "3340": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 3340,
+        "club_name": "Vora"
+      },
+      "league_standing": {
+        "club_id": 3340,
+        "league_id": 1538,
+        "manager_name": "Infantino",
+        "manager_last_active_unix": 1788984654,
+        "country_id": "ALB",
+        "division": 1,
+        "club_ix": 8,
+        "played": 16,
+        "won": 9,
+        "drawn": 3,
+        "lost": 4,
+        "goals_for": 23,
+        "goals_against": 12,
+        "pts": 30,
+        "form": "WWLDWW",
+        "old_position": 2,
+        "new_position": 1,
+        "season_id": 4,
+        "stadium_size": 1598,
+        "fanbase": 1240,
+        "balance": "955656.41 SVC",
+        "avg_player_rating": 60,
+        "top_3_players": [
+          3691,
+          3704,
+          3623
+        ],
+        "club_name": "Vora",
+        "league_name": "ALB Division 1",
+        "manager_last_active_datetime": "2026-09-09 20:10:54 UTC",
+        "manager_last_active_date": "2026-09-09",
+        "manager_last_active_day": "Wednesday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 334228,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 18:00",
+          "result": "W",
+          "score": "1-0",
+          "home_away": "H",
+          "opponent": "Korçë",
+          "opponent_id": 605,
+          "comp_type": "National League",
+          "formation": "5-3-2",
+          "play_style": "Counter"
+        },
+        {
+          "fixture_id": 334222,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 18:00",
+          "result": "W",
+          "score": "2-4",
+          "home_away": "A",
+          "opponent": "Rrogozhinë",
+          "opponent_id": 3327,
+          "comp_type": "National League",
+          "formation": "5-3-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334216,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 18:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "H",
+          "opponent": "Elbasan",
+          "opponent_id": 20406,
+          "comp_type": "National League",
+          "formation": "4-1-4-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334212,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 18:00",
+          "result": "L",
+          "score": "0-1",
+          "home_away": "H",
+          "opponent": "Shkodër",
+          "opponent_id": 3339,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334208,
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "datetime": "2026-08-26 18:00",
+          "result": "W",
+          "score": "0-2",
+          "home_away": "A",
+          "opponent": "Tirana Red",
+          "opponent_id": 708,
+          "comp_type": "National League",
+          "formation": "5-3-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334204,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 18:00",
+          "result": "W",
+          "score": "2-0",
+          "home_away": "H",
+          "opponent": "Dinamo",
+          "opponent_id": 3326,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334200,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 18:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "A",
+          "opponent": "Ballsh",
+          "opponent_id": 3325,
+          "comp_type": "National League",
+          "formation": "5-3-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334195,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 18:00",
+          "result": "W",
+          "score": "0-4",
+          "home_away": "A",
+          "opponent": "Durrës",
+          "opponent_id": 3320,
+          "comp_type": "National League",
+          "formation": "5-3-2",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334189,
+          "date": "2026-08-12",
+          "day": "Wednesday",
+          "datetime": "2026-08-12 18:00",
+          "result": "W",
+          "score": "2-1",
+          "home_away": "H",
+          "opponent": "Laç",
+          "opponent_id": 2256,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 334183,
+          "date": "2026-08-08",
+          "day": "Saturday",
+          "datetime": "2026-08-08 18:00",
+          "result": "W",
+          "score": "0-1",
+          "home_away": "A",
+          "opponent": "Korçë",
+          "opponent_id": 605,
+          "comp_type": "National League",
+          "formation": "4-3-1-2",
+          "play_style": "Passing"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "5-3-2": 5,
+          "4-1-4-1": 1,
+          "4-2-3-1": 2,
+          "4-3-1-2": 2
+        },
+        "play_style_counts": {
+          "Counter": 1,
+          "Attacking": 4,
+          "Normal": 3,
+          "Passing": 2
+        },
+        "most_used_formation": "5-3-2",
+        "most_used_formation_id": 7,
+        "most_used_play_style": "Attacking",
+        "most_used_play_style_int": 2,
+        "most_used_play_style_letter": "A",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 15,
+          "formation_name": "4-3-1-2",
+          "best_play_style": "Normal",
+          "squad_fit_pct": 56.3,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Idris Nuradeen (15%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Idris Nuradeen (15%)"
+          ]
+        },
+        {
+          "formation_id": 13,
+          "formation_name": "4-1-2-2-1v2",
+          "best_play_style": "Normal",
+          "squad_fit_pct": 56.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 16,
+          "formation_name": "3-4-1-2",
+          "best_play_style": "Normal",
+          "squad_fit_pct": 56.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Idris Nuradeen (15%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Idris Nuradeen (15%)"
+          ]
+        },
+        {
+          "formation_id": 21,
+          "formation_name": "3-4-2-1",
+          "best_play_style": "Normal",
+          "squad_fit_pct": 56.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Idris Nuradeen (15%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Idris Nuradeen (15%)"
+          ]
+        },
+        {
+          "formation_id": 23,
+          "formation_name": "3-2-2-2-1",
+          "best_play_style": "Attacking",
+          "squad_fit_pct": 56.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Marios Paja (1%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Marios Paja (1%)"
+          ]
+        }
+      ],
+      "squad_overview": {
+        "total_players": 28,
+        "available": 27,
+        "injured": [
+          {
+            "player_id": 384605,
+            "player_name": "Irgi Kasalla",
+            "rating": 60,
+            "positions": "AMC",
+            "injury_until": 1789927200,
+            "injury_until_datetime": "2026-09-20 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-20"
+          }
+        ],
+        "banned": [],
+        "best_11_avg": 61.9,
+        "avg_rating": 59.1,
+        "players": [
+          {
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "rating": 64,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 81,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "rating": 63,
+            "positions": "FC, FR",
+            "multi_position": 49152,
+            "fitness": 79,
+            "form": "676666",
+            "available": true
+          },
+          {
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "rating": 62,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 89,
+            "form": "665576",
+            "available": true
+          },
+          {
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "rating": 62,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 94,
+            "form": "776666",
+            "available": true
+          },
+          {
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "rating": 62,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 77,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "rating": 62,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 89,
+            "form": "665668",
+            "available": true
+          },
+          {
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "rating": 62,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 78,
+            "form": "665666",
+            "available": true
+          },
+          {
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "rating": 62,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 87,
+            "form": "696676",
+            "available": true
+          },
+          {
+            "player_id": 298011,
+            "player_name": "Segerso Geci",
+            "rating": 61,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 95,
+            "form": "--6966",
+            "available": true
+          },
+          {
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "rating": 61,
+            "positions": "CM",
+            "multi_position": 256,
+            "fitness": 77,
+            "form": "996668",
+            "available": true
+          },
+          {
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "rating": 60,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 97,
+            "form": "665665",
+            "available": true
+          },
+          {
+            "player_id": 384605,
+            "player_name": "Irgi Kasalla",
+            "rating": 60,
+            "positions": "AMC",
+            "multi_position": 2048,
+            "fitness": 88,
+            "form": "755666",
+            "available": false,
+            "injury_until": 1789927200,
+            "injury_until_datetime": "2026-09-20 18:00:00 UTC",
+            "injury_until_formatted": "2026-09-20"
+          },
+          {
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "rating": 59,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 81,
+            "form": "668656",
+            "available": true
+          },
+          {
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "rating": 59,
+            "positions": "RB, DMC, CM, AMC",
+            "multi_position": 2344,
+            "fitness": 76,
+            "form": "666486",
+            "available": true
+          },
+          {
+            "player_id": 37011,
+            "player_name": "Amadou Ciss",
+            "rating": 59,
+            "positions": "AML, AMR, FC",
+            "multi_position": 21504,
+            "fitness": 77,
+            "form": "--6586",
+            "available": true
+          },
+          {
+            "player_id": 290756,
+            "player_name": "Dijar Nikqi",
+            "rating": 59,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "-----6",
+            "available": true
+          },
+          {
+            "player_id": 340684,
+            "player_name": "Arbër Jata",
+            "rating": 59,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 391741,
+            "player_name": "Agim Xhabafti",
+            "rating": 59,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "866666",
+            "available": true
+          },
+          {
+            "player_id": 216576,
+            "player_name": "Idris Nuradeen",
+            "rating": 58,
+            "positions": "CM, FC, FR",
+            "multi_position": 49408,
+            "fitness": 100,
+            "form": "--7636",
+            "available": true
+          },
+          {
+            "player_id": 315989,
+            "player_name": "Argel Avdiu",
+            "rating": 58,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 345184,
+            "player_name": "Marios Paja",
+            "rating": 58,
+            "positions": "DML, AMC",
+            "multi_position": 2064,
+            "fitness": 100,
+            "form": "656668",
+            "available": true
+          },
+          {
+            "player_id": 273259,
+            "player_name": "Okseold Sefa",
+            "rating": 57,
+            "positions": "LM",
+            "multi_position": 128,
+            "fitness": 97,
+            "form": "667655",
+            "available": true
+          },
+          {
+            "player_id": 286924,
+            "player_name": "Evans Aneni",
+            "rating": 57,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 100,
+            "form": "---666",
+            "available": true
+          },
+          {
+            "player_id": 209939,
+            "player_name": "Beni Nsango",
+            "rating": 56,
+            "positions": "DMC, LM, CM",
+            "multi_position": 416,
+            "fitness": 100,
+            "form": "-----5",
+            "available": true
+          },
+          {
+            "player_id": 3885,
+            "player_name": "Gresild Lika",
+            "rating": 55,
+            "positions": "RM",
+            "multi_position": 512,
+            "fitness": 100,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 175540,
+            "player_name": "David Schober",
+            "rating": 55,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 387453,
+            "player_name": "Kevin Shkreta",
+            "rating": 54,
+            "positions": "CM",
+            "multi_position": 256,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 454430,
+            "player_name": "Simone Addessi",
+            "rating": 52,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "formation_id": 7,
+        "formation_name": "5-3-2",
+        "play_style": "Counter",
+        "play_style_int": 4,
+        "num_tactic_actions": 5,
+        "starting_xi": [
+          {
+            "team_sheet_index": 0,
+            "player_id": 3645,
+            "player_name": "Shkëlzen Ruçi",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 0,
+            "position": "GK"
+          },
+          {
+            "team_sheet_index": 1,
+            "player_id": 293318,
+            "player_name": "Ysni Ismaili",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 1,
+            "position": "DFR"
+          },
+          {
+            "team_sheet_index": 2,
+            "player_id": 3691,
+            "player_name": "Dajan Shehi",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 2,
+            "position": "DFL"
+          },
+          {
+            "team_sheet_index": 3,
+            "player_id": 3623,
+            "player_name": "Eni Imami",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 3,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 4,
+            "player_id": 25867,
+            "player_name": "Xhuljo Tabaku",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 4,
+            "position": "DMR"
+          },
+          {
+            "team_sheet_index": 5,
+            "player_id": 437037,
+            "player_name": "Ionuț Albu",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 5,
+            "position": "DML"
+          },
+          {
+            "team_sheet_index": 6,
+            "player_id": 385752,
+            "player_name": "Kevin Dalipi",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 6,
+            "position": "MFC"
+          },
+          {
+            "team_sheet_index": 7,
+            "player_id": 3789,
+            "player_name": "Jurgen Vrapi",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 7,
+            "position": "DMC"
+          },
+          {
+            "team_sheet_index": 8,
+            "player_id": 3704,
+            "player_name": "Patrik Bardhi",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 8,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 9,
+            "player_id": 25874,
+            "player_name": "Manfredas Ruzgis",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 9,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 10,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 10,
+            "position": "MFC"
+          }
+        ],
+        "bench": [
+          {
+            "team_sheet_index": 11,
+            "player_id": 340684,
+            "player_name": "Arbër Jata",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 11
+          },
+          {
+            "team_sheet_index": 12,
+            "player_id": 391741,
+            "player_name": "Agim Xhabafti",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 12
+          },
+          {
+            "team_sheet_index": 13,
+            "player_id": 286924,
+            "player_name": "Evans Aneni",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 13
+          },
+          {
+            "team_sheet_index": 14,
+            "player_id": 189040,
+            "player_name": "Nikolin Duka",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 14
+          },
+          {
+            "team_sheet_index": 15,
+            "player_id": 273259,
+            "player_name": "Okseold Sefa",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 15
+          },
+          {
+            "team_sheet_index": 16,
+            "player_id": 345184,
+            "player_name": "Marios Paja",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 16
+          },
+          {
+            "team_sheet_index": 17,
+            "player_id": 298011,
+            "player_name": "Segerso Geci",
+            "tempo": 2,
+            "tackling_style": 1,
+            "slot": 17
+          }
+        ],
+        "roles": {
+          "penalty_taker": {
+            "lineup_position": 10,
+            "team_sheet_index": 10,
+            "player_id": 3912,
+            "player_name": "Odirah Ntephe"
+          }
+        },
+        "situational_styles": [
+          {
+            "time": 60,
+            "situation": 1,
+            "goal_margin": 0,
+            "play_style": "Counter",
+            "play_style_int": 4,
+            "formation_id": 7,
+            "formation_name": "5-3-2"
+          },
+          {
+            "time": 60,
+            "situation": 2,
+            "goal_margin": 0,
+            "play_style": "Attacking",
+            "play_style_int": 2,
+            "formation_id": 7,
+            "formation_name": "5-3-2"
+          },
+          {
+            "time": 60,
+            "situation": 3,
+            "goal_margin": 0,
+            "play_style": "Counter",
+            "play_style_int": 4,
+            "formation_id": 7,
+            "formation_name": "5-3-2"
+          },
+          {
+            "time": 75,
+            "situation": 1,
+            "goal_margin": 0,
+            "play_style": "Defensive",
+            "play_style_int": 1,
+            "formation_id": 7,
+            "formation_name": "5-3-2"
+          }
+        ],
+        "note": "play_style is the base (minute 0) instruction only — situational_styles lists every later or conditional switch, keyed by time/situation/goal_margin. planned_substitutions are lineup changes relative to the submitted XI.",
+        "planned_substitutions": [
+          {
+            "minute": 60,
+            "situation": 1,
+            "slot": 2,
+            "position": "DFL",
+            "off_player_id": 3691,
+            "off_player_name": "Dajan Shehi",
+            "on_player_id": 286924,
+            "on_player_name": "Evans Aneni"
+          },
+          {
+            "minute": 60,
+            "situation": 1,
+            "slot": 3,
+            "position": "DFC",
+            "off_player_id": 3623,
+            "off_player_name": "Eni Imami",
+            "on_player_id": 189040,
+            "on_player_name": "Nikolin Duka"
+          },
+          {
+            "minute": 60,
+            "situation": 1,
+            "slot": 5,
+            "position": "DML",
+            "off_player_id": 437037,
+            "off_player_name": "Ionuț Albu",
+            "on_player_id": 273259,
+            "on_player_name": "Okseold Sefa"
+          },
+          {
+            "minute": 60,
+            "situation": 2,
+            "slot": 5,
+            "position": "DML",
+            "off_player_id": 437037,
+            "off_player_name": "Ionuț Albu",
+            "on_player_id": 273259,
+            "on_player_name": "Okseold Sefa"
+          },
+          {
+            "minute": 60,
+            "situation": 2,
+            "slot": 9,
+            "position": "FWC",
+            "off_player_id": 25874,
+            "off_player_name": "Manfredas Ruzgis",
+            "on_player_id": 298011,
+            "on_player_name": "Segerso Geci"
+          },
+          {
+            "minute": 60,
+            "situation": 2,
+            "slot": 10,
+            "position": "MFC",
+            "off_player_id": 3912,
+            "off_player_name": "Odirah Ntephe",
+            "on_player_id": 345184,
+            "on_player_name": "Marios Paja"
+          },
+          {
+            "minute": 60,
+            "situation": 3,
+            "slot": 3,
+            "position": "DFC",
+            "off_player_id": 3623,
+            "off_player_name": "Eni Imami",
+            "on_player_id": 189040,
+            "on_player_name": "Nikolin Duka"
+          },
+          {
+            "minute": 60,
+            "situation": 3,
+            "slot": 5,
+            "position": "DML",
+            "off_player_id": 437037,
+            "off_player_name": "Ionuț Albu",
+            "on_player_id": 273259,
+            "on_player_name": "Okseold Sefa"
+          },
+          {
+            "minute": 60,
+            "situation": 3,
+            "slot": 9,
+            "position": "FWC",
+            "off_player_id": 25874,
+            "off_player_name": "Manfredas Ruzgis",
+            "on_player_id": 298011,
+            "on_player_name": "Segerso Geci"
+          }
+        ],
+        "validation": "valid"
+      }
+    },
+    "players": [
+      {
+        "player_id": 3691,
+        "player_name": "Dajan Shehi",
+        "positions": [
+          "LB"
+        ],
+        "rating": 64,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 3704,
+        "player_name": "Patrik Bardhi",
+        "positions": [
+          "FC",
+          "FR"
+        ],
+        "rating": 63,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 3623,
+        "player_name": "Eni Imami",
+        "positions": [
+          "CB"
+        ],
+        "rating": 62,
+        "fitness": 89,
+        "available": true
+      },
+      {
+        "player_id": 3645,
+        "player_name": "Shkëlzen Ruçi",
+        "positions": [
+          "GK"
+        ],
+        "rating": 62,
+        "fitness": 94,
+        "available": true
+      },
+      {
+        "player_id": 3789,
+        "player_name": "Jurgen Vrapi",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 62,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 25874,
+        "player_name": "Manfredas Ruzgis",
+        "positions": [
+          "FC"
+        ],
+        "rating": 62,
+        "fitness": 89,
+        "available": true
+      },
+      {
+        "player_id": 293318,
+        "player_name": "Ysni Ismaili",
+        "positions": [
+          "RB"
+        ],
+        "rating": 62,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 437037,
+        "player_name": "Ionuț Albu",
+        "positions": [
+          "LB"
+        ],
+        "rating": 62,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 298011,
+        "player_name": "Segerso Geci",
+        "positions": [
+          "FC"
+        ],
+        "rating": 61,
+        "fitness": 95,
+        "available": true
+      },
+      {
+        "player_id": 385752,
+        "player_name": "Kevin Dalipi",
+        "positions": [
+          "CM"
+        ],
+        "rating": 61,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 189040,
+        "player_name": "Nikolin Duka",
+        "positions": [
+          "CB"
+        ],
+        "rating": 60,
+        "fitness": 97,
+        "available": true
+      },
+      {
+        "player_id": 384605,
+        "player_name": "Irgi Kasalla",
+        "positions": [
+          "AMC"
+        ],
+        "rating": 60,
+        "fitness": 88,
+        "available": false
+      },
+      {
+        "player_id": 3912,
+        "player_name": "Odirah Ntephe",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 59,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 25867,
+        "player_name": "Xhuljo Tabaku",
+        "positions": [
+          "RB",
+          "DMC",
+          "CM",
+          "AMC"
+        ],
+        "rating": 59,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 37011,
+        "player_name": "Amadou Ciss",
+        "positions": [
+          "AML",
+          "AMR",
+          "FC"
+        ],
+        "rating": 59,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 290756,
+        "player_name": "Dijar Nikqi",
+        "positions": [
+          "FC"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 340684,
+        "player_name": "Arbër Jata",
+        "positions": [
+          "GK"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 391741,
+        "player_name": "Agim Xhabafti",
+        "positions": [
+          "CB"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 216576,
+        "player_name": "Idris Nuradeen",
+        "positions": [
+          "CM",
+          "FC",
+          "FR"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 315989,
+        "player_name": "Argel Avdiu",
+        "positions": [
+          "FC"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 345184,
+        "player_name": "Marios Paja",
+        "positions": [
+          "DML",
+          "AMC"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 273259,
+        "player_name": "Okseold Sefa",
+        "positions": [
+          "LM"
+        ],
+        "rating": 57,
+        "fitness": 97,
+        "available": true
+      },
+      {
+        "player_id": 286924,
+        "player_name": "Evans Aneni",
+        "positions": [
+          "LB"
+        ],
+        "rating": 57,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 209939,
+        "player_name": "Beni Nsango",
+        "positions": [
+          "DMC",
+          "LM",
+          "CM"
+        ],
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 3885,
+        "player_name": "Gresild Lika",
+        "positions": [
+          "RM"
+        ],
+        "rating": 55,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 175540,
+        "player_name": "David Schober",
+        "positions": [
+          "GK"
+        ],
+        "rating": 55,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 387453,
+        "player_name": "Kevin Shkreta",
+        "positions": [
+          "CM"
+        ],
+        "rating": 54,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 454430,
+        "player_name": "Simone Addessi",
+        "positions": [
+          "FC"
+        ],
+        "rating": 52,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 28
+  },
+  "49": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 49,
+        "club_name": "Chelsea"
+      },
+      "league_standing": {
+        "club_id": 49,
+        "league_id": 1665,
+        "manager_name": "Kiran",
+        "manager_last_active_unix": 1788902164,
+        "country_id": "ENG",
+        "division": 1,
+        "club_ix": 11,
+        "played": 13,
+        "won": 3,
+        "drawn": 6,
+        "lost": 4,
+        "goals_for": 8,
+        "goals_against": 11,
+        "pts": 15,
+        "form": "DDLLLW",
+        "old_position": 17,
+        "new_position": 15,
+        "season_id": 4,
+        "stadium_size": 50831,
+        "fanbase": 40002,
+        "balance": "49223296.75 SVC",
+        "avg_player_rating": 83,
+        "top_3_players": [
+          116117,
+          18959,
+          19145
+        ],
+        "club_name": "Chelsea",
+        "league_name": "ENG Division 1",
+        "manager_last_active_datetime": "2026-09-08 21:16:04 UTC",
+        "manager_last_active_date": "2026-09-08",
+        "manager_last_active_day": "Tuesday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 363239,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 19:00",
+          "result": "W",
+          "score": "2-0",
+          "home_away": "H",
+          "opponent": "Aston Villa",
+          "opponent_id": 66,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 363230,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 19:00",
+          "result": "L",
+          "score": "1-0",
+          "home_away": "A",
+          "opponent": "West Ham",
+          "opponent_id": 48,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 363221,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 19:00",
+          "result": "L",
+          "score": "0-2",
+          "home_away": "H",
+          "opponent": "Bournemouth",
+          "opponent_id": 35,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 363212,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 19:00",
+          "result": "L",
+          "score": "1-0",
+          "home_away": "A",
+          "opponent": "Everton",
+          "opponent_id": 45,
+          "comp_type": "National League",
+          "formation": "5-2-3",
+          "play_style": "Counter"
+        },
+        {
+          "fixture_id": 363203,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 19:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "H",
+          "opponent": "Brentford",
+          "opponent_id": 55,
+          "comp_type": "National League",
+          "formation": "5-2-3",
+          "play_style": "Counter"
+        },
+        {
+          "fixture_id": 363194,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 19:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "A",
+          "opponent": "Manchester Blue",
+          "opponent_id": 50,
+          "comp_type": "National League",
+          "formation": "5-2-3",
+          "play_style": "Counter"
+        },
+        {
+          "fixture_id": 363185,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 19:00",
+          "result": "W",
+          "score": "3-2",
+          "home_away": "H",
+          "opponent": "Brighton",
+          "opponent_id": 51,
+          "comp_type": "National League",
+          "formation": "3-4-2-1",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 363176,
+          "date": "2026-08-08",
+          "day": "Saturday",
+          "datetime": "2026-08-08 19:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "A",
+          "opponent": "Fulham",
+          "opponent_id": 36,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 363166,
+          "date": "2026-08-05",
+          "day": "Wednesday",
+          "datetime": "2026-08-05 19:00",
+          "result": "L",
+          "score": "3-0",
+          "home_away": "A",
+          "opponent": "Manchester Red",
+          "opponent_id": 33,
+          "comp_type": "National League",
+          "formation": "5-4-1",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 367026,
+          "date": "2026-08-03",
+          "day": "Monday",
+          "datetime": "2026-08-03 19:00",
+          "result": "W",
+          "score": "13-0",
+          "home_away": "H",
+          "opponent": "Needham Market",
+          "opponent_id": 7735,
+          "comp_type": "National Cup",
+          "formation": "4-5-1",
+          "play_style": "Normal"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "4-2-3-1": 1,
+          "4-4-2": 2,
+          "4-3-3": 1,
+          "5-2-3": 3,
+          "3-4-2-1": 1,
+          "5-4-1": 1,
+          "4-5-1": 1
+        },
+        "play_style_counts": {
+          "Passing": 2,
+          "Normal": 4,
+          "Counter": 3,
+          "Attacking": 1
+        },
+        "most_used_formation": "5-2-3",
+        "most_used_formation_id": 8,
+        "most_used_play_style": "Normal",
+        "most_used_play_style_int": 0,
+        "most_used_play_style_letter": "N",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 8,
+          "formation_name": "5-2-3",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 80.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Tyrique George (1%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Tyrique George (1%)"
+          ]
+        },
+        {
+          "formation_id": 18,
+          "formation_name": "1-4-3-2v2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 80.0,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Gustav Tang Isaksen (1%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Gustav Tang Isaksen (1%)"
+          ]
+        },
+        {
+          "formation_id": 7,
+          "formation_name": "5-3-2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 79.9,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 17,
+          "formation_name": "1-4-3-2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 79.9,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 13,
+          "formation_name": "4-1-2-2-1v2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 79.9,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Malo Gusto (3%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Malo Gusto (3%)"
+          ]
+        }
+      ],
+      "squad_overview": {
+        "total_players": 27,
+        "available": 27,
+        "injured": [],
+        "banned": [],
+        "best_11_avg": 85.5,
+        "avg_rating": 81.0,
+        "players": [
+          {
+            "player_id": 116117,
+            "player_name": "Moisés Caicedo Corozo",
+            "rating": 88,
+            "positions": "RB, DMC, LM, CM",
+            "multi_position": 424,
+            "fitness": 84,
+            "form": "875466",
+            "available": true
+          },
+          {
+            "player_id": 18959,
+            "player_name": "Robert Lynch Sánchez",
+            "rating": 87,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 98,
+            "form": "668668",
+            "available": true
+          },
+          {
+            "player_id": 19145,
+            "player_name": "Abdul-Nasir Oluwadoyinsolami Adarabioyo",
+            "rating": 87,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 86,
+            "form": "666665",
+            "available": true
+          },
+          {
+            "player_id": 283058,
+            "player_name": "Player #283058",
+            "rating": 86,
+            "positions": "AML, FC",
+            "multi_position": 17408,
+            "fitness": 80,
+            "form": "665657",
+            "available": true
+          },
+          {
+            "player_id": 336671,
+            "player_name": "Renato da Palma",
+            "rating": 86,
+            "positions": "LB, CB, DMC, CM",
+            "multi_position": 294,
+            "fitness": 84,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 22094,
+            "player_name": "Wesley Fofana",
+            "rating": 85,
+            "positions": "CB, RB",
+            "multi_position": 12,
+            "fitness": 100,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 152982,
+            "player_name": "Cole Palmer",
+            "rating": 85,
+            "positions": "AMC, AMR, FC, FR",
+            "multi_position": 55296,
+            "fitness": 69,
+            "form": "664656",
+            "available": true
+          },
+          {
+            "player_id": 321746,
+            "player_name": "Alonzo Engwanda-Ongena",
+            "rating": 85,
+            "positions": "DMC, CM, RM",
+            "multi_position": 800,
+            "fitness": 87,
+            "form": "--6568",
+            "available": true
+          },
+          {
+            "player_id": 95,
+            "player_name": "Benoît Badiashile Baya",
+            "rating": 84,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 19545,
+            "player_name": "Reece James",
+            "rating": 84,
+            "positions": "LB, RB, DMC",
+            "multi_position": 42,
+            "fitness": 84,
+            "form": "666446",
+            "available": true
+          },
+          {
+            "player_id": 152953,
+            "player_name": "Levi Samuels Colwill",
+            "rating": 84,
+            "positions": "LB, CB",
+            "multi_position": 6,
+            "fitness": 99,
+            "form": "695666",
+            "available": true
+          },
+          {
+            "player_id": 47380,
+            "player_name": "Marc Cucurella Saseta",
+            "rating": 83,
+            "positions": "LB, RB",
+            "multi_position": 10,
+            "fitness": 79,
+            "form": "775566",
+            "available": true
+          },
+          {
+            "player_id": 135519,
+            "player_name": "Gustav Tang Isaksen",
+            "rating": 83,
+            "positions": "AMC, AMR, FR",
+            "multi_position": 38912,
+            "fitness": 100,
+            "form": "765665",
+            "available": true
+          },
+          {
+            "player_id": 282125,
+            "player_name": "Roméo Lavia",
+            "rating": 83,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "--5766",
+            "available": true
+          },
+          {
+            "player_id": 1864,
+            "player_name": "Pedro Lomba Neto",
+            "rating": 82,
+            "positions": "AML, AMR, FC, FR",
+            "multi_position": 54272,
+            "fitness": 75,
+            "form": "656346",
+            "available": true
+          },
+          {
+            "player_id": 136723,
+            "player_name": "Chukwunonso Madueke",
+            "rating": 82,
+            "positions": "AML, AMR, FR",
+            "multi_position": 37888,
+            "fitness": 81,
+            "form": "565668",
+            "available": true
+          },
+          {
+            "player_id": 366735,
+            "player_name": "Joshua Acheampong",
+            "rating": 82,
+            "positions": "CB, RB",
+            "multi_position": 12,
+            "fitness": 81,
+            "form": "----56",
+            "available": true
+          },
+          {
+            "player_id": 161907,
+            "player_name": "Malo Gusto",
+            "rating": 81,
+            "positions": "LB, RB, DMR",
+            "multi_position": 74,
+            "fitness": 100,
+            "form": "-----6",
+            "available": true
+          },
+          {
+            "player_id": 2,
+            "player_name": "Marwin Hitz",
+            "rating": 80,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 334037,
+            "player_name": "Tyrique George",
+            "rating": 80,
+            "positions": "AML, AMR, FC",
+            "multi_position": 21504,
+            "fitness": 100,
+            "form": "-66656",
+            "available": true
+          },
+          {
+            "player_id": 425733,
+            "player_name": "Estêvão Almeida",
+            "rating": 79,
+            "positions": "AMC, AMR, FC, FR",
+            "multi_position": 55296,
+            "fitness": 84,
+            "form": "666655",
+            "available": true
+          },
+          {
+            "player_id": 341642,
+            "player_name": "Jorrel Hato",
+            "rating": 78,
+            "positions": "LB, CB",
+            "multi_position": 6,
+            "fitness": 100,
+            "form": "635575",
+            "available": true
+          },
+          {
+            "player_id": 392270,
+            "player_name": "Marc Guiu Paz",
+            "rating": 76,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "---566",
+            "available": true
+          },
+          {
+            "player_id": 359117,
+            "player_name": "Shumaira Mheuka",
+            "rating": 74,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "----45",
+            "available": true
+          },
+          {
+            "player_id": 392610,
+            "player_name": "Harry Howell",
+            "rating": 74,
+            "positions": "DMC, DMR",
+            "multi_position": 96,
+            "fitness": 100,
+            "form": "-----6",
+            "available": true
+          },
+          {
+            "player_id": 482888,
+            "player_name": "Reggie Walsh",
+            "rating": 73,
+            "positions": "AMC",
+            "multi_position": 2048,
+            "fitness": 100,
+            "form": "-----5",
+            "available": true
+          },
+          {
+            "player_id": 365660,
+            "player_name": "Kiano Dyer",
+            "rating": 56,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "formation_id": 12,
+        "formation_name": "4-2-3-1",
+        "play_style": "Passing",
+        "play_style_int": 3,
+        "num_tactic_actions": 7,
+        "starting_xi": [
+          {
+            "team_sheet_index": 0,
+            "player_id": 18959,
+            "player_name": "Robert Lynch Sánchez",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 0,
+            "position": "GK"
+          },
+          {
+            "team_sheet_index": 1,
+            "player_id": 366735,
+            "player_name": "Joshua Acheampong",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 1,
+            "position": "DFR"
+          },
+          {
+            "team_sheet_index": 2,
+            "player_id": 47380,
+            "player_name": "Marc Cucurella Saseta",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 2,
+            "position": "DFL"
+          },
+          {
+            "team_sheet_index": 3,
+            "player_id": 19145,
+            "player_name": "Abdul-Nasir Oluwadoyinsolami Adarabioyo",
+            "tempo": 1,
+            "tackling_style": 2,
+            "slot": 3,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 4,
+            "player_id": 336671,
+            "player_name": "Renato da Palma",
+            "tempo": 1,
+            "tackling_style": 2,
+            "slot": 4,
+            "position": "DFC"
+          },
+          {
+            "team_sheet_index": 5,
+            "player_id": 19545,
+            "player_name": "Reece James",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 5,
+            "position": "DMC"
+          },
+          {
+            "team_sheet_index": 6,
+            "player_id": 321746,
+            "player_name": "Alonzo Engwanda-Ongena",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 6,
+            "position": "AMR"
+          },
+          {
+            "team_sheet_index": 7,
+            "player_id": 116117,
+            "player_name": "Moisés Caicedo Corozo",
+            "tempo": 1,
+            "tackling_style": 2,
+            "slot": 7,
+            "position": "DMC"
+          },
+          {
+            "team_sheet_index": 8,
+            "player_id": 283058,
+            "player_name": "Player #283058",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 8,
+            "position": "FWC"
+          },
+          {
+            "team_sheet_index": 9,
+            "player_id": 152982,
+            "player_name": "Cole Palmer",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 9,
+            "position": "AMC"
+          },
+          {
+            "team_sheet_index": 10,
+            "player_id": 1864,
+            "player_name": "Pedro Lomba Neto",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 10,
+            "position": "AML"
+          }
+        ],
+        "bench": [
+          {
+            "team_sheet_index": 11,
+            "player_id": 2,
+            "player_name": "Marwin Hitz",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 11
+          },
+          {
+            "team_sheet_index": 12,
+            "player_id": 22094,
+            "player_name": "Wesley Fofana",
+            "tempo": 1,
+            "tackling_style": 2,
+            "slot": 12
+          },
+          {
+            "team_sheet_index": 13,
+            "player_id": 152953,
+            "player_name": "Levi Samuels Colwill",
+            "tempo": 1,
+            "tackling_style": 2,
+            "slot": 13
+          },
+          {
+            "team_sheet_index": 14,
+            "player_id": 282125,
+            "player_name": "Roméo Lavia",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 14
+          },
+          {
+            "team_sheet_index": 15,
+            "player_id": 135519,
+            "player_name": "Gustav Tang Isaksen",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 15
+          },
+          {
+            "team_sheet_index": 16,
+            "player_id": 334037,
+            "player_name": "Tyrique George",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 16
+          },
+          {
+            "team_sheet_index": 17,
+            "player_id": 392270,
+            "player_name": "Marc Guiu Paz",
+            "tempo": 1,
+            "tackling_style": 1,
+            "slot": 17
+          }
+        ],
+        "roles": {
+          "penalty_taker": {
+            "lineup_position": 9,
+            "team_sheet_index": 9,
+            "player_id": 152982,
+            "player_name": "Cole Palmer"
+          }
+        },
+        "situational_styles": [
+          {
+            "time": 60,
+            "situation": 4,
+            "goal_margin": 0,
+            "play_style": "Passing",
+            "play_style_int": 3,
+            "formation_id": 12,
+            "formation_name": "4-2-3-1"
+          },
+          {
+            "time": 65,
+            "situation": 1,
+            "goal_margin": 0,
+            "play_style": "Normal",
+            "play_style_int": 0,
+            "formation_id": 12,
+            "formation_name": "4-2-3-1"
+          },
+          {
+            "time": 70,
+            "situation": 4,
+            "goal_margin": 0,
+            "play_style": "Attacking",
+            "play_style_int": 2,
+            "formation_id": 12,
+            "formation_name": "4-2-3-1"
+          },
+          {
+            "time": 75,
+            "situation": 1,
+            "goal_margin": 0,
+            "play_style": "Defensive",
+            "play_style_int": 1,
+            "formation_id": 12,
+            "formation_name": "4-2-3-1"
+          },
+          {
+            "time": 80,
+            "situation": 1,
+            "goal_margin": 0,
+            "play_style": "Defensive",
+            "play_style_int": 1,
+            "formation_id": 12,
+            "formation_name": "4-2-3-1"
+          },
+          {
+            "time": 85,
+            "situation": 1,
+            "goal_margin": 0,
+            "play_style": "Defensive",
+            "play_style_int": 1,
+            "formation_id": 12,
+            "formation_name": "4-2-3-1"
+          }
+        ],
+        "note": "play_style is the base (minute 0) instruction only — situational_styles lists every later or conditional switch, keyed by time/situation/goal_margin. planned_substitutions are lineup changes relative to the submitted XI.",
+        "planned_substitutions": [
+          {
+            "minute": 60,
+            "situation": 4,
+            "slot": 6,
+            "position": "AMR",
+            "off_player_id": 321746,
+            "off_player_name": "Alonzo Engwanda-Ongena",
+            "on_player_id": 135519,
+            "on_player_name": "Gustav Tang Isaksen"
+          },
+          {
+            "minute": 65,
+            "situation": 1,
+            "slot": 4,
+            "position": "DFC",
+            "off_player_id": 336671,
+            "off_player_name": "Renato da Palma",
+            "on_player_id": 22094,
+            "on_player_name": "Wesley Fofana"
+          },
+          {
+            "minute": 70,
+            "situation": 4,
+            "slot": 5,
+            "position": "DMC",
+            "off_player_id": 19545,
+            "off_player_name": "Reece James",
+            "on_player_id": 282125,
+            "on_player_name": "Roméo Lavia"
+          },
+          {
+            "minute": 70,
+            "situation": 4,
+            "slot": 10,
+            "position": "AML",
+            "off_player_id": 1864,
+            "off_player_name": "Pedro Lomba Neto",
+            "on_player_id": 334037,
+            "on_player_name": "Tyrique George"
+          },
+          {
+            "minute": 75,
+            "situation": 1,
+            "slot": 3,
+            "position": "DFC",
+            "off_player_id": 19145,
+            "off_player_name": "Abdul-Nasir Oluwadoyinsolami Adarabioyo",
+            "on_player_id": 152953,
+            "on_player_name": "Levi Samuels Colwill"
+          },
+          {
+            "minute": 75,
+            "situation": 1,
+            "slot": 6,
+            "position": "AMR",
+            "off_player_id": 321746,
+            "off_player_name": "Alonzo Engwanda-Ongena",
+            "on_player_id": 135519,
+            "on_player_name": "Gustav Tang Isaksen"
+          }
+        ],
+        "validation": "valid"
+      }
+    },
+    "players": [
+      {
+        "player_id": 116117,
+        "player_name": "Moisés Caicedo Corozo",
+        "positions": [
+          "RB",
+          "DMC",
+          "LM",
+          "CM"
+        ],
+        "rating": 88,
+        "fitness": 84,
+        "available": true
+      },
+      {
+        "player_id": 18959,
+        "player_name": "Robert Lynch Sánchez",
+        "positions": [
+          "GK"
+        ],
+        "rating": 87,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 19145,
+        "player_name": "Abdul-Nasir Oluwadoyinsolami Adarabioyo",
+        "positions": [
+          "CB"
+        ],
+        "rating": 87,
+        "fitness": 86,
+        "available": true
+      },
+      {
+        "player_id": 283058,
+        "player_name": "Player #283058",
+        "positions": [
+          "AML",
+          "FC"
+        ],
+        "rating": 86,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 336671,
+        "player_name": "Renato da Palma",
+        "positions": [
+          "LB",
+          "CB",
+          "DMC",
+          "CM"
+        ],
+        "rating": 86,
+        "fitness": 84,
+        "available": true
+      },
+      {
+        "player_id": 22094,
+        "player_name": "Wesley Fofana",
+        "positions": [
+          "CB",
+          "RB"
+        ],
+        "rating": 85,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 152982,
+        "player_name": "Cole Palmer",
+        "positions": [
+          "AMC",
+          "AMR",
+          "FC",
+          "FR"
+        ],
+        "rating": 85,
+        "fitness": 69,
+        "available": true
+      },
+      {
+        "player_id": 321746,
+        "player_name": "Alonzo Engwanda-Ongena",
+        "positions": [
+          "DMC",
+          "CM",
+          "RM"
+        ],
+        "rating": 85,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 95,
+        "player_name": "Benoît Badiashile Baya",
+        "positions": [
+          "CB"
+        ],
+        "rating": 84,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 19545,
+        "player_name": "Reece James",
+        "positions": [
+          "LB",
+          "RB",
+          "DMC"
+        ],
+        "rating": 84,
+        "fitness": 84,
+        "available": true
+      },
+      {
+        "player_id": 152953,
+        "player_name": "Levi Samuels Colwill",
+        "positions": [
+          "LB",
+          "CB"
+        ],
+        "rating": 84,
+        "fitness": 99,
+        "available": true
+      },
+      {
+        "player_id": 47380,
+        "player_name": "Marc Cucurella Saseta",
+        "positions": [
+          "LB",
+          "RB"
+        ],
+        "rating": 83,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 135519,
+        "player_name": "Gustav Tang Isaksen",
+        "positions": [
+          "AMC",
+          "AMR",
+          "FR"
+        ],
+        "rating": 83,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 282125,
+        "player_name": "Roméo Lavia",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 83,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 1864,
+        "player_name": "Pedro Lomba Neto",
+        "positions": [
+          "AML",
+          "AMR",
+          "FC",
+          "FR"
+        ],
+        "rating": 82,
+        "fitness": 75,
+        "available": true
+      },
+      {
+        "player_id": 136723,
+        "player_name": "Chukwunonso Madueke",
+        "positions": [
+          "AML",
+          "AMR",
+          "FR"
+        ],
+        "rating": 82,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 366735,
+        "player_name": "Joshua Acheampong",
+        "positions": [
+          "CB",
+          "RB"
+        ],
+        "rating": 82,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 161907,
+        "player_name": "Malo Gusto",
+        "positions": [
+          "LB",
+          "RB",
+          "DMR"
+        ],
+        "rating": 81,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 2,
+        "player_name": "Marwin Hitz",
+        "positions": [
+          "GK"
+        ],
+        "rating": 80,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 334037,
+        "player_name": "Tyrique George",
+        "positions": [
+          "AML",
+          "AMR",
+          "FC"
+        ],
+        "rating": 80,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 425733,
+        "player_name": "Estêvão Almeida",
+        "positions": [
+          "AMC",
+          "AMR",
+          "FC",
+          "FR"
+        ],
+        "rating": 79,
+        "fitness": 84,
+        "available": true
+      },
+      {
+        "player_id": 341642,
+        "player_name": "Jorrel Hato",
+        "positions": [
+          "LB",
+          "CB"
+        ],
+        "rating": 78,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 392270,
+        "player_name": "Marc Guiu Paz",
+        "positions": [
+          "FC"
+        ],
+        "rating": 76,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 359117,
+        "player_name": "Shumaira Mheuka",
+        "positions": [
+          "FC"
+        ],
+        "rating": 74,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 392610,
+        "player_name": "Harry Howell",
+        "positions": [
+          "DMC",
+          "DMR"
+        ],
+        "rating": 74,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 482888,
+        "player_name": "Reggie Walsh",
+        "positions": [
+          "AMC"
+        ],
+        "rating": 73,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 365660,
+        "player_name": "Kiano Dyer",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 27
+  },
+  "50": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 50,
+        "club_name": "Manchester Blue"
+      },
+      "league_standing": {
+        "club_id": 50,
+        "league_id": 1665,
+        "manager_name": "Phesiola",
+        "manager_last_active_unix": 1788980853,
+        "country_id": "ENG",
+        "division": 1,
+        "club_ix": 1,
+        "played": 13,
+        "won": 6,
+        "drawn": 3,
+        "lost": 4,
+        "goals_for": 11,
+        "goals_against": 10,
+        "pts": 21,
+        "form": "DWLLWD",
+        "old_position": 5,
+        "new_position": 6,
+        "season_id": 4,
+        "stadium_size": 55097,
+        "fanbase": 53249,
+        "balance": "32710070.75 SVC",
+        "avg_player_rating": 86,
+        "top_3_players": [
+          1100,
+          2291,
+          44
+        ],
+        "club_name": "Manchester Blue",
+        "league_name": "ENG Division 1",
+        "manager_last_active_datetime": "2026-09-09 19:07:33 UTC",
+        "manager_last_active_date": "2026-09-09",
+        "manager_last_active_day": "Wednesday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 363244,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 19:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "H",
+          "opponent": "Tottenham",
+          "opponent_id": 47,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 441911,
+          "date": "2026-09-07",
+          "day": "Monday",
+          "datetime": "2026-09-07 20:00",
+          "result": "W",
+          "score": "1-3",
+          "home_away": "A",
+          "opponent": "Madrid White",
+          "opponent_id": 541,
+          "comp_type": "Continental League",
+          "formation": "4-2-3-1",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 363235,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 19:00",
+          "result": "W",
+          "score": "0-1",
+          "home_away": "A",
+          "opponent": "Newcastle",
+          "opponent_id": 34,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 363226,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 19:00",
+          "result": "L",
+          "score": "0-1",
+          "home_away": "H",
+          "opponent": "Crystal Palace",
+          "opponent_id": 52,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 363216,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 19:00",
+          "result": "L",
+          "score": "0-2",
+          "home_away": "H",
+          "opponent": "Liverpool",
+          "opponent_id": 40,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 441908,
+          "date": "2026-08-24",
+          "day": "Monday",
+          "datetime": "2026-08-24 20:00",
+          "result": "W",
+          "score": "15-1",
+          "home_away": "H",
+          "opponent": "Oswestry",
+          "opponent_id": 354,
+          "comp_type": "Continental League",
+          "formation": "4-2-3-1",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 363205,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 19:00",
+          "result": "W",
+          "score": "0-1",
+          "home_away": "A",
+          "opponent": "Nottingham",
+          "opponent_id": 65,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Passing"
+        },
+        {
+          "fixture_id": 363194,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 19:00",
+          "result": "D",
+          "score": "0-0",
+          "home_away": "H",
+          "opponent": "Chelsea",
+          "opponent_id": 49,
+          "comp_type": "National League",
+          "formation": "4-2-2-2",
+          "play_style": "Long Ball"
+        },
+        {
+          "fixture_id": 441905,
+          "date": "2026-08-17",
+          "day": "Monday",
+          "datetime": "2026-08-17 20:00",
+          "result": "W",
+          "score": "1-2",
+          "home_away": "A",
+          "opponent": "Firenze",
+          "opponent_id": 502,
+          "comp_type": "Continental League",
+          "formation": "4-2-3-1",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 363183,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 19:00",
+          "result": "W",
+          "score": "0-2",
+          "home_away": "A",
+          "opponent": "Leicester",
+          "opponent_id": 46,
+          "comp_type": "National League",
+          "formation": "4-2-3-1",
+          "play_style": "Normal"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "4-2-3-1": 9,
+          "4-2-2-2": 1
+        },
+        "play_style_counts": {
+          "Passing": 4,
+          "Attacking": 2,
+          "Normal": 3,
+          "Long Ball": 1
+        },
+        "most_used_formation": "4-2-3-1",
+        "most_used_formation_id": 12,
+        "most_used_play_style": "Passing",
+        "most_used_play_style_int": 3,
+        "most_used_play_style_letter": "P",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 15,
+          "formation_name": "4-3-1-2",
+          "best_play_style": "Counter",
+          "squad_fit_pct": 76.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 13,
+          "formation_name": "4-1-2-2-1v2",
+          "best_play_style": "Counter",
+          "squad_fit_pct": 76.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 19,
+          "formation_name": "4-2-4",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 76.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 16,
+          "formation_name": "3-4-1-2",
+          "best_play_style": "Counter",
+          "squad_fit_pct": 76.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        },
+        {
+          "formation_id": 21,
+          "formation_name": "3-4-2-1",
+          "best_play_style": "Counter",
+          "squad_fit_pct": 76.1,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 0,
+          "oop_players": [],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 0,
+          "position_penalty_players": []
+        }
+      ],
+      "squad_overview": {
+        "total_players": 26,
+        "available": 24,
+        "injured": [
+          {
+            "player_id": 44,
+            "player_name": "Rodrigo Hernández Cascante",
+            "rating": 95,
+            "positions": "DMC, CM",
+            "injury_until": 1791226800,
+            "injury_until_datetime": "2026-10-05 19:00:00 UTC",
+            "injury_until_formatted": "2026-10-05"
+          },
+          {
+            "player_id": 284409,
+            "player_name": "Divin Mubama",
+            "rating": 68,
+            "positions": "FC",
+            "injury_until": 1789142400,
+            "injury_until_datetime": "2026-09-11 16:00:00 UTC",
+            "injury_until_formatted": "2026-09-11"
+          }
+        ],
+        "banned": [],
+        "best_11_avg": 91.0,
+        "avg_rating": 83.5,
+        "players": [
+          {
+            "player_id": 1100,
+            "player_name": "Erling Braut Haaland",
+            "rating": 96,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 87,
+            "form": "865666",
+            "available": true
+          },
+          {
+            "player_id": 2291,
+            "player_name": "Mateo Kovačić",
+            "rating": 96,
+            "positions": "DMC, LM, CM, AMC",
+            "multi_position": 2464,
+            "fitness": 76,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 44,
+            "player_name": "Rodrigo Hernández Cascante",
+            "rating": 95,
+            "positions": "DMC, CM",
+            "multi_position": 288,
+            "fitness": 78,
+            "form": "--6666",
+            "available": false,
+            "injury_until": 1791226800,
+            "injury_until_datetime": "2026-10-05 19:00:00 UTC",
+            "injury_until_formatted": "2026-10-05"
+          },
+          {
+            "player_id": 636,
+            "player_name": "Bernardo Mota Veiga",
+            "rating": 93,
+            "positions": "DMC, RM, AMC, AMR",
+            "multi_position": 6688,
+            "fitness": 72,
+            "form": "695686",
+            "available": true
+          },
+          {
+            "player_id": 5,
+            "player_name": "Manuel Akanji",
+            "rating": 91,
+            "positions": "LB, CB, RB, DMC",
+            "multi_position": 46,
+            "fitness": 88,
+            "form": "666446",
+            "available": true
+          },
+          {
+            "player_id": 626,
+            "player_name": "John Stones",
+            "rating": 91,
+            "positions": "CB, RB, DMC",
+            "multi_position": 44,
+            "fitness": 80,
+            "form": "676686",
+            "available": true
+          },
+          {
+            "player_id": 631,
+            "player_name": "Philip Foden",
+            "rating": 90,
+            "positions": "AML, AMC, AMR, FC",
+            "multi_position": 23552,
+            "fitness": 90,
+            "form": "666366",
+            "available": true
+          },
+          {
+            "player_id": 129033,
+            "player_name": "Joško Gvardiol",
+            "rating": 90,
+            "positions": "LB, CB",
+            "multi_position": 6,
+            "fitness": 72,
+            "form": "766667",
+            "available": true
+          },
+          {
+            "player_id": 567,
+            "player_name": "Rúben dos Santos",
+            "rating": 89,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 93,
+            "form": "666366",
+            "available": true
+          },
+          {
+            "player_id": 629,
+            "player_name": "Kevin De Bruyne",
+            "rating": 89,
+            "positions": "AMC, FC",
+            "multi_position": 18432,
+            "fitness": 77,
+            "form": "666846",
+            "available": true
+          },
+          {
+            "player_id": 41621,
+            "player_name": "Matheus Nunes",
+            "rating": 89,
+            "positions": "RB, DMC, RM, AML",
+            "multi_position": 1576,
+            "fitness": 90,
+            "form": "676569",
+            "available": true
+          },
+          {
+            "player_id": 61142,
+            "player_name": "Dominik Greif",
+            "rating": 87,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 98,
+            "form": "766866",
+            "available": true
+          },
+          {
+            "player_id": 308814,
+            "player_name": "Luka Stojković",
+            "rating": 87,
+            "positions": "LM, RM, AMC, AMR",
+            "multi_position": 6784,
+            "fitness": 77,
+            "form": "965666",
+            "available": true
+          },
+          {
+            "player_id": 1422,
+            "player_name": "Jérémy Doku",
+            "rating": 86,
+            "positions": "AML, AMC, AMR, FL",
+            "multi_position": 15360,
+            "fitness": 81,
+            "form": "696696",
+            "available": true
+          },
+          {
+            "player_id": 284230,
+            "player_name": "Rico Lewis",
+            "rating": 86,
+            "positions": "LB, RB, DMC, AMC",
+            "multi_position": 2090,
+            "fitness": 80,
+            "form": "866666",
+            "available": true
+          },
+          {
+            "player_id": 313353,
+            "player_name": "Promise Akinpelu",
+            "rating": 86,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 98,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 266657,
+            "player_name": "Sávio Moreira",
+            "rating": 85,
+            "positions": "AML, AMC, AMR, FL",
+            "multi_position": 15360,
+            "fitness": 74,
+            "form": "696576",
+            "available": true
+          },
+          {
+            "player_id": 307123,
+            "player_name": "Nico O'Reilly",
+            "rating": 85,
+            "positions": "LB, DMC, LM, AML",
+            "multi_position": 1186,
+            "fitness": 75,
+            "form": "668656",
+            "available": true
+          },
+          {
+            "player_id": 404656,
+            "player_name": "Jahmai Simpson-Pusey",
+            "rating": 82,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 76,
+            "form": "666866",
+            "available": true
+          },
+          {
+            "player_id": 278059,
+            "player_name": "Adrion Pajaziti",
+            "rating": 79,
+            "positions": "DMC, RM",
+            "multi_position": 544,
+            "fitness": 84,
+            "form": "668665",
+            "available": true
+          },
+          {
+            "player_id": 278128,
+            "player_name": "Joshua Kamani Wilson-Esbrand",
+            "rating": 71,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 100,
+            "form": "-67676",
+            "available": true
+          },
+          {
+            "player_id": 43729,
+            "player_name": "Ilya Lantratov",
+            "rating": 70,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 284409,
+            "player_name": "Divin Mubama",
+            "rating": 68,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 86,
+            "form": "656775",
+            "available": false,
+            "injury_until": 1789142400,
+            "injury_until_datetime": "2026-09-11 16:00:00 UTC",
+            "injury_until_formatted": "2026-09-11"
+          },
+          {
+            "player_id": 345426,
+            "player_name": "Henrique Miguel Sousa Arreiol",
+            "rating": 66,
+            "positions": "AMC",
+            "multi_position": 2048,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 382344,
+            "player_name": "Anthony Junior Munda",
+            "rating": 62,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          },
+          {
+            "player_id": 394666,
+            "player_name": "Player #394666",
+            "rating": 58,
+            "positions": "FC, FR",
+            "multi_position": 49152,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "status": "hidden (committed)",
+        "commitment": "f52d4d017f4fd4152e09cc9b6f81a28e3f1c4e6c3ad97b620418557b9220d85c"
+      }
+    },
+    "players": [
+      {
+        "player_id": 1100,
+        "player_name": "Erling Braut Haaland",
+        "positions": [
+          "FC"
+        ],
+        "rating": 96,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 2291,
+        "player_name": "Mateo Kovačić",
+        "positions": [
+          "DMC",
+          "LM",
+          "CM",
+          "AMC"
+        ],
+        "rating": 96,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 44,
+        "player_name": "Rodrigo Hernández Cascante",
+        "positions": [
+          "DMC",
+          "CM"
+        ],
+        "rating": 95,
+        "fitness": 78,
+        "available": false
+      },
+      {
+        "player_id": 636,
+        "player_name": "Bernardo Mota Veiga",
+        "positions": [
+          "DMC",
+          "RM",
+          "AMC",
+          "AMR"
+        ],
+        "rating": 93,
+        "fitness": 72,
+        "available": true
+      },
+      {
+        "player_id": 5,
+        "player_name": "Manuel Akanji",
+        "positions": [
+          "LB",
+          "CB",
+          "RB",
+          "DMC"
+        ],
+        "rating": 91,
+        "fitness": 88,
+        "available": true
+      },
+      {
+        "player_id": 626,
+        "player_name": "John Stones",
+        "positions": [
+          "CB",
+          "RB",
+          "DMC"
+        ],
+        "rating": 91,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 631,
+        "player_name": "Philip Foden",
+        "positions": [
+          "AML",
+          "AMC",
+          "AMR",
+          "FC"
+        ],
+        "rating": 90,
+        "fitness": 90,
+        "available": true
+      },
+      {
+        "player_id": 129033,
+        "player_name": "Joško Gvardiol",
+        "positions": [
+          "LB",
+          "CB"
+        ],
+        "rating": 90,
+        "fitness": 72,
+        "available": true
+      },
+      {
+        "player_id": 567,
+        "player_name": "Rúben dos Santos",
+        "positions": [
+          "CB"
+        ],
+        "rating": 89,
+        "fitness": 93,
+        "available": true
+      },
+      {
+        "player_id": 629,
+        "player_name": "Kevin De Bruyne",
+        "positions": [
+          "AMC",
+          "FC"
+        ],
+        "rating": 89,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 41621,
+        "player_name": "Matheus Nunes",
+        "positions": [
+          "RB",
+          "DMC",
+          "RM",
+          "AML"
+        ],
+        "rating": 89,
+        "fitness": 90,
+        "available": true
+      },
+      {
+        "player_id": 61142,
+        "player_name": "Dominik Greif",
+        "positions": [
+          "GK"
+        ],
+        "rating": 87,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 308814,
+        "player_name": "Luka Stojković",
+        "positions": [
+          "LM",
+          "RM",
+          "AMC",
+          "AMR"
+        ],
+        "rating": 87,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 1422,
+        "player_name": "Jérémy Doku",
+        "positions": [
+          "AML",
+          "AMC",
+          "AMR",
+          "FL"
+        ],
+        "rating": 86,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 284230,
+        "player_name": "Rico Lewis",
+        "positions": [
+          "LB",
+          "RB",
+          "DMC",
+          "AMC"
+        ],
+        "rating": 86,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 313353,
+        "player_name": "Promise Akinpelu",
+        "positions": [
+          "FC"
+        ],
+        "rating": 86,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 266657,
+        "player_name": "Sávio Moreira",
+        "positions": [
+          "AML",
+          "AMC",
+          "AMR",
+          "FL"
+        ],
+        "rating": 85,
+        "fitness": 74,
+        "available": true
+      },
+      {
+        "player_id": 307123,
+        "player_name": "Nico O'Reilly",
+        "positions": [
+          "LB",
+          "DMC",
+          "LM",
+          "AML"
+        ],
+        "rating": 85,
+        "fitness": 75,
+        "available": true
+      },
+      {
+        "player_id": 404656,
+        "player_name": "Jahmai Simpson-Pusey",
+        "positions": [
+          "CB"
+        ],
+        "rating": 82,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 278059,
+        "player_name": "Adrion Pajaziti",
+        "positions": [
+          "DMC",
+          "RM"
+        ],
+        "rating": 79,
+        "fitness": 84,
+        "available": true
+      },
+      {
+        "player_id": 278128,
+        "player_name": "Joshua Kamani Wilson-Esbrand",
+        "positions": [
+          "LB"
+        ],
+        "rating": 71,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 43729,
+        "player_name": "Ilya Lantratov",
+        "positions": [
+          "GK"
+        ],
+        "rating": 70,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 284409,
+        "player_name": "Divin Mubama",
+        "positions": [
+          "FC"
+        ],
+        "rating": 68,
+        "fitness": 86,
+        "available": false
+      },
+      {
+        "player_id": 345426,
+        "player_name": "Henrique Miguel Sousa Arreiol",
+        "positions": [
+          "AMC"
+        ],
+        "rating": 66,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 382344,
+        "player_name": "Anthony Junior Munda",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 62,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 394666,
+        "player_name": "Player #394666",
+        "positions": [
+          "FC",
+          "FR"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 26
+  },
+  "605": {
+    "status": "ok",
+    "raw_analysis": {
+      "club_info": {
+        "club_id": 605,
+        "club_name": "Korçë"
+      },
+      "league_standing": {
+        "club_id": 605,
+        "league_id": 1538,
+        "manager_name": "DDoctor",
+        "manager_last_active_unix": 1788948484,
+        "country_id": "ALB",
+        "division": 1,
+        "club_ix": 3,
+        "played": 16,
+        "won": 2,
+        "drawn": 5,
+        "lost": 9,
+        "goals_for": 16,
+        "goals_against": 28,
+        "pts": 11,
+        "form": "DDLDWL",
+        "old_position": 10,
+        "new_position": 10,
+        "season_id": 4,
+        "stadium_size": 11000,
+        "fanbase": 1353,
+        "balance": "44302314.42 SVC",
+        "avg_player_rating": 63,
+        "top_3_players": [
+          9991,
+          15891,
+          3620
+        ],
+        "club_name": "Korçë",
+        "league_name": "ALB Division 1",
+        "manager_last_active_datetime": "2026-09-09 10:08:04 UTC",
+        "manager_last_active_date": "2026-09-09",
+        "manager_last_active_day": "Wednesday"
+      },
+      "recent_results": [
+        {
+          "fixture_id": 334228,
+          "date": "2026-09-09",
+          "day": "Wednesday",
+          "datetime": "2026-09-09 18:00",
+          "result": "L",
+          "score": "1-0",
+          "home_away": "A",
+          "opponent": "Vora",
+          "opponent_id": 3340,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334224,
+          "date": "2026-09-05",
+          "day": "Saturday",
+          "datetime": "2026-09-05 18:00",
+          "result": "W",
+          "score": "2-0",
+          "home_away": "H",
+          "opponent": "Shkodër",
+          "opponent_id": 3339,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334220,
+          "date": "2026-09-02",
+          "day": "Wednesday",
+          "datetime": "2026-09-02 18:00",
+          "result": "D",
+          "score": "3-3",
+          "home_away": "A",
+          "opponent": "Tirana Red",
+          "opponent_id": 708,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Attacking"
+        },
+        {
+          "fixture_id": 334215,
+          "date": "2026-08-29",
+          "day": "Saturday",
+          "datetime": "2026-08-29 18:00",
+          "result": "L",
+          "score": "1-0",
+          "home_away": "A",
+          "opponent": "Dinamo",
+          "opponent_id": 3326,
+          "comp_type": "National League",
+          "formation": "4-4-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334209,
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "datetime": "2026-08-26 18:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "H",
+          "opponent": "Ballsh",
+          "opponent_id": 3325,
+          "comp_type": "National League",
+          "formation": "5-3-2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334203,
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "datetime": "2026-08-22 18:00",
+          "result": "D",
+          "score": "1-1",
+          "home_away": "A",
+          "opponent": "Durrës",
+          "opponent_id": 3320,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334197,
+          "date": "2026-08-19",
+          "day": "Wednesday",
+          "datetime": "2026-08-19 18:00",
+          "result": "L",
+          "score": "0-4",
+          "home_away": "H",
+          "opponent": "Laç",
+          "opponent_id": 2256,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334191,
+          "date": "2026-08-15",
+          "day": "Saturday",
+          "datetime": "2026-08-15 18:00",
+          "result": "L",
+          "score": "2-1",
+          "home_away": "A",
+          "opponent": "Elbasan",
+          "opponent_id": 20406,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334187,
+          "date": "2026-08-12",
+          "day": "Wednesday",
+          "datetime": "2026-08-12 18:00",
+          "result": "W",
+          "score": "0-1",
+          "home_away": "A",
+          "opponent": "Rrogozhinë",
+          "opponent_id": 3327,
+          "comp_type": "National League",
+          "formation": "4-3-3",
+          "play_style": "Normal"
+        },
+        {
+          "fixture_id": 334183,
+          "date": "2026-08-08",
+          "day": "Saturday",
+          "datetime": "2026-08-08 18:00",
+          "result": "L",
+          "score": "0-1",
+          "home_away": "H",
+          "opponent": "Vora",
+          "opponent_id": 3340,
+          "comp_type": "National League",
+          "formation": "4-1-2-2-1v2",
+          "play_style": "Normal"
+        }
+      ],
+      "tactical_patterns": {
+        "formation_counts": {
+          "4-3-3": 4,
+          "4-4-2": 1,
+          "5-3-2": 1,
+          "4-1-2-2-1v2": 4
+        },
+        "play_style_counts": {
+          "Normal": 9,
+          "Attacking": 1
+        },
+        "most_used_formation": "4-3-3",
+        "most_used_formation_id": 1,
+        "most_used_play_style": "Normal",
+        "most_used_play_style_int": 0,
+        "most_used_play_style_letter": "N",
+        "sample_size": 10
+      },
+      "formation_rankings": [
+        {
+          "formation_id": 19,
+          "formation_name": "4-2-4",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 59.4,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Erolind Krasniqi (3%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Erolind Krasniqi (3%)"
+          ]
+        },
+        {
+          "formation_id": 20,
+          "formation_name": "4-2-2-2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 59.2,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Foti Çuçka (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Foti Çuçka (5%)"
+          ]
+        },
+        {
+          "formation_id": 0,
+          "formation_name": "4-4-2",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 59.0,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Foly Amegatse (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Foly Amegatse (5%)"
+          ]
+        },
+        {
+          "formation_id": 14,
+          "formation_name": "4-4-1-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 59.0,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 1,
+          "oop_players": [
+            "Foly Amegatse (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 1,
+          "position_penalty_players": [
+            "Foly Amegatse (5%)"
+          ]
+        },
+        {
+          "formation_id": 12,
+          "formation_name": "4-2-3-1",
+          "best_play_style": "Defensive",
+          "squad_fit_pct": 59.0,
+          "squad_fit_basis": "actual_over_ideal_outfield_raw",
+          "oop_count": 2,
+          "oop_players": [
+            "Etienne Tare (5%)",
+            "Bismark Kwarema (5%)"
+          ],
+          "side_mismatch_count": 0,
+          "side_mismatch_players": [],
+          "position_penalty_count": 2,
+          "position_penalty_players": [
+            "Etienne Tare (5%)",
+            "Bismark Kwarema (5%)"
+          ]
+        }
+      ],
+      "squad_overview": {
+        "total_players": 25,
+        "available": 24,
+        "injured": [
+          {
+            "player_id": 3620,
+            "player_name": "Albi Doka",
+            "rating": 68,
+            "positions": "AMR",
+            "injury_until": 1792519200,
+            "injury_until_datetime": "2026-10-20 18:00:00 UTC",
+            "injury_until_formatted": "2026-10-20"
+          }
+        ],
+        "banned": [],
+        "best_11_avg": 65.5,
+        "avg_rating": 62.5,
+        "players": [
+          {
+            "player_id": 9991,
+            "player_name": "Lucas Veríssimo",
+            "rating": 77,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 45,
+            "form": "656666",
+            "available": true
+          },
+          {
+            "player_id": 15891,
+            "player_name": "Simon Hedlund",
+            "rating": 70,
+            "positions": "LM, RM, AMR, FR",
+            "multi_position": 37504,
+            "fitness": 58,
+            "form": "666566",
+            "available": true
+          },
+          {
+            "player_id": 3620,
+            "player_name": "Albi Doka",
+            "rating": 68,
+            "positions": "AMR",
+            "multi_position": 4096,
+            "fitness": 64,
+            "form": "666666",
+            "available": false,
+            "injury_until": 1792519200,
+            "injury_until_datetime": "2026-10-20 18:00:00 UTC",
+            "injury_until_formatted": "2026-10-20"
+          },
+          {
+            "player_id": 178372,
+            "player_name": "Erolind Krasniqi",
+            "rating": 65,
+            "positions": "LB, DMC, RM, AMC",
+            "multi_position": 2594,
+            "fitness": 85,
+            "form": "666666",
+            "available": true
+          },
+          {
+            "player_id": 373653,
+            "player_name": "Daniil Tarassenkov",
+            "rating": 65,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 83,
+            "form": "376566",
+            "available": true
+          },
+          {
+            "player_id": 30061,
+            "player_name": "Amirhossein Yahyazadeh",
+            "rating": 64,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "639566",
+            "available": true
+          },
+          {
+            "player_id": 321770,
+            "player_name": "Ardit Nikaj",
+            "rating": 64,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 78,
+            "form": "566665",
+            "available": true
+          },
+          {
+            "player_id": 507657,
+            "player_name": "Benjamín Gonzalo Guzmán Pérez",
+            "rating": 64,
+            "positions": "FL",
+            "multi_position": 8192,
+            "fitness": 78,
+            "form": "----96",
+            "available": true
+          },
+          {
+            "player_id": 511688,
+            "player_name": "Héctor Nahuel Alejandro Zapatiel",
+            "rating": 64,
+            "positions": "CM, RM",
+            "multi_position": 768,
+            "fitness": 78,
+            "form": "666663",
+            "available": true
+          },
+          {
+            "player_id": 152714,
+            "player_name": "Marcos de Oliveira",
+            "rating": 63,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 79,
+            "form": "466676",
+            "available": true
+          },
+          {
+            "player_id": 513164,
+            "player_name": "Alcides Javier Valdez Torres",
+            "rating": 63,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 80,
+            "form": "----76",
+            "available": true
+          },
+          {
+            "player_id": 4353,
+            "player_name": "Klevis Shaqe",
+            "rating": 62,
+            "positions": "LB",
+            "multi_position": 2,
+            "fitness": 80,
+            "form": "466694",
+            "available": true
+          },
+          {
+            "player_id": 74636,
+            "player_name": "Elvis Prençi",
+            "rating": 62,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "355666",
+            "available": true
+          },
+          {
+            "player_id": 392036,
+            "player_name": "Etienne Tare",
+            "rating": 62,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "665556",
+            "available": true
+          },
+          {
+            "player_id": 281227,
+            "player_name": "Bismark Kwarema",
+            "rating": 61,
+            "positions": "FL",
+            "multi_position": 8192,
+            "fitness": 100,
+            "form": "666966",
+            "available": true
+          },
+          {
+            "player_id": 290148,
+            "player_name": "Yuri dos Santos",
+            "rating": 61,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 82,
+            "form": "646666",
+            "available": true
+          },
+          {
+            "player_id": 363898,
+            "player_name": "Kevin Hysolli",
+            "rating": 61,
+            "positions": "RB",
+            "multi_position": 8,
+            "fitness": 100,
+            "form": "546646",
+            "available": true
+          },
+          {
+            "player_id": 363899,
+            "player_name": "Ergi Zenullari",
+            "rating": 61,
+            "positions": "CB",
+            "multi_position": 4,
+            "fitness": 100,
+            "form": "----66",
+            "available": true
+          },
+          {
+            "player_id": 1832,
+            "player_name": "Marco Alia",
+            "rating": 60,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 98,
+            "form": "666777",
+            "available": true
+          },
+          {
+            "player_id": 125405,
+            "player_name": "Borja Díaz Herrero",
+            "rating": 59,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "---666",
+            "available": true
+          },
+          {
+            "player_id": 169112,
+            "player_name": "Danila Sokirchenko",
+            "rating": 59,
+            "positions": "LB, RB",
+            "multi_position": 10,
+            "fitness": 100,
+            "form": "-66665",
+            "available": true
+          },
+          {
+            "player_id": 311563,
+            "player_name": "Kristian Rroku",
+            "rating": 59,
+            "positions": "GK",
+            "multi_position": 1,
+            "fitness": 100,
+            "form": "668656",
+            "available": true
+          },
+          {
+            "player_id": 385537,
+            "player_name": "Foti Çuçka",
+            "rating": 59,
+            "positions": "FC",
+            "multi_position": 16384,
+            "fitness": 100,
+            "form": "566655",
+            "available": true
+          },
+          {
+            "player_id": 136060,
+            "player_name": "Riliwan Rabiu",
+            "rating": 58,
+            "positions": "DMC",
+            "multi_position": 32,
+            "fitness": 100,
+            "form": "--6646",
+            "available": true
+          },
+          {
+            "player_id": 512689,
+            "player_name": "Foly Amegatse",
+            "rating": 56,
+            "positions": "LB, CB",
+            "multi_position": 6,
+            "fitness": 100,
+            "form": "------",
+            "available": true
+          }
+        ]
+      },
+      "current_tactics": {
+        "status": "hidden (committed)",
+        "commitment": "3dec752e29700eb743083712fd2fc41f72a05f6707f10a9a3e60c2295f9bf52c"
+      }
+    },
+    "players": [
+      {
+        "player_id": 9991,
+        "player_name": "Lucas Veríssimo",
+        "positions": [
+          "CB"
+        ],
+        "rating": 77,
+        "fitness": 45,
+        "available": true
+      },
+      {
+        "player_id": 15891,
+        "player_name": "Simon Hedlund",
+        "positions": [
+          "LM",
+          "RM",
+          "AMR",
+          "FR"
+        ],
+        "rating": 70,
+        "fitness": 58,
+        "available": true
+      },
+      {
+        "player_id": 3620,
+        "player_name": "Albi Doka",
+        "positions": [
+          "AMR"
+        ],
+        "rating": 68,
+        "fitness": 64,
+        "available": false
+      },
+      {
+        "player_id": 178372,
+        "player_name": "Erolind Krasniqi",
+        "positions": [
+          "LB",
+          "DMC",
+          "RM",
+          "AMC"
+        ],
+        "rating": 65,
+        "fitness": 85,
+        "available": true
+      },
+      {
+        "player_id": 373653,
+        "player_name": "Daniil Tarassenkov",
+        "positions": [
+          "RB"
+        ],
+        "rating": 65,
+        "fitness": 83,
+        "available": true
+      },
+      {
+        "player_id": 30061,
+        "player_name": "Amirhossein Yahyazadeh",
+        "positions": [
+          "FC"
+        ],
+        "rating": 64,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 321770,
+        "player_name": "Ardit Nikaj",
+        "positions": [
+          "FC"
+        ],
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 507657,
+        "player_name": "Benjamín Gonzalo Guzmán Pérez",
+        "positions": [
+          "FL"
+        ],
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 511688,
+        "player_name": "Héctor Nahuel Alejandro Zapatiel",
+        "positions": [
+          "CM",
+          "RM"
+        ],
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 152714,
+        "player_name": "Marcos de Oliveira",
+        "positions": [
+          "CB"
+        ],
+        "rating": 63,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 513164,
+        "player_name": "Alcides Javier Valdez Torres",
+        "positions": [
+          "FC"
+        ],
+        "rating": 63,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 4353,
+        "player_name": "Klevis Shaqe",
+        "positions": [
+          "LB"
+        ],
+        "rating": 62,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 74636,
+        "player_name": "Elvis Prençi",
+        "positions": [
+          "CB"
+        ],
+        "rating": 62,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 392036,
+        "player_name": "Etienne Tare",
+        "positions": [
+          "FC"
+        ],
+        "rating": 62,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 281227,
+        "player_name": "Bismark Kwarema",
+        "positions": [
+          "FL"
+        ],
+        "rating": 61,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 290148,
+        "player_name": "Yuri dos Santos",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 61,
+        "fitness": 82,
+        "available": true
+      },
+      {
+        "player_id": 363898,
+        "player_name": "Kevin Hysolli",
+        "positions": [
+          "RB"
+        ],
+        "rating": 61,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 363899,
+        "player_name": "Ergi Zenullari",
+        "positions": [
+          "CB"
+        ],
+        "rating": 61,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 1832,
+        "player_name": "Marco Alia",
+        "positions": [
+          "GK"
+        ],
+        "rating": 60,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 125405,
+        "player_name": "Borja Díaz Herrero",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 169112,
+        "player_name": "Danila Sokirchenko",
+        "positions": [
+          "LB",
+          "RB"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 311563,
+        "player_name": "Kristian Rroku",
+        "positions": [
+          "GK"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 385537,
+        "player_name": "Foti Çuçka",
+        "positions": [
+          "FC"
+        ],
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 136060,
+        "player_name": "Riliwan Rabiu",
+        "positions": [
+          "DMC"
+        ],
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 512689,
+        "player_name": "Foly Amegatse",
+        "positions": [
+          "LB",
+          "CB"
+        ],
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      }
+    ],
+    "squad_source": "squad_overview.players",
+    "player_count": 25
+  }
+}

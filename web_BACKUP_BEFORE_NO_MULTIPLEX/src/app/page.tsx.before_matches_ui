@@ -1,0 +1,199 @@
+"use client";
+
+import { useState } from "react";
+import styles from "./page.module.css";
+
+type ClubData = {
+  id: number;
+  name: string;
+  colors: number[] | null;
+  logo: string | null;
+};
+
+export default function Home() {
+  const [clubId, setClubId] = useState("");
+  const [club, setClub] = useState<ClubData | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  async function searchClub() {
+    const id = clubId.trim();
+
+    if (!id) {
+      setError("Inserisci un Club ID.");
+      setClub(null);
+      return;
+    }
+
+    setLoading(true);
+    setError("");
+
+    try {
+      const response = await fetch("/api/club/" + id);
+
+      if (!response.ok) {
+        const data = await response.json().catch(() => null);
+        throw new Error(data?.error || "Club non trovato.");
+      }
+
+      const data: ClubData = await response.json();
+      setClub(data);
+    } catch (err) {
+      setClub(null);
+      setError(err instanceof Error ? err.message : "Errore durante la ricerca.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function handleKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
+    if (event.key === "Enter") {
+      searchClub();
+    }
+  }
+
+  const clubColor =
+    club?.colors && club.colors.length === 3
+      ? "rgb(" + club.colors.join(", ") + ")"
+      : "#55c2ff";
+
+  return (
+    <main className={styles.page}>
+      <div className={styles.backgroundGlow} />
+
+      <section className={styles.container}>
+        <header className={styles.header}>
+          <div className={styles.brand}>
+            <div className={styles.logo}>⚽</div>
+            <div>
+              <h1>SV LIVE SCORE</h1>
+              <p>Soccerverse Match Center</p>
+            </div>
+          </div>
+
+          <div className={styles.status}>
+            <span className={styles.statusDot} />
+            ONLINE
+          </div>
+        </header>
+
+        <section className={styles.hero}>
+          <span className={styles.eyebrow}>SOCCERVERSE MATCH CENTER</span>
+          <h2>Segui le tue partite.</h2>
+          <p className={styles.heroText}>
+            Inserisci il Club ID per trovare rapidamente le partite e seguire
+            il match con risultato e cronaca live.
+          </p>
+
+          <div className={styles.searchBox}>
+            <label htmlFor="clubId">CLUB ID</label>
+
+            <div className={styles.searchRow}>
+              <input
+                id="clubId"
+                type="number"
+                min="1"
+                placeholder="Es. 3340"
+                value={clubId}
+                onChange={(event) => setClubId(event.target.value)}
+                onKeyDown={handleKeyDown}
+              />
+
+              <button
+                type="button"
+                onClick={searchClub}
+                disabled={loading}
+              >
+                {loading ? "CERCO..." : "CERCA"}
+              </button>
+            </div>
+
+            {error && <p className={styles.error}>{error}</p>}
+          </div>
+        </section>
+
+        {club && (
+          <section
+            className={styles.clubCard}
+            style={{
+              borderColor: "rgba(" +
+                club.colors?.join(", ") +
+                ", 0.35)",
+              boxShadow: "0 25px 70px rgba(" +
+                club.colors?.join(", ") +
+                ", 0.12)",
+            }}
+          >
+            <div
+              className={styles.clubAccent}
+              style={{ background: clubColor }}
+            />
+
+            <div className={styles.clubLogoWrap}>
+              {club.logo ? (
+                <img
+                  src={club.logo}
+                  alt={club.name}
+                  className={styles.clubLogo}
+                />
+              ) : (
+                <span className={styles.clubLogoFallback}>⚽</span>
+              )}
+            </div>
+
+            <div className={styles.clubInfo}>
+              <span className={styles.eyebrow}>CLUB FOUND</span>
+              <h3>{club.name}</h3>
+              <p>Club ID {club.id}</p>
+
+              {club.colors && (
+                <div className={styles.colorRow}>
+                  <span
+                    className={styles.colorSwatch}
+                    style={{ background: clubColor }}
+                  />
+                  <span>
+                    {club.colors.join(", ")}
+                  </span>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
+        <section className={styles.matches}>
+          <div className={styles.sectionHeader}>
+            <div>
+              <span className={styles.eyebrow}>MATCH CENTER</span>
+              <h3>Le tue partite</h3>
+            </div>
+            <span className={styles.liveBadge}>LIVE READY</span>
+          </div>
+
+          <div className={styles.emptyState}>
+            <div className={styles.emptyIcon}>⚽</div>
+            <h4>
+              {club ? "Partite in arrivo" : "Nessuna partita selezionata"}
+            </h4>
+            <p>
+              {club
+                ? "Il prossimo passo è collegare il calendario Soccerverse."
+                : "Inserisci un Club ID qui sopra per iniziare."}
+            </p>
+          </div>
+        </section>
+
+        <footer className={styles.footer}>
+          <span>SV LIVE SCORE</span>
+          <a
+            href="https://play.soccerverse.com/profile?user=SirAlex79"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ☕ Supporta il progetto
+          </a>
+        </footer>
+      </section>
+    </main>
+  );
+}

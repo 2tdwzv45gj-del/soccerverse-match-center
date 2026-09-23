@@ -1,0 +1,4958 @@
+{
+  "samples": 94,
+  "players_with_position_data": 180,
+  "players_in_lineups": 434,
+  "player_transitions": [
+    {
+      "player_id": "61142",
+      "appearances": 19,
+      "slots": {
+        "0": 19
+      },
+      "formations": {
+        "20": 3,
+        "12": 14,
+        "22": 2
+      },
+      "positions": [
+        "GK"
+      ],
+      "classification": "GK"
+    },
+    {
+      "player_id": "1100",
+      "appearances": 17,
+      "slots": {
+        "8": 17
+      },
+      "formations": {
+        "20": 3,
+        "12": 13,
+        "22": 1
+      },
+      "positions": [
+        "FC"
+      ],
+      "classification": "ATT"
+    },
+    {
+      "player_id": "1422",
+      "appearances": 13,
+      "slots": {
+        "10": 13
+      },
+      "formations": {
+        "20": 1,
+        "12": 11,
+        "22": 1
+      },
+      "positions": [
+        "AML, AMC, AMR, FL"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "18959",
+      "appearances": 13,
+      "slots": {
+        "0": 13
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "positions": [
+        "GK"
+      ],
+      "classification": "GK"
+    },
+    {
+      "player_id": "41621",
+      "appearances": 13,
+      "slots": {
+        "1": 7,
+        "5": 4,
+        "7": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 11
+      },
+      "positions": [
+        "RB, DMC, RM, AML"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "626",
+      "appearances": 13,
+      "slots": {
+        "4": 3,
+        "5": 1,
+        "3": 4,
+        "1": 4,
+        "7": 1
+      },
+      "formations": {
+        "20": 2,
+        "12": 10,
+        "22": 1
+      },
+      "positions": [
+        "CB, RB, DMC"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "636",
+      "appearances": 13,
+      "slots": {
+        "6": 8,
+        "5": 2,
+        "7": 2,
+        "9": 1
+      },
+      "formations": {
+        "20": 2,
+        "12": 11
+      },
+      "positions": [
+        "DMC, RM, AMC, AMR"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "152982",
+      "appearances": 12,
+      "slots": {
+        "5": 1,
+        "6": 2,
+        "8": 1,
+        "9": 4,
+        "10": 4
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "positions": [
+        "AMC",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "classification": "AMC"
+    },
+    {
+      "player_id": "19145",
+      "appearances": 12,
+      "slots": {
+        "3": 8,
+        "4": 1,
+        "1": 3
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "2291",
+      "appearances": 12,
+      "slots": {
+        "5": 5,
+        "7": 7
+      },
+      "formations": {
+        "20": 2,
+        "12": 9,
+        "22": 1
+      },
+      "positions": [
+        "DMC, LM, CM, AMC"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "283058",
+      "appearances": 12,
+      "slots": {
+        "7": 1,
+        "8": 10,
+        "9": 1
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "positions": [
+        "AML",
+        "FC"
+      ],
+      "classification": "ATT-W"
+    },
+    {
+      "player_id": "336671",
+      "appearances": 12,
+      "slots": {
+        "2": 5,
+        "4": 2,
+        "5": 5
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "positions": [
+        "LB",
+        "CB",
+        "DMC",
+        "CM"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "5",
+      "appearances": 12,
+      "slots": {
+        "4": 8,
+        "1": 3,
+        "3": 1
+      },
+      "formations": {
+        "20": 2,
+        "12": 9,
+        "22": 1
+      },
+      "positions": [
+        "LB, CB, RB, DMC"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "631",
+      "appearances": 12,
+      "slots": {
+        "9": 10,
+        "10": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 8,
+        "22": 2
+      },
+      "positions": [
+        "AML, AMC, AMR, FC"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "116117",
+      "appearances": 10,
+      "slots": {
+        "1": 4,
+        "7": 6
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "2": 1
+      },
+      "positions": [
+        "RB",
+        "DMC",
+        "LM",
+        "CM"
+      ],
+      "classification": "RB"
+    },
+    {
+      "player_id": "129033",
+      "appearances": 10,
+      "slots": {
+        "2": 6,
+        "4": 4
+      },
+      "formations": {
+        "12": 10
+      },
+      "positions": [
+        "LB, CB"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "19545",
+      "appearances": 10,
+      "slots": {
+        "7": 3,
+        "2": 1,
+        "5": 2,
+        "4": 4
+      },
+      "formations": {
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "8": 2
+      },
+      "positions": [
+        "LB",
+        "RB",
+        "DMC"
+      ],
+      "classification": "RB"
+    },
+    {
+      "player_id": "284230",
+      "appearances": 10,
+      "slots": {
+        "2": 2,
+        "7": 1,
+        "5": 2,
+        "1": 5
+      },
+      "formations": {
+        "20": 2,
+        "12": 6,
+        "22": 2
+      },
+      "positions": [
+        "LB, RB, DMC, AMC"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "567",
+      "appearances": 10,
+      "slots": {
+        "3": 9,
+        "4": 1
+      },
+      "formations": {
+        "20": 1,
+        "12": 9
+      },
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "22094",
+      "appearances": 9,
+      "slots": {
+        "4": 4,
+        "3": 4,
+        "1": 1
+      },
+      "formations": {
+        "1": 1,
+        "0": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "307123",
+      "appearances": 9,
+      "slots": {
+        "5": 1,
+        "2": 6,
+        "7": 2
+      },
+      "formations": {
+        "20": 1,
+        "12": 6,
+        "22": 2
+      },
+      "positions": [
+        "LB, DMC, LM, AML"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "308814",
+      "appearances": 9,
+      "slots": {
+        "6": 6,
+        "9": 1,
+        "5": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 5,
+        "22": 2
+      },
+      "positions": [
+        "LM, RM, AMC, AMR"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "135519",
+      "appearances": 8,
+      "slots": {
+        "9": 2,
+        "6": 6
+      },
+      "formations": {
+        "1": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "positions": [
+        "AMC",
+        "AMR",
+        "FR"
+      ],
+      "classification": "AMC"
+    },
+    {
+      "player_id": "1864",
+      "appearances": 8,
+      "slots": {
+        "8": 1,
+        "9": 1,
+        "6": 3,
+        "10": 3
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "8": 2,
+        "2": 1
+      },
+      "positions": [
+        "AML",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "classification": "ATT-W"
+    },
+    {
+      "player_id": "404656",
+      "appearances": 8,
+      "slots": {
+        "3": 5,
+        "4": 3
+      },
+      "formations": {
+        "20": 2,
+        "12": 4,
+        "22": 2
+      },
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "5996",
+      "appearances": 7,
+      "slots": {
+        "5": 1,
+        "7": 1,
+        "9": 4,
+        "10": 1
+      },
+      "formations": {
+        "0": 2,
+        "6": 3,
+        "21": 1,
+        "2": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "629",
+      "appearances": 7,
+      "slots": {
+        "10": 1,
+        "9": 4,
+        "6": 2
+      },
+      "formations": {
+        "20": 1,
+        "12": 4,
+        "22": 2
+      },
+      "positions": [
+        "AMC, FC"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "266657",
+      "appearances": 6,
+      "slots": {
+        "10": 3,
+        "6": 3
+      },
+      "formations": {
+        "12": 6
+      },
+      "positions": [
+        "AML, AMC, AMR, FL"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "278128",
+      "appearances": 5,
+      "slots": {
+        "2": 5
+      },
+      "formations": {
+        "20": 2,
+        "12": 3
+      },
+      "positions": [
+        "LB"
+      ],
+      "classification": "LB"
+    },
+    {
+      "player_id": "313353",
+      "appearances": 5,
+      "slots": {
+        "9": 3,
+        "8": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 1,
+        "22": 2
+      },
+      "positions": [
+        "FC"
+      ],
+      "classification": "ATT"
+    },
+    {
+      "player_id": "47380",
+      "appearances": 5,
+      "slots": {
+        "2": 2,
+        "5": 2,
+        "1": 1
+      },
+      "formations": {
+        "12": 1,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "classification": "RB"
+    },
+    {
+      "player_id": "95",
+      "appearances": 5,
+      "slots": {
+        "3": 1,
+        "2": 4
+      },
+      "formations": {
+        "0": 1,
+        "6": 4
+      },
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "334037",
+      "appearances": 4,
+      "slots": {
+        "10": 4
+      },
+      "formations": {
+        "0": 3,
+        "2": 1
+      },
+      "positions": [
+        "AML",
+        "AMR",
+        "FC"
+      ],
+      "classification": "ATT-W"
+    },
+    {
+      "player_id": "44",
+      "appearances": 4,
+      "slots": {
+        "7": 4
+      },
+      "formations": {
+        "20": 1,
+        "12": 2,
+        "22": 1
+      },
+      "positions": [
+        "DMC, CM"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "152953",
+      "appearances": 3,
+      "slots": {
+        "1": 2,
+        "2": 1
+      },
+      "formations": {
+        "8": 2,
+        "2": 1
+      },
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "282125",
+      "appearances": 3,
+      "slots": {
+        "5": 2,
+        "7": 1
+      },
+      "formations": {
+        "0": 2,
+        "2": 1
+      },
+      "positions": [
+        "DMC"
+      ],
+      "classification": "DM"
+    },
+    {
+      "player_id": "1231",
+      "appearances": 2,
+      "slots": {
+        "1": 2
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "129058",
+      "appearances": 2,
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "13489",
+      "appearances": 2,
+      "slots": {
+        "9": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "152856",
+      "appearances": 2,
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "161671",
+      "appearances": 2,
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "162033",
+      "appearances": 2,
+      "slots": {
+        "9": 1,
+        "6": 1
+      },
+      "formations": {
+        "13": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "162714",
+      "appearances": 2,
+      "slots": {
+        "4": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "1639",
+      "appearances": 2,
+      "slots": {
+        "6": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "164",
+      "appearances": 2,
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "13": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "1646",
+      "appearances": 2,
+      "slots": {
+        "10": 1,
+        "6": 1
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "179843",
+      "appearances": 2,
+      "slots": {
+        "7": 1,
+        "5": 1
+      },
+      "formations": {
+        "20": 1,
+        "23": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "18592",
+      "appearances": 2,
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "18872",
+      "appearances": 2,
+      "slots": {
+        "7": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "1904",
+      "appearances": 2,
+      "slots": {
+        "5": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "19179",
+      "appearances": 2,
+      "slots": {
+        "1": 1,
+        "3": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "19191",
+      "appearances": 2,
+      "slots": {
+        "10": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "19354",
+      "appearances": 2,
+      "slots": {
+        "3": 1,
+        "1": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "19366",
+      "appearances": 2,
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "19599",
+      "appearances": 2,
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "20093",
+      "appearances": 2,
+      "slots": {
+        "1": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "204039",
+      "appearances": 2,
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "13": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "206254",
+      "appearances": 2,
+      "slots": {
+        "2": 1,
+        "10": 1
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "20674",
+      "appearances": 2,
+      "slots": {
+        "8": 1,
+        "9": 1
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "2165",
+      "appearances": 2,
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "2287",
+      "appearances": 2,
+      "slots": {
+        "7": 1,
+        "5": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "24882",
+      "appearances": 2,
+      "slots": {
+        "10": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "25158",
+      "appearances": 2,
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "26232",
+      "appearances": 2,
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "2724",
+      "appearances": 2,
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "277306",
+      "appearances": 2,
+      "slots": {
+        "6": 1,
+        "7": 1
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "278",
+      "appearances": 2,
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "278059",
+      "appearances": 2,
+      "slots": {
+        "5": 2
+      },
+      "formations": {
+        "12": 2
+      },
+      "positions": [
+        "DMC, RM"
+      ],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "284797",
+      "appearances": 2,
+      "slots": {
+        "5": 1,
+        "6": 1
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "2869",
+      "appearances": 2,
+      "slots": {
+        "5": 1,
+        "3": 1
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "291964",
+      "appearances": 2,
+      "slots": {
+        "5": 1,
+        "6": 1
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "2932",
+      "appearances": 2,
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "2934",
+      "appearances": 2,
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "30407",
+      "appearances": 2,
+      "slots": {
+        "7": 1,
+        "6": 1
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "321746",
+      "appearances": 2,
+      "slots": {
+        "6": 2
+      },
+      "formations": {
+        "1": 1,
+        "12": 1
+      },
+      "positions": [
+        "DMC",
+        "CM",
+        "RM"
+      ],
+      "classification": "DM"
+    },
+    {
+      "player_id": "361497",
+      "appearances": 2,
+      "slots": {
+        "4": 1,
+        "2": 1
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "366735",
+      "appearances": 2,
+      "slots": {
+        "1": 1,
+        "4": 1
+      },
+      "formations": {
+        "12": 1,
+        "2": 1
+      },
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "classification": "CB"
+    },
+    {
+      "player_id": "36922",
+      "appearances": 2,
+      "slots": {
+        "2": 1,
+        "4": 1
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "372",
+      "appearances": 2,
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "377122",
+      "appearances": 2,
+      "slots": {
+        "9": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "386305",
+      "appearances": 2,
+      "slots": {
+        "4": 1,
+        "1": 1
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "392270",
+      "appearances": 2,
+      "slots": {
+        "10": 1,
+        "8": 1
+      },
+      "formations": {
+        "1": 1,
+        "6": 1
+      },
+      "positions": [
+        "FC"
+      ],
+      "classification": "ATT"
+    },
+    {
+      "player_id": "395559",
+      "appearances": 2,
+      "slots": {
+        "10": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "449249",
+      "appearances": 2,
+      "slots": {
+        "6": 2
+      },
+      "formations": {
+        "20": 1,
+        "23": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "471107",
+      "appearances": 2,
+      "slots": {
+        "7": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "472080",
+      "appearances": 2,
+      "slots": {
+        "5": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "59173",
+      "appearances": 2,
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "66817",
+      "appearances": 2,
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "983",
+      "appearances": 2,
+      "slots": {
+        "6": 1,
+        "7": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    },
+    {
+      "player_id": "9978",
+      "appearances": 2,
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "positions": [],
+      "classification": "UNKNOWN"
+    }
+  ],
+  "cross_formation_players": [
+    {
+      "player_id": "1100",
+      "positions": [
+        "FC"
+      ],
+      "classification": "ATT",
+      "formation_slots": {
+        "20": [
+          8
+        ],
+        "12": [
+          8
+        ],
+        "22": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "116117",
+      "positions": [
+        "RB",
+        "DMC",
+        "LM",
+        "CM"
+      ],
+      "classification": "RB",
+      "formation_slots": {
+        "1": [
+          1
+        ],
+        "0": [
+          1
+        ],
+        "12": [
+          7
+        ],
+        "6": [
+          7
+        ],
+        "21": [
+          7
+        ],
+        "2": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "1231",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          1
+        ],
+        "22": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "129058",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          0
+        ],
+        "21": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "135519",
+      "positions": [
+        "AMC",
+        "AMR",
+        "FR"
+      ],
+      "classification": "AMC",
+      "formation_slots": {
+        "1": [
+          9
+        ],
+        "6": [
+          6
+        ],
+        "21": [
+          9
+        ],
+        "8": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "1422",
+      "positions": [
+        "AML, AMC, AMR, FL"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          10
+        ],
+        "12": [
+          10
+        ],
+        "22": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "152856",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          8
+        ],
+        "11": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "152953",
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "8": [
+          1
+        ],
+        "2": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "152982",
+      "positions": [
+        "AMC",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "classification": "AMC",
+      "formation_slots": {
+        "1": [
+          5
+        ],
+        "0": [
+          6,
+          8,
+          9
+        ],
+        "12": [
+          9
+        ],
+        "6": [
+          10
+        ],
+        "21": [
+          6
+        ],
+        "8": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "161671",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          3
+        ],
+        "11": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "162033",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          9
+        ],
+        "11": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "164",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          3
+        ],
+        "11": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "1646",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          10
+        ],
+        "22": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "179843",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          7
+        ],
+        "23": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "1864",
+      "positions": [
+        "AML",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "classification": "ATT-W",
+      "formation_slots": {
+        "1": [
+          8
+        ],
+        "0": [
+          6,
+          9
+        ],
+        "12": [
+          10
+        ],
+        "8": [
+          10
+        ],
+        "2": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "18872",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          7
+        ],
+        "11": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "18959",
+      "positions": [
+        "GK"
+      ],
+      "classification": "GK",
+      "formation_slots": {
+        "1": [
+          0
+        ],
+        "0": [
+          0
+        ],
+        "12": [
+          0
+        ],
+        "6": [
+          0
+        ],
+        "21": [
+          0
+        ],
+        "8": [
+          0
+        ],
+        "2": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "1904",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          5
+        ],
+        "18": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "19145",
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "1": [
+          3
+        ],
+        "0": [
+          3,
+          4
+        ],
+        "12": [
+          3
+        ],
+        "6": [
+          1
+        ],
+        "21": [
+          3
+        ],
+        "8": [
+          3
+        ],
+        "2": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "19545",
+      "positions": [
+        "LB",
+        "RB",
+        "DMC"
+      ],
+      "classification": "RB",
+      "formation_slots": {
+        "0": [
+          2,
+          5,
+          7
+        ],
+        "12": [
+          5
+        ],
+        "6": [
+          4
+        ],
+        "21": [
+          4
+        ],
+        "8": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "20093",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          1
+        ],
+        "11": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "204039",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          2
+        ],
+        "11": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "206254",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          2
+        ],
+        "11": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "20674",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          8
+        ],
+        "22": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "22094",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "1": [
+          4
+        ],
+        "0": [
+          4
+        ],
+        "6": [
+          3
+        ],
+        "21": [
+          1
+        ],
+        "8": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "2291",
+      "positions": [
+        "DMC, LM, CM, AMC"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          5,
+          7
+        ],
+        "12": [
+          5,
+          7
+        ],
+        "22": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "25158",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          2
+        ],
+        "22": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "26232",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          0
+        ],
+        "18": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "277306",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          6
+        ],
+        "18": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "278",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          8
+        ],
+        "21": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "278128",
+      "positions": [
+        "LB"
+      ],
+      "classification": "LB",
+      "formation_slots": {
+        "20": [
+          2
+        ],
+        "12": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "282125",
+      "positions": [
+        "DMC"
+      ],
+      "classification": "DM",
+      "formation_slots": {
+        "0": [
+          5,
+          7
+        ],
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "283058",
+      "positions": [
+        "AML",
+        "FC"
+      ],
+      "classification": "ATT-W",
+      "formation_slots": {
+        "1": [
+          7
+        ],
+        "0": [
+          8,
+          9
+        ],
+        "12": [
+          8
+        ],
+        "6": [
+          8
+        ],
+        "21": [
+          8
+        ],
+        "8": [
+          8
+        ],
+        "2": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "284230",
+      "positions": [
+        "LB, RB, DMC, AMC"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          2,
+          7
+        ],
+        "12": [
+          1,
+          2,
+          5
+        ],
+        "22": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "284797",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          5
+        ],
+        "11": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "2869",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          5
+        ],
+        "22": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "291964",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          5
+        ],
+        "21": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "30407",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          7
+        ],
+        "18": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "307123",
+      "positions": [
+        "LB, DMC, LM, AML"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          5
+        ],
+        "12": [
+          2,
+          7
+        ],
+        "22": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "308814",
+      "positions": [
+        "LM, RM, AMC, AMR"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          6
+        ],
+        "12": [
+          6,
+          9
+        ],
+        "22": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "313353",
+      "positions": [
+        "FC"
+      ],
+      "classification": "ATT",
+      "formation_slots": {
+        "20": [
+          9
+        ],
+        "12": [
+          8
+        ],
+        "22": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "321746",
+      "positions": [
+        "DMC",
+        "CM",
+        "RM"
+      ],
+      "classification": "DM",
+      "formation_slots": {
+        "1": [
+          6
+        ],
+        "12": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "334037",
+      "positions": [
+        "AML",
+        "AMR",
+        "FC"
+      ],
+      "classification": "ATT-W",
+      "formation_slots": {
+        "0": [
+          10
+        ],
+        "2": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "336671",
+      "positions": [
+        "LB",
+        "CB",
+        "DMC",
+        "CM"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "1": [
+          2
+        ],
+        "0": [
+          2,
+          4
+        ],
+        "12": [
+          4
+        ],
+        "6": [
+          5
+        ],
+        "21": [
+          5
+        ],
+        "8": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "361497",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          4
+        ],
+        "11": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "366735",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "12": [
+          1
+        ],
+        "2": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "36922",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          2
+        ],
+        "18": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "372",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          3
+        ],
+        "21": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "377122",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          9
+        ],
+        "21": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "386305",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          4
+        ],
+        "21": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "392270",
+      "positions": [
+        "FC"
+      ],
+      "classification": "ATT",
+      "formation_slots": {
+        "1": [
+          10
+        ],
+        "6": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "395559",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          10
+        ],
+        "18": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "404656",
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "20": [
+          3
+        ],
+        "12": [
+          3,
+          4
+        ],
+        "22": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "41621",
+      "positions": [
+        "RB, DMC, RM, AML"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          1
+        ],
+        "12": [
+          1,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "44",
+      "positions": [
+        "DMC, CM"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          7
+        ],
+        "12": [
+          7
+        ],
+        "22": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "449249",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          6
+        ],
+        "23": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "471107",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          7
+        ],
+        "21": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "47380",
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "classification": "RB",
+      "formation_slots": {
+        "12": [
+          2
+        ],
+        "21": [
+          2
+        ],
+        "8": [
+          5
+        ],
+        "2": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "5",
+      "positions": [
+        "LB, CB, RB, DMC"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          1,
+          4
+        ],
+        "12": [
+          1,
+          4
+        ],
+        "22": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "567",
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "20": [
+          3
+        ],
+        "12": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "59173",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          0
+        ],
+        "11": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "5996",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "0": [
+          5,
+          7
+        ],
+        "6": [
+          9
+        ],
+        "21": [
+          10
+        ],
+        "2": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "61142",
+      "positions": [
+        "GK"
+      ],
+      "classification": "GK",
+      "formation_slots": {
+        "20": [
+          0
+        ],
+        "12": [
+          0
+        ],
+        "22": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "626",
+      "positions": [
+        "CB, RB, DMC"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          4
+        ],
+        "12": [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        "22": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "629",
+      "positions": [
+        "AMC, FC"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          10
+        ],
+        "12": [
+          9
+        ],
+        "22": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "631",
+      "positions": [
+        "AML, AMC, AMR, FC"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          9,
+          10
+        ],
+        "12": [
+          9
+        ],
+        "22": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "636",
+      "positions": [
+        "DMC, RM, AMC, AMR"
+      ],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          5,
+          6
+        ],
+        "12": [
+          5,
+          6,
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "66817",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          8
+        ],
+        "18": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "95",
+      "positions": [
+        "CB"
+      ],
+      "classification": "CB",
+      "formation_slots": {
+        "0": [
+          3
+        ],
+        "6": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "9978",
+      "positions": [],
+      "classification": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          0
+        ],
+        "22": [
+          0
+        ]
+      }
+    }
+  ],
+  "global_slot_position_counts": [
+    {
+      "GK": 36,
+      "UNKNOWN": 36
+    },
+    {
+      "RB": 9,
+      "UNKNOWN": 55,
+      "LB": 1,
+      "CB": 7
+    },
+    {
+      "LB": 7,
+      "UNKNOWN": 50,
+      "CB": 11,
+      "RB": 4
+    },
+    {
+      "CB": 31,
+      "UNKNOWN": 41
+    },
+    {
+      "CB": 15,
+      "UNKNOWN": 51,
+      "CM": 1,
+      "RB": 4,
+      "DM": 1
+    },
+    {
+      "UNKNOWN": 57,
+      "AMC": 2,
+      "DM": 3,
+      "RB": 4,
+      "CM": 1,
+      "CB": 5
+    },
+    {
+      "ATT-W": 4,
+      "UNKNOWN": 55,
+      "DM": 2,
+      "AMC": 9,
+      "CM": 1,
+      "MID-W": 1
+    },
+    {
+      "UNKNOWN": 57,
+      "ATT-W": 1,
+      "RB": 9,
+      "DM": 3,
+      "AMC": 2
+    },
+    {
+      "ATT": 24,
+      "UNKNOWN": 36,
+      "ATT-W": 11,
+      "AMC": 1
+    },
+    {
+      "ATT": 8,
+      "UNKNOWN": 56,
+      "AMC": 6,
+      "ATT-W": 2
+    },
+    {
+      "ATT": 2,
+      "UNKNOWN": 56,
+      "ATT-W": 8,
+      "DM": 1,
+      "MID-W": 1,
+      "AMC": 4
+    }
+  ],
+  "formation_analysis": {
+    "0": {
+      "formation_name": "4-4-2",
+      "samples": 6,
+      "signature": [
+        "GK?",
+        "RB?",
+        "UNKNOWN",
+        "CB?",
+        "CB?",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "ATT-W?"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 2,
+          "GK": 4
+        },
+        {
+          "UNKNOWN": 2,
+          "RB": 4
+        },
+        {
+          "UNKNOWN": 2,
+          "CB": 2,
+          "RB": 2
+        },
+        {
+          "UNKNOWN": 2,
+          "CB": 4
+        },
+        {
+          "UNKNOWN": 2,
+          "CB": 4
+        },
+        {
+          "UNKNOWN": 3,
+          "DM": 1,
+          "RB": 1,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "AMC": 1,
+          "ATT-W": 2,
+          "CM": 1
+        },
+        {
+          "UNKNOWN": 3,
+          "RB": 1,
+          "DM": 2
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 2,
+          "AMC": 1,
+          "ATT": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 2,
+          "AMC": 1,
+          "ATT": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 3,
+          "DM": 1
+        }
+      ]
+    },
+    "1": {
+      "formation_name": "4-3-3",
+      "samples": 3,
+      "signature": [
+        "GK?",
+        "RB?",
+        "MIXED",
+        "CB?",
+        "CB?",
+        "UNKNOWN",
+        "MIXED",
+        "UNKNOWN",
+        "MIXED",
+        "MIXED",
+        "ATT?"
+      ],
+      "slot_counts": [
+        {
+          "GK": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "RB": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "LB": 1,
+          "UNKNOWN": 1,
+          "CB": 1
+        },
+        {
+          "CB": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "AMC": 1
+        },
+        {
+          "ATT-W": 1,
+          "UNKNOWN": 1,
+          "DM": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 1
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 1,
+          "ATT-W": 1
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 1,
+          "AMC": 1
+        },
+        {
+          "ATT": 2,
+          "UNKNOWN": 1
+        }
+      ]
+    },
+    "2": {
+      "formation_name": "UNKNOWN",
+      "samples": 1,
+      "signature": [
+        "GK",
+        "RB",
+        "CB",
+        "CB",
+        "CB",
+        "DM",
+        "ATT-W",
+        "RB",
+        "ATT-W",
+        "UNKNOWN",
+        "ATT-W"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1
+        },
+        {
+          "RB": 1
+        },
+        {
+          "CB": 1
+        },
+        {
+          "CB": 1
+        },
+        {
+          "CB": 1
+        },
+        {
+          "DM": 1
+        },
+        {
+          "ATT-W": 1
+        },
+        {
+          "RB": 1
+        },
+        {
+          "ATT-W": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "ATT-W": 1
+        }
+      ]
+    },
+    "4": {
+      "formation_name": "UNKNOWN",
+      "samples": 3,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "RB": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CM": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CM": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "MID-W": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "AMC": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "ATT-W": 1,
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "6": {
+      "formation_name": "UNKNOWN",
+      "samples": 4,
+      "signature": [
+        "GK",
+        "CB?",
+        "CB",
+        "CB",
+        "RB?",
+        "CB",
+        "AMC",
+        "RB?",
+        "ATT-W?",
+        "UNKNOWN",
+        "AMC"
+      ],
+      "slot_counts": [
+        {
+          "GK": 4
+        },
+        {
+          "CB": 3,
+          "RB": 1
+        },
+        {
+          "CB": 4
+        },
+        {
+          "CB": 4
+        },
+        {
+          "RB": 3,
+          "DM": 1
+        },
+        {
+          "CB": 4
+        },
+        {
+          "AMC": 4
+        },
+        {
+          "RB": 3,
+          "AMC": 1
+        },
+        {
+          "ATT-W": 3,
+          "ATT": 1
+        },
+        {
+          "UNKNOWN": 3,
+          "ATT": 1
+        },
+        {
+          "AMC": 4
+        }
+      ]
+    },
+    "8": {
+      "formation_name": "UNKNOWN",
+      "samples": 2,
+      "signature": [
+        "GK",
+        "CB",
+        "CB",
+        "CB",
+        "CB",
+        "RB",
+        "AMC",
+        "RB",
+        "ATT-W",
+        "AMC",
+        "ATT-W"
+      ],
+      "slot_counts": [
+        {
+          "GK": 2
+        },
+        {
+          "CB": 2
+        },
+        {
+          "CB": 2
+        },
+        {
+          "CB": 2
+        },
+        {
+          "CB": 2
+        },
+        {
+          "RB": 2
+        },
+        {
+          "AMC": 2
+        },
+        {
+          "RB": 2
+        },
+        {
+          "ATT-W": 2
+        },
+        {
+          "AMC": 2
+        },
+        {
+          "ATT-W": 2
+        }
+      ]
+    },
+    "10": {
+      "formation_name": "UNKNOWN",
+      "samples": 3,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        }
+      ]
+    },
+    "11": {
+      "formation_name": "4-1-4-1",
+      "samples": 5,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        }
+      ]
+    },
+    "12": {
+      "formation_name": "4-2-3-1",
+      "samples": 17,
+      "signature": [
+        "GK",
+        "UNKNOWN",
+        "UNKNOWN",
+        "CB?",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "ATT",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "GK": 15,
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 16,
+          "CB": 1
+        },
+        {
+          "UNKNOWN": 13,
+          "RB": 1,
+          "LB": 3
+        },
+        {
+          "CB": 12,
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 14,
+          "CB": 3
+        },
+        {
+          "UNKNOWN": 16,
+          "RB": 1
+        },
+        {
+          "UNKNOWN": 16,
+          "DM": 1
+        },
+        {
+          "UNKNOWN": 16,
+          "RB": 1
+        },
+        {
+          "ATT": 14,
+          "UNKNOWN": 2,
+          "ATT-W": 1
+        },
+        {
+          "UNKNOWN": 16,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 16,
+          "ATT-W": 1
+        }
+      ]
+    },
+    "13": {
+      "formation_name": "4-1-2-2-1v2",
+      "samples": 4,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        }
+      ]
+    },
+    "14": {
+      "formation_name": "4-4-1-1",
+      "samples": 2,
+      "signature": [
+        "GK?",
+        "LB?",
+        "LB?",
+        "CB?",
+        "CB?",
+        "DM?",
+        "AMC?",
+        "DM?",
+        "ATT?",
+        "ATT?",
+        "MID-W?"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "LB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "LB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DM": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "AMC": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DM": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "MID-W": 1,
+          "UNKNOWN": 1
+        }
+      ]
+    },
+    "15": {
+      "formation_name": "4-3-1-2",
+      "samples": 1,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        }
+      ]
+    },
+    "18": {
+      "formation_name": "UNKNOWN",
+      "samples": 2,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "20": {
+      "formation_name": "4-2-2-2",
+      "samples": 7,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 4,
+          "GK": 3
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 5,
+          "LB": 2
+        },
+        {
+          "UNKNOWN": 4,
+          "CB": 3
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 4,
+          "ATT": 3
+        },
+        {
+          "UNKNOWN": 5,
+          "ATT": 2
+        },
+        {
+          "UNKNOWN": 7
+        }
+      ]
+    },
+    "21": {
+      "formation_name": "3-4-2-1",
+      "samples": 2,
+      "signature": [
+        "GK?",
+        "CB?",
+        "RB?",
+        "CB?",
+        "RB?",
+        "CB?",
+        "AMC?",
+        "RB?",
+        "ATT-W?",
+        "AMC?",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "RB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "RB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "AMC": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "RB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT-W": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "AMC": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "22": {
+      "formation_name": "UNKNOWN",
+      "samples": 7,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 5,
+          "GK": 2
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 5,
+          "CB": 2
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 7
+        },
+        {
+          "UNKNOWN": 5,
+          "ATT": 2
+        },
+        {
+          "UNKNOWN": 6,
+          "ATT": 1
+        },
+        {
+          "UNKNOWN": 7
+        }
+      ]
+    },
+    "23": {
+      "formation_name": "3-2-2-2-1",
+      "samples": 3,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        }
+      ]
+    }
+  },
+  "formation_similarity": [
+    {
+      "formation_a": 0,
+      "formation_b": 2,
+      "comparable_slots": 5,
+      "same_slots": 5,
+      "similarity": 1.0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 14,
+      "comparable_slots": 3,
+      "same_slots": 3,
+      "similarity": 1.0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 12,
+      "comparable_slots": 2,
+      "same_slots": 2,
+      "similarity": 1.0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 12,
+      "comparable_slots": 2,
+      "same_slots": 2,
+      "similarity": 1.0
+    },
+    {
+      "formation_a": 21,
+      "formation_b": 6,
+      "comparable_slots": 9,
+      "same_slots": 8,
+      "similarity": 0.8888888888888888
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 1,
+      "comparable_slots": 5,
+      "same_slots": 4,
+      "similarity": 0.8
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 8,
+      "comparable_slots": 5,
+      "same_slots": 4,
+      "similarity": 0.8
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 2,
+      "comparable_slots": 5,
+      "same_slots": 4,
+      "similarity": 0.8
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 8,
+      "comparable_slots": 10,
+      "same_slots": 7,
+      "similarity": 0.7
+    },
+    {
+      "formation_a": 21,
+      "formation_b": 8,
+      "comparable_slots": 10,
+      "same_slots": 7,
+      "similarity": 0.7
+    },
+    {
+      "formation_a": 6,
+      "formation_b": 8,
+      "comparable_slots": 10,
+      "same_slots": 7,
+      "similarity": 0.7
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 2,
+      "comparable_slots": 3,
+      "same_slots": 2,
+      "similarity": 0.6666666666666666
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 21,
+      "comparable_slots": 3,
+      "same_slots": 2,
+      "similarity": 0.6666666666666666
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 6,
+      "comparable_slots": 3,
+      "same_slots": 2,
+      "similarity": 0.6666666666666666
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 8,
+      "comparable_slots": 3,
+      "same_slots": 2,
+      "similarity": 0.6666666666666666
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 14,
+      "comparable_slots": 5,
+      "same_slots": 3,
+      "similarity": 0.6
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 14,
+      "comparable_slots": 5,
+      "same_slots": 3,
+      "similarity": 0.6
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 8,
+      "comparable_slots": 5,
+      "same_slots": 3,
+      "similarity": 0.6
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 6,
+      "comparable_slots": 10,
+      "same_slots": 5,
+      "similarity": 0.5
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 21,
+      "comparable_slots": 4,
+      "same_slots": 2,
+      "similarity": 0.5
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 21,
+      "comparable_slots": 4,
+      "same_slots": 2,
+      "similarity": 0.5
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 21,
+      "comparable_slots": 9,
+      "same_slots": 4,
+      "similarity": 0.4444444444444444
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 2,
+      "comparable_slots": 10,
+      "same_slots": 4,
+      "similarity": 0.4
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 6,
+      "comparable_slots": 5,
+      "same_slots": 2,
+      "similarity": 0.4
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 6,
+      "comparable_slots": 5,
+      "same_slots": 2,
+      "similarity": 0.4
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 8,
+      "comparable_slots": 11,
+      "same_slots": 4,
+      "similarity": 0.36363636363636365
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 21,
+      "comparable_slots": 10,
+      "same_slots": 3,
+      "similarity": 0.3
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 6,
+      "comparable_slots": 10,
+      "same_slots": 3,
+      "similarity": 0.3
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 10,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 11,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 13,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 0,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 10,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 11,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 13,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 1,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 11,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 12,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 13,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 14,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 2,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 21,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 10,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 12,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 13,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 14,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 2,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 21,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 11,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 13,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 12,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 14,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 2,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 21,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 13,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 15,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 14,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 18,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 2,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 21,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 15,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 2,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 21,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 18,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 20,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 2,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 20,
+      "formation_b": 21,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 20,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 20,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 20,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 20,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 20,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 21,
+      "formation_b": 22,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 21,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 21,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 22,
+      "formation_b": 23,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 22,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 22,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 22,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 23,
+      "formation_b": 4,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 23,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 23,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 4,
+      "formation_b": 6,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    },
+    {
+      "formation_a": 4,
+      "formation_b": 8,
+      "comparable_slots": 0,
+      "same_slots": 0,
+      "similarity": 0
+    }
+  ],
+  "unknown_players": {
+    "478460": 1,
+    "384609": 1,
+    "493782": 1,
+    "335110": 1,
+    "265377": 1,
+    "378786": 1,
+    "186714": 1,
+    "4008": 1,
+    "145736": 1,
+    "429250": 1,
+    "493780": 1,
+    "130317": 1,
+    "268117": 1,
+    "152738": 1,
+    "347881": 1,
+    "271386": 1,
+    "43816": 1,
+    "3553": 1,
+    "391743": 1,
+    "184469": 1,
+    "112664": 1,
+    "30782": 1,
+    "493146": 1,
+    "317728": 1,
+    "349689": 1,
+    "334637": 1,
+    "335199": 1,
+    "136735": 1,
+    "367064": 1,
+    "137724": 1,
+    "296663": 1,
+    "365989": 1,
+    "184972": 1,
+    "5996": 7,
+    "882": 1,
+    "409047": 1,
+    "136087": 1,
+    "396637": 1,
+    "421807": 1,
+    "1265": 1,
+    "41144": 1,
+    "314231": 1,
+    "72155": 1,
+    "6010": 1,
+    "359603": 1,
+    "19599": 2,
+    "19179": 2,
+    "2724": 2,
+    "19354": 2,
+    "162714": 2,
+    "85": 1,
+    "983": 2,
+    "2287": 2,
+    "19366": 2,
+    "13489": 2,
+    "19191": 2,
+    "19298": 1,
+    "19465": 1,
+    "38746": 1,
+    "127817": 1,
+    "22224": 1,
+    "22090": 1,
+    "2937": 1,
+    "37127": 1,
+    "47311": 1,
+    "931": 1,
+    "18979": 1,
+    "978": 1,
+    "26232": 2,
+    "757": 1,
+    "36922": 2,
+    "24899": 1,
+    "19495": 1,
+    "1904": 2,
+    "277306": 2,
+    "30407": 2,
+    "66817": 2,
+    "196156": 1,
+    "395559": 2,
+    "347211": 1,
+    "349001": 1,
+    "453906": 1,
+    "354027": 1,
+    "422780": 1,
+    "133196": 1,
+    "407806": 1,
+    "277003": 1,
+    "1465": 1,
+    "464055": 1,
+    "904": 1,
+    "557": 1,
+    "145538": 1,
+    "18202": 1,
+    "154799": 1,
+    "41964": 1,
+    "265820": 1,
+    "449249": 2,
+    "179843": 2,
+    "47579": 1,
+    "448969": 1,
+    "16046": 1,
+    "9978": 2,
+    "1231": 2,
+    "25158": 2,
+    "18744": 1,
+    "1445": 1,
+    "2869": 2,
+    "19428": 1,
+    "1243": 1,
+    "20674": 2,
+    "263530": 1,
+    "1646": 2,
+    "280": 1,
+    "283": 1,
+    "1600": 1,
+    "1145": 1,
+    "290": 1,
+    "133185": 1,
+    "1096": 1,
+    "31173": 1,
+    "306": 1,
+    "293": 1,
+    "452685": 1,
+    "31354": 1,
+    "47519": 1,
+    "204039": 2,
+    "164": 2,
+    "30776": 1,
+    "392514": 1,
+    "409216": 1,
+    "18784": 1,
+    "345808": 1,
+    "162033": 2,
+    "182519": 1,
+    "7525": 1,
+    "38695": 1,
+    "46731": 1,
+    "19265": 1,
+    "64003": 1,
+    "92993": 1,
+    "383018": 1,
+    "106835": 1,
+    "129643": 1,
+    "754": 1,
+    "305730": 1,
+    "18911": 1,
+    "328105": 1,
+    "19263": 1,
+    "38734": 1,
+    "162761": 1,
+    "30408": 1,
+    "1417": 1,
+    "31146": 1,
+    "2864": 1,
+    "138787": 1,
+    "8": 1,
+    "129058": 2,
+    "162347": 1,
+    "355167": 1,
+    "372": 2,
+    "386305": 2,
+    "291964": 2,
+    "380690": 1,
+    "471107": 2,
+    "278": 2,
+    "377122": 2,
+    "762": 1,
+    "25364": 1,
+    "21633": 1,
+    "10163": 1,
+    "162568": 1,
+    "30532": 1,
+    "340153": 1,
+    "1469": 1,
+    "18404": 1,
+    "138786": 1,
+    "162511": 1,
+    "532": 1,
+    "891": 1,
+    "2935": 1,
+    "747": 1,
+    "284322": 1,
+    "545": 1,
+    "886": 1,
+    "288006": 1,
+    "20589": 1,
+    "1485": 1,
+    "401983": 1,
+    "419626": 1,
+    "32122": 1,
+    "20461": 1,
+    "336590": 1,
+    "493650": 1,
+    "509269": 1,
+    "109987": 1,
+    "47393": 1,
+    "507527": 1,
+    "393193": 1,
+    "2932": 2,
+    "597": 1,
+    "2165": 2,
+    "2934": 2,
+    "17661": 1,
+    "472080": 2,
+    "1639": 2,
+    "2990": 1,
+    "18592": 2,
+    "18766": 1,
+    "24882": 2,
+    "10152": 1,
+    "44594": 1,
+    "1361": 1,
+    "19321": 1,
+    "15823": 1,
+    "32966": 1,
+    "697": 1,
+    "2279": 1,
+    "138776": 1,
+    "250": 1,
+    "19329": 1,
+    "270139": 1,
+    "2936": 1,
+    "895": 1,
+    "125743": 1,
+    "59173": 2,
+    "20093": 2,
+    "206254": 2,
+    "161671": 2,
+    "361497": 2,
+    "284797": 2,
+    "1125": 1,
+    "18872": 2,
+    "152856": 2,
+    "19281": 1,
+    "304853": 1,
+    "21997": 1,
+    "18846": 1,
+    "2476": 1,
+    "31346": 1,
+    "930": 1,
+    "6610": 1,
+    "1150": 1,
+    "2734": 1,
+    "2274": 1,
+    "19760": 1,
+    "399893": 1,
+    "147835": 1,
+    "141841": 1,
+    "182": 1,
+    "419582": 1,
+    "340573": 1,
+    "36798": 1,
+    "18779": 1,
+    "237819": 1,
+    "2919": 1,
+    "537": 1,
+    "138780": 1,
+    "2817": 1,
+    "363695": 1,
+    "265784": 1,
+    "6056": 1,
+    "18746": 1,
+    "10008": 1,
+    "19305": 1,
+    "2612": 1,
+    "647": 1,
+    "491103": 1,
+    "137721": 1,
+    "237129": 1,
+    "30435": 1,
+    "18883": 1,
+    "347316": 1,
+    "15911": 1,
+    "963": 1,
+    "152654": 1,
+    "1146": 1,
+    "24903": 1,
+    "2194": 1,
+    "6002": 1,
+    "25635": 1,
+    "47516": 1,
+    "794": 1,
+    "1464": 1,
+    "158644": 1,
+    "1438": 1,
+    "2920": 1,
+    "152967": 1,
+    "32893": 1,
+    "2729": 1,
+    "1934": 1,
+    "1455": 1,
+    "19025": 1,
+    "47582": 1,
+    "19221": 1,
+    "727": 1,
+    "19088": 1,
+    "19720": 1,
+    "182201": 1,
+    "20995": 1,
+    "67971": 1,
+    "2490": 1,
+    "2601": 1,
+    "2218": 1,
+    "1468": 1,
+    "30542": 1,
+    "19586": 1,
+    "99228": 1,
+    "441238": 1,
+    "8701": 1,
+    "303679": 1,
+    "47334": 1,
+    "19022": 1,
+    "418320": 1,
+    "18853": 1,
+    "511601": 1,
+    "198347": 1,
+    "37188": 1,
+    "736": 1,
+    "129718": 1,
+    "2207": 1,
+    "744": 1,
+    "125418": 1,
+    "25073": 1,
+    "1119": 1,
+    "178077": 1,
+    "481264": 1,
+    "231663": 1,
+    "155303": 1,
+    "153903": 1,
+    "313673": 1,
+    "155306": 1,
+    "380679": 1,
+    "440831": 1,
+    "339909": 1,
+    "87787": 1,
+    "266798": 1,
+    "42589": 1,
+    "43153": 1,
+    "43109": 1,
+    "3399": 1,
+    "315": 1,
+    "42500": 1,
+    "322179": 1,
+    "43171": 1,
+    "42687": 1,
+    "8493": 1,
+    "286671": 1
+  }
+}

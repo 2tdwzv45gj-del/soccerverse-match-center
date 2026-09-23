@@ -1,0 +1,3142 @@
+{
+  "club_id": 605,
+  "description": "Reverse-engineering dataset for formation slot patterns. Lineup index is recorded as an observation only and is NOT assumed to be a tactical position.",
+  "formations": {
+    "1": {
+      "sample_count": 4,
+      "fixtures": [
+        334158,
+        334170,
+        334175,
+        334220
+      ],
+      "slots": {
+        "0": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 1,
+              "multi_position": 1,
+              "count": 4
+            }
+          ]
+        },
+        "1": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 169112,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 10
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 169112,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 10
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 169112,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 10
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 363898,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 8
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 8,
+              "multi_position": 10,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 8,
+              "multi_position": 8,
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 4353,
+              "position": 2,
+              "position_main": null,
+              "multi_position": 2
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 2594,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 2,
+              "multi_position": 2,
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "4": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "5": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 256,
+              "multi_position": 768,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 2594,
+              "count": 1
+            }
+          ]
+        },
+        "6": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 290148,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4096,
+              "multi_position": 4096,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 1
+            }
+          ]
+        },
+        "7": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 4
+            }
+          ]
+        },
+        "8": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 4
+            }
+          ]
+        },
+        "9": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 512,
+              "multi_position": 37504,
+              "count": 1
+            }
+          ]
+        },
+        "10": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 512,
+              "multi_position": 37504,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 8192,
+              "multi_position": 8192,
+              "count": 1
+            }
+          ]
+        },
+        "11": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 1,
+              "multi_position": 1,
+              "count": 4
+            }
+          ]
+        },
+        "12": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "13": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "14": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 290148,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 290148,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 290148,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 1
+            }
+          ]
+        },
+        "15": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 4
+            }
+          ]
+        },
+        "16": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 4
+            }
+          ]
+        },
+        "17": {
+          "observations": [
+            {
+              "fixture_id": 334158,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            },
+            {
+              "fixture_id": 334170,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            },
+            {
+              "fixture_id": 334175,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            },
+            {
+              "fixture_id": 334220,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 8192,
+              "multi_position": 8192,
+              "count": 3
+            },
+            {
+              "position_main": null,
+              "position": 256,
+              "multi_position": 768,
+              "count": 1
+            }
+          ]
+        }
+      }
+    },
+    "7": {
+      "sample_count": 1,
+      "fixtures": [
+        334209
+      ],
+      "slots": {
+        "0": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 1,
+              "multi_position": 1,
+              "count": 1
+            }
+          ]
+        },
+        "1": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 1
+            }
+          ]
+        },
+        "2": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 1
+            }
+          ]
+        },
+        "3": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 1
+            }
+          ]
+        },
+        "4": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 2594,
+              "count": 1
+            }
+          ]
+        },
+        "5": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 4353,
+              "position": 2,
+              "position_main": null,
+              "multi_position": 2
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 2,
+              "multi_position": 2,
+              "count": 1
+            }
+          ]
+        },
+        "6": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 290148,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 1
+            }
+          ]
+        },
+        "7": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 256,
+              "multi_position": 768,
+              "count": 1
+            }
+          ]
+        },
+        "8": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 1
+            }
+          ]
+        },
+        "9": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 8192,
+              "multi_position": 8192,
+              "count": 1
+            }
+          ]
+        },
+        "10": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 1
+            }
+          ]
+        },
+        "11": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 1,
+              "multi_position": 1,
+              "count": 1
+            }
+          ]
+        },
+        "12": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 1
+            }
+          ]
+        },
+        "13": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 512689,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 6
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 6,
+              "count": 1
+            }
+          ]
+        },
+        "14": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 1
+            }
+          ]
+        },
+        "15": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 512,
+              "multi_position": 37504,
+              "count": 1
+            }
+          ]
+        },
+        "16": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 1
+            }
+          ]
+        },
+        "17": {
+          "observations": [
+            {
+              "fixture_id": 334209,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 1
+            }
+          ]
+        }
+      }
+    },
+    "13": {
+      "sample_count": 4,
+      "fixtures": [
+        334183,
+        334191,
+        334197,
+        334203
+      ],
+      "slots": {
+        "0": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 1832,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 1,
+              "multi_position": 1,
+              "count": 4
+            }
+          ]
+        },
+        "1": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 363898,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 8
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 363898,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 8
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 363898,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 8
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 363898,
+              "position": 8,
+              "position_main": null,
+              "multi_position": 8
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 8,
+              "multi_position": 8,
+              "count": 4
+            }
+          ]
+        },
+        "2": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 4353,
+              "position": 2,
+              "position_main": null,
+              "multi_position": 2
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 4353,
+              "position": 2,
+              "position_main": null,
+              "multi_position": 2
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 4353,
+              "position": 2,
+              "position_main": null,
+              "multi_position": 2
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 4353,
+              "position": 2,
+              "position_main": null,
+              "multi_position": 2
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 2,
+              "multi_position": 2,
+              "count": 4
+            }
+          ]
+        },
+        "3": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 9991,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "4": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 152714,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "5": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 511688,
+              "position": 256,
+              "position_main": null,
+              "multi_position": 768
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 256,
+              "multi_position": 768,
+              "count": 4
+            }
+          ]
+        },
+        "6": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 3620,
+              "position": 4096,
+              "position_main": null,
+              "multi_position": 4096
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4096,
+              "multi_position": 4096,
+              "count": 4
+            }
+          ]
+        },
+        "7": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 15891,
+              "position": 512,
+              "position_main": null,
+              "multi_position": 37504
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 512,
+              "multi_position": 37504,
+              "count": 4
+            }
+          ]
+        },
+        "8": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 385537,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 4
+            }
+          ]
+        },
+        "9": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 392036,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 4
+            }
+          ]
+        },
+        "10": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 178372,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 2594
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 2594,
+              "count": 4
+            }
+          ]
+        },
+        "11": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 311563,
+              "position": 1,
+              "position_main": null,
+              "multi_position": 1
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 1,
+              "multi_position": 1,
+              "count": 4
+            }
+          ]
+        },
+        "12": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 74636,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "13": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 363899,
+              "position": 4,
+              "position_main": null,
+              "multi_position": 4
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 4,
+              "multi_position": 4,
+              "count": 4
+            }
+          ]
+        },
+        "14": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 125405,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 4
+            }
+          ]
+        },
+        "15": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 136060,
+              "position": 32,
+              "position_main": null,
+              "multi_position": 32
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 32,
+              "multi_position": 32,
+              "count": 4
+            }
+          ]
+        },
+        "16": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 321770,
+              "position": 16384,
+              "position_main": null,
+              "multi_position": 16384
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 16384,
+              "multi_position": 16384,
+              "count": 4
+            }
+          ]
+        },
+        "17": {
+          "observations": [
+            {
+              "fixture_id": 334183,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            },
+            {
+              "fixture_id": 334191,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            },
+            {
+              "fixture_id": 334197,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            },
+            {
+              "fixture_id": 334203,
+              "player_id": 281227,
+              "position": 8192,
+              "position_main": null,
+              "multi_position": 8192
+            }
+          ],
+          "signature_counts": [
+            {
+              "position_main": null,
+              "position": 8192,
+              "multi_position": 8192,
+              "count": 4
+            }
+          ]
+        }
+      }
+    }
+  },
+  "starter_signatures": {
+    "1": [
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 10
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        }
+      ],
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 10
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        }
+      ],
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 10
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        }
+      ],
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 8
+        },
+        {
+          "position": 2,
+          "multi_position": 2
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        },
+        {
+          "position": 8192,
+          "multi_position": 8192
+        }
+      ]
+    ],
+    "7": [
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        },
+        {
+          "position": 2,
+          "multi_position": 2
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 8192,
+          "multi_position": 8192
+        },
+        {
+          "position": 32,
+          "multi_position": 32
+        }
+      ]
+    ],
+    "13": [
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 8
+        },
+        {
+          "position": 2,
+          "multi_position": 2
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        }
+      ],
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 8
+        },
+        {
+          "position": 2,
+          "multi_position": 2
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        }
+      ],
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 8
+        },
+        {
+          "position": 2,
+          "multi_position": 2
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        }
+      ],
+      [
+        {
+          "position": 1,
+          "multi_position": 1
+        },
+        {
+          "position": 8,
+          "multi_position": 8
+        },
+        {
+          "position": 2,
+          "multi_position": 2
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 4,
+          "multi_position": 4
+        },
+        {
+          "position": 256,
+          "multi_position": 768
+        },
+        {
+          "position": 4096,
+          "multi_position": 4096
+        },
+        {
+          "position": 512,
+          "multi_position": 37504
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 16384,
+          "multi_position": 16384
+        },
+        {
+          "position": 32,
+          "multi_position": 2594
+        }
+      ]
+    ]
+  },
+  "player_locations": {
+    "1832": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 0
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 0
+      }
+    ],
+    "169112": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 1
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 1
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 1
+      }
+    ],
+    "178372": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 4
+      }
+    ],
+    "9991": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 3
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 12
+      }
+    ],
+    "74636": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 2
+      }
+    ],
+    "511688": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 5
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 7
+      }
+    ],
+    "3620": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 6
+      }
+    ],
+    "136060": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 14
+      }
+    ],
+    "321770": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 8
+      }
+    ],
+    "385537": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 8
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 17
+      }
+    ],
+    "15891": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 15
+      }
+    ],
+    "311563": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 11
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 11
+      }
+    ],
+    "363899": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 12
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 3
+      }
+    ],
+    "152714": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 13
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 4
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 1
+      }
+    ],
+    "290148": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 6
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 6
+      }
+    ],
+    "125405": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 15
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 7
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 10
+      }
+    ],
+    "392036": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 16
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 14
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 9
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 16
+      }
+    ],
+    "281227": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334158,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334170,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334175,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 10
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 17
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 9
+      }
+    ],
+    "363898": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 1
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 1
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 1
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 1
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 1
+      }
+    ],
+    "4353": [
+      {
+        "formation_id": 1,
+        "fixture_id": 334220,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334183,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334191,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334197,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 13,
+        "fixture_id": 334203,
+        "lineup_index": 2
+      },
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 5
+      }
+    ],
+    "512689": [
+      {
+        "formation_id": 7,
+        "fixture_id": 334209,
+        "lineup_index": 13
+      }
+    ]
+  }
+}

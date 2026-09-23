@@ -1,0 +1,90 @@
+{
+  "recommended": {
+    "formation_id": 11,
+    "formation": "4-1-4-1",
+    "play_style": "Counter",
+    "slots": [
+      {
+        "slot": 0,
+        "position": "GK"
+      },
+      {
+        "slot": 1,
+        "position": "DFR"
+      },
+      {
+        "slot": 2,
+        "position": "DFL"
+      },
+      {
+        "slot": 3,
+        "position": "DFC"
+      },
+      {
+        "slot": 4,
+        "position": "DFC"
+      },
+      {
+        "slot": 5,
+        "position": "MFC"
+      },
+      {
+        "slot": 6,
+        "position": "MFR"
+      },
+      {
+        "slot": 7,
+        "position": "MFC"
+      },
+      {
+        "slot": 8,
+        "position": "FWC"
+      },
+      {
+        "slot": 9,
+        "position": "DMC"
+      },
+      {
+        "slot": 10,
+        "position": "MFL"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "formation_id": 11,
+      "formation": "4-1-4-1",
+      "play_style": "Counter",
+      "squad_fit_pct": 61.6,
+      "combined_score": 0.946
+    },
+    {
+      "formation_id": 12,
+      "formation": "4-2-3-1",
+      "play_style": "Passing",
+      "squad_fit_pct": 61.5,
+      "combined_score": 0.92
+    },
+    {
+      "formation_id": 18,
+      "formation": "1-4-3-2v2",
+      "play_style": "Passing",
+      "squad_fit_pct": 61.9,
+      "combined_score": 0.915
+    },
+    {
+      "formation_id": 18,
+      "formation": "1-4-3-2v2",
+      "play_style": "Counter",
+      "squad_fit_pct": 62.1,
+      "combined_score": 0.903
+    },
+    {
+      "formation_id": 6,
+      "formation": "5-4-1",
+      "play_style": "Counter",
+      "squad_fit_pct": 61.6,
+      "combined_score": 0.903
+    }
+  ]
+}

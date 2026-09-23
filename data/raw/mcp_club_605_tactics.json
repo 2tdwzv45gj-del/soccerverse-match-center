@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"commitment\":\"3dec752e29700eb743083712fd2fc41f72a05f6707f10a9a3e60c2295f9bf52c\"}"
+      }
+    ]
+  }
+}

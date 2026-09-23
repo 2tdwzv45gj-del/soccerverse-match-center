@@ -1,0 +1,102 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from math import log10
+
+
+@dataclass(frozen=True)
+class CrowdAudioProfile:
+    attendance: int
+    capacity_reference: int = 85000
+
+    @property
+    def crowd_scale(self) -> float:
+        """
+        Scala percettiva della folla.
+        1.0 ~= 85.000 presenti.
+        Non cresce linearmente: una folla doppia non deve sembrare
+        semplicemente il doppio più forte.
+        """
+        attendance = max(0, self.attendance)
+        reference = max(1, self.capacity_reference)
+
+        ratio = min(attendance / reference, 1.25)
+
+        # Scala percettiva morbida, mantenendo comunque una differenza
+        # evidente tra piccoli e grandi stadi.
+        if ratio <= 0:
+            return 0.0
+
+        return min(1.0, 0.35 + 0.65 * (ratio ** 0.55))
+
+
+@dataclass(frozen=True)
+class MatchAudioEvent:
+    kind: str
+    is_home: bool | None = None
+
+
+class MatchAudioEngine:
+    """
+    Determina l'intensità degli effetti audio del Match Center.
+
+    Il motore non riproduce direttamente audio:
+    restituisce parametri che il layer GUI/audio userà per farlo.
+    """
+
+    def __init__(
+        self,
+        attendance: int,
+        home_club_id: int | None = None,
+        away_club_id: int | None = None,
+    ) -> None:
+        self.crowd = CrowdAudioProfile(attendance)
+        self.home_club_id = home_club_id
+        self.away_club_id = away_club_id
+
+    def goal_intensity(self, is_home: bool) -> float:
+        """
+        Gol della squadra di casa:
+        massimo impatto compatibile con la capienza.
+
+        Gol della squadra ospite:
+        reazione del pubblico molto più contenuta.
+        """
+        crowd = self.crowd.crowd_scale
+
+        if is_home:
+            return crowd
+
+        # Reazione ospite: presente ma nettamente inferiore.
+        return crowd * 0.28
+
+    def red_card_intensity(self) -> float:
+        """
+        Reazione del pubblico all'espulsione.
+        La capienza influenza il rumore della folla,
+        non il volume del fischio arbitrale.
+        """
+        return self.crowd.crowd_scale * 0.65
+
+    def start_whistle_intensity(self) -> float:
+        """Fischio arbitrale iniziale: indipendente dalla capienza."""
+        return 1.0
+
+    def final_whistle_intensity(self) -> float:
+        """Triplice fischio finale: indipendente dalla capienza."""
+        return 1.0
+
+    def resolve(self, event: MatchAudioEvent) -> float:
+        if event.kind == "goal":
+            return self.goal_intensity(bool(event.is_home))
+
+        if event.kind == "red_card":
+            return self.red_card_intensity()
+
+        if event.kind == "start_whistle":
+            return self.start_whistle_intensity()
+
+        if event.kind == "final_whistle":
+            return self.final_whistle_intensity()
+
+        return 0.0

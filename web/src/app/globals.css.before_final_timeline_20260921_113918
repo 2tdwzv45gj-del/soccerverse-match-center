@@ -1,0 +1,250 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+/* ===== SV LIVE SCORE - TIMELINE ===== */
+.timeline{margin-top:28px}
+.timelineHeader{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:18px}
+.timelineHeader span{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;opacity:.55;margin-bottom:4px}
+.timelineHeader h2{margin:0;font-size:24px;line-height:1.1}
+.timeline>div:not(.timelineHeader){position:relative;display:flex;flex-direction:column;gap:8px}
+.timeline>div:not(.timelineHeader)::before{content:;position:absolute;left:68px;top:14px;bottom:14px;width:1px;background:rgba(255,255,255,.10)}
+.eventItem{position:relative;display:grid;grid-template-columns:48px 40px minmax(0,1fr);align-items:center;min-height:58px;padding:9px 12px;border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(255,255,255,.025);transition:transform .2s ease,background .2s ease,border-color .2s ease}
+.eventItem:hover{transform:translateX(2px);background:rgba(255,255,255,.045)}
+.eventTime{font-size:13px;font-weight:700;opacity:.62;text-align:left;z-index:1}
+.eventIcon{position:relative;z-index:2;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#111;border:1px solid rgba(255,255,255,.12);font-size:15px}
+.eventContent{display:flex;flex-direction:column;gap:3px;min-width:0;padding-left:8px}
+.eventContent strong{font-size:12px;letter-spacing:.05em;font-weight:800}
+.eventContent span{font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.eventContent small{font-size:11px;opacity:.52;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.eventItem.goal{border-color:rgba(80,220,130,.32);background:rgba(80,220,130,.075)}
+.eventItem.goal .eventIcon{border-color:rgba(80,220,130,.45)}
+.eventItem.goal .eventContent strong{font-size:13px}
+.eventItem.important{border-color:rgba(255,255,255,.10)}
+.eventItem.substitutionEvent{background:rgba(120,160,255,.045)}
+.eventItem.substitutionEvent .eventContent strong{opacity:.72}
+.eventItem.substitutionEvent .eventIcon{font-size:14px}
+.timeline article{animation:svTimelineIn .25s ease-out}
+@keyframes svTimelineIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media (max-width:600px){.timelineHeader h2{font-size:21px}.timeline>div:not(.timelineHeader)::before{left:56px}.eventItem{grid-template-columns:38px 34px minmax(0,1fr);padding:8px 9px;min-height:54px}.eventTime{font-size:12px}.eventIcon{width:27px;height:27px;font-size:14px}.eventContent{padding-left:5px}.eventContent span{font-size:13px}.eventContent small{font-size:10px}}
+\n/* SV LIVE SCORE — Match Center scoreboard */
+.scoreHeader{position:relative;overflow:hidden;padding:34px 28px 30px;margin-top:18px;border:1px solid rgba(255,255,255,.08);border-radius:28px;background:radial-gradient(circle at 50% 45%,rgba(255,255,255,.055),transparent 34%),linear-gradient(135deg,rgba(255,255,255,.045),rgba(255,255,255,.018));box-shadow:0 22px 70px rgba(0,0,0,.24)}
+.scoreHeader::before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(80,150,255,.035),transparent 35%,transparent 65%,rgba(255,80,100,.035))}
+.scoreTeams{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 190px minmax(0,1fr);align-items:start;gap:22px;max-width:1100px;margin:28px auto 0}
+.scoreTeam{text-align:center;min-width:0}
+.scoreLogoLarge{width:112px!important;height:112px!important;margin:0 auto 16px!important;border-width:2px!important;background:rgba(0,0,0,.26)!important;box-shadow:0 0 40px rgba(255,255,255,.08);transition:transform .25s ease,box-shadow .25s ease}
+.scoreTeam:hover .scoreLogoLarge{transform:translateY(-3px) scale(1.025)}
+.scoreLogoLarge img{width:78%;height:78%;object-fit:contain}
+.scoreTeam h1{margin:0;font-size:clamp(20px,2.4vw,31px);line-height:1.05;letter-spacing:-.025em}
+.scoreTeam>small{display:block;margin-top:8px;font-size:10px;font-weight:800;letter-spacing:.18em;opacity:.42}
+.bigScore{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:30px;text-align:center}
+.bigScore strong{font-size:clamp(48px,6vw,74px);line-height:.9;letter-spacing:-.055em;font-weight:900;white-space:nowrap}
+.bigScore span{margin-top:15px;font-size:11px;line-height:1.3;opacity:.48;max-width:190px}
+.bigScore em{margin-top:10px;padding:5px 9px;border:1px solid rgba(255,255,255,.10);border-radius:999px;font-size:9px;font-style:normal;font-weight:800;letter-spacing:.16em;opacity:.4}
+.scoreTeamEvents{display:flex;flex-direction:column;gap:7px;margin:18px auto 0;max-width:245px;text-align:left}
+.scoreEvent{display:flex;align-items:center;gap:9px;padding:8px 10px;border:1px solid rgba(255,255,255,.07);border-radius:11px;background:rgba(255,255,255,.028);animation:svScoreEventIn .25s ease-out}
+.scoreEventIcon{display:flex;align-items:center;justify-content:center;width:25px;height:25px;flex:0 0 25px;border-radius:7px;background:rgba(255,255,255,.06);font-size:13px}
+.scoreEvent>span:last-child{display:flex;align-items:baseline;justify-content:space-between;gap:8px;min-width:0;width:100%}
+.scoreEvent strong{font-size:11px;line-height:1.1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.scoreEvent small{font-size:10px;opacity:.48;flex:0 0 auto}
+.scoreEventGoal{border-color:rgba(80,220,130,.20);background:rgba(80,220,130,.045)}
+.scoreEventRed{border-color:rgba(255,80,80,.22);background:rgba(255,70,70,.045)}
+@keyframes svScoreEventIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){.scoreHeader{padding:26px 14px 24px;border-radius:22px}.scoreTeams{grid-template-columns:1fr 112px 1fr;gap:8px}.scoreLogoLarge{width:78px!important;height:78px!important}.scoreLogoLarge img{width:74%;height:74%}.scoreTeam h1{font-size:18px}.bigScore{padding-top:22px}.bigScore strong{font-size:43px}.bigScore span{font-size:9px}.scoreTeamEvents{max-width:170px}.scoreEvent{padding:7px 8px}.scoreEvent strong{font-size:10px}}
+@media(max-width:480px){.scoreTeams{grid-template-columns:1fr 88px 1fr;gap:4px}.scoreLogoLarge{width:64px!important;height:64px!important;margin-bottom:10px!important}.scoreTeam h1{font-size:15px}.scoreTeam>small{font-size:8px}.bigScore{padding-top:18px}.bigScore strong{font-size:34px}.bigScore em{font-size:7px;padding:4px 6px}.scoreTeamEvents{margin-top:12px}.scoreEventIcon{width:22px;height:22px;flex-basis:22px;font-size:11px}.scoreEvent{gap:6px}.scoreEvent strong{font-size:9px}.scoreEvent small{font-size:8px}}
+\n/* SV LIVE SCORE — Compact Timeline */
+.compactTimeline{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:4px;
+  padding:18px 14px;
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:18px;
+  background:rgba(255,255,255,.022);
+}
+
+.compactEvent{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  min-height:38px;
+  padding:5px 9px;
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;
+  background:rgba(255,255,255,.025);
+  transition:transform .18s ease,background .18s ease,border-color .18s ease;
+}
+
+.compactEvent:hover{
+  transform:translateY(-2px);
+  background:rgba(255,255,255,.05);
+}
+
+.compactTime{
+  font-size:11px;
+  font-weight:800;
+  opacity:.48;
+  min-width:24px;
+  text-align:right;
+}
+
+.compactIcon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:25px;
+  height:25px;
+  font-size:15px;
+}
+
+.compactPlayer{
+  max-width:150px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:11px;
+  font-weight:700;
+}
+
+.compact-goal{
+  border-color:rgba(80,220,130,.24);
+  background:rgba(80,220,130,.055);
+}
+
+.compact-goalcancelled{
+  border-color:rgba(255,255,255,.10);
+  background:rgba(255,255,255,.018);
+  opacity:.62;
+}
+
+.compact-redcard,
+.compact-secondyellowcard{
+  border-color:rgba(255,75,75,.24);
+  background:rgba(255,70,70,.05);
+}
+
+.compact-yellowcard{
+  background:rgba(255,255,255,.018);
+}
+
+.compactTimeline .substitutionEvent{
+  background:rgba(100,150,255,.035);
+}
+
+@media(max-width:700px){
+  .compactTimeline{
+    justify-content:flex-start;
+    gap:7px;
+    padding:14px 10px;
+  }
+
+  .compactEvent{
+    min-height:34px;
+    padding:4px 7px;
+  }
+
+  .compactTime{
+    font-size:10px;
+    min-width:20px;
+  }
+
+  .compactIcon{
+    min-width:22px;
+    height:22px;
+    font-size:13px;
+  }
+
+  .compactPlayer{
+    max-width:105px;
+    font-size:10px;
+  }
+}
+
+@media(max-width:430px){
+  .compactTimeline{
+    gap:5px;
+  }
+
+  .compactEvent{
+    padding:3px 6px;
+  }
+
+  .compactPlayer{
+    max-width:82px;
+  }
+}
+
+/* SV LIVE SCORE — Timeline compact override */
+.eventList.compactTimeline{
+  display:flex !important;
+  flex-direction:row !important;
+  align-items:center !important;
+  justify-content:center !important;
+  flex-wrap:wrap !important;
+  gap:10px !important;
+  margin-top:4px !important;
+  padding:18px 14px !important;
+}
+.eventList.compactTimeline .compactEvent{
+  display:inline-flex !important;
+  width:auto !important;
+  min-width:0 !important;
+  margin:0 !important;
+}
+@media(max-width:700px){
+  .eventList.compactTimeline{
+    justify-content:flex-start !important;
+    gap:7px !important;
+    padding:14px 10px !important;
+  }
+}

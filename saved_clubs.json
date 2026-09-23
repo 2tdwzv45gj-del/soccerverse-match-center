@@ -1,0 +1,27 @@
+[
+  {
+    "club_id": 1844,
+    "club_name": "Salford City",
+    "country_id": "ENG"
+  },
+  {
+    "club_id": 1013,
+    "club_name": "Grasshoppers",
+    "country_id": "CHE"
+  },
+  {
+    "club_id": 22855,
+    "club_name": "Rhode Island",
+    "country_id": "USA"
+  },
+  {
+    "club_id": 5931,
+    "club_name": "Sporting Hasselt",
+    "country_id": "BEL"
+  },
+  {
+    "club_id": 9781,
+    "club_name": "Ibiza Islas Pitiusas",
+    "country_id": "ESP"
+  }
+]

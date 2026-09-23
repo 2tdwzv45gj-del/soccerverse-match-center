@@ -1,0 +1,171 @@
+"use client";
+
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import styles from "./page.module.css";
+
+type Match = {
+  fixtureId: number;
+  homeClubId: number;
+  awayClubId: number;
+  home: { id: number; name: string; logo: string | null; colors: number[] | null };
+  away: { id: number; name: string; logo: string | null; colors: number[] | null };
+  homeGoals: number;
+  awayGoals: number;
+  played: boolean;
+  datetime: string;
+  competition: string;
+};
+
+type MatchDetail = Match & {
+  stadium: { id: number; name: string; image: string } | null;
+  events: Array<{ event_type?: string; time?: number; player_name?: string; event_player_name?: string; club_name?: string; club_one_name?: string }>;
+};
+
+function formatDate(value: string) {
+  const date = new Date(value.replace(" ", "T"));
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short" }).format(date);
+}
+
+function formatTime(value: string) {
+  const date = new Date(value.replace(" ", "T"));
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("it-IT", { hour: "2-digit", minute: "2-digit" }).format(date);
+}
+
+function eventIcon(type: string) {
+  if (type === "GOAL") return "⚽";
+  if (type === "REDCARD" || type === "SECONDYELLOWCARD") return "🟥";
+  if (type === "YELLOWCARD") return "🟨";
+  return "";
+}
+
+function eventMinute(event: MatchDetail["events"][number]) {
+  const raw = event.time ?? 0;
+  const match = String(raw).match(/\d+/);
+  return match ? Number(match[0]) : 0;
+}
+
+function MatchCard({ match }: { match: MatchDetail }) {
+  const importantEvents = match.events
+    .map((event) => ({ ...event, type: String(event.event_type ?? "").toUpperCase() }))
+    .filter((event) => ["GOAL", "REDCARD", "SECONDYELLOWCARD"].includes(event.type))
+    .sort((a, b) => eventMinute(a) - eventMinute(b))
+    .slice(0, 4);
+
+  return (
+    <button
+      type="button"
+      className={styles.card}
+      onClick={() => { window.location.href = "/match/" + match.fixtureId; }}
+    >
+      <div className={styles.cardTop}>
+        <span>{formatDate(match.datetime)} · {formatTime(match.datetime)}</span>
+        <span>{match.competition || "SOCCERVERSE"}</span>
+      </div>
+
+      <div className={styles.teams}>
+        <div className={styles.team}>
+          <div className={styles.logoBox} style={{ borderColor: match.home.colors?.length === 3 ? "rgb(" + match.home.colors.join(",") + ")" : undefined }}>
+            {match.home.logo ? <img src={match.home.logo} alt="" /> : <span>⚽</span>}
+          </div>
+          <strong>{match.home.name}</strong>
+        </div>
+
+        <div className={styles.score}>
+          <strong>{match.homeGoals}</strong>
+          <span>−</span>
+          <strong>{match.awayGoals}</strong>
+        </div>
+
+        <div className={styles.team}>
+          <div className={styles.logoBox} style={{ borderColor: match.away.colors?.length === 3 ? "rgb(" + match.away.colors.join(",") + ")" : undefined }}>
+            {match.away.logo ? <img src={match.away.logo} alt="" /> : <span>⚽</span>}
+          </div>
+          <strong>{match.away.name}</strong>
+        </div>
+      </div>
+
+      <div className={styles.meta}>
+        <span>🏟️ {match.stadium?.name || "Stadium"}</span>
+      </div>
+
+      {importantEvents.length > 0 && (
+        <div className={styles.events}>
+          {importantEvents.map((event, index) => {
+            const player = event.player_name || event.event_player_name || "";
+            const club = event.club_name || event.club_one_name || "";
+            return (
+              <div className={styles.event} key={String(event.event_type) + "-" + String(event.time) + "-" + String(index)}><span>{eventMinute(event)}&apos;</span><b>{eventIcon(event.type)}</b><span>{player || event.type.replaceAll("_", " ")}</span>{club && <small>{club}</small>}</div>
+            );
+          })}
+        </div>
+      )}
+    </button>
+  );
+}
+
+function MultiplexContent() {
+  const searchParams = useSearchParams();
+  const clubId = searchParams.get("clubId");
+  const [matches, setMatches] = useState<MatchDetail[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    if (!clubId) { setError("Manca il Club ID."); setLoading(false); return; }
+    let cancelled = false;
+    async function load() {
+      try {
+        const response = await fetch("/api/club/" + clubId + "/matches", { cache: "no-store" });
+        if (!response.ok) throw new Error("Impossibile caricare le partite.");
+        const result = await response.json();
+        const baseMatches: Match[] = (result.matches || []).slice(-10);
+        const details = await Promise.all(baseMatches.map(async (match) => {
+          try {
+            const detailResponse = await fetch("/api/match/" + match.fixtureId, { cache: "no-store" });
+            if (!detailResponse.ok) return { ...match, stadium: null, events: [] };
+            const detail = await detailResponse.json();
+            return { ...match, stadium: detail.stadium || null, events: detail.events || [] };
+          } catch { return { ...match, stadium: null, events: [] }; }
+        }));
+        if (!cancelled) setMatches(details);
+      } catch (err) {
+        if (!cancelled) setError(err instanceof Error ? err.message : "Errore durante il caricamento.");
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    }
+    load();
+    return () => { cancelled = true; };
+  }, [clubId]);
+
+  const title = useMemo(() => matches.length + " MATCH" + (matches.length === 1 ? "" : "ES"), [matches.length]);
+
+  return (
+    <main className={styles.page}>
+      <header className={styles.header}>
+        <div><span>SV LIVE SCORE</span><h1>Multiplex</h1></div>
+        <div className={styles.badge}>● LIVE CONTROL ROOM</div>
+      </header>
+      <section className={styles.toolbar}>
+        <div><span>MATCH CENTER</span><h2>{loading ? "Caricamento…" : title}</h2></div>
+        <button type="button" onClick={() => { window.location.href = "/"; }}>← HOME</button>
+      </section>
+      {error && <div className={styles.empty}>{error}</div>}
+      {loading && <div className={styles.empty}>Caricamento partite…</div>}
+      {!loading && !error && matches.length === 0 && <div className={styles.empty}>Nessuna partita disponibile.</div>}
+      {!loading && !error && matches.length > 0 && <section className={styles.grid}>{matches.map((match) => <MatchCard key={match.fixtureId} match={match} />)}</section>}
+    </main>
+  );
+}
+
+
+export default function MultiplexPage() {
+  return (
+    <Suspense fallback={<main className={styles.page}><div className={styles.empty}>Caricamento Multiplex…</div></main>}>
+      <MultiplexContent />
+    </Suspense>
+  );
+}\n

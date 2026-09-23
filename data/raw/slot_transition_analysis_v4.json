@@ -1,0 +1,5186 @@
+{
+  "samples": 94,
+  "players_with_positions": 180,
+  "players_in_lineups": 434,
+  "player_positions": {
+    "74480": [
+      "RB"
+    ],
+    "3469": [
+      "CB"
+    ],
+    "3847": [
+      "AMC"
+    ],
+    "42724": [
+      "CB",
+      "DMC",
+      "LM",
+      "CM"
+    ],
+    "175425": [
+      "GK"
+    ],
+    "203695": [
+      "CB"
+    ],
+    "3540": [
+      "DMC"
+    ],
+    "418214": [
+      "DML"
+    ],
+    "4264": [
+      "DMC"
+    ],
+    "475305": [
+      "FL",
+      "FC"
+    ],
+    "56043": [
+      "LM",
+      "CM",
+      "RM"
+    ],
+    "137313": [
+      "DML",
+      "DMR"
+    ],
+    "340581": [
+      "LM",
+      "CM"
+    ],
+    "406275": [
+      "FC"
+    ],
+    "461705": [
+      "CB",
+      "AMC"
+    ],
+    "6696": [
+      "FC"
+    ],
+    "196348": [
+      "RB"
+    ],
+    "41593": [
+      "FC"
+    ],
+    "503893": [
+      "AML",
+      "AMC"
+    ],
+    "521392": [
+      "CB"
+    ],
+    "454293": [
+      "CB"
+    ],
+    "126095": [
+      "CM"
+    ],
+    "71135": [
+      "AML",
+      "AMC"
+    ],
+    "345105": [
+      "GK"
+    ],
+    "43217": [
+      "DMC"
+    ],
+    "300005": [
+      "CB"
+    ],
+    "3588": [
+      "GK"
+    ],
+    "3918": [
+      "FL",
+      "FR"
+    ],
+    "74658": [
+      "CB"
+    ],
+    "157998": [
+      "DMC"
+    ],
+    "302089": [
+      "LB"
+    ],
+    "161953": [
+      "FC"
+    ],
+    "337481": [
+      "FC"
+    ],
+    "341109": [
+      "LM"
+    ],
+    "435255": [
+      "LB"
+    ],
+    "315987": [
+      "CB"
+    ],
+    "338304": [
+      "FC"
+    ],
+    "16881": [
+      "CB"
+    ],
+    "322122": [
+      "GK"
+    ],
+    "348209": [
+      "AMC"
+    ],
+    "373462": [
+      "GK"
+    ],
+    "435256": [
+      "DMC"
+    ],
+    "3495": [
+      "FC",
+      "FR"
+    ],
+    "388991": [
+      "DMC"
+    ],
+    "169199": [
+      "DMR"
+    ],
+    "196437": [
+      "LM"
+    ],
+    "391734": [
+      "FR"
+    ],
+    "378171": [
+      "LB"
+    ],
+    "409885": [
+      "DMC"
+    ],
+    "193627": [
+      "FC"
+    ],
+    "3741": [
+      "RB"
+    ],
+    "45501": [
+      "CB"
+    ],
+    "3475": [
+      "FL"
+    ],
+    "135226": [
+      "AML",
+      "AMR"
+    ],
+    "169481": [
+      "CM"
+    ],
+    "277767": [
+      "AML"
+    ],
+    "297536": [
+      "CB"
+    ],
+    "338109": [
+      "RB"
+    ],
+    "419649": [
+      "RB"
+    ],
+    "3735": [
+      "GK"
+    ],
+    "3749": [
+      "CM"
+    ],
+    "14614": [
+      "CB"
+    ],
+    "140971": [
+      "FL"
+    ],
+    "3576": [
+      "RM"
+    ],
+    "122742": [
+      "LB",
+      "DML"
+    ],
+    "390632": [
+      "GK"
+    ],
+    "387358": [
+      "AMC",
+      "AMR"
+    ],
+    "424506": [
+      "AML"
+    ],
+    "53555": [
+      "FC"
+    ],
+    "476260": [
+      "DML",
+      "FL",
+      "FC"
+    ],
+    "503168": [
+      "LB",
+      "CB"
+    ],
+    "4336": [
+      "CB"
+    ],
+    "322600": [
+      "CB",
+      "RB"
+    ],
+    "493758": [
+      "LM"
+    ],
+    "3691": [
+      "LB"
+    ],
+    "3704": [
+      "FC",
+      "FR"
+    ],
+    "3623": [
+      "CB"
+    ],
+    "3645": [
+      "GK"
+    ],
+    "3789": [
+      "DMC"
+    ],
+    "25874": [
+      "FC"
+    ],
+    "293318": [
+      "RB"
+    ],
+    "437037": [
+      "LB"
+    ],
+    "298011": [
+      "FC"
+    ],
+    "385752": [
+      "CM"
+    ],
+    "189040": [
+      "CB"
+    ],
+    "384605": [
+      "AMC"
+    ],
+    "3912": [
+      "DMC"
+    ],
+    "25867": [
+      "RB",
+      "DMC",
+      "CM",
+      "AMC"
+    ],
+    "37011": [
+      "AML",
+      "AMR",
+      "FC"
+    ],
+    "290756": [
+      "FC"
+    ],
+    "340684": [
+      "GK"
+    ],
+    "391741": [
+      "CB"
+    ],
+    "216576": [
+      "CM",
+      "FC",
+      "FR"
+    ],
+    "315989": [
+      "FC"
+    ],
+    "345184": [
+      "DML",
+      "AMC"
+    ],
+    "273259": [
+      "LM"
+    ],
+    "286924": [
+      "LB"
+    ],
+    "209939": [
+      "DMC",
+      "LM",
+      "CM"
+    ],
+    "3885": [
+      "RM"
+    ],
+    "175540": [
+      "GK"
+    ],
+    "387453": [
+      "CM"
+    ],
+    "454430": [
+      "FC"
+    ],
+    "116117": [
+      "RB",
+      "DMC",
+      "LM",
+      "CM"
+    ],
+    "18959": [
+      "GK"
+    ],
+    "19145": [
+      "CB"
+    ],
+    "283058": [
+      "AML",
+      "FC"
+    ],
+    "336671": [
+      "LB",
+      "CB",
+      "DMC",
+      "CM"
+    ],
+    "22094": [
+      "CB",
+      "RB"
+    ],
+    "152982": [
+      "AMC",
+      "AMR",
+      "FC",
+      "FR"
+    ],
+    "321746": [
+      "DMC",
+      "CM",
+      "RM"
+    ],
+    "95": [
+      "CB"
+    ],
+    "19545": [
+      "LB",
+      "RB",
+      "DMC"
+    ],
+    "152953": [
+      "LB",
+      "CB"
+    ],
+    "47380": [
+      "LB",
+      "RB"
+    ],
+    "135519": [
+      "AMC",
+      "AMR",
+      "FR"
+    ],
+    "282125": [
+      "DMC"
+    ],
+    "1864": [
+      "AML",
+      "AMR",
+      "FC",
+      "FR"
+    ],
+    "136723": [
+      "AML",
+      "AMR",
+      "FR"
+    ],
+    "366735": [
+      "CB",
+      "RB"
+    ],
+    "161907": [
+      "LB",
+      "RB",
+      "DMR"
+    ],
+    "2": [
+      "GK"
+    ],
+    "334037": [
+      "AML",
+      "AMR",
+      "FC"
+    ],
+    "425733": [
+      "AMC",
+      "AMR",
+      "FC",
+      "FR"
+    ],
+    "341642": [
+      "LB",
+      "CB"
+    ],
+    "392270": [
+      "FC"
+    ],
+    "359117": [
+      "FC"
+    ],
+    "392610": [
+      "DMC",
+      "DMR"
+    ],
+    "482888": [
+      "AMC"
+    ],
+    "365660": [
+      "DMC"
+    ],
+    "1100": [
+      "FC"
+    ],
+    "2291": [
+      "DMC",
+      "LM",
+      "CM",
+      "AMC"
+    ],
+    "44": [
+      "DMC",
+      "CM"
+    ],
+    "636": [
+      "DMC",
+      "RM",
+      "AMC",
+      "AMR"
+    ],
+    "5": [
+      "LB",
+      "CB",
+      "RB",
+      "DMC"
+    ],
+    "626": [
+      "CB",
+      "RB",
+      "DMC"
+    ],
+    "631": [
+      "AML",
+      "AMC",
+      "AMR",
+      "FC"
+    ],
+    "129033": [
+      "LB",
+      "CB"
+    ],
+    "567": [
+      "CB"
+    ],
+    "629": [
+      "AMC",
+      "FC"
+    ],
+    "41621": [
+      "RB",
+      "DMC",
+      "RM",
+      "AML"
+    ],
+    "61142": [
+      "GK"
+    ],
+    "308814": [
+      "LM",
+      "RM",
+      "AMC",
+      "AMR"
+    ],
+    "1422": [
+      "AML",
+      "AMC",
+      "AMR",
+      "FL"
+    ],
+    "284230": [
+      "LB",
+      "RB",
+      "DMC",
+      "AMC"
+    ],
+    "313353": [
+      "FC"
+    ],
+    "266657": [
+      "AML",
+      "AMC",
+      "AMR",
+      "FL"
+    ],
+    "307123": [
+      "LB",
+      "DMC",
+      "LM",
+      "AML"
+    ],
+    "404656": [
+      "CB"
+    ],
+    "278059": [
+      "DMC",
+      "RM"
+    ],
+    "278128": [
+      "LB"
+    ],
+    "43729": [
+      "GK"
+    ],
+    "284409": [
+      "FC"
+    ],
+    "345426": [
+      "AMC"
+    ],
+    "382344": [
+      "DMC"
+    ],
+    "394666": [
+      "FC",
+      "FR"
+    ],
+    "9991": [
+      "CB"
+    ],
+    "15891": [
+      "LM",
+      "RM",
+      "AMR",
+      "FR"
+    ],
+    "3620": [
+      "AMR"
+    ],
+    "178372": [
+      "LB",
+      "DMC",
+      "RM",
+      "AMC"
+    ],
+    "373653": [
+      "RB"
+    ],
+    "30061": [
+      "FC"
+    ],
+    "321770": [
+      "FC"
+    ],
+    "507657": [
+      "FL"
+    ],
+    "511688": [
+      "CM",
+      "RM"
+    ],
+    "152714": [
+      "CB"
+    ],
+    "513164": [
+      "FC"
+    ],
+    "4353": [
+      "LB"
+    ],
+    "74636": [
+      "CB"
+    ],
+    "392036": [
+      "FC"
+    ],
+    "281227": [
+      "FL"
+    ],
+    "290148": [
+      "DMC"
+    ],
+    "363898": [
+      "RB"
+    ],
+    "363899": [
+      "CB"
+    ],
+    "1832": [
+      "GK"
+    ],
+    "125405": [
+      "DMC"
+    ],
+    "169112": [
+      "LB",
+      "RB"
+    ],
+    "311563": [
+      "GK"
+    ],
+    "385537": [
+      "FC"
+    ],
+    "136060": [
+      "DMC"
+    ],
+    "512689": [
+      "LB",
+      "CB"
+    ]
+  },
+  "player_slot_stability": [
+    {
+      "player_id": "61142",
+      "appearances": 19,
+      "positions": [
+        "GK"
+      ],
+      "groups": [
+        "GK"
+      ],
+      "primary_group": "GK",
+      "slots": {
+        "0": 19
+      },
+      "formations": {
+        "20": 3,
+        "12": 14,
+        "22": 2
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "1100",
+      "appearances": 17,
+      "positions": [
+        "FC"
+      ],
+      "groups": [
+        "ATT"
+      ],
+      "primary_group": "ATT",
+      "slots": {
+        "8": 17
+      },
+      "formations": {
+        "20": 3,
+        "12": 13,
+        "22": 1
+      },
+      "dominant_slot": 8,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "18959",
+      "appearances": 13,
+      "positions": [
+        "GK"
+      ],
+      "groups": [
+        "GK"
+      ],
+      "primary_group": "GK",
+      "slots": {
+        "0": 13
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "1422",
+      "appearances": 13,
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FL"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "slots": {
+        "10": 13
+      },
+      "formations": {
+        "20": 1,
+        "12": 11,
+        "22": 1
+      },
+      "dominant_slot": 10,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "278128",
+      "appearances": 5,
+      "positions": [
+        "LB"
+      ],
+      "groups": [
+        "DEF-L"
+      ],
+      "primary_group": "DEF-L",
+      "slots": {
+        "2": 5
+      },
+      "formations": {
+        "20": 2,
+        "12": 3
+      },
+      "dominant_slot": 2,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "334037",
+      "appearances": 4,
+      "positions": [
+        "AML",
+        "AMR",
+        "FC"
+      ],
+      "groups": [
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "ATT-W",
+      "slots": {
+        "10": 4
+      },
+      "formations": {
+        "0": 3,
+        "2": 1
+      },
+      "dominant_slot": 10,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "44",
+      "appearances": 4,
+      "positions": [
+        "DMC",
+        "CM"
+      ],
+      "groups": [
+        "DM",
+        "CM"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "7": 4
+      },
+      "formations": {
+        "20": 1,
+        "12": 2,
+        "22": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "321746",
+      "appearances": 2,
+      "positions": [
+        "DMC",
+        "CM",
+        "RM"
+      ],
+      "groups": [
+        "DM",
+        "CM",
+        "MID-W"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "6": 2
+      },
+      "formations": {
+        "1": 1,
+        "12": 1
+      },
+      "dominant_slot": 6,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "19599",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "2724",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 2,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "162714",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "4": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 4,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "19366",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 8,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "13489",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "9": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 9,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "19191",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "10": 2
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 10,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "26232",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "1904",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "5": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 5,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "66817",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 8,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "395559",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "10": 2
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 10,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "449249",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "6": 2
+      },
+      "formations": {
+        "20": 1,
+        "23": 1
+      },
+      "dominant_slot": 6,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "9978",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "1231",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "1": 2
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "dominant_slot": 1,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "25158",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "dominant_slot": 2,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "278059",
+      "appearances": 2,
+      "positions": [
+        "DMC",
+        "RM"
+      ],
+      "groups": [
+        "DM",
+        "MID-W"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "5": 2
+      },
+      "formations": {
+        "12": 2
+      },
+      "dominant_slot": 5,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "204039",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "13": 1,
+        "11": 1
+      },
+      "dominant_slot": 2,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "164",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "13": 1,
+        "11": 1
+      },
+      "dominant_slot": 3,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "129058",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "372",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 3,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "471107",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "7": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "278",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 8,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "377122",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "9": 2
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 9,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "2932",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "2165",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "2": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 2,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "2934",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 3,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "472080",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "5": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 5,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "1639",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "6": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 6,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "18592",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 8,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "24882",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "10": 2
+      },
+      "formations": {
+        "22": 2
+      },
+      "dominant_slot": 10,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "59173",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "0": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 0,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "20093",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "1": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 1,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "161671",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "3": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 3,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "18872",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "7": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "152856",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "8": 2
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 8,
+      "slot_stability": 1.0
+    },
+    {
+      "player_id": "567",
+      "appearances": 10,
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "3": 9,
+        "4": 1
+      },
+      "formations": {
+        "20": 1,
+        "12": 9
+      },
+      "dominant_slot": 3,
+      "slot_stability": 0.9
+    },
+    {
+      "player_id": "283058",
+      "appearances": 12,
+      "positions": [
+        "AML",
+        "FC"
+      ],
+      "groups": [
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "ATT-W",
+      "slots": {
+        "7": 1,
+        "8": 10,
+        "9": 1
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "dominant_slot": 8,
+      "slot_stability": 0.8333333333333334
+    },
+    {
+      "player_id": "631",
+      "appearances": 12,
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FC"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "slots": {
+        "9": 10,
+        "10": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 8,
+        "22": 2
+      },
+      "dominant_slot": 9,
+      "slot_stability": 0.8333333333333334
+    },
+    {
+      "player_id": "95",
+      "appearances": 5,
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "3": 1,
+        "2": 4
+      },
+      "formations": {
+        "0": 1,
+        "6": 4
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.8
+    },
+    {
+      "player_id": "135519",
+      "appearances": 8,
+      "positions": [
+        "AMC",
+        "AMR",
+        "FR"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "slots": {
+        "9": 2,
+        "6": 6
+      },
+      "formations": {
+        "1": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "dominant_slot": 6,
+      "slot_stability": 0.75
+    },
+    {
+      "player_id": "19145",
+      "appearances": 12,
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "3": 8,
+        "4": 1,
+        "1": 3
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "dominant_slot": 3,
+      "slot_stability": 0.6666666666666666
+    },
+    {
+      "player_id": "5",
+      "appearances": 12,
+      "positions": [
+        "LB",
+        "CB",
+        "RB",
+        "DMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L",
+        "CB",
+        "DM"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "4": 8,
+        "1": 3,
+        "3": 1
+      },
+      "formations": {
+        "20": 2,
+        "12": 9,
+        "22": 1
+      },
+      "dominant_slot": 4,
+      "slot_stability": 0.6666666666666666
+    },
+    {
+      "player_id": "307123",
+      "appearances": 9,
+      "positions": [
+        "LB",
+        "DMC",
+        "LM",
+        "AML"
+      ],
+      "groups": [
+        "DEF-L",
+        "DM",
+        "MID-W",
+        "ATT-W"
+      ],
+      "primary_group": "DEF-L",
+      "slots": {
+        "5": 1,
+        "2": 6,
+        "7": 2
+      },
+      "formations": {
+        "20": 1,
+        "12": 6,
+        "22": 2
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.6666666666666666
+    },
+    {
+      "player_id": "308814",
+      "appearances": 9,
+      "positions": [
+        "LM",
+        "RM",
+        "AMC",
+        "AMR"
+      ],
+      "groups": [
+        "MID-W",
+        "AMC",
+        "ATT-W"
+      ],
+      "primary_group": "MID-W",
+      "slots": {
+        "6": 6,
+        "9": 1,
+        "5": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 5,
+        "22": 2
+      },
+      "dominant_slot": 6,
+      "slot_stability": 0.6666666666666666
+    },
+    {
+      "player_id": "282125",
+      "appearances": 3,
+      "positions": [
+        "DMC"
+      ],
+      "groups": [
+        "DM"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "5": 2,
+        "7": 1
+      },
+      "formations": {
+        "0": 2,
+        "2": 1
+      },
+      "dominant_slot": 5,
+      "slot_stability": 0.6666666666666666
+    },
+    {
+      "player_id": "152953",
+      "appearances": 3,
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "groups": [
+        "DEF-L",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "1": 2,
+        "2": 1
+      },
+      "formations": {
+        "8": 2,
+        "2": 1
+      },
+      "dominant_slot": 1,
+      "slot_stability": 0.6666666666666666
+    },
+    {
+      "player_id": "404656",
+      "appearances": 8,
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "3": 5,
+        "4": 3
+      },
+      "formations": {
+        "20": 2,
+        "12": 4,
+        "22": 2
+      },
+      "dominant_slot": 3,
+      "slot_stability": 0.625
+    },
+    {
+      "player_id": "636",
+      "appearances": 13,
+      "positions": [
+        "DMC",
+        "RM",
+        "AMC",
+        "AMR"
+      ],
+      "groups": [
+        "DM",
+        "MID-W",
+        "AMC",
+        "ATT-W"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "6": 8,
+        "5": 2,
+        "7": 2,
+        "9": 1
+      },
+      "formations": {
+        "20": 2,
+        "12": 11
+      },
+      "dominant_slot": 6,
+      "slot_stability": 0.6153846153846154
+    },
+    {
+      "player_id": "116117",
+      "appearances": 10,
+      "positions": [
+        "RB",
+        "DMC",
+        "LM",
+        "CM"
+      ],
+      "groups": [
+        "DEF-R",
+        "DM",
+        "CM",
+        "MID-W"
+      ],
+      "primary_group": "DEF-R",
+      "slots": {
+        "1": 4,
+        "7": 6
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "2": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 0.6
+    },
+    {
+      "player_id": "129033",
+      "appearances": 10,
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "groups": [
+        "DEF-L",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "2": 6,
+        "4": 4
+      },
+      "formations": {
+        "12": 10
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.6
+    },
+    {
+      "player_id": "313353",
+      "appearances": 5,
+      "positions": [
+        "FC"
+      ],
+      "groups": [
+        "ATT"
+      ],
+      "primary_group": "ATT",
+      "slots": {
+        "9": 3,
+        "8": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 1,
+        "22": 2
+      },
+      "dominant_slot": 9,
+      "slot_stability": 0.6
+    },
+    {
+      "player_id": "2291",
+      "appearances": 12,
+      "positions": [
+        "DMC",
+        "LM",
+        "CM",
+        "AMC"
+      ],
+      "groups": [
+        "DM",
+        "CM",
+        "MID-W",
+        "AMC"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "5": 5,
+        "7": 7
+      },
+      "formations": {
+        "20": 2,
+        "12": 9,
+        "22": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 0.5833333333333334
+    },
+    {
+      "player_id": "5996",
+      "appearances": 7,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "5": 1,
+        "7": 1,
+        "9": 4,
+        "10": 1
+      },
+      "formations": {
+        "0": 2,
+        "6": 3,
+        "21": 1,
+        "2": 1
+      },
+      "dominant_slot": 9,
+      "slot_stability": 0.5714285714285714
+    },
+    {
+      "player_id": "629",
+      "appearances": 7,
+      "positions": [
+        "AMC",
+        "FC"
+      ],
+      "groups": [
+        "AMC",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "slots": {
+        "10": 1,
+        "9": 4,
+        "6": 2
+      },
+      "formations": {
+        "20": 1,
+        "12": 4,
+        "22": 2
+      },
+      "dominant_slot": 9,
+      "slot_stability": 0.5714285714285714
+    },
+    {
+      "player_id": "41621",
+      "appearances": 13,
+      "positions": [
+        "RB",
+        "DMC",
+        "RM",
+        "AML"
+      ],
+      "groups": [
+        "DEF-R",
+        "DM",
+        "MID-W",
+        "ATT-W"
+      ],
+      "primary_group": "DEF-R",
+      "slots": {
+        "1": 7,
+        "5": 4,
+        "7": 2
+      },
+      "formations": {
+        "20": 2,
+        "12": 11
+      },
+      "dominant_slot": 1,
+      "slot_stability": 0.5384615384615384
+    },
+    {
+      "player_id": "284230",
+      "appearances": 10,
+      "positions": [
+        "LB",
+        "RB",
+        "DMC",
+        "AMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L",
+        "DM",
+        "AMC"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "2": 2,
+        "7": 1,
+        "5": 2,
+        "1": 5
+      },
+      "formations": {
+        "20": 2,
+        "12": 6,
+        "22": 2
+      },
+      "dominant_slot": 1,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "266657",
+      "appearances": 6,
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FL"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "slots": {
+        "10": 3,
+        "6": 3
+      },
+      "formations": {
+        "12": 6
+      },
+      "dominant_slot": 10,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "392270",
+      "appearances": 2,
+      "positions": [
+        "FC"
+      ],
+      "groups": [
+        "ATT"
+      ],
+      "primary_group": "ATT",
+      "slots": {
+        "10": 1,
+        "8": 1
+      },
+      "formations": {
+        "1": 1,
+        "6": 1
+      },
+      "dominant_slot": 10,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "19179",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "1": 1,
+        "3": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 1,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "19354",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "3": 1,
+        "1": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 3,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "983",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "6": 1,
+        "7": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 6,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "2287",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "7": 1,
+        "5": 1
+      },
+      "formations": {
+        "4": 2
+      },
+      "dominant_slot": 7,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "36922",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "2": 1,
+        "4": 1
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "277306",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "6": 1,
+        "7": 1
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 6,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "30407",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "7": 1,
+        "6": 1
+      },
+      "formations": {
+        "20": 1,
+        "18": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "179843",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "7": 1,
+        "5": 1
+      },
+      "formations": {
+        "20": 1,
+        "23": 1
+      },
+      "dominant_slot": 7,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "2869",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "5": 1,
+        "3": 1
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "dominant_slot": 5,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "20674",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "8": 1,
+        "9": 1
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "dominant_slot": 8,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "1646",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "10": 1,
+        "6": 1
+      },
+      "formations": {
+        "12": 1,
+        "22": 1
+      },
+      "dominant_slot": 10,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "366735",
+      "appearances": 2,
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "groups": [
+        "DEF-R",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "1": 1,
+        "4": 1
+      },
+      "formations": {
+        "12": 1,
+        "2": 1
+      },
+      "dominant_slot": 1,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "162033",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "9": 1,
+        "6": 1
+      },
+      "formations": {
+        "13": 1,
+        "11": 1
+      },
+      "dominant_slot": 9,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "386305",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "4": 1,
+        "1": 1
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 4,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "291964",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "5": 1,
+        "6": 1
+      },
+      "formations": {
+        "13": 1,
+        "21": 1
+      },
+      "dominant_slot": 5,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "206254",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "2": 1,
+        "10": 1
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "361497",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "4": 1,
+        "2": 1
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 4,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "284797",
+      "appearances": 2,
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "slots": {
+        "5": 1,
+        "6": 1
+      },
+      "formations": {
+        "22": 1,
+        "11": 1
+      },
+      "dominant_slot": 5,
+      "slot_stability": 0.5
+    },
+    {
+      "player_id": "22094",
+      "appearances": 9,
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "groups": [
+        "DEF-R",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "4": 4,
+        "3": 4,
+        "1": 1
+      },
+      "formations": {
+        "1": 1,
+        "0": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "dominant_slot": 4,
+      "slot_stability": 0.4444444444444444
+    },
+    {
+      "player_id": "336671",
+      "appearances": 12,
+      "positions": [
+        "LB",
+        "CB",
+        "DMC",
+        "CM"
+      ],
+      "groups": [
+        "DEF-L",
+        "CB",
+        "DM",
+        "CM"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "2": 5,
+        "4": 2,
+        "5": 5
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.4166666666666667
+    },
+    {
+      "player_id": "19545",
+      "appearances": 10,
+      "positions": [
+        "LB",
+        "RB",
+        "DMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L",
+        "DM"
+      ],
+      "primary_group": "DM",
+      "slots": {
+        "7": 3,
+        "2": 1,
+        "5": 2,
+        "4": 4
+      },
+      "formations": {
+        "0": 3,
+        "12": 1,
+        "6": 3,
+        "21": 1,
+        "8": 2
+      },
+      "dominant_slot": 4,
+      "slot_stability": 0.4
+    },
+    {
+      "player_id": "47380",
+      "appearances": 5,
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L"
+      ],
+      "primary_group": "DEF-R",
+      "slots": {
+        "2": 2,
+        "5": 2,
+        "1": 1
+      },
+      "formations": {
+        "12": 1,
+        "21": 1,
+        "8": 2,
+        "2": 1
+      },
+      "dominant_slot": 2,
+      "slot_stability": 0.4
+    },
+    {
+      "player_id": "1864",
+      "appearances": 8,
+      "positions": [
+        "AML",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "groups": [
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "ATT-W",
+      "slots": {
+        "8": 1,
+        "9": 1,
+        "6": 3,
+        "10": 3
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "8": 2,
+        "2": 1
+      },
+      "dominant_slot": 6,
+      "slot_stability": 0.375
+    },
+    {
+      "player_id": "152982",
+      "appearances": 12,
+      "positions": [
+        "AMC",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "slots": {
+        "5": 1,
+        "6": 2,
+        "8": 1,
+        "9": 4,
+        "10": 4
+      },
+      "formations": {
+        "1": 1,
+        "0": 3,
+        "12": 1,
+        "6": 4,
+        "21": 1,
+        "8": 2
+      },
+      "dominant_slot": 9,
+      "slot_stability": 0.3333333333333333
+    },
+    {
+      "player_id": "626",
+      "appearances": 13,
+      "positions": [
+        "CB",
+        "RB",
+        "DMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "CB",
+        "DM"
+      ],
+      "primary_group": "CB",
+      "slots": {
+        "4": 3,
+        "5": 1,
+        "3": 4,
+        "1": 4,
+        "7": 1
+      },
+      "formations": {
+        "20": 2,
+        "12": 10,
+        "22": 1
+      },
+      "dominant_slot": 3,
+      "slot_stability": 0.3076923076923077
+    }
+  ],
+  "cross_formation_players": [
+    {
+      "player_id": "1100",
+      "positions": [
+        "FC"
+      ],
+      "groups": [
+        "ATT"
+      ],
+      "primary_group": "ATT",
+      "formation_slots": {
+        "20": [
+          8
+        ],
+        "12": [
+          8
+        ],
+        "22": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "116117",
+      "positions": [
+        "RB",
+        "DMC",
+        "LM",
+        "CM"
+      ],
+      "groups": [
+        "DEF-R",
+        "DM",
+        "CM",
+        "MID-W"
+      ],
+      "primary_group": "DEF-R",
+      "formation_slots": {
+        "1": [
+          1
+        ],
+        "0": [
+          1
+        ],
+        "12": [
+          7
+        ],
+        "6": [
+          7
+        ],
+        "21": [
+          7
+        ],
+        "2": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "1231",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          1
+        ],
+        "22": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "129058",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          0
+        ],
+        "21": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "135519",
+      "positions": [
+        "AMC",
+        "AMR",
+        "FR"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "formation_slots": {
+        "1": [
+          9
+        ],
+        "6": [
+          6
+        ],
+        "21": [
+          9
+        ],
+        "8": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "1422",
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FL"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "formation_slots": {
+        "20": [
+          10
+        ],
+        "12": [
+          10
+        ],
+        "22": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "152856",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          8
+        ],
+        "11": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "152953",
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "groups": [
+        "DEF-L",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "8": [
+          1
+        ],
+        "2": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "152982",
+      "positions": [
+        "AMC",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "formation_slots": {
+        "1": [
+          5
+        ],
+        "0": [
+          6,
+          8,
+          9
+        ],
+        "12": [
+          9
+        ],
+        "6": [
+          10
+        ],
+        "21": [
+          6
+        ],
+        "8": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "161671",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          3
+        ],
+        "11": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "162033",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          9
+        ],
+        "11": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "164",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          3
+        ],
+        "11": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "1646",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          10
+        ],
+        "22": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "179843",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          7
+        ],
+        "23": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "1864",
+      "positions": [
+        "AML",
+        "AMR",
+        "FC",
+        "FR"
+      ],
+      "groups": [
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "ATT-W",
+      "formation_slots": {
+        "1": [
+          8
+        ],
+        "0": [
+          6,
+          9
+        ],
+        "12": [
+          10
+        ],
+        "8": [
+          10
+        ],
+        "2": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "18872",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          7
+        ],
+        "11": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "18959",
+      "positions": [
+        "GK"
+      ],
+      "groups": [
+        "GK"
+      ],
+      "primary_group": "GK",
+      "formation_slots": {
+        "1": [
+          0
+        ],
+        "0": [
+          0
+        ],
+        "12": [
+          0
+        ],
+        "6": [
+          0
+        ],
+        "21": [
+          0
+        ],
+        "8": [
+          0
+        ],
+        "2": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "1904",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          5
+        ],
+        "18": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "19145",
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "1": [
+          3
+        ],
+        "0": [
+          3,
+          4
+        ],
+        "12": [
+          3
+        ],
+        "6": [
+          1
+        ],
+        "21": [
+          3
+        ],
+        "8": [
+          3
+        ],
+        "2": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "19545",
+      "positions": [
+        "LB",
+        "RB",
+        "DMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L",
+        "DM"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "0": [
+          2,
+          5,
+          7
+        ],
+        "12": [
+          5
+        ],
+        "6": [
+          4
+        ],
+        "21": [
+          4
+        ],
+        "8": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "20093",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          1
+        ],
+        "11": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "204039",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          2
+        ],
+        "11": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "206254",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          2
+        ],
+        "11": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "20674",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          8
+        ],
+        "22": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "22094",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "groups": [
+        "DEF-R",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "1": [
+          4
+        ],
+        "0": [
+          4
+        ],
+        "6": [
+          3
+        ],
+        "21": [
+          1
+        ],
+        "8": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "2291",
+      "positions": [
+        "DMC",
+        "LM",
+        "CM",
+        "AMC"
+      ],
+      "groups": [
+        "DM",
+        "CM",
+        "MID-W",
+        "AMC"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "20": [
+          5,
+          7
+        ],
+        "12": [
+          5,
+          7
+        ],
+        "22": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "25158",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          2
+        ],
+        "22": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "26232",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          0
+        ],
+        "18": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "277306",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          6
+        ],
+        "18": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "278",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          8
+        ],
+        "21": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "278128",
+      "positions": [
+        "LB"
+      ],
+      "groups": [
+        "DEF-L"
+      ],
+      "primary_group": "DEF-L",
+      "formation_slots": {
+        "20": [
+          2
+        ],
+        "12": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "282125",
+      "positions": [
+        "DMC"
+      ],
+      "groups": [
+        "DM"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "0": [
+          5,
+          7
+        ],
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "283058",
+      "positions": [
+        "AML",
+        "FC"
+      ],
+      "groups": [
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "ATT-W",
+      "formation_slots": {
+        "1": [
+          7
+        ],
+        "0": [
+          8,
+          9
+        ],
+        "12": [
+          8
+        ],
+        "6": [
+          8
+        ],
+        "21": [
+          8
+        ],
+        "8": [
+          8
+        ],
+        "2": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "284230",
+      "positions": [
+        "LB",
+        "RB",
+        "DMC",
+        "AMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L",
+        "DM",
+        "AMC"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "20": [
+          2,
+          7
+        ],
+        "12": [
+          1,
+          2,
+          5
+        ],
+        "22": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "284797",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          5
+        ],
+        "11": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "2869",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          5
+        ],
+        "22": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "291964",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          5
+        ],
+        "21": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "30407",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          7
+        ],
+        "18": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "307123",
+      "positions": [
+        "LB",
+        "DMC",
+        "LM",
+        "AML"
+      ],
+      "groups": [
+        "DEF-L",
+        "DM",
+        "MID-W",
+        "ATT-W"
+      ],
+      "primary_group": "DEF-L",
+      "formation_slots": {
+        "20": [
+          5
+        ],
+        "12": [
+          2,
+          7
+        ],
+        "22": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "308814",
+      "positions": [
+        "LM",
+        "RM",
+        "AMC",
+        "AMR"
+      ],
+      "groups": [
+        "MID-W",
+        "AMC",
+        "ATT-W"
+      ],
+      "primary_group": "MID-W",
+      "formation_slots": {
+        "20": [
+          6
+        ],
+        "12": [
+          6,
+          9
+        ],
+        "22": [
+          5
+        ]
+      }
+    },
+    {
+      "player_id": "313353",
+      "positions": [
+        "FC"
+      ],
+      "groups": [
+        "ATT"
+      ],
+      "primary_group": "ATT",
+      "formation_slots": {
+        "20": [
+          9
+        ],
+        "12": [
+          8
+        ],
+        "22": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "321746",
+      "positions": [
+        "DMC",
+        "CM",
+        "RM"
+      ],
+      "groups": [
+        "DM",
+        "CM",
+        "MID-W"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "1": [
+          6
+        ],
+        "12": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "334037",
+      "positions": [
+        "AML",
+        "AMR",
+        "FC"
+      ],
+      "groups": [
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "ATT-W",
+      "formation_slots": {
+        "0": [
+          10
+        ],
+        "2": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "336671",
+      "positions": [
+        "LB",
+        "CB",
+        "DMC",
+        "CM"
+      ],
+      "groups": [
+        "DEF-L",
+        "CB",
+        "DM",
+        "CM"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "1": [
+          2
+        ],
+        "0": [
+          2,
+          4
+        ],
+        "12": [
+          4
+        ],
+        "6": [
+          5
+        ],
+        "21": [
+          5
+        ],
+        "8": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "361497",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          4
+        ],
+        "11": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "366735",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "groups": [
+        "DEF-R",
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "12": [
+          1
+        ],
+        "2": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "36922",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          2
+        ],
+        "18": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "372",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          3
+        ],
+        "21": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "377122",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          9
+        ],
+        "21": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "386305",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          4
+        ],
+        "21": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "392270",
+      "positions": [
+        "FC"
+      ],
+      "groups": [
+        "ATT"
+      ],
+      "primary_group": "ATT",
+      "formation_slots": {
+        "1": [
+          10
+        ],
+        "6": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "395559",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          10
+        ],
+        "18": [
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "404656",
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "20": [
+          3
+        ],
+        "12": [
+          3,
+          4
+        ],
+        "22": [
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "41621",
+      "positions": [
+        "RB",
+        "DMC",
+        "RM",
+        "AML"
+      ],
+      "groups": [
+        "DEF-R",
+        "DM",
+        "MID-W",
+        "ATT-W"
+      ],
+      "primary_group": "DEF-R",
+      "formation_slots": {
+        "20": [
+          1
+        ],
+        "12": [
+          1,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "44",
+      "positions": [
+        "DMC",
+        "CM"
+      ],
+      "groups": [
+        "DM",
+        "CM"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "20": [
+          7
+        ],
+        "12": [
+          7
+        ],
+        "22": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "449249",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          6
+        ],
+        "23": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "471107",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "13": [
+          7
+        ],
+        "21": [
+          7
+        ]
+      }
+    },
+    {
+      "player_id": "47380",
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L"
+      ],
+      "primary_group": "DEF-R",
+      "formation_slots": {
+        "12": [
+          2
+        ],
+        "21": [
+          2
+        ],
+        "8": [
+          5
+        ],
+        "2": [
+          1
+        ]
+      }
+    },
+    {
+      "player_id": "5",
+      "positions": [
+        "LB",
+        "CB",
+        "RB",
+        "DMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "DEF-L",
+        "CB",
+        "DM"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "20": [
+          1,
+          4
+        ],
+        "12": [
+          1,
+          4
+        ],
+        "22": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "567",
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "20": [
+          3
+        ],
+        "12": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "player_id": "59173",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "22": [
+          0
+        ],
+        "11": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "5996",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "0": [
+          5,
+          7
+        ],
+        "6": [
+          9
+        ],
+        "21": [
+          10
+        ],
+        "2": [
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "61142",
+      "positions": [
+        "GK"
+      ],
+      "groups": [
+        "GK"
+      ],
+      "primary_group": "GK",
+      "formation_slots": {
+        "20": [
+          0
+        ],
+        "12": [
+          0
+        ],
+        "22": [
+          0
+        ]
+      }
+    },
+    {
+      "player_id": "626",
+      "positions": [
+        "CB",
+        "RB",
+        "DMC"
+      ],
+      "groups": [
+        "DEF-R",
+        "CB",
+        "DM"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "20": [
+          4
+        ],
+        "12": [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        "22": [
+          3
+        ]
+      }
+    },
+    {
+      "player_id": "629",
+      "positions": [
+        "AMC",
+        "FC"
+      ],
+      "groups": [
+        "AMC",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "formation_slots": {
+        "20": [
+          10
+        ],
+        "12": [
+          9
+        ],
+        "22": [
+          6
+        ]
+      }
+    },
+    {
+      "player_id": "631",
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FC"
+      ],
+      "groups": [
+        "AMC",
+        "ATT-W",
+        "ATT"
+      ],
+      "primary_group": "AMC",
+      "formation_slots": {
+        "20": [
+          9,
+          10
+        ],
+        "12": [
+          9
+        ],
+        "22": [
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "player_id": "636",
+      "positions": [
+        "DMC",
+        "RM",
+        "AMC",
+        "AMR"
+      ],
+      "groups": [
+        "DM",
+        "MID-W",
+        "AMC",
+        "ATT-W"
+      ],
+      "primary_group": "DM",
+      "formation_slots": {
+        "20": [
+          5,
+          6
+        ],
+        "12": [
+          5,
+          6,
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "player_id": "66817",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "20": [
+          8
+        ],
+        "18": [
+          8
+        ]
+      }
+    },
+    {
+      "player_id": "95",
+      "positions": [
+        "CB"
+      ],
+      "groups": [
+        "CB"
+      ],
+      "primary_group": "CB",
+      "formation_slots": {
+        "0": [
+          3
+        ],
+        "6": [
+          2
+        ]
+      }
+    },
+    {
+      "player_id": "9978",
+      "positions": [],
+      "groups": [],
+      "primary_group": "UNKNOWN",
+      "formation_slots": {
+        "12": [
+          0
+        ],
+        "22": [
+          0
+        ]
+      }
+    }
+  ],
+  "formation_analysis": {
+    "0": {
+      "formation_name": "4-4-2",
+      "samples": 6,
+      "signature": [
+        "GK?",
+        "MIXED",
+        "MIXED",
+        "CB?",
+        "MIXED",
+        "UNKNOWN",
+        "MIXED",
+        "UNKNOWN",
+        "MIXED",
+        "MIXED",
+        "MIXED"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 2,
+          "GK": 4
+        },
+        {
+          "UNKNOWN": 2,
+          "DEF-R": 4,
+          "DM": 3,
+          "CM": 3,
+          "MID-W": 3
+        },
+        {
+          "UNKNOWN": 2,
+          "DEF-L": 3,
+          "CB": 2,
+          "DM": 3,
+          "CM": 2,
+          "DEF-R": 2
+        },
+        {
+          "UNKNOWN": 2,
+          "CB": 4
+        },
+        {
+          "UNKNOWN": 2,
+          "DEF-R": 1,
+          "CB": 4,
+          "DEF-L": 1,
+          "DM": 2,
+          "CM": 2,
+          "MID-W": 1
+        },
+        {
+          "UNKNOWN": 3,
+          "DM": 2,
+          "DEF-R": 1,
+          "DEF-L": 1,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "AMC": 1,
+          "ATT-W": 3,
+          "ATT": 3,
+          "CM": 1,
+          "MID-W": 1
+        },
+        {
+          "UNKNOWN": 3,
+          "DEF-R": 1,
+          "DEF-L": 1,
+          "DM": 3
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 3,
+          "ATT": 4,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 3,
+          "ATT": 4,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 2,
+          "ATT-W": 3,
+          "ATT": 3,
+          "DM": 1
+        }
+      ]
+    },
+    "1": {
+      "formation_name": "4-3-3",
+      "samples": 3,
+      "signature": [
+        "GK?",
+        "MIXED",
+        "MIXED",
+        "CB?",
+        "CB?",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "ATT?",
+        "MIXED",
+        "ATT?"
+      ],
+      "slot_counts": [
+        {
+          "GK": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-R": 2,
+          "UNKNOWN": 1,
+          "DM": 1,
+          "CM": 1,
+          "MID-W": 1
+        },
+        {
+          "DEF-L": 2,
+          "UNKNOWN": 1,
+          "CB": 1,
+          "DM": 1,
+          "CM": 1
+        },
+        {
+          "CB": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 2,
+          "UNKNOWN": 1,
+          "DEF-R": 1
+        },
+        {
+          "DEF-L": 1,
+          "DM": 1,
+          "MID-W": 1,
+          "AMC": 2,
+          "UNKNOWN": 1,
+          "ATT-W": 1,
+          "ATT": 1
+        },
+        {
+          "ATT-W": 1,
+          "UNKNOWN": 1,
+          "DM": 1,
+          "CM": 1,
+          "MID-W": 1
+        },
+        {
+          "MID-W": 1,
+          "ATT-W": 2,
+          "ATT": 2,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT": 2,
+          "UNKNOWN": 1,
+          "ATT-W": 1
+        },
+        {
+          "ATT": 2,
+          "UNKNOWN": 1,
+          "AMC": 1,
+          "ATT-W": 1
+        },
+        {
+          "ATT": 2,
+          "UNKNOWN": 1
+        }
+      ]
+    },
+    "2": {
+      "formation_name": "UNKNOWN",
+      "samples": 1,
+      "signature": [
+        "GK",
+        "DEF-R?",
+        "DEF-L?",
+        "CB",
+        "DEF-R?",
+        "DM",
+        "ATT-W?",
+        "MIXED",
+        "ATT-W?",
+        "UNKNOWN",
+        "ATT-W?"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1
+        },
+        {
+          "DEF-R": 1,
+          "DEF-L": 1
+        },
+        {
+          "DEF-L": 1,
+          "CB": 1
+        },
+        {
+          "CB": 1
+        },
+        {
+          "DEF-R": 1,
+          "CB": 1
+        },
+        {
+          "DM": 1
+        },
+        {
+          "ATT-W": 1,
+          "ATT": 1
+        },
+        {
+          "DEF-R": 1,
+          "DM": 1,
+          "CM": 1,
+          "MID-W": 1
+        },
+        {
+          "ATT-W": 1,
+          "ATT": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "ATT-W": 1,
+          "ATT": 1
+        }
+      ]
+    },
+    "4": {
+      "formation_name": "UNKNOWN",
+      "samples": 3,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "DEF-R": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CM": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "CM": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "MID-W": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "AMC": 1,
+          "ATT-W": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 2
+        },
+        {
+          "ATT-W": 1,
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "6": {
+      "formation_name": "UNKNOWN",
+      "samples": 4,
+      "signature": [
+        "GK",
+        "CB?",
+        "CB",
+        "DEF-R?",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "ATT?",
+        "UNKNOWN",
+        "MIXED"
+      ],
+      "slot_counts": [
+        {
+          "GK": 4
+        },
+        {
+          "CB": 3,
+          "DEF-R": 1,
+          "DEF-L": 1,
+          "DM": 1
+        },
+        {
+          "CB": 4
+        },
+        {
+          "DEF-R": 4,
+          "CB": 4
+        },
+        {
+          "DEF-R": 3,
+          "DEF-L": 3,
+          "DM": 4
+        },
+        {
+          "DEF-L": 4,
+          "CB": 4,
+          "DM": 4,
+          "CM": 4
+        },
+        {
+          "AMC": 4,
+          "ATT-W": 4,
+          "ATT": 4
+        },
+        {
+          "DEF-R": 3,
+          "DM": 3,
+          "CM": 3,
+          "MID-W": 3,
+          "AMC": 1
+        },
+        {
+          "ATT-W": 3,
+          "ATT": 4
+        },
+        {
+          "UNKNOWN": 3,
+          "ATT": 1
+        },
+        {
+          "AMC": 4,
+          "ATT-W": 4,
+          "ATT": 4
+        }
+      ]
+    },
+    "8": {
+      "formation_name": "UNKNOWN",
+      "samples": 2,
+      "signature": [
+        "GK",
+        "DEF-L?",
+        "MIXED",
+        "CB",
+        "DEF-R?",
+        "DEF-R?",
+        "MIXED",
+        "MIXED",
+        "ATT-W?",
+        "MIXED",
+        "ATT-W?"
+      ],
+      "slot_counts": [
+        {
+          "GK": 2
+        },
+        {
+          "DEF-L": 2,
+          "CB": 2
+        },
+        {
+          "DEF-L": 2,
+          "CB": 2,
+          "DM": 2,
+          "CM": 2
+        },
+        {
+          "CB": 2
+        },
+        {
+          "DEF-R": 2,
+          "CB": 2
+        },
+        {
+          "DEF-R": 2,
+          "DEF-L": 2
+        },
+        {
+          "AMC": 2,
+          "ATT-W": 2,
+          "ATT": 2
+        },
+        {
+          "DEF-R": 2,
+          "DEF-L": 2,
+          "DM": 2
+        },
+        {
+          "ATT-W": 2,
+          "ATT": 2
+        },
+        {
+          "AMC": 2,
+          "ATT-W": 2,
+          "ATT": 2
+        },
+        {
+          "ATT-W": 2,
+          "ATT": 2
+        }
+      ]
+    },
+    "10": {
+      "formation_name": "UNKNOWN",
+      "samples": 3,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        }
+      ]
+    },
+    "11": {
+      "formation_name": "4-1-4-1",
+      "samples": 5,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        },
+        {
+          "UNKNOWN": 5
+        }
+      ]
+    },
+    "12": {
+      "formation_name": "4-2-3-1",
+      "samples": 17,
+      "signature": [
+        "GK",
+        "MIXED",
+        "MIXED",
+        "CB?",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "ATT",
+        "MIXED",
+        "MIXED"
+      ],
+      "slot_counts": [
+        {
+          "GK": 15,
+          "UNKNOWN": 2
+        },
+        {
+          "DEF-R": 15,
+          "DM": 14,
+          "MID-W": 5,
+          "ATT-W": 5,
+          "UNKNOWN": 2,
+          "DEF-L": 5,
+          "CB": 7,
+          "AMC": 3
+        },
+        {
+          "DEF-L": 15,
+          "CB": 6,
+          "DM": 5,
+          "MID-W": 4,
+          "ATT-W": 4,
+          "UNKNOWN": 2,
+          "DEF-R": 2,
+          "AMC": 1
+        },
+        {
+          "CB": 15,
+          "DEF-R": 3,
+          "DM": 3,
+          "UNKNOWN": 2
+        },
+        {
+          "DEF-R": 8,
+          "DEF-L": 12,
+          "CB": 15,
+          "DM": 9,
+          "UNKNOWN": 2,
+          "CM": 1
+        },
+        {
+          "DM": 15,
+          "CM": 4,
+          "MID-W": 11,
+          "AMC": 7,
+          "DEF-R": 8,
+          "CB": 1,
+          "DEF-L": 3,
+          "UNKNOWN": 2,
+          "ATT-W": 5
+        },
+        {
+          "DM": 8,
+          "MID-W": 12,
+          "AMC": 14,
+          "ATT-W": 14,
+          "UNKNOWN": 2,
+          "ATT": 3,
+          "CM": 1
+        },
+        {
+          "DM": 15,
+          "CM": 8,
+          "MID-W": 12,
+          "AMC": 7,
+          "UNKNOWN": 2,
+          "ATT-W": 6,
+          "DEF-R": 4,
+          "CB": 1,
+          "DEF-L": 2
+        },
+        {
+          "ATT": 15,
+          "UNKNOWN": 2,
+          "ATT-W": 1
+        },
+        {
+          "AMC": 15,
+          "ATT": 13,
+          "UNKNOWN": 2,
+          "ATT-W": 11,
+          "DM": 1,
+          "MID-W": 2
+        },
+        {
+          "AMC": 14,
+          "ATT-W": 15,
+          "ATT": 15,
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "13": {
+      "formation_name": "4-1-2-2-1v2",
+      "samples": 4,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        },
+        {
+          "UNKNOWN": 4
+        }
+      ]
+    },
+    "14": {
+      "formation_name": "4-4-1-1",
+      "samples": 2,
+      "signature": [
+        "GK?",
+        "DEF-L?",
+        "DEF-L?",
+        "CB?",
+        "CB?",
+        "DM?",
+        "AMC?",
+        "DM?",
+        "ATT?",
+        "ATT?",
+        "MID-W?"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-L": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-L": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DM": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "AMC": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DM": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "MID-W": 1,
+          "UNKNOWN": 1
+        }
+      ]
+    },
+    "15": {
+      "formation_name": "4-3-1-2",
+      "samples": 1,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 1
+        }
+      ]
+    },
+    "18": {
+      "formation_name": "UNKNOWN",
+      "samples": 2,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        },
+        {
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "20": {
+      "formation_name": "4-2-2-2",
+      "samples": 7,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 4,
+          "GK": 3
+        },
+        {
+          "UNKNOWN": 4,
+          "DEF-R": 3,
+          "DM": 3,
+          "MID-W": 2,
+          "ATT-W": 2,
+          "DEF-L": 1,
+          "CB": 1
+        },
+        {
+          "UNKNOWN": 4,
+          "DEF-R": 1,
+          "DEF-L": 3,
+          "DM": 1,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 4,
+          "CB": 3
+        },
+        {
+          "UNKNOWN": 4,
+          "DEF-R": 3,
+          "DEF-L": 1,
+          "CB": 3,
+          "DM": 3
+        },
+        {
+          "UNKNOWN": 4,
+          "DM": 3,
+          "CM": 1,
+          "MID-W": 3,
+          "AMC": 2,
+          "DEF-L": 1,
+          "ATT-W": 2
+        },
+        {
+          "UNKNOWN": 4,
+          "DM": 1,
+          "MID-W": 3,
+          "AMC": 3,
+          "ATT-W": 3
+        },
+        {
+          "UNKNOWN": 4,
+          "DM": 3,
+          "CM": 2,
+          "MID-W": 1,
+          "AMC": 2,
+          "DEF-R": 1,
+          "DEF-L": 1
+        },
+        {
+          "UNKNOWN": 4,
+          "ATT": 3
+        },
+        {
+          "UNKNOWN": 4,
+          "ATT": 3,
+          "AMC": 1,
+          "ATT-W": 1
+        },
+        {
+          "UNKNOWN": 4,
+          "AMC": 3,
+          "ATT": 3,
+          "ATT-W": 2
+        }
+      ]
+    },
+    "21": {
+      "formation_name": "3-4-2-1",
+      "samples": 2,
+      "signature": [
+        "GK?",
+        "MIXED",
+        "MIXED",
+        "CB?",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "MIXED",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "GK": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-R": 1,
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-R": 1,
+          "DEF-L": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "CB": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-R": 1,
+          "DEF-L": 1,
+          "DM": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-L": 1,
+          "CB": 1,
+          "DM": 1,
+          "CM": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "AMC": 1,
+          "ATT-W": 1,
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "DEF-R": 1,
+          "DM": 1,
+          "CM": 1,
+          "MID-W": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "ATT-W": 1,
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "AMC": 1,
+          "ATT-W": 1,
+          "ATT": 1,
+          "UNKNOWN": 1
+        },
+        {
+          "UNKNOWN": 2
+        }
+      ]
+    },
+    "22": {
+      "formation_name": "UNKNOWN",
+      "samples": 7,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 5,
+          "GK": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "DEF-R": 2,
+          "DEF-L": 2,
+          "DM": 2,
+          "AMC": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "DEF-L": 2,
+          "DM": 2,
+          "MID-W": 2,
+          "ATT-W": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "DEF-R": 2,
+          "CB": 2,
+          "DM": 2,
+          "DEF-L": 1
+        },
+        {
+          "UNKNOWN": 5,
+          "CB": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "MID-W": 2,
+          "AMC": 2,
+          "ATT-W": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "AMC": 2,
+          "ATT": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "DM": 2,
+          "CM": 2,
+          "MID-W": 1,
+          "AMC": 1
+        },
+        {
+          "UNKNOWN": 5,
+          "ATT": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "AMC": 1,
+          "ATT-W": 1,
+          "ATT": 2
+        },
+        {
+          "UNKNOWN": 5,
+          "AMC": 2,
+          "ATT-W": 2,
+          "ATT": 2
+        }
+      ]
+    },
+    "23": {
+      "formation_name": "3-2-2-2-1",
+      "samples": 3,
+      "signature": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "slot_counts": [
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        },
+        {
+          "UNKNOWN": 3
+        }
+      ]
+    }
+  },
+  "global_slot_position_counts": [
+    {
+      "GK": 36,
+      "UNKNOWN": 36
+    },
+    {
+      "DEF-R": 30,
+      "UNKNOWN": 36,
+      "DM": 24,
+      "CM": 4,
+      "MID-W": 11,
+      "DEF-L": 13,
+      "ATT-W": 7,
+      "CB": 14,
+      "AMC": 5
+    },
+    {
+      "DEF-L": 30,
+      "UNKNOWN": 36,
+      "CB": 17,
+      "DM": 14,
+      "CM": 5,
+      "DEF-R": 6,
+      "AMC": 2,
+      "MID-W": 6,
+      "ATT-W": 6
+    },
+    {
+      "CB": 36,
+      "UNKNOWN": 36,
+      "DEF-R": 9,
+      "DM": 5,
+      "DEF-L": 1
+    },
+    {
+      "CB": 30,
+      "UNKNOWN": 36,
+      "DEF-R": 20,
+      "DEF-L": 18,
+      "DM": 19,
+      "CM": 4,
+      "MID-W": 1
+    },
+    {
+      "DEF-L": 13,
+      "DM": 28,
+      "MID-W": 17,
+      "AMC": 14,
+      "UNKNOWN": 37,
+      "ATT-W": 10,
+      "ATT": 1,
+      "DEF-R": 11,
+      "CM": 11,
+      "CB": 6
+    },
+    {
+      "ATT-W": 29,
+      "UNKNOWN": 36,
+      "DM": 10,
+      "CM": 3,
+      "MID-W": 18,
+      "AMC": 28,
+      "ATT": 16
+    },
+    {
+      "MID-W": 20,
+      "ATT-W": 9,
+      "ATT": 2,
+      "UNKNOWN": 37,
+      "DEF-R": 13,
+      "DEF-L": 6,
+      "DM": 31,
+      "AMC": 12,
+      "CM": 17,
+      "CB": 1
+    },
+    {
+      "ATT": 36,
+      "UNKNOWN": 36,
+      "ATT-W": 12,
+      "AMC": 1
+    },
+    {
+      "ATT": 30,
+      "UNKNOWN": 40,
+      "AMC": 22,
+      "ATT-W": 20,
+      "DM": 1,
+      "MID-W": 2
+    },
+    {
+      "ATT": 32,
+      "UNKNOWN": 37,
+      "ATT-W": 30,
+      "DM": 1,
+      "MID-W": 1,
+      "AMC": 23
+    }
+  ],
+  "coverage": {
+    "known_occurrences": 389,
+    "unknown_occurrences": 403,
+    "coverage": 0.4911616161616162
+  }
+}

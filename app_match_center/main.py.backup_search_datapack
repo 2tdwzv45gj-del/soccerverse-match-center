@@ -1,0 +1,1017 @@
+from __future__ import annotations
+
+import sys
+import subprocess
+
+from PySide6.QtCore import Qt, QTimer, Signal
+from PySide6.QtGui import QFont, QPixmap
+from PySide6.QtWidgets import (
+    QApplication,
+    QFrame,
+    QHBoxLayout,
+    QLabel,
+    QLineEdit,
+    QListWidget,
+    QListWidgetItem,
+    QMainWindow,
+    QPushButton,
+    QStackedWidget,
+    QVBoxLayout,
+    QWidget,
+)
+
+from src.commentary_mcp import SoccerverseMCPClient
+from src.match_data_service import MatchDataService
+from src.datapack_resolver import DatapackResolver
+from src.commentary_replay import ReplayMode
+from src.match_search import MatchSearchService
+
+from app_match_center.replay_controller import MatchReplayController
+from app_match_center.audio_player import MatchAudioPlayer
+from src.match_audio import MatchAudioEngine
+
+
+def load_image(url: str, size: int) -> QPixmap:
+    try:
+        result = subprocess.run(
+            ["curl", "-L", "-s", "--fail", url],
+            capture_output=True,
+            timeout=10,
+            check=True,
+        )
+        pixmap = QPixmap()
+        if not pixmap.loadFromData(result.stdout):
+            return QPixmap()
+        return pixmap.scaled(
+            size,
+            size,
+            Qt.AspectRatioMode.KeepAspectRatio,
+            Qt.TransformationMode.SmoothTransformation,
+        )
+    except Exception:
+        return QPixmap()
+
+
+def rgb(value):
+    return f"rgb({value[0]}, {value[1]}, {value[2]})"
+
+
+class SearchWindow(QWidget):
+    match_selected = Signal(int)
+
+    def __init__(self, mcp: SoccerverseMCPClient) -> None:
+        super().__init__()
+
+        self.mcp = mcp
+        self.search_service = MatchSearchService(mcp, self.datapack)
+        self._matches = []
+
+        self._build_ui()
+
+    def _build_ui(self) -> None:
+        root = QVBoxLayout(self)
+        root.setContentsMargins(70, 55, 70, 55)
+        root.setSpacing(18)
+
+        brand = QLabel("SOCCERVERSE")
+        brand.setObjectName("searchBrand")
+
+        subtitle = QLabel("MATCH CENTER")
+        subtitle.setObjectName("searchSubtitle")
+
+        root.addWidget(brand)
+        root.addWidget(subtitle)
+
+        intro = QLabel(
+            "Cerca una squadra per nome e scegli la partita da seguire."
+        )
+        intro.setObjectName("searchIntro")
+        root.addWidget(intro)
+
+        search_row = QHBoxLayout()
+        search_row.setSpacing(10)
+
+        self.search_input = QLineEdit()
+        self.search_input.setPlaceholderText(
+            "Inserisci il nome della squadra…"
+        )
+        self.search_input.setObjectName("searchInput")
+        self.search_input.returnPressed.connect(self.search)
+
+        search_button = QPushButton("CERCA")
+        search_button.setObjectName("searchButton")
+        search_button.clicked.connect(self.search)
+
+        search_row.addWidget(self.search_input, 1)
+        search_row.addWidget(search_button)
+
+        root.addLayout(search_row)
+
+        self.status = QLabel("")
+        self.status.setObjectName("searchStatus")
+        root.addWidget(self.status)
+
+        self.results_title = QLabel("PARTITE")
+        self.results_title.setObjectName("resultsTitle")
+        root.addWidget(self.results_title)
+
+        self.matches_list = QListWidget()
+        self.matches_list.setObjectName("matchesList")
+        self.matches_list.itemDoubleClicked.connect(self.open_match)
+        root.addWidget(self.matches_list, 1)
+
+        hint = QLabel("Doppio clic su una partita per aprire il Match Center.")
+        hint.setObjectName("searchHint")
+        root.addWidget(hint)
+
+    def search(self) -> None:
+        name = self.search_input.text().strip()
+
+        if not name:
+            self.status.setText("Inserisci il nome di una squadra.")
+            return
+
+        self.status.setText("RICERCA IN CORSO…")
+        self.matches_list.clear()
+        QApplication.processEvents()
+
+        try:
+            response = self.search_service.search(name)
+        except Exception as exc:
+            self.status.setText(f"Errore: {exc}")
+            return
+
+        self._matches = list(response.matches)
+
+        if not self._matches:
+            self.status.setText(
+                f"{response.club_name.upper()} — nessuna partita trovata."
+            )
+            return
+
+        self.status.setText(
+            f"{response.club_name.upper()} — "
+            f"{len(self._matches)} partite trovate."
+        )
+
+        for match in self._matches:
+            state = "CONCLUSA" if match.played else "PROGRAMMATA"
+
+            text = (
+                f"{match.home_team.upper()}  {match.score}  "
+                f"{match.away_team.upper()}\n"
+                f"{match.datetime}   •   {match.competition or 'COMPETIZIONE'}   •   {state}"
+            )
+
+            item = QListWidgetItem(text)
+            item.setData(Qt.ItemDataRole.UserRole, match.fixture_id)
+            self.matches_list.addItem(item)
+
+    def open_match(self, item: QListWidgetItem) -> None:
+        fixture_id = int(item.data(Qt.ItemDataRole.UserRole))
+        self.match_selected.emit(fixture_id)
+
+
+class MatchCenterWindow(QMainWindow):
+    def __init__(self, fixture_id: int, back_callback=None) -> None:
+        super().__init__()
+
+        self.fixture_id = fixture_id
+        self.back_callback = back_callback
+
+        self.setWindowTitle("Soccerverse Match Center")
+        self.resize(1280, 860)
+
+        mcp = SoccerverseMCPClient()
+        self.match_data = MatchDataService(mcp).load(fixture_id)
+
+        fixture = self.match_data.fixture
+        attendance = int(fixture.get("attendance") or 0)
+
+        self.datapack = DatapackResolver()
+
+        home_club_id = int(fixture["home_club"])
+        away_club_id = int(fixture["away_club"])
+
+        home_pack = self.datapack.get_club(home_club_id)
+        away_pack = self.datapack.get_club(away_club_id)
+
+        self.home_name = (
+            home_pack["n"]
+            if home_pack
+            else fixture["home_club_name"]
+        )
+        self.away_name = (
+            away_pack["n"]
+            if away_pack
+            else fixture["away_club_name"]
+        )
+
+        self.home_logo = (
+            self.datapack.get_club_logo(home_club_id)
+            or ""
+        )
+        self.away_logo = (
+            self.datapack.get_club_logo(away_club_id)
+            or ""
+        )
+
+        self.home_rgb = self._club_rgb(home_club_id, (255, 255, 255))
+        self.away_rgb = self._club_rgb(away_club_id, (255, 0, 0))
+
+        self.stadium_image = ""
+        stadium_id = fixture.get("stadium_id") or fixture.get("stadium")
+
+        if stadium_id:
+            stadium_pack = self.datapack.get_stadium(stadium_id)
+            if stadium_pack:
+                self.stadium_image = (
+                    stadium_pack.get("image")
+                    or stadium_pack.get("img")
+                    or ""
+                )
+
+        self.audio_engine = MatchAudioEngine(
+            attendance=attendance,
+            home_club_id=home_club_id,
+            away_club_id=away_club_id,
+        )
+
+        self.audio_player = MatchAudioPlayer()
+        self._last_audio_action_id: int | None = None
+        self._audio_started = False
+        self._audio_finished = False
+
+        self.replay = MatchReplayController(
+            self.match_data,
+            ReplayMode.M3,
+        )
+
+        self.timer = QTimer(self)
+        self.timer.setInterval(100)
+        self.timer.timeout.connect(self.tick)
+
+        self._build_ui()
+        self._apply_style()
+        self.reset_replay()
+
+    def _club_rgb(self, club_id: int, fallback):
+        colors = self.datapack.get_club_colors(club_id)
+
+        if colors:
+            try:
+                return tuple(int(x) for x in colors[:3])
+            except Exception:
+                pass
+
+        return fallback
+
+    def _build_ui(self) -> None:
+        root = QWidget()
+        root.setObjectName("root")
+
+        main = QVBoxLayout(root)
+        main.setContentsMargins(28, 24, 28, 24)
+        main.setSpacing(14)
+
+        top = QHBoxLayout()
+
+        brand = QLabel("SOCCERVERSE")
+        brand.setObjectName("brand")
+
+        competition_name = (
+            self.match_data.fixture.get("comp_name")
+            or self.match_data.fixture.get("league_name")
+            or "MATCH CENTER"
+        )
+
+        competition = QLabel(
+            f"{competition_name.upper()}  •  MATCH {self.fixture_id}"
+        )
+        competition.setObjectName("competition")
+
+        live = QLabel("●  MATCH CENTER")
+        live.setObjectName("live")
+
+        top.addWidget(brand)
+        top.addStretch()
+        top.addWidget(competition)
+        top.addSpacing(24)
+        top.addWidget(live)
+
+        main.addLayout(top)
+
+        if self.back_callback is not None:
+            back = QPushButton("←  CERCA UN'ALTRA PARTITA")
+            back.setObjectName("backButton")
+            back.clicked.connect(self._go_back)
+            main.addWidget(back)
+
+        hero = QFrame()
+        hero.setObjectName("hero")
+
+        hero_layout = QVBoxLayout(hero)
+        hero_layout.setContentsMargins(0, 0, 0, 0)
+
+        stadium = QLabel()
+        stadium.setObjectName("stadium")
+
+        if self.stadium_image:
+            pixmap = load_image(self.stadium_image, 900)
+        else:
+            pixmap = QPixmap()
+
+        if not pixmap.isNull():
+            stadium.setPixmap(pixmap)
+        else:
+            stadium.setText(
+                self.match_data.fixture.get(
+                    "stadium_name",
+                    "SOCCERVERSE STADIUM",
+                ).upper()
+            )
+
+        stadium.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        stadium.setFixedHeight(125)
+
+        hero_layout.addWidget(stadium)
+
+        stadium_info = QHBoxLayout()
+
+        stadium_name_text = (
+            self.match_data.fixture.get("stadium_name")
+            or "SOCCERVERSE STADIUM"
+        )
+
+        stadium_name = QLabel(f"🏟  {stadium_name_text.upper()}")
+        stadium_name.setObjectName("stadiumName")
+
+        attendance = QLabel(
+            f"ATTENDANCE  {int(self.match_data.fixture.get('attendance') or 0):,}"
+        )
+        attendance.setObjectName("attendance")
+
+        stadium_info.addWidget(stadium_name)
+        stadium_info.addStretch()
+        stadium_info.addWidget(attendance)
+
+        hero_layout.addLayout(stadium_info)
+
+        main.addWidget(hero)
+
+        scoreboard = QFrame()
+        scoreboard.setObjectName("scoreboard")
+
+        score_layout = QHBoxLayout(scoreboard)
+        score_layout.setContentsMargins(32, 22, 32, 22)
+
+        home_column = QVBoxLayout()
+        home_column.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        home_logo = QLabel()
+
+        if self.home_logo:
+            home_logo.setPixmap(load_image(self.home_logo, 78))
+
+        home_logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.home_label = QLabel(self.home_name.upper())
+        self.home_label.setObjectName("teamHome")
+        self.home_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        home_column.addWidget(home_logo)
+        home_column.addWidget(self.home_label)
+
+        center = QVBoxLayout()
+        center.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.status = QLabel("READY")
+        self.status.setObjectName("status")
+
+        self.score = QLabel(
+            f"{self.match_data.fixture.get('home_goals', 0)}  —  "
+            f"{self.match_data.fixture.get('away_goals', 0)}"
+        )
+        self.score.setObjectName("score")
+        self.score.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.scorer = QLabel("")
+        self.scorer.setObjectName("scorer")
+        self.scorer.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.minute = QLabel("0'")
+        self.minute.setObjectName("minute")
+        self.minute.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        center.addWidget(self.status)
+        center.addWidget(self.score)
+        center.addWidget(self.minute)
+        center.addWidget(self.scorer)
+
+        away_column = QVBoxLayout()
+        away_column.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        away_logo = QLabel()
+
+        if self.away_logo:
+            away_logo.setPixmap(load_image(self.away_logo, 78))
+
+        away_logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.away_label = QLabel(self.away_name.upper())
+        self.away_label.setObjectName("teamAway")
+        self.away_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        away_column.addWidget(away_logo)
+        away_column.addWidget(self.away_label)
+
+        score_layout.addLayout(home_column, 1)
+        score_layout.addLayout(center, 1)
+        score_layout.addLayout(away_column, 1)
+
+        main.addWidget(scoreboard)
+
+        content = QHBoxLayout()
+        content.setSpacing(14)
+
+        stadium_card = QFrame()
+        stadium_card.setObjectName("stadiumCard")
+
+        stadium_card_layout = QVBoxLayout(stadium_card)
+        stadium_card_layout.setContentsMargins(14, 14, 14, 14)
+        stadium_card_layout.setSpacing(8)
+
+        stadium_thumb = QLabel()
+        stadium_thumb.setObjectName("stadiumThumb")
+        stadium_thumb.setFixedSize(170, 170)
+        stadium_thumb.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        stadium_pixmap = (
+            load_image(self.stadium_image, 170)
+            if self.stadium_image
+            else QPixmap()
+        )
+
+        if not stadium_pixmap.isNull():
+            stadium_thumb.setPixmap(stadium_pixmap)
+        else:
+            stadium_thumb.setText("STADIO")
+
+        stadium_card_layout.addWidget(
+            stadium_thumb,
+            alignment=Qt.AlignmentFlag.AlignCenter,
+        )
+
+        stadium_card_name = QLabel(stadium_name_text.upper())
+        stadium_card_name.setObjectName("stadiumCardName")
+        stadium_card_name.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        stadium_card_name.setWordWrap(True)
+
+        stadium_card_layout.addWidget(stadium_card_name)
+
+        stadium_card_attendance = QLabel(
+            f"{int(self.match_data.fixture.get('attendance') or 0):,} PRESENTI"
+        )
+        stadium_card_attendance.setObjectName("stadiumCardAttendance")
+        stadium_card_attendance.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        stadium_card_layout.addWidget(stadium_card_attendance)
+
+        content.addWidget(stadium_card, 0)
+
+        commentary = QFrame()
+        commentary.setObjectName("commentary")
+
+        commentary_layout = QVBoxLayout(commentary)
+        commentary_layout.setContentsMargins(24, 20, 24, 20)
+
+        commentary_title = QLabel("MATCH TIMELINE")
+        commentary_title.setObjectName("section")
+
+        commentary_layout.addWidget(commentary_title)
+
+        self.feed_layout = QVBoxLayout()
+        commentary_layout.addLayout(self.feed_layout)
+        commentary_layout.addStretch()
+
+        content.addWidget(commentary, 2)
+
+        main.addLayout(content, 1)
+
+        controls = QFrame()
+        controls.setObjectName("controls")
+
+        controls_layout = QHBoxLayout(controls)
+        controls_layout.setContentsMargins(18, 12, 18, 12)
+
+        replay_label = QLabel("REPLAY")
+        replay_label.setObjectName("replayLabel")
+
+        controls_layout.addWidget(replay_label)
+        controls_layout.addSpacing(12)
+
+        self.play_button = QPushButton("▶  PLAY")
+        self.play_button.setObjectName("play")
+        self.play_button.clicked.connect(self.toggle_play)
+
+        controls_layout.addWidget(self.play_button)
+
+        reset = QPushButton("↺")
+        reset.clicked.connect(self.reset_replay)
+        controls_layout.addWidget(reset)
+
+        for text, mode in (
+            ("3'", ReplayMode.M3),
+            ("6'", ReplayMode.M6),
+            ("12'", ReplayMode.M12),
+            ("1:1", ReplayMode.ONE_TO_ONE),
+        ):
+            button = QPushButton(text)
+            button.clicked.connect(
+                lambda checked=False, selected=mode: self.change_mode(selected)
+            )
+            controls_layout.addWidget(button)
+
+        controls_layout.addStretch()
+
+        self.replay_status = QLabel("0.0s")
+        self.replay_status.setObjectName("replayStatus")
+
+        controls_layout.addWidget(self.replay_status)
+
+        main.addWidget(controls)
+
+        self.setCentralWidget(root)
+
+    def _apply_style(self) -> None:
+        self.setStyleSheet(
+            f"""
+            QWidget#root {{
+                background: #07090d;
+                color: #f4f5f7;
+            }}
+
+            QLabel#brand {{
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#competition {{
+                color: #858d9c;
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 1.5px;
+            }}
+
+            QLabel#live {{
+                color: #ff4d5a;
+                font-size: 12px;
+                font-weight: 900;
+                letter-spacing: 1px;
+            }}
+
+            QPushButton#backButton {{
+                padding: 8px 14px;
+                max-width: 230px;
+            }}
+
+            QFrame#hero {{
+                background: #0d1118;
+                border: 1px solid #252c37;
+                border-radius: 16px;
+            }}
+
+            QLabel#stadium {{
+                background: #10151d;
+                color: #687283;
+                font-size: 20px;
+                font-weight: 800;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+            }}
+
+            QLabel#stadiumName {{
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: 800;
+                padding: 8px 12px;
+            }}
+
+            QLabel#attendance {{
+                color: #7e8797;
+                font-size: 11px;
+                font-weight: 700;
+                padding: 8px 12px;
+            }}
+
+            QFrame#scoreboard {{
+                background: #10141b;
+                border: 1px solid #282f3b;
+                border-radius: 18px;
+            }}
+
+            QLabel#teamHome {{
+                color: {rgb(self.home_rgb)};
+                font-size: 27px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#teamAway {{
+                color: {rgb(self.away_rgb)};
+                font-size: 27px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#status {{
+                color: #737d8d;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 2px;
+            }}
+
+            QLabel#score {{
+                color: #ffffff;
+                font-size: 58px;
+                font-weight: 950;
+            }}
+
+            QLabel#minute {{
+                color: #aeb6c2;
+                font-size: 16px;
+                font-weight: 900;
+            }}
+
+            QLabel#scorer {{
+                color: #9ba4b3;
+                font-size: 11px;
+                font-weight: 800;
+                letter-spacing: 1px;
+            }}
+
+            QFrame#stadiumCard,
+            QFrame#commentary {{
+                background: #0d1219;
+                border: 1px solid #222a35;
+                border-radius: 15px;
+            }}
+
+            QLabel#stadiumCardName {{
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: 900;
+            }}
+
+            QLabel#stadiumCardAttendance {{
+                color: #737d8d;
+                font-size: 11px;
+                font-weight: 800;
+            }}
+
+            QLabel#section {{
+                color: #697486;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 2px;
+            }}
+
+            QLabel#feedItem {{
+                color: #c1c7d0;
+                font-size: 14px;
+                padding: 4px 0;
+            }}
+
+            QFrame#controls {{
+                background: #10141b;
+                border: 1px solid #252c37;
+                border-radius: 13px;
+            }}
+
+            QLabel#replayLabel {{
+                color: #778294;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 1.5px;
+            }}
+
+            QLabel#replayStatus {{
+                color: #697486;
+                font-size: 11px;
+                font-weight: 700;
+            }}
+
+            QPushButton {{
+                background: #171c25;
+                color: #e9ecf1;
+                border: 1px solid #303846;
+                border-radius: 8px;
+                padding: 9px 16px;
+                font-weight: 800;
+            }}
+
+            QPushButton:hover {{
+                background: #242b36;
+            }}
+
+            QPushButton#play {{
+                padding-left: 22px;
+                padding-right: 22px;
+            }}
+
+            /* SEARCH */
+
+            QWidget#searchRoot {{
+                background: #07090d;
+            }}
+
+            QLabel#searchBrand {{
+                color: #ffffff;
+                font-size: 34px;
+                font-weight: 950;
+                letter-spacing: 6px;
+            }}
+
+            QLabel#searchSubtitle {{
+                color: #697486;
+                font-size: 13px;
+                font-weight: 900;
+                letter-spacing: 3px;
+            }}
+
+            QLabel#searchIntro {{
+                color: #c1c7d0;
+                font-size: 17px;
+                margin-top: 18px;
+                margin-bottom: 4px;
+            }}
+
+            QLineEdit#searchInput {{
+                background: #10141b;
+                color: #ffffff;
+                border: 1px solid #303846;
+                border-radius: 10px;
+                padding: 14px 16px;
+                font-size: 16px;
+            }}
+
+            QLineEdit#searchInput:focus {{
+                border: 1px solid #697486;
+            }}
+
+            QPushButton#searchButton {{
+                padding: 14px 24px;
+            }}
+
+            QLabel#searchStatus {{
+                color: #858d9c;
+                font-size: 12px;
+                font-weight: 800;
+                min-height: 20px;
+            }}
+
+            QLabel#resultsTitle {{
+                color: #697486;
+                font-size: 11px;
+                font-weight: 900;
+                letter-spacing: 2px;
+                margin-top: 10px;
+            }}
+
+            QListWidget#matchesList {{
+                background: #0d1219;
+                color: #e9ecf1;
+                border: 1px solid #222a35;
+                border-radius: 14px;
+                padding: 8px;
+                font-size: 14px;
+                outline: none;
+            }}
+
+            QListWidget#matchesList::item {{
+                padding: 15px 12px;
+                border-bottom: 1px solid #222a35;
+            }}
+
+            QListWidget#matchesList::item:selected {{
+                background: #171c25;
+                border: 1px solid #303846;
+            }}
+
+            QLabel#searchHint {{
+                color: #586273;
+                font-size: 11px;
+                font-weight: 700;
+            }}
+            """
+        )
+
+    def _go_back(self) -> None:
+        self.timer.stop()
+        if self.back_callback:
+            self.back_callback()
+
+    def toggle_play(self) -> None:
+        if self.timer.isActive():
+            self.timer.stop()
+            self.play_button.setText("▶  PLAY")
+            self.status.setText("PAUSED")
+        else:
+            if self.replay.elapsed_seconds >= self.replay.duration_seconds:
+                self.reset_replay()
+
+            if not self._audio_started:
+                self.audio_player.start_whistle()
+                self._audio_started = True
+
+            self.timer.start()
+            self.play_button.setText("Ⅱ  PAUSE")
+            self.status.setText("LIVE")
+
+    def tick(self) -> None:
+        state = self.replay.advance(0.1)
+
+        self.score.setText(
+            f"{state.home_score}  —  {state.away_score}"
+        )
+        self.minute.setText(f"{state.match_minute}'")
+
+        if state.current_kind == "goal":
+            current_scene = (
+                state.visible_scenes[-1].scene
+                if state.visible_scenes
+                else None
+            )
+
+            goal_minute = (
+                current_scene.match_minute
+                if current_scene
+                else state.match_minute
+            )
+
+            goal_player = (
+                current_scene.player_name
+                if current_scene and current_scene.player_name
+                else "Azione di squadra"
+            )
+
+            self.scorer.setText(
+                f"{goal_minute}'  {goal_player.upper()}"
+            )
+        else:
+            self.scorer.setText("")
+
+        self.replay_status.setText(
+            f"{state.elapsed_seconds:05.1f} / "
+            f"{self.replay.duration_seconds:.1f}s"
+        )
+
+        while self.feed_layout.count():
+            item = self.feed_layout.takeAt(0)
+            if item.widget() is not None:
+                item.widget().deleteLater()
+
+        for visible in state.visible_scenes[-12:]:
+            scene = visible.scene
+            player = scene.player_name or "Azione di squadra"
+            club = scene.club_name or "MATCH"
+
+            label = QLabel(
+                f"{scene.match_minute}'   "
+                f"{club.upper()}   •   {player}"
+            )
+            label.setObjectName("feedItem")
+            self.feed_layout.addWidget(label)
+
+        if state.current_kind == "goal":
+            self.status.setText("GOAL")
+
+        if self.replay.elapsed_seconds >= self.replay.duration_seconds:
+            if not self._audio_finished:
+                self.audio_player.final_whistle()
+                self._audio_finished = True
+
+            self.timer.stop()
+            self.play_button.setText("↻  REPLAY")
+            self.status.setText("FINAL")
+
+    def reset_replay(self) -> None:
+        self.timer.stop()
+
+        self.audio_player.reset()
+        self._last_audio_action_id = None
+        self._audio_started = False
+        self._audio_finished = False
+
+        state = self.replay.reset()
+
+        self.play_button.setText("▶  PLAY")
+        self.status.setText("READY")
+        self.score.setText(
+            f"{state.home_score}  —  {state.away_score}"
+        )
+        self.minute.setText(f"{state.match_minute}'")
+        self.scorer.setText("")
+        self.replay_status.setText(
+            f"0.0 / {self.replay.duration_seconds:.1f}s"
+        )
+
+    def change_mode(self, mode: ReplayMode) -> None:
+        self.timer.stop()
+
+        self.replay = MatchReplayController(
+            self.replay.match_data,
+            mode,
+        )
+
+        self.reset_replay()
+
+
+class AppWindow(QMainWindow):
+    def __init__(self) -> None:
+        super().__init__()
+
+        self.setWindowTitle("Soccerverse")
+        self.resize(1280, 860)
+
+        self.mcp = SoccerverseMCPClient()
+
+        self.stack = QStackedWidget()
+        self.setCentralWidget(self.stack)
+
+        self.search_page = SearchWindow(self.mcp)
+        self.search_page.match_selected.connect(self.open_match)
+
+        self.stack.addWidget(self.search_page)
+
+        self.match_window: MatchCenterWindow | None = None
+
+        self.setStyleSheet(
+            """
+            QWidget {
+                background: #07090d;
+                color: #f4f5f7;
+            }
+
+            QLabel {
+                color: #f4f5f7;
+            }
+
+            QPushButton {
+                color: #ffffff;
+                background: #222a36;
+                border: 1px solid #647087;
+                border-radius: 8px;
+                padding: 10px 16px;
+                font-weight: 900;
+            }
+
+            QLineEdit {
+                color: #ffffff;
+                background: #10141b;
+                border: 1px solid #566176;
+                border-radius: 10px;
+                padding: 12px;
+            }
+
+            QListWidget {
+                color: #f4f5f7;
+                background: #10141b;
+            }
+            """
+        )
+
+    def open_match(self, fixture_id: int) -> None:
+        try:
+            match = MatchCenterWindow(
+                fixture_id,
+                back_callback=self.show_search,
+            )
+        except Exception as exc:
+            self.search_page.status.setText(
+                f"Impossibile aprire la partita: {exc}"
+            )
+            return
+
+        if self.match_window is not None:
+            self.stack.removeWidget(self.match_window)
+            self.match_window.deleteLater()
+
+        self.match_window = match
+        self.stack.addWidget(match)
+        self.stack.setCurrentWidget(match)
+
+    def show_search(self) -> None:
+        if self.match_window is not None:
+            self.stack.setCurrentWidget(self.search_page)
+
+
+app = QApplication(sys.argv)
+app.setFont(QFont("Arial", 10))
+
+window = AppWindow()
+window.show()
+
+sys.exit(app.exec())

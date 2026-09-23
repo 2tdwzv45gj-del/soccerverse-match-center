@@ -1,0 +1,5837 @@
+{
+  "club_ids": [
+    605,
+    3340,
+    1,
+    2,
+    3,
+    4,
+    5,
+    10,
+    20,
+    50
+  ],
+  "records": [
+    {
+      "club_id": 605,
+      "fixture_id": 334220,
+      "date": "2026-09-02",
+      "formation_id": 1,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 1832
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 363898
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 4353
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 9991
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 152714
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 178372
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 290148
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 125405
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 321770
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 15891
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 281227
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 1832,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 363898,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 4353,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 9991,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 152714,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2594,
+          "player_id": 178372,
+          "lineup_index": 5
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 290148,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 125405,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 321770,
+          "lineup_index": 8
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 37504,
+          "player_id": 15891,
+          "lineup_index": 9
+        },
+        {
+          "position": 8192,
+          "position_main": "FL",
+          "multi_position": 8192,
+          "player_id": 281227,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 605,
+      "fixture_id": 334209,
+      "date": "2026-08-26",
+      "formation_id": 7,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 1832
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 152714
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 74636
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 363899
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 178372
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 4353
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 290148
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 511688
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 321770
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 281227
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 125405
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 1832,
+          "lineup_index": 0
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 152714,
+          "lineup_index": 1
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 74636,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 363899,
+          "lineup_index": 3
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2594,
+          "player_id": 178372,
+          "lineup_index": 4
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 4353,
+          "lineup_index": 5
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 290148,
+          "lineup_index": 6
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 768,
+          "player_id": 511688,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 321770,
+          "lineup_index": 8
+        },
+        {
+          "position": 8192,
+          "position_main": "FL",
+          "multi_position": 8192,
+          "player_id": 281227,
+          "lineup_index": 9
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 125405,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 605,
+      "fixture_id": 334203,
+      "date": "2026-08-22",
+      "formation_id": 13,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 1832
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 363898
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 4353
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 9991
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 152714
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 511688
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3620
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 15891
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 385537
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 392036
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 178372
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 1832,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 363898,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 4353,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 9991,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 152714,
+          "lineup_index": 4
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 768,
+          "player_id": 511688,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 4096,
+          "player_id": 3620,
+          "lineup_index": 6
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 37504,
+          "player_id": 15891,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 385537,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 392036,
+          "lineup_index": 9
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2594,
+          "player_id": 178372,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 605,
+      "fixture_id": 334197,
+      "date": "2026-08-19",
+      "formation_id": 13,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 1832
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 363898
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 4353
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 9991
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 152714
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 511688
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3620
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 15891
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 385537
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 392036
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 178372
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 1832,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 363898,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 4353,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 9991,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 152714,
+          "lineup_index": 4
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 768,
+          "player_id": 511688,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 4096,
+          "player_id": 3620,
+          "lineup_index": 6
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 37504,
+          "player_id": 15891,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 385537,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 392036,
+          "lineup_index": 9
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2594,
+          "player_id": 178372,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 605,
+      "fixture_id": 334191,
+      "date": "2026-08-15",
+      "formation_id": 13,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 1832
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 363898
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 4353
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 9991
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 152714
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 511688
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3620
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 15891
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 385537
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 392036
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 178372
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 1832,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 363898,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 4353,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 9991,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 152714,
+          "lineup_index": 4
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 768,
+          "player_id": 511688,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 4096,
+          "player_id": 3620,
+          "lineup_index": 6
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 37504,
+          "player_id": 15891,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 385537,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 392036,
+          "lineup_index": 9
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2594,
+          "player_id": 178372,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334228,
+      "date": "2026-09-09",
+      "formation_id": 7,
+      "play_style": 4,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 25867
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 437037
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 25874
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 3912
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 2344,
+          "player_id": 25867,
+          "lineup_index": 4
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 437037,
+          "lineup_index": 5
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 25874,
+          "lineup_index": 9
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3912,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334222,
+      "date": "2026-09-05",
+      "formation_id": 7,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 25867
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 437037
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 25874
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 345184
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 2344,
+          "player_id": 25867,
+          "lineup_index": 4
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 437037,
+          "lineup_index": 5
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 25874,
+          "lineup_index": 9
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 2064,
+          "player_id": 345184,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334216,
+      "date": "2026-09-02",
+      "formation_id": 11,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 189040
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3885
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 3912
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 345184
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 189040,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 5
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 512,
+          "player_id": 3885,
+          "lineup_index": 6
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 8
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3912,
+          "lineup_index": 9
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 2064,
+          "player_id": 345184,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334212,
+      "date": "2026-08-29",
+      "formation_id": 12,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 25867
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 189040
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3885
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 345184
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 273259
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 2344,
+          "player_id": 25867,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 189040,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 5
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 512,
+          "player_id": 3885,
+          "lineup_index": 6
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 2064,
+          "player_id": 345184,
+          "lineup_index": 9
+        },
+        {
+          "position": 128,
+          "position_main": "LM",
+          "multi_position": 128,
+          "player_id": 273259,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334208,
+      "date": "2026-08-26",
+      "formation_id": 7,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 25867
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 437037
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 3912
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 25874
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 385752
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 2344,
+          "player_id": 25867,
+          "lineup_index": 4
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 437037,
+          "lineup_index": 5
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3912,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 25874,
+          "lineup_index": 9
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334204,
+      "date": "2026-08-22",
+      "formation_id": 12,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 189040
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 3885
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 3912
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 216576
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 273259
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 189040,
+          "lineup_index": 4
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 5
+        },
+        {
+          "position": 512,
+          "position_main": "RM",
+          "multi_position": 512,
+          "player_id": 3885,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3912,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49408,
+          "player_id": 216576,
+          "lineup_index": 9
+        },
+        {
+          "position": 128,
+          "position_main": "LM",
+          "multi_position": 128,
+          "player_id": 273259,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334200,
+      "date": "2026-08-19",
+      "formation_id": 7,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 3623
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 25867
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 437037
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 25874
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 3704
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 384605
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 3623,
+          "lineup_index": 3
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 2344,
+          "player_id": 25867,
+          "lineup_index": 4
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 437037,
+          "lineup_index": 5
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 25874,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 49152,
+          "player_id": 3704,
+          "lineup_index": 9
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 2048,
+          "player_id": 384605,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 3340,
+      "fixture_id": 334195,
+      "date": "2026-08-15",
+      "formation_id": 7,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 3645
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 293318
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 3691
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 189040
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 25867
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 437037
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 385752
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 3789
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 25874
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 298011
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 384605
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 3645,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 8,
+          "player_id": 293318,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 3691,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 189040,
+          "lineup_index": 3
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 2344,
+          "player_id": 25867,
+          "lineup_index": 4
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 437037,
+          "lineup_index": 5
+        },
+        {
+          "position": 256,
+          "position_main": "CM",
+          "multi_position": 256,
+          "player_id": 385752,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 32,
+          "player_id": 3789,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 25874,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 298011,
+          "lineup_index": 9
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 2048,
+          "player_id": 384605,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 363244,
+      "date": "2026-09-09",
+      "formation_id": 12,
+      "play_style": 3,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 284230
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 307123
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 404656
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 129033
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 2291
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 266657
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 626
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 636
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 2090,
+          "player_id": 284230,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 1186,
+          "player_id": 307123,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 404656,
+          "lineup_index": 3
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 6,
+          "player_id": 129033,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2464,
+          "player_id": 2291,
+          "lineup_index": 5
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 266657,
+          "lineup_index": 6
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 44,
+          "player_id": 626,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 6688,
+          "player_id": 636,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 441911,
+      "date": "2026-09-07",
+      "formation_id": 12,
+      "play_style": 3,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 5
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 278128
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 626
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 567
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 278059
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 308814
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 631
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 266657
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 46,
+          "player_id": 5,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 278128,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 44,
+          "player_id": 626,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 567,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 544,
+          "player_id": 278059,
+          "lineup_index": 5
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 6784,
+          "player_id": 308814,
+          "lineup_index": 6
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 23552,
+          "player_id": 631,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 266657,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 363235,
+      "date": "2026-09-05",
+      "formation_id": 12,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 284230
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 307123
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 404656
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 129033
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 636
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 2291
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 631
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 2090,
+          "player_id": 284230,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 1186,
+          "player_id": 307123,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 404656,
+          "lineup_index": 3
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 6,
+          "player_id": 129033,
+          "lineup_index": 4
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 6688,
+          "player_id": 636,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2464,
+          "player_id": 2291,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 23552,
+          "player_id": 631,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 363226,
+      "date": "2026-09-02",
+      "formation_id": 12,
+      "play_style": 0,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 626
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 129033
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 567
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 5
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 636
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 2291
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 631
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 44,
+          "player_id": 626,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 6,
+          "player_id": 129033,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 567,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 46,
+          "player_id": 5,
+          "lineup_index": 4
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 6688,
+          "player_id": 636,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2464,
+          "player_id": 2291,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 23552,
+          "player_id": 631,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 363216,
+      "date": "2026-08-29",
+      "formation_id": 12,
+      "play_style": 3,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 626
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 129033
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 567
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 5
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 636
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 2291
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 631
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 44,
+          "player_id": 626,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 6,
+          "player_id": 129033,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 567,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 46,
+          "player_id": 5,
+          "lineup_index": 4
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 6688,
+          "player_id": 636,
+          "lineup_index": 6
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2464,
+          "player_id": 2291,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 23552,
+          "player_id": 631,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 441908,
+      "date": "2026-08-24",
+      "formation_id": 12,
+      "play_style": 2,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 278128
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 404656
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 129033
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 278059
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 266657
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 307123
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 308814
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 2,
+          "player_id": 278128,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 404656,
+          "lineup_index": 3
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 6,
+          "player_id": 129033,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 544,
+          "player_id": 278059,
+          "lineup_index": 5
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 266657,
+          "lineup_index": 6
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 1186,
+          "player_id": 307123,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 6784,
+          "player_id": 308814,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 363205,
+      "date": "2026-08-22",
+      "formation_id": 12,
+      "play_style": 3,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 626
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 284230
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 567
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 5
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 2291
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 636
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 313353
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 631
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 44,
+          "player_id": 626,
+          "lineup_index": 1
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 2090,
+          "player_id": 284230,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 567,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 46,
+          "player_id": 5,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2464,
+          "player_id": 2291,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 6688,
+          "player_id": 636,
+          "lineup_index": 6
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 313353,
+          "lineup_index": 8
+        },
+        {
+          "position": 2048,
+          "position_main": "AMC",
+          "multi_position": 23552,
+          "player_id": 631,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    },
+    {
+      "club_id": 50,
+      "fixture_id": 363194,
+      "date": "2026-08-19",
+      "formation_id": 20,
+      "play_style": 5,
+      "starters": [
+        {
+          "lineup_index": 0,
+          "player_id": 61142
+        },
+        {
+          "lineup_index": 1,
+          "player_id": 5
+        },
+        {
+          "lineup_index": 2,
+          "player_id": 129033
+        },
+        {
+          "lineup_index": 3,
+          "player_id": 567
+        },
+        {
+          "lineup_index": 4,
+          "player_id": 626
+        },
+        {
+          "lineup_index": 5,
+          "player_id": 2291
+        },
+        {
+          "lineup_index": 6,
+          "player_id": 636
+        },
+        {
+          "lineup_index": 7,
+          "player_id": 41621
+        },
+        {
+          "lineup_index": 8,
+          "player_id": 1100
+        },
+        {
+          "lineup_index": 9,
+          "player_id": 313353
+        },
+        {
+          "lineup_index": 10,
+          "player_id": 1422
+        }
+      ],
+      "starter_signature": [
+        {
+          "position": 1,
+          "position_main": "GK",
+          "multi_position": 1,
+          "player_id": 61142,
+          "lineup_index": 0
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 46,
+          "player_id": 5,
+          "lineup_index": 1
+        },
+        {
+          "position": 2,
+          "position_main": "LB",
+          "multi_position": 6,
+          "player_id": 129033,
+          "lineup_index": 2
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 4,
+          "player_id": 567,
+          "lineup_index": 3
+        },
+        {
+          "position": 4,
+          "position_main": "CB",
+          "multi_position": 44,
+          "player_id": 626,
+          "lineup_index": 4
+        },
+        {
+          "position": 32,
+          "position_main": "DMC",
+          "multi_position": 2464,
+          "player_id": 2291,
+          "lineup_index": 5
+        },
+        {
+          "position": 4096,
+          "position_main": "AMR",
+          "multi_position": 6688,
+          "player_id": 636,
+          "lineup_index": 6
+        },
+        {
+          "position": 8,
+          "position_main": "RB",
+          "multi_position": 1576,
+          "player_id": 41621,
+          "lineup_index": 7
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 1100,
+          "lineup_index": 8
+        },
+        {
+          "position": 16384,
+          "position_main": "FC",
+          "multi_position": 16384,
+          "player_id": 313353,
+          "lineup_index": 9
+        },
+        {
+          "position": 1024,
+          "position_main": "AML",
+          "multi_position": 15360,
+          "player_id": 1422,
+          "lineup_index": 10
+        }
+      ]
+    }
+  ],
+  "player_count": 54,
+  "players": {
+    "5": {
+      "player_id": 5,
+      "fitness": 88,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1787166000,
+      "injury_id": 1,
+      "wages": 2461550000,
+      "contract": 3,
+      "form": "666446",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 46,
+      "positions": [
+        "LB",
+        "CB",
+        "RB",
+        "DMC"
+      ],
+      "rating": 91,
+      "rating_gk": 50,
+      "rating_tackling": 91,
+      "rating_passing": 89,
+      "rating_shooting": 83,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 806112000,
+      "side": "RLC",
+      "value": 137324420829,
+      "country_id": "CHE",
+      "club_id": 50,
+      "agent_name": "Joachim",
+      "last_transfer": 0,
+      "desired_contract": 4,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 31,
+      "last_price": 3861,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789069893
+    },
+    "567": {
+      "player_id": 567,
+      "fitness": 93,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 2461550000,
+      "contract": 1,
+      "form": "666366",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 89,
+      "rating_gk": 50,
+      "rating_tackling": 89,
+      "rating_passing": 89,
+      "rating_shooting": 82,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 863568000,
+      "side": "C",
+      "value": 117734774838,
+      "country_id": "PRT",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 29,
+      "last_price": 5507,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "626": {
+      "player_id": 626,
+      "fitness": 80,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1782414001,
+      "injury_id": 1,
+      "wages": 3544600000,
+      "contract": 1,
+      "form": "676686",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 44,
+      "positions": [
+        "CB",
+        "RB",
+        "DMC"
+      ],
+      "rating": 91,
+      "rating_gk": 50,
+      "rating_tackling": 91,
+      "rating_passing": 85,
+      "rating_shooting": 79,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "dob": 770083200,
+      "side": "RC",
+      "value": 123591978746,
+      "country_id": "ENG",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 32,
+      "last_price": 4375,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "631": {
+      "player_id": 631,
+      "fitness": 90,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 5,
+      "injured": 1783623600,
+      "injury_id": 1,
+      "wages": 2461550000,
+      "contract": 1,
+      "form": "666366",
+      "position": 2048,
+      "position_main": "AMC",
+      "multi_position": 23552,
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FC"
+      ],
+      "rating": 90,
+      "rating_gk": 50,
+      "rating_tackling": 82,
+      "rating_passing": 88,
+      "rating_shooting": 90,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 959472000,
+      "side": "RLC",
+      "value": 193801005000,
+      "country_id": "ENG",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 26,
+      "last_price": 7821,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "636": {
+      "player_id": 636,
+      "fitness": 72,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1761588001,
+      "injury_id": 1,
+      "wages": 3544600000,
+      "contract": 1,
+      "form": "695686",
+      "position": 4096,
+      "position_main": "AMR",
+      "multi_position": 6688,
+      "positions": [
+        "DMC",
+        "RM",
+        "AMC",
+        "AMR"
+      ],
+      "rating": 93,
+      "rating_gk": 50,
+      "rating_tackling": 83,
+      "rating_passing": 93,
+      "rating_shooting": 84,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "dob": 776476800,
+      "side": "RC",
+      "value": 177971287133,
+      "country_id": "PRT",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 32,
+      "last_price": 4867,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "1100": {
+      "player_id": 1100,
+      "fitness": 87,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1773946801,
+      "injury_id": 1,
+      "wages": 8820000000,
+      "contract": 1,
+      "form": "865666",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 96,
+      "rating_gk": 50,
+      "rating_tackling": 85,
+      "rating_passing": 79,
+      "rating_shooting": 96,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "dob": 964137600,
+      "side": "C",
+      "value": 578680200000,
+      "country_id": "NOR",
+      "club_id": 50,
+      "agent_name": "snailbrain",
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 0,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 26,
+      "last_price": 100000,
+      "volume_1_day": 0,
+      "volume_7_day": 1000000,
+      "last_7days": [
+        1000000,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        100000,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789045951
+    },
+    "1422": {
+      "player_id": 1422,
+      "fitness": 81,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1759435203,
+      "injury_id": 1,
+      "wages": 1187150000,
+      "contract": 3,
+      "form": "696696",
+      "position": 1024,
+      "position_main": "AML",
+      "multi_position": 15360,
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FL"
+      ],
+      "rating": 86,
+      "rating_gk": 50,
+      "rating_tackling": 84,
+      "rating_passing": 86,
+      "rating_shooting": 86,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1022457600,
+      "side": "RLC",
+      "value": 115387875000,
+      "country_id": "BEL",
+      "club_id": 50,
+      "agent_name": "Snaus",
+      "last_transfer": 0,
+      "desired_contract": 4,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 6689,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789070130
+    },
+    "1832": {
+      "player_id": 1832,
+      "fitness": 98,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1786816800,
+      "injury_id": 1,
+      "wages": 15000000,
+      "contract": 1,
+      "form": "666777",
+      "position": 1,
+      "position_main": "GK",
+      "multi_position": 1,
+      "positions": [
+        "GK"
+      ],
+      "rating": 60,
+      "rating_gk": 60,
+      "rating_tackling": 50,
+      "rating_passing": 50,
+      "rating_shooting": 50,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 956707200,
+      "side": "C",
+      "value": 820125000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 26,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "2291": {
+      "player_id": 2291,
+      "fitness": 76,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1773864001,
+      "injury_id": 1,
+      "wages": 8820000000,
+      "contract": 1,
+      "form": "666666",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 2464,
+      "positions": [
+        "DMC",
+        "LM",
+        "CM",
+        "AMC"
+      ],
+      "rating": 96,
+      "rating_gk": 50,
+      "rating_tackling": 87,
+      "rating_passing": 96,
+      "rating_shooting": 82,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 768182400,
+      "side": "LC",
+      "value": 307534384168,
+      "country_id": "HRV",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 32,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3620": {
+      "player_id": 3620,
+      "fitness": 64,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1792519200,
+      "injury_id": 2,
+      "wages": 64300000,
+      "contract": 2,
+      "form": "666666",
+      "position": 4096,
+      "position_main": "AMR",
+      "multi_position": 4096,
+      "positions": [
+        "AMR"
+      ],
+      "rating": 68,
+      "rating_gk": 50,
+      "rating_tackling": 67,
+      "rating_passing": 68,
+      "rating_shooting": 66,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 867283200,
+      "side": "R",
+      "value": 2562874222,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 29,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3623": {
+      "player_id": 3623,
+      "fitness": 89,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1775757601,
+      "injury_id": 1,
+      "wages": 21600000,
+      "contract": 1,
+      "form": "665576",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 62,
+      "rating_passing": 58,
+      "rating_shooting": 58,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 724723200,
+      "side": "C",
+      "value": 508373164,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 33,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3645": {
+      "player_id": 3645,
+      "fitness": 94,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1783101600,
+      "injury_id": 1,
+      "wages": 21600000,
+      "contract": 1,
+      "form": "776666",
+      "position": 1,
+      "position_main": "GK",
+      "multi_position": 1,
+      "positions": [
+        "GK"
+      ],
+      "rating": 62,
+      "rating_gk": 62,
+      "rating_tackling": 50,
+      "rating_passing": 50,
+      "rating_shooting": 50,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 709948800,
+      "side": "C",
+      "value": 508373164,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 34,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3691": {
+      "player_id": 3691,
+      "fitness": 81,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1784916001,
+      "injury_id": 1,
+      "wages": 31050000,
+      "contract": 1,
+      "form": "666666",
+      "position": 2,
+      "position_main": "LB",
+      "multi_position": 2,
+      "positions": [
+        "LB"
+      ],
+      "rating": 64,
+      "rating_gk": 50,
+      "rating_tackling": 64,
+      "rating_passing": 58,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 858729600,
+      "side": "L",
+      "value": 1237593228,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 29,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3704": {
+      "player_id": 3704,
+      "fitness": 79,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1778263200,
+      "injury_id": 1,
+      "wages": 14750000,
+      "contract": 1,
+      "form": "676666",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 49152,
+      "positions": [
+        "FC",
+        "FR"
+      ],
+      "rating": 63,
+      "rating_gk": 50,
+      "rating_tackling": 60,
+      "rating_passing": 59,
+      "rating_shooting": 63,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 895708800,
+      "side": "RC",
+      "value": 1147026825,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": "Voret",
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 0,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 28,
+      "last_price": 36,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1788988146
+    },
+    "3789": {
+      "player_id": 3789,
+      "fitness": 77,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1781632800,
+      "injury_id": 2,
+      "wages": 14500000,
+      "contract": 1,
+      "form": "666666",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 32,
+      "positions": [
+        "DMC"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 60,
+      "rating_passing": 62,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 911001600,
+      "side": "C",
+      "value": 956593800,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 27,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3885": {
+      "player_id": 3885,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1781200801,
+      "injury_id": 1,
+      "wages": 13750000,
+      "contract": 1,
+      "form": "666666",
+      "position": 512,
+      "position_main": "RM",
+      "multi_position": 512,
+      "positions": [
+        "RM"
+      ],
+      "rating": 55,
+      "rating_gk": 50,
+      "rating_tackling": 54,
+      "rating_passing": 55,
+      "rating_shooting": 53,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 878428800,
+      "side": "R",
+      "value": 548048530,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 28,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "3912": {
+      "player_id": 3912,
+      "fitness": 81,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1750183200,
+      "injury_id": 1,
+      "wages": 14750000,
+      "contract": 1,
+      "form": "668656",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 32,
+      "positions": [
+        "DMC"
+      ],
+      "rating": 59,
+      "rating_gk": 50,
+      "rating_tackling": 58,
+      "rating_passing": 59,
+      "rating_shooting": 57,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 749001600,
+      "side": "C",
+      "value": 385725522,
+      "country_id": "NGA",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 32,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "4353": {
+      "player_id": 4353,
+      "fitness": 80,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1771869600,
+      "injury_id": 1,
+      "wages": 18000000,
+      "contract": 1,
+      "form": "466694",
+      "position": 2,
+      "position_main": "LB",
+      "multi_position": 2,
+      "positions": [
+        "LB"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 62,
+      "rating_passing": 57,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 942796800,
+      "side": "L",
+      "value": 1062882000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 26,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "9991": {
+      "player_id": 9991,
+      "fitness": 45,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1781805600,
+      "injury_id": 1,
+      "wages": 331400000,
+      "contract": 2,
+      "form": "656666",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 77,
+      "rating_gk": 50,
+      "rating_tackling": 77,
+      "rating_passing": 64,
+      "rating_shooting": 68,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 804643200,
+      "side": "C",
+      "value": 10699262504,
+      "country_id": "BRA",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 1737451544,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 31,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "15891": {
+      "player_id": 15891,
+      "fitness": 58,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1777140000,
+      "injury_id": 1,
+      "wages": 92550000,
+      "contract": 2,
+      "form": "666566",
+      "position": 512,
+      "position_main": "RM",
+      "multi_position": 37504,
+      "positions": [
+        "LM",
+        "RM",
+        "AMR",
+        "FR"
+      ],
+      "rating": 70,
+      "rating_gk": 50,
+      "rating_tackling": 69,
+      "rating_passing": 63,
+      "rating_shooting": 70,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 731808000,
+      "side": "RL",
+      "value": 2420264221,
+      "country_id": "SWE",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 1742552708,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 33,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "25867": {
+      "player_id": 25867,
+      "fitness": 76,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1761588001,
+      "injury_id": 1,
+      "wages": 14750000,
+      "contract": 1,
+      "form": "666486",
+      "position": 256,
+      "position_main": "CM",
+      "multi_position": 2344,
+      "positions": [
+        "RB",
+        "DMC",
+        "CM",
+        "AMC"
+      ],
+      "rating": 59,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 59,
+      "rating_shooting": 58,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 802137600,
+      "side": "RC",
+      "value": 476204349,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 31,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "25874": {
+      "player_id": 25874,
+      "fitness": 89,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1764957601,
+      "injury_id": 1,
+      "wages": 21600000,
+      "contract": 1,
+      "form": "665668",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 57,
+      "rating_shooting": 62,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 852422400,
+      "side": "C",
+      "value": 774840978,
+      "country_id": "LTU",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 29,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "41621": {
+      "player_id": 41621,
+      "fitness": 90,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1780513200,
+      "injury_id": 1,
+      "wages": 824450000,
+      "contract": 1,
+      "form": "676569",
+      "position": 8,
+      "position_main": "RB",
+      "multi_position": 1576,
+      "positions": [
+        "RB",
+        "DMC",
+        "RM",
+        "AML"
+      ],
+      "rating": 89,
+      "rating_gk": 50,
+      "rating_tackling": 89,
+      "rating_passing": 87,
+      "rating_shooting": 83,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "dob": 904176000,
+      "side": "RLC",
+      "value": 130816416487,
+      "country_id": "PRT",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 28,
+      "last_price": 4396,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "61142": {
+      "player_id": 61142,
+      "fitness": 98,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1771956000,
+      "injury_id": 1,
+      "wages": 1424550000,
+      "contract": 3,
+      "form": "766866",
+      "position": 1,
+      "position_main": "GK",
+      "multi_position": 1,
+      "positions": [
+        "GK"
+      ],
+      "rating": 87,
+      "rating_gk": 87,
+      "rating_tackling": 69,
+      "rating_passing": 59,
+      "rating_shooting": 64,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 860284800,
+      "side": "C",
+      "value": 81760869247,
+      "country_id": "SVK",
+      "club_id": 50,
+      "agent_name": "Phesi",
+      "last_transfer": 1783074559,
+      "desired_contract": 4,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 29,
+      "last_price": 700,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789070566
+    },
+    "74636": {
+      "player_id": 74636,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1762192801,
+      "injury_id": 1,
+      "wages": 21600000,
+      "contract": 1,
+      "form": "355666",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 62,
+      "rating_passing": 57,
+      "rating_shooting": 57,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 741052800,
+      "side": "C",
+      "value": 564859072,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 33,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "125405": {
+      "player_id": 125405,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 44700000,
+      "contract": 5,
+      "form": "---666",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 32,
+      "positions": [
+        "DMC"
+      ],
+      "rating": 59,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 59,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 657504000,
+      "side": "C",
+      "value": 281193904,
+      "country_id": "ESP",
+      "club_id": 605,
+      "agent_name": "DDoctor",
+      "last_transfer": 1766583301,
+      "desired_contract": 4,
+      "allow_transfer": 1,
+      "allow_renew": 0,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 35,
+      "last_price": 4,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1788948484
+    },
+    "129033": {
+      "player_id": 129033,
+      "fitness": 72,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1787774400,
+      "injury_id": 1,
+      "wages": 3544600000,
+      "contract": 2,
+      "form": "766667",
+      "position": 2,
+      "position_main": "LB",
+      "multi_position": 6,
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "rating": 90,
+      "rating_gk": 50,
+      "rating_tackling": 90,
+      "rating_passing": 87,
+      "rating_shooting": 82,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1011744000,
+      "side": "LC",
+      "value": 239260500000,
+      "country_id": "HRV",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 19017,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "152714": {
+      "player_id": 152714,
+      "fitness": 79,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1775152801,
+      "injury_id": 1,
+      "wages": 21600000,
+      "contract": 1,
+      "form": "466676",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 63,
+      "rating_gk": 50,
+      "rating_tackling": 63,
+      "rating_passing": 57,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 920419200,
+      "side": "C",
+      "value": 1274474250,
+      "country_id": "BRA",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 27,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "178372": {
+      "player_id": 178372,
+      "fitness": 85,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 37250000,
+      "contract": 2,
+      "form": "666666",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 2594,
+      "positions": [
+        "LB",
+        "DMC",
+        "RM",
+        "AMC"
+      ],
+      "rating": 65,
+      "rating_gk": 50,
+      "rating_tackling": 63,
+      "rating_passing": 65,
+      "rating_shooting": 62,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "dob": 953078400,
+      "side": "RLC",
+      "value": 2036643750,
+      "country_id": "KOS",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 26,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "189040": {
+      "player_id": 189040,
+      "fitness": 97,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1782496801,
+      "injury_id": 1,
+      "wages": 14750000,
+      "contract": 1,
+      "form": "665665",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 60,
+      "rating_gk": 50,
+      "rating_tackling": 60,
+      "rating_passing": 55,
+      "rating_shooting": 57,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 957139200,
+      "side": "C",
+      "value": 820125000,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 26,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "216576": {
+      "player_id": 216576,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1770228000,
+      "injury_id": 1,
+      "wages": 14250000,
+      "contract": 1,
+      "form": "--7636",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 49408,
+      "positions": [
+        "CM",
+        "FC",
+        "FR"
+      ],
+      "rating": 58,
+      "rating_gk": 50,
+      "rating_tackling": 57,
+      "rating_passing": 54,
+      "rating_shooting": 58,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1011052800,
+      "side": "RC",
+      "value": 978750000,
+      "country_id": "NGA",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "266657": {
+      "player_id": 266657,
+      "fitness": 74,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 4,
+      "injured": 1774465201,
+      "injury_id": 1,
+      "wages": 1424550000,
+      "contract": 2,
+      "form": "696576",
+      "position": 1024,
+      "position_main": "AML",
+      "multi_position": 15360,
+      "positions": [
+        "AML",
+        "AMC",
+        "AMR",
+        "FL"
+      ],
+      "rating": 85,
+      "rating_gk": 50,
+      "rating_tackling": 79,
+      "rating_passing": 84,
+      "rating_shooting": 85,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1081555200,
+      "side": "RLC",
+      "value": 106841250000,
+      "country_id": "BRA",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 22,
+      "last_price": 9498,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "273259": {
+      "player_id": 273259,
+      "fitness": 97,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1763056800,
+      "injury_id": 2,
+      "wages": 14250000,
+      "contract": 1,
+      "form": "667655",
+      "position": 128,
+      "position_main": "LM",
+      "multi_position": 128,
+      "positions": [
+        "LM"
+      ],
+      "rating": 57,
+      "rating_gk": 50,
+      "rating_tackling": 56,
+      "rating_passing": 57,
+      "rating_shooting": 56,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1001203200,
+      "side": "L",
+      "value": 865687500,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "278059": {
+      "player_id": 278059,
+      "fitness": 84,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1780682400,
+      "injury_id": 1,
+      "wages": 477150000,
+      "contract": 5,
+      "form": "668665",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 544,
+      "positions": [
+        "DMC",
+        "RM"
+      ],
+      "rating": 79,
+      "rating_gk": 50,
+      "rating_tackling": 75,
+      "rating_passing": 79,
+      "rating_shooting": 73,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1037404800,
+      "side": "RC",
+      "value": 32207625000,
+      "country_id": "KOS",
+      "club_id": 608,
+      "agent_name": "SSAagent",
+      "last_transfer": 1767401949,
+      "desired_contract": 4,
+      "allow_transfer": 0,
+      "allow_renew": 1,
+      "loan_offered": 4,
+      "loan_offer_accepted": 50,
+      "loaned_to_club": 50,
+      "age": 23,
+      "last_price": 625,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1788968751
+    },
+    "278128": {
+      "player_id": 278128,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 5,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 37250000,
+      "contract": 1,
+      "form": "-67676",
+      "position": 2,
+      "position_main": "LB",
+      "multi_position": 2,
+      "positions": [
+        "LB"
+      ],
+      "rating": 71,
+      "rating_gk": 50,
+      "rating_tackling": 71,
+      "rating_passing": 65,
+      "rating_shooting": 63,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1040860800,
+      "side": "L",
+      "value": 7495875000,
+      "country_id": "ENG",
+      "club_id": 50,
+      "agent_name": "xayagaming",
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 23,
+      "last_price": 574,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789069123
+    },
+    "281227": {
+      "player_id": 281227,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 4,
+      "injured": 1780336800,
+      "injury_id": 1,
+      "wages": 18000000,
+      "contract": 1,
+      "form": "666966",
+      "position": 8192,
+      "position_main": "FL",
+      "multi_position": 8192,
+      "positions": [
+        "FL"
+      ],
+      "rating": 61,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 56,
+      "rating_shooting": 61,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 990835200,
+      "side": "L",
+      "value": 1093500000,
+      "country_id": "GHA",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 25,
+      "last_price": 40,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "284230": {
+      "player_id": 284230,
+      "fitness": 80,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1776279601,
+      "injury_id": 1,
+      "wages": 1424550000,
+      "contract": 1,
+      "form": "866666",
+      "position": 8,
+      "position_main": "RB",
+      "multi_position": 2090,
+      "positions": [
+        "LB",
+        "RB",
+        "DMC",
+        "AMC"
+      ],
+      "rating": 86,
+      "rating_gk": 50,
+      "rating_tackling": 82,
+      "rating_passing": 86,
+      "rating_shooting": 79,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1100995200,
+      "side": "RLC",
+      "value": 128208750000,
+      "country_id": "ENG",
+      "club_id": 50,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 21,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "290148": {
+      "player_id": 290148,
+      "fitness": 82,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1760558401,
+      "injury_id": 1,
+      "wages": 18000000,
+      "contract": 1,
+      "form": "646666",
+      "position": 32,
+      "position_main": "DMC",
+      "multi_position": 32,
+      "positions": [
+        "DMC"
+      ],
+      "rating": 61,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 61,
+      "rating_shooting": 58,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 906249600,
+      "side": "C",
+      "value": 797161500,
+      "country_id": "BRA",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 27,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "293318": {
+      "player_id": 293318,
+      "fitness": 78,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1767376801,
+      "injury_id": 1,
+      "wages": 14500000,
+      "contract": 1,
+      "form": "665666",
+      "position": 8,
+      "position_main": "RB",
+      "multi_position": 8,
+      "positions": [
+        "RB"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 62,
+      "rating_passing": 58,
+      "rating_shooting": 60,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "dob": 1015977600,
+      "side": "R",
+      "value": 1458000000,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "298011": {
+      "player_id": 298011,
+      "fitness": 95,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 5,
+      "injured": 1762624801,
+      "injury_id": 1,
+      "wages": 14500000,
+      "contract": 1,
+      "form": "--6966",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 61,
+      "rating_gk": 50,
+      "rating_tackling": 60,
+      "rating_passing": 57,
+      "rating_shooting": 61,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 997920000,
+      "side": "C",
+      "value": 1093500000,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 25,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "307123": {
+      "player_id": 307123,
+      "fitness": 75,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 687050000,
+      "contract": 1,
+      "form": "668656",
+      "position": 2,
+      "position_main": "LB",
+      "multi_position": 1186,
+      "positions": [
+        "LB",
+        "DMC",
+        "LM",
+        "AML"
+      ],
+      "rating": 85,
+      "rating_gk": 50,
+      "rating_tackling": 82,
+      "rating_passing": 81,
+      "rating_shooting": 85,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "dob": 1111363200,
+      "side": "LC",
+      "value": 106841250000,
+      "country_id": "ENG",
+      "club_id": 50,
+      "agent_name": "protagonist",
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 0,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 21,
+      "last_price": 11663,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789068727
+    },
+    "308814": {
+      "player_id": 308814,
+      "fitness": 77,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1760464800,
+      "injury_id": 2,
+      "wages": 989300000,
+      "contract": 3,
+      "form": "965666",
+      "position": 2048,
+      "position_main": "AMC",
+      "multi_position": 6784,
+      "positions": [
+        "LM",
+        "RM",
+        "AMC",
+        "AMR"
+      ],
+      "rating": 87,
+      "rating_gk": 50,
+      "rating_tackling": 75,
+      "rating_passing": 82,
+      "rating_shooting": 87,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1067299200,
+      "side": "RLC",
+      "value": 153847500000,
+      "country_id": "HRV",
+      "club_id": 50,
+      "agent_name": "Joachim",
+      "last_transfer": 1783024175,
+      "desired_contract": 4,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 22,
+      "last_price": 5373,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789069893
+    },
+    "313353": {
+      "player_id": 313353,
+      "fitness": 98,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1773255600,
+      "injury_id": 1,
+      "wages": 1424550000,
+      "contract": 1,
+      "form": "666666",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 86,
+      "rating_gk": 50,
+      "rating_tackling": 73,
+      "rating_passing": 72,
+      "rating_shooting": 86,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 994118400,
+      "side": "C",
+      "value": 103849087500,
+      "country_id": "CAN",
+      "club_id": 50,
+      "agent_name": "Janca",
+      "last_transfer": 1767441429,
+      "desired_contract": 4,
+      "allow_transfer": 0,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 25,
+      "last_price": 271,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1788990799
+    },
+    "321770": {
+      "player_id": 321770,
+      "fitness": 78,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1770746401,
+      "injury_id": 1,
+      "wages": 31050000,
+      "contract": 2,
+      "form": "566665",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 64,
+      "rating_gk": 50,
+      "rating_tackling": 63,
+      "rating_passing": 60,
+      "rating_shooting": 64,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1016928000,
+      "side": "C",
+      "value": 2095875000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "345184": {
+      "player_id": 345184,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 14500000,
+      "contract": 1,
+      "form": "656668",
+      "position": 2048,
+      "position_main": "AMC",
+      "multi_position": 2064,
+      "positions": [
+        "DML",
+        "AMC"
+      ],
+      "rating": 58,
+      "rating_gk": 50,
+      "rating_tackling": 57,
+      "rating_passing": 58,
+      "rating_shooting": 57,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 994204800,
+      "side": "LC",
+      "value": 880875000,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 25,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "363898": {
+      "player_id": 363898,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1787767200,
+      "injury_id": 1,
+      "wages": 18000000,
+      "contract": 1,
+      "form": "546646",
+      "position": 8,
+      "position_main": "RB",
+      "multi_position": 8,
+      "positions": [
+        "RB"
+      ],
+      "rating": 61,
+      "rating_gk": 50,
+      "rating_tackling": 61,
+      "rating_passing": 57,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1054684800,
+      "side": "R",
+      "value": 1350000000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 23,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "363899": {
+      "player_id": 363899,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 4,
+      "injured": 1759003200,
+      "injury_id": 1,
+      "wages": 18000000,
+      "contract": 1,
+      "form": "----66",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 61,
+      "rating_gk": 50,
+      "rating_tackling": 61,
+      "rating_passing": 57,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1042243200,
+      "side": "C",
+      "value": 1350000000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 23,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "384605": {
+      "player_id": 384605,
+      "fitness": 88,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1789927200,
+      "injury_id": 1,
+      "wages": 15000000,
+      "contract": 1,
+      "form": "755666",
+      "position": 2048,
+      "position_main": "AMC",
+      "multi_position": 2048,
+      "positions": [
+        "AMC"
+      ],
+      "rating": 60,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 60,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1028332800,
+      "side": "C",
+      "value": 1012500000,
+      "country_id": "ALB",
+      "club_id": 3340,
+      "agent_name": "Voret",
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 0,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 24,
+      "last_price": 70,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1788988146
+    },
+    "385537": {
+      "player_id": 385537,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1786384800,
+      "injury_id": 1,
+      "wages": 14750000,
+      "contract": 1,
+      "form": "566655",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 59,
+      "rating_gk": 50,
+      "rating_tackling": 59,
+      "rating_passing": 56,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1062892800,
+      "side": "C",
+      "value": 1106250000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 23,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "385752": {
+      "player_id": 385752,
+      "fitness": 77,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1778954400,
+      "injury_id": 1,
+      "wages": 18000000,
+      "contract": 1,
+      "form": "996668",
+      "position": 256,
+      "position_main": "CM",
+      "multi_position": 256,
+      "positions": [
+        "CM"
+      ],
+      "rating": 61,
+      "rating_gk": 50,
+      "rating_tackling": 60,
+      "rating_passing": 61,
+      "rating_shooting": 59,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 980121600,
+      "side": "C",
+      "value": 1093500000,
+      "country_id": "ENG",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 25,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "392036": {
+      "player_id": 392036,
+      "fitness": 100,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 1,
+      "injured": 1781460000,
+      "injury_id": 1,
+      "wages": 14750000,
+      "contract": 1,
+      "form": "665556",
+      "position": 16384,
+      "position_main": "FC",
+      "multi_position": 16384,
+      "positions": [
+        "FC"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 62,
+      "rating_passing": 59,
+      "rating_shooting": 62,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "dob": 1063411200,
+      "side": "C",
+      "value": 1620000000,
+      "country_id": "ALB",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 0,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 22,
+      "last_price": 40,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": null
+    },
+    "404656": {
+      "player_id": 404656,
+      "fitness": 76,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 5,
+      "injured": 0,
+      "injury_id": 0,
+      "wages": 191850000,
+      "contract": 3,
+      "form": "666866",
+      "position": 4,
+      "position_main": "CB",
+      "multi_position": 4,
+      "positions": [
+        "CB"
+      ],
+      "rating": 82,
+      "rating_gk": 50,
+      "rating_tackling": 82,
+      "rating_passing": 73,
+      "rating_shooting": 70,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1131062400,
+      "side": "C",
+      "value": 61833750000,
+      "country_id": "ENG",
+      "club_id": 645,
+      "agent_name": "Phesi",
+      "last_transfer": 1751717063,
+      "desired_contract": 4,
+      "allow_transfer": 0,
+      "allow_renew": 1,
+      "loan_offered": 4,
+      "loan_offer_accepted": 50,
+      "loaned_to_club": 50,
+      "age": 20,
+      "last_price": 1948,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "last_7days_price": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "agent_last_active_unix": 1789070566
+    },
+    "437037": {
+      "player_id": 437037,
+      "fitness": 87,
+      "retired": 0,
+      "morale": 0,
+      "concerns": 5,
+      "injured": 1760979600,
+      "injury_id": 1,
+      "wages": 14250000,
+      "contract": 1,
+      "form": "696676",
+      "position": 2,
+      "position_main": "LB",
+      "multi_position": 2,
+      "positions": [
+        "LB"
+      ],
+      "rating": 62,
+      "rating_gk": 50,
+      "rating_tackling": 62,
+      "rating_passing": 59,
+      "rating_shooting": 61,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1106697600,
+      "side": "L",
+      "value": 1620000000,
+      "country_id": "ROU",
+      "club_id": 3340,
+      "agent_name": null,
+      "last_transfer": 1768505442,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 21,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    },
+    "511688": {
+      "player_id": 511688,
+      "fitness": 78,
+      "retired": 0,
+      "morale": 1,
+      "concerns": 0,
+      "injured": 1781892001,
+      "injury_id": 1,
+      "wages": 31050000,
+      "contract": 2,
+      "form": "666663",
+      "position": 256,
+      "position_main": "CM",
+      "multi_position": 768,
+      "positions": [
+        "CM",
+        "RM"
+      ],
+      "rating": 64,
+      "rating_gk": 50,
+      "rating_tackling": 63,
+      "rating_passing": 64,
+      "rating_shooting": 63,
+      "rating_stamina": 50,
+      "rating_aggression": 20,
+      "banned": 0,
+      "cup_tied": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "dob": 1090454400,
+      "side": "RC",
+      "value": 2328750000,
+      "country_id": "ARG",
+      "club_id": 605,
+      "agent_name": null,
+      "last_transfer": 1780368069,
+      "desired_contract": 2,
+      "allow_transfer": 1,
+      "allow_renew": 1,
+      "loan_offered": null,
+      "loan_offer_accepted": null,
+      "loaned_to_club": null,
+      "age": 22,
+      "last_price": 0,
+      "volume_1_day": 0,
+      "volume_7_day": 0,
+      "last_7days": [],
+      "last_7days_price": [],
+      "agent_last_active_unix": null
+    }
+  }
+}

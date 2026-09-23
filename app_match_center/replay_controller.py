@@ -1,0 +1,133 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+from src.commentary_actions import group_commentary_actions
+from src.commentary_composer import compose_actions
+from src.commentary_events import CommentarySubEvent
+from src.commentary_replay import ReplayMode, ReplayScene, ReplayScheduleItem, build_replay_schedule
+from src.match_data_service import MatchData
+from src.datapack_resolver import DatapackResolver
+from src.replay_state import ReplayState, ReplayStateEngine
+
+
+@dataclass(frozen=True)
+class ReplayViewState:
+    elapsed_seconds: float
+    match_minute: int
+    home_score: int
+    away_score: int
+    current_kind: str | None
+    current_action_id: int | None
+    visible_scenes: tuple[ReplayScheduleItem, ...]
+
+
+class MatchReplayController:
+    def __init__(
+        self,
+        match_data: MatchData,
+        mode: ReplayMode = ReplayMode.M3,
+    ) -> None:
+        self.match_data = match_data
+        self.mode = mode
+        self.elapsed_seconds = 0.0
+        self.datapack = DatapackResolver()
+
+        home_club_id = match_data.fixture["home_club"]
+        away_club_id = match_data.fixture["away_club"]
+
+        home_pack = self.datapack.get_club(home_club_id)
+        away_pack = self.datapack.get_club(away_club_id)
+
+        club_names = {
+            str(home_club_id): home_pack["n"] if home_pack else match_data.fixture["home_club_name"],
+            str(away_club_id): away_pack["n"] if away_pack else match_data.fixture["away_club_name"],
+        }
+
+        sub_events = tuple(
+            CommentarySubEvent.from_dict(item)
+            for item in match_data.commentary
+        )
+
+        actions = group_commentary_actions(sub_events)
+        narratives = compose_actions(actions)
+
+        scenes = tuple(
+            ReplayScene(
+                action_id=narrative.action_id,
+                match_minute=narrative.minute,
+                kind=narrative.kind,
+                club_name=(
+                    club_names.get(str(match_data.fixture["away_club"]))
+                    if narrative.kind == "chance_saved"
+                    and narrative.club_name == match_data.fixture["home_club_name"]
+                    else club_names.get(str(match_data.fixture["home_club"]))
+                    if narrative.kind == "chance_saved"
+                    and narrative.club_name == match_data.fixture["away_club_name"]
+                    else club_names.get(str(match_data.fixture["home_club"]))
+                    if narrative.club_name == match_data.fixture["home_club_name"]
+                    else club_names.get(str(match_data.fixture["away_club"]))
+                    if narrative.club_name == match_data.fixture["away_club_name"]
+                    else narrative.club_name
+                ),
+                player_name=(
+                    self.datapack.get_player_name(narrative.goalkeeper_id)
+                    if narrative.kind == "chance_saved" and narrative.goalkeeper_id
+                    else narrative.goalkeeper
+                    if narrative.kind == "chance_saved" and narrative.goalkeeper
+                    else self.datapack.get_player_name(narrative.shooter_player_id)
+                    if narrative.shooter_player_id
+                    else narrative.shooter_player
+                    or narrative.substitute_on
+                    or narrative.defender_player
+                    or narrative.creator_player
+                ),
+            )
+            for narrative in narratives
+        )
+
+        self.schedule = build_replay_schedule(scenes, mode)
+
+        self.engine = ReplayStateEngine(
+            match_data.fixture,
+            match_data.events,
+            self.schedule,
+            mode,
+        )
+
+    @property
+    def duration_seconds(self) -> float:
+        return float(self.mode.total_seconds)
+
+    def reset(self) -> ReplayViewState:
+        self.elapsed_seconds = 0.0
+        return self.state()
+
+    def advance(self, seconds: float) -> ReplayViewState:
+        self.elapsed_seconds = min(
+            self.duration_seconds,
+            max(0.0, self.elapsed_seconds + seconds),
+        )
+        return self.state()
+
+    def state(self) -> ReplayViewState:
+        state: ReplayState = self.engine.state_at(
+            self.elapsed_seconds
+        )
+
+        current_action_id = None
+        current_kind = None
+
+        if state.current_scene is not None:
+            current_action_id = state.current_scene.scene.action_id
+            current_kind = state.current_scene.scene.kind
+
+        return ReplayViewState(
+            elapsed_seconds=self.elapsed_seconds,
+            match_minute=state.match_minute,
+            home_score=state.home_score,
+            away_score=state.away_score,
+            current_kind=current_kind,
+            current_action_id=current_action_id,
+            visible_scenes=state.visible_scenes,
+        )

@@ -1,0 +1,348 @@
+{
+  "source": "data/raw/club_605_formation_analysis.json",
+  "club_id": 605,
+  "player_count": 25,
+  "status": {
+    "locked": "VERIFIED",
+    "open": "OPEN",
+    "note": "Coverage measures available locked effective_score formulas over player × formation-slot pairs. OPEN combinations are not assigned an invented formula."
+  },
+  "formations": [
+    {
+      "formation_id": 7,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 25,
+          "open_pairs": 250,
+          "locked_percentage": 9.09
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        }
+      ]
+    },
+    {
+      "formation_id": 11,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 100,
+          "open_pairs": 175,
+          "locked_percentage": 36.36
+        }
+      ]
+    },
+    {
+      "formation_id": 12,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 100,
+          "open_pairs": 175,
+          "locked_percentage": 36.36
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 100,
+          "open_pairs": 175,
+          "locked_percentage": 36.36
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        }
+      ]
+    },
+    {
+      "formation_id": 13,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        }
+      ]
+    },
+    {
+      "formation_id": 15,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        }
+      ]
+    },
+    {
+      "formation_id": 18,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 75,
+          "open_pairs": 200,
+          "locked_percentage": 27.27
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 100,
+          "open_pairs": 175,
+          "locked_percentage": 36.36
+        }
+      ]
+    },
+    {
+      "formation_id": 20,
+      "slot_count": 11,
+      "styles": [
+        {
+          "style": "Normal",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Defensive",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 0,
+          "open_pairs": 275,
+          "locked_percentage": 0.0
+        },
+        {
+          "style": "Attacking",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 100,
+          "open_pairs": 175,
+          "locked_percentage": 36.36
+        },
+        {
+          "style": "Passing",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 100,
+          "open_pairs": 175,
+          "locked_percentage": 36.36
+        },
+        {
+          "style": "Counter",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        },
+        {
+          "style": "Long Ball",
+          "total_slot_player_pairs": 275,
+          "locked_pairs": 50,
+          "open_pairs": 225,
+          "locked_percentage": 18.18
+        }
+      ]
+    }
+  ]
+}

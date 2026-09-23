@@ -1,0 +1,2058 @@
+{
+  "0": {
+    "samples": 6,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      },
+      {
+        "UNKNOWN": 6
+      }
+    ],
+    "unknown_players": [
+      "112664",
+      "116117",
+      "130317",
+      "136735",
+      "137724",
+      "152738",
+      "152982",
+      "175425",
+      "184469",
+      "184972",
+      "1864",
+      "18959",
+      "19145",
+      "19545",
+      "196348",
+      "22094",
+      "268117",
+      "271386",
+      "282125",
+      "283058",
+      "296663",
+      "30782",
+      "317728",
+      "334037",
+      "334637",
+      "335199",
+      "336671",
+      "3469",
+      "347881",
+      "349689",
+      "3540",
+      "3553",
+      "365989",
+      "367064",
+      "3847",
+      "391743",
+      "406275",
+      "418214",
+      "42724",
+      "43816",
+      "493146",
+      "56043",
+      "5996",
+      "6696",
+      "74480",
+      "95"
+    ]
+  },
+  "1": {
+    "samples": 3,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "unknown_players": [
+      "116117",
+      "135519",
+      "145736",
+      "152714",
+      "152982",
+      "15891",
+      "178372",
+      "1864",
+      "186714",
+      "18959",
+      "19145",
+      "22094",
+      "265377",
+      "281227",
+      "283058",
+      "311563",
+      "321746",
+      "321770",
+      "335110",
+      "336671",
+      "3620",
+      "363898",
+      "378786",
+      "384609",
+      "392036",
+      "392270",
+      "4008",
+      "429250",
+      "4353",
+      "478460",
+      "493780",
+      "493782",
+      "9991"
+    ]
+  },
+  "2": {
+    "samples": 1,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      }
+    ],
+    "unknown_players": [
+      "116117",
+      "152953",
+      "1864",
+      "18959",
+      "19145",
+      "282125",
+      "283058",
+      "334037",
+      "366735",
+      "47380",
+      "5996"
+    ]
+  },
+  "4": {
+    "samples": 3,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "unknown_players": [
+      "13489",
+      "140971",
+      "14614",
+      "162714",
+      "169481",
+      "19179",
+      "19191",
+      "19298",
+      "19354",
+      "19366",
+      "19599",
+      "2287",
+      "2724",
+      "3576",
+      "3735",
+      "3749",
+      "387358",
+      "419649",
+      "424506",
+      "4336",
+      "53555",
+      "85",
+      "983"
+    ]
+  },
+  "6": {
+    "samples": 4,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      }
+    ],
+    "unknown_players": [
+      "116117",
+      "135519",
+      "152982",
+      "161907",
+      "18959",
+      "19145",
+      "19545",
+      "22094",
+      "283058",
+      "336671",
+      "359117",
+      "392270",
+      "392610",
+      "482888",
+      "5996",
+      "95"
+    ]
+  },
+  "8": {
+    "samples": 2,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "unknown_players": [
+      "135519",
+      "152953",
+      "152982",
+      "1864",
+      "18959",
+      "19145",
+      "19545",
+      "22094",
+      "283058",
+      "336671",
+      "47380"
+    ]
+  },
+  "10": {
+    "samples": 3,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "unknown_players": [
+      "1438",
+      "1455",
+      "1468",
+      "152967",
+      "182201",
+      "18853",
+      "19022",
+      "19025",
+      "19088",
+      "19221",
+      "1934",
+      "19586",
+      "19720",
+      "198347",
+      "20995",
+      "2218",
+      "2490",
+      "2601",
+      "2729",
+      "2920",
+      "303679",
+      "30542",
+      "32893",
+      "37188",
+      "418320",
+      "441238",
+      "47334",
+      "47582",
+      "511601",
+      "67971",
+      "727",
+      "8701",
+      "99228"
+    ]
+  },
+  "11": {
+    "samples": 5,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      },
+      {
+        "UNKNOWN": 5
+      }
+    ],
+    "unknown_players": [
+      "10008",
+      "1146",
+      "1150",
+      "137721",
+      "138780",
+      "141841",
+      "1464",
+      "147835",
+      "152654",
+      "152856",
+      "158644",
+      "15911",
+      "161671",
+      "162033",
+      "164",
+      "182",
+      "18746",
+      "18779",
+      "18872",
+      "18883",
+      "19305",
+      "19760",
+      "20093",
+      "204039",
+      "206254",
+      "2194",
+      "2274",
+      "237129",
+      "237819",
+      "24903",
+      "25635",
+      "2612",
+      "265784",
+      "2734",
+      "2817",
+      "284797",
+      "2919",
+      "30435",
+      "340573",
+      "347316",
+      "361497",
+      "363695",
+      "36798",
+      "399893",
+      "419582",
+      "47516",
+      "491103",
+      "537",
+      "59173",
+      "6002",
+      "6056",
+      "647",
+      "6610",
+      "794",
+      "963"
+    ]
+  },
+  "12": {
+    "samples": 17,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      },
+      {
+        "UNKNOWN": 17
+      }
+    ],
+    "unknown_players": [
+      "1096",
+      "1100",
+      "1145",
+      "116117",
+      "1231",
+      "1243",
+      "129033",
+      "133185",
+      "1422",
+      "1445",
+      "152982",
+      "1600",
+      "1646",
+      "1864",
+      "18744",
+      "18959",
+      "19145",
+      "19428",
+      "19545",
+      "20674",
+      "2291",
+      "25158",
+      "263530",
+      "266657",
+      "278059",
+      "278128",
+      "280",
+      "283",
+      "283058",
+      "284230",
+      "2869",
+      "290",
+      "293",
+      "306",
+      "307123",
+      "308814",
+      "31173",
+      "313353",
+      "321746",
+      "336671",
+      "366735",
+      "404656",
+      "41621",
+      "44",
+      "452685",
+      "47380",
+      "5",
+      "567",
+      "61142",
+      "626",
+      "629",
+      "631",
+      "636",
+      "9978"
+    ]
+  },
+  "13": {
+    "samples": 4,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      },
+      {
+        "UNKNOWN": 4
+      }
+    ],
+    "unknown_players": [
+      "106835",
+      "129058",
+      "129643",
+      "138787",
+      "1417",
+      "162033",
+      "162347",
+      "162761",
+      "164",
+      "182519",
+      "18784",
+      "18911",
+      "19263",
+      "19265",
+      "204039",
+      "278",
+      "2864",
+      "291964",
+      "30408",
+      "305730",
+      "30776",
+      "31146",
+      "31354",
+      "328105",
+      "345808",
+      "355167",
+      "372",
+      "377122",
+      "380690",
+      "383018",
+      "386305",
+      "38695",
+      "38734",
+      "392514",
+      "409216",
+      "46731",
+      "471107",
+      "47519",
+      "64003",
+      "7525",
+      "754",
+      "762",
+      "8",
+      "92993"
+    ]
+  },
+  "14": {
+    "samples": 2,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "unknown_players": [
+      "1265",
+      "136087",
+      "157998",
+      "161953",
+      "300005",
+      "302089",
+      "314231",
+      "315987",
+      "341109",
+      "348209",
+      "359603",
+      "373462",
+      "388991",
+      "3918",
+      "396637",
+      "409047",
+      "41144",
+      "421807",
+      "435255",
+      "6010",
+      "72155",
+      "882"
+    ]
+  },
+  "15": {
+    "samples": 1,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      },
+      {
+        "UNKNOWN": 1
+      }
+    ],
+    "unknown_players": [
+      "286671",
+      "315",
+      "322179",
+      "3399",
+      "42500",
+      "42589",
+      "42687",
+      "43109",
+      "43153",
+      "43171",
+      "8493"
+    ]
+  },
+  "18": {
+    "samples": 2,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "unknown_players": [
+      "1119",
+      "125418",
+      "153903",
+      "155303",
+      "155306",
+      "178077",
+      "1904",
+      "231663",
+      "25073",
+      "26232",
+      "266798",
+      "277306",
+      "30407",
+      "313673",
+      "339909",
+      "36922",
+      "380679",
+      "395559",
+      "440831",
+      "481264",
+      "66817",
+      "87787"
+    ]
+  },
+  "20": {
+    "samples": 7,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      }
+    ],
+    "unknown_players": [
+      "1100",
+      "127817",
+      "133196",
+      "1422",
+      "145538",
+      "1465",
+      "154799",
+      "16046",
+      "179843",
+      "18202",
+      "18979",
+      "1904",
+      "19465",
+      "19495",
+      "196156",
+      "22090",
+      "22224",
+      "2291",
+      "24899",
+      "26232",
+      "265820",
+      "277003",
+      "277306",
+      "278128",
+      "284230",
+      "2937",
+      "30407",
+      "307123",
+      "308814",
+      "313353",
+      "347211",
+      "349001",
+      "354027",
+      "36922",
+      "37127",
+      "38746",
+      "395559",
+      "404656",
+      "407806",
+      "41621",
+      "41964",
+      "422780",
+      "44",
+      "448969",
+      "449249",
+      "453906",
+      "464055",
+      "47311",
+      "47579",
+      "5",
+      "557",
+      "567",
+      "61142",
+      "626",
+      "629",
+      "631",
+      "636",
+      "66817",
+      "757",
+      "904",
+      "931",
+      "978"
+    ]
+  },
+  "21": {
+    "samples": 2,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      },
+      {
+        "UNKNOWN": 2
+      }
+    ],
+    "unknown_players": [
+      "116117",
+      "129058",
+      "129718",
+      "135519",
+      "152982",
+      "18959",
+      "19145",
+      "19545",
+      "2207",
+      "22094",
+      "278",
+      "283058",
+      "291964",
+      "336671",
+      "372",
+      "377122",
+      "386305",
+      "471107",
+      "47380",
+      "5996",
+      "736",
+      "744"
+    ]
+  },
+  "22": {
+    "samples": 7,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      },
+      {
+        "UNKNOWN": 7
+      }
+    ],
+    "unknown_players": [
+      "10152",
+      "1100",
+      "1125",
+      "1231",
+      "125743",
+      "1361",
+      "138776",
+      "1422",
+      "152856",
+      "15823",
+      "161671",
+      "1639",
+      "1646",
+      "17661",
+      "18592",
+      "18766",
+      "18846",
+      "18872",
+      "19281",
+      "19321",
+      "19329",
+      "20093",
+      "206254",
+      "20674",
+      "2165",
+      "21997",
+      "2279",
+      "2291",
+      "2476",
+      "24882",
+      "250",
+      "25158",
+      "270139",
+      "284230",
+      "284797",
+      "2869",
+      "2932",
+      "2934",
+      "2936",
+      "2990",
+      "304853",
+      "307123",
+      "308814",
+      "313353",
+      "31346",
+      "32966",
+      "361497",
+      "404656",
+      "44",
+      "44594",
+      "472080",
+      "5",
+      "59173",
+      "597",
+      "61142",
+      "626",
+      "629",
+      "631",
+      "697",
+      "895",
+      "930",
+      "9978"
+    ]
+  },
+  "23": {
+    "samples": 3,
+    "signature": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "slot_counts": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "slot_raw": [
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      },
+      {
+        "UNKNOWN": 3
+      }
+    ],
+    "unknown_players": [
+      "10163",
+      "109987",
+      "138786",
+      "1469",
+      "1485",
+      "162511",
+      "162568",
+      "179843",
+      "18404",
+      "20461",
+      "20589",
+      "21633",
+      "25364",
+      "284322",
+      "288006",
+      "2935",
+      "30532",
+      "32122",
+      "336590",
+      "340153",
+      "393193",
+      "401983",
+      "419626",
+      "449249",
+      "47393",
+      "493650",
+      "507527",
+      "509269",
+      "532",
+      "545",
+      "747",
+      "886",
+      "891"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from enum import Enum
+
+
+class ReplayMode(Enum):
+    M3 = 180
+    M6 = 360
+    M12 = 720
+    ONE_TO_ONE = 5400
+
+    @property
+    def total_seconds(self) -> int:
+        return self.value
+
+
+@dataclass(frozen=True)
+class ReplayScene:
+    action_id: int
+    match_minute: int
+    kind: str
+    club_name: str | None = None
+    player_name: str | None = None
+
+
+@dataclass(frozen=True)
+class ReplayScheduleItem:
+    scene: ReplayScene
+    replay_seconds: float
+
+
+GOAL_POST_TAIL_SECONDS = 4.0
+
+
+SCENE_WEIGHTS = {
+    "chance_offtarget": 1.0,
+    "chance_tackled": 1.0,
+    "chance_saved": 1.4,
+    "substitution": 0.7,
+    "chance": 1.6,
+    "goal": 2.5,
+}
+
+
+def _weight(scene: ReplayScene) -> float:
+    return SCENE_WEIGHTS.get(scene.kind, 1.0)
+
+
+def build_replay_schedule(
+    scenes: tuple[ReplayScene, ...],
+    mode: ReplayMode,
+) -> tuple[ReplayScheduleItem, ...]:
+    if not scenes:
+        return ()
+
+    ordered = tuple(
+        sorted(
+            scenes,
+            key=lambda scene: (scene.match_minute, scene.action_id),
+        )
+    )
+
+    if len(ordered) == 1:
+        return (
+            ReplayScheduleItem(
+                scene=ordered[0],
+                replay_seconds=0.0,
+            ),
+        )
+
+    total = float(mode.total_seconds)
+
+    # Riserviamo esplicitamente una piccola coda al gol.
+    # Questa quota viene sottratta dal tempo disponibile per la
+    # distribuzione degli intervalli normali.
+    goal_count = sum(scene.kind == "goal" for scene in ordered)
+    reserved_goal_tail = min(
+        total,
+        goal_count * GOAL_POST_TAIL_SECONDS,
+    )
+    distributable = total - reserved_goal_tail
+
+    weights = tuple(_weight(scene) for scene in ordered)
+    total_weight = sum(weights)
+
+    if total_weight <= 0:
+        return tuple(
+            ReplayScheduleItem(scene=scene, replay_seconds=0.0)
+            for scene in ordered
+        )
+
+    intervals = tuple(
+        distributable * (weight / total_weight)
+        for weight in weights
+    )
+
+    result: list[ReplayScheduleItem] = []
+    elapsed = 0.0
+
+    for index, scene in enumerate(ordered):
+        if index == 0:
+            result.append(
+                ReplayScheduleItem(
+                    scene=scene,
+                    replay_seconds=0.0,
+                )
+            )
+            continue
+
+        elapsed += intervals[index - 1]
+
+        # Un gol ha una piccola coda editoriale:
+        # il suo intervallo successivo non viene eliminato,
+        # quindi il replay lascia respirare il momento.
+        result.append(
+            ReplayScheduleItem(
+                scene=scene,
+                replay_seconds=min(total, elapsed),
+            )
+        )
+
+    # Garantisce che l'ultima scena chiuda esattamente il replay.
+    if result:
+        result[-1] = ReplayScheduleItem(
+            scene=result[-1].scene,
+            replay_seconds=total,
+        )
+
+    return tuple(result)

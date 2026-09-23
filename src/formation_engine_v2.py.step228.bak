@@ -1,0 +1,590 @@
+from functools import lru_cache
+from typing import Dict, List, Optional
+
+from src.models.team import Player, Team
+from src.position_engine import compatibility
+from src.effective_score_engine import effective_score
+from src.player_evaluator_v2 import evaluate_player_v2
+
+
+FORMATION_SLOTS = {
+    # MCP-observed tactical geometries
+    7:  ["GK", "DFR", "DFL", "DFC", "DMR", "DML", "MFC", "DMC", "FWC", "FWC", "MFC"],
+    12: ["GK", "DFR", "DFL", "DFC", "DFC", "DMC", "AMR", "DMC", "FWC", "AMC", "AML"],
+    13: ["GK", "DFR", "DFL", "DFC", "DFC", "DMC", "MFR", "MFL", "FWC", "FWC", "FWC"],
+    15: ["GK", "DFR", "DFL", "DFC", "DFC", "MFR", "MFC", "FWC", "FWC", "FWC", "MFL"],
+
+    # Previously verified real formation geometries
+    11: ["GK", "DFR", "DFL", "DFC", "DFC", "MFC", "MFR", "MFC", "FWC", "DMC", "MFL"],
+    18: ["GK", "DFR", "DFL", "DFC", "DFC", "DFC", "MFR", "MFC", "FWC", "FWC", "MFL"],
+    20: ["GK", "DFR", "DFL", "DFC", "DFC", "DMC", "AMC", "DMC", "FWC", "FWC", "AMC"],
+}
+
+
+FORMATIONS = {
+    "4-4-2": {
+        "GK": 1,
+        "LB": 1,
+        "CB": 2,
+        "RB": 1,
+        "LM": 1,
+        "CM": 2,
+        "RM": 1,
+        "FC": 2,
+    },
+
+    "4-3-3": {
+        "GK": 1,
+        "LB": 1,
+        "CB": 2,
+        "RB": 1,
+        "CM": 3,
+        "AML": 1,
+        "AMR": 1,
+        "FC": 1,
+    },
+
+    "4-2-3-1": {
+        "GK": 1,
+        "LB": 1,
+        "CB": 2,
+        "RB": 1,
+        "DMC": 2,
+        "AML": 1,
+        "AMC": 1,
+        "AMR": 1,
+        "FC": 1,
+    },
+
+    "3-5-2": {
+        "GK": 1,
+        "CB": 3,
+        "LM": 1,
+        "CM": 2,
+        "RM": 1,
+        "DMC": 1,
+        "FC": 2,
+    },
+
+    "5-3-2": {
+        "GK": 1,
+        "LB": 1,
+        "CB": 3,
+        "RB": 1,
+        "CM": 2,
+        "DMC": 1,
+        "FC": 2,
+    },
+}
+
+
+def candidate_score(
+    player: Player,
+    position: str,
+    style: Optional[str] = None,
+) -> float:
+
+    position_compatibility = compatibility(
+        player,
+        position
+    )
+
+    # La soglia di usability della position engine è LOCKED.
+    if position_compatibility <= 0.60:
+        return 0.0
+
+    # Se abbiamo una formula effective_score reverse-engineered
+    # per questa posizione/stile, usiamo quella.
+    # None significa che la combinazione non è ancora identificata.
+    if style is not None:
+        score = effective_score(
+            player,
+            position,
+            style,
+        )
+
+        if score is not None:
+            return score
+
+    # Fallback: evaluator euristico V2.
+    return evaluate_player_v2(
+        player,
+        position
+    )
+
+
+def build_positions(
+    formation: Dict[str, int]
+) -> List[str]:
+
+    positions = []
+
+    for position, quantity in formation.items():
+        for _ in range(quantity):
+            positions.append(position)
+
+    return positions
+
+
+def prepare_candidates(
+    positions: List[str],
+    players: List[Player],
+    style: Optional[str] = None,
+):
+    candidates = {}
+
+    for position in set(positions):
+
+        position_candidates = []
+
+        for index, player in enumerate(players):
+
+            score = candidate_score(
+                player,
+                position,
+                style=style,
+            )
+
+            if score > 0:
+                position_candidates.append(
+                    (
+                        index,
+                        player,
+                        compatibility(
+                            player,
+                            position
+                        ),
+                        score,
+                    )
+                )
+
+        position_candidates.sort(
+            key=lambda item: item[3],
+            reverse=True
+        )
+
+        candidates[position] = position_candidates
+
+    return candidates
+
+
+
+def hungarian_max(matrix: List[List[float]]) -> List[int]:
+    """
+    Massimizzazione dell'assegnazione globale.
+
+    Restituisce, per ogni riga, l'indice della colonna assegnata
+    oppure -1 se non assegnata.
+    """
+
+    n = len(matrix)
+
+    if n == 0:
+        return []
+
+    m = len(matrix[0])
+
+    if m == 0:
+        return [-1] * n
+
+    transposed = False
+
+    if n > m:
+        matrix = [list(row) for row in zip(*matrix)]
+        n, m = m, n
+        transposed = True
+
+    u = [0.0] * (n + 1)
+    v = [0.0] * (m + 1)
+    p = [0] * (m + 1)
+    way = [0] * (m + 1)
+
+    for i in range(1, n + 1):
+
+        p[0] = i
+        j0 = 0
+
+        minv = [float("inf")] * (m + 1)
+        used = [False] * (m + 1)
+
+        while True:
+
+            used[j0] = True
+            i0 = p[j0]
+
+            delta = float("inf")
+            j1 = 0
+
+            for j in range(1, m + 1):
+
+                if used[j]:
+                    continue
+
+                cur = (
+                    -matrix[i0 - 1][j - 1]
+                    - u[i0]
+                    - v[j]
+                )
+
+                if cur < minv[j]:
+                    minv[j] = cur
+                    way[j] = j0
+
+                if minv[j] < delta:
+                    delta = minv[j]
+                    j1 = j
+
+            for j in range(m + 1):
+
+                if used[j]:
+                    u[p[j]] += delta
+                    v[j] -= delta
+                else:
+                    minv[j] -= delta
+
+            j0 = j1
+
+            if p[j0] == 0:
+                break
+
+        while True:
+
+            j1 = way[j0]
+            p[j0] = p[j1]
+            j0 = j1
+
+            if j0 == 0:
+                break
+
+    assignment = [-1] * n
+
+    for j in range(1, m + 1):
+
+        if p[j]:
+            assignment[p[j] - 1] = j - 1
+
+    if transposed:
+
+        result = [-1] * len(matrix[0])
+
+        for i, j in enumerate(assignment):
+
+            if j >= 0:
+                result[j] = i
+
+        return result
+
+    return assignment
+
+def optimize_assignments(
+    positions: List[str],
+    players: List[Player],
+    style: Optional[str] = None,
+):
+    """
+    Assegnazione globale ottimale tramite Hungarian.
+
+    Massimizza la somma degli stessi candidate_score() usati
+    dal precedente DP, imponendo un solo slot per giocatore.
+    """
+
+    if not positions or not players:
+        return [
+            {
+                "position": position,
+                "player": None,
+                "compatibility": 0.0,
+                "score": 0.0,
+            }
+            for position in positions
+        ]
+
+    matrix = []
+
+    for position in positions:
+        row = []
+
+        for player in players:
+            row.append(
+                candidate_score(
+                    player,
+                    position,
+                    style=style,
+                )
+            )
+
+        matrix.append(row)
+
+    assignment = hungarian_max(matrix)
+
+    result = []
+
+    for position_index, player_index in enumerate(assignment):
+
+        position = positions[position_index]
+
+        if player_index < 0:
+            result.append(
+                {
+                    "position": position,
+                    "player": None,
+                    "compatibility": 0.0,
+                    "score": 0.0,
+                }
+            )
+            continue
+
+        player = players[player_index]
+        score = matrix[position_index][player_index]
+
+        result.append(
+            {
+                "position": position,
+                "player": player,
+                "compatibility": compatibility(
+                    player,
+                    position
+                ),
+                "score": score,
+            }
+        )
+
+    return result
+
+def reorder_assignments(
+    assignments: List[Dict],
+    formation: Dict[str, int],
+    positions: List[str] = None,
+) -> List[Dict]:
+    """
+    Riporta gli assignment nell'ordine naturale della formazione.
+
+    L'ottimizzatore può riordinare internamente le posizioni
+    per velocizzare la ricerca. L'output invece deve rispettare
+    l'ordine dichiarato da FORMATIONS.
+    """
+
+    ordered_positions = (
+        list(positions)
+        if positions is not None
+        else build_positions(formation)
+    )
+
+    remaining = list(assignments)
+    ordered = []
+
+    for position in ordered_positions:
+
+        for index, assignment in enumerate(remaining):
+
+            if assignment["position"] == position:
+
+                ordered.append(
+                    assignment
+                )
+
+                remaining.pop(index)
+
+                break
+
+    return ordered
+
+
+def find_best_lineup(
+    team: Team,
+    formation: Dict[str, int],
+    formation_id: int = None,
+    style: Optional[str] = None,
+) -> Dict:
+
+    players = team.available_players
+
+    if formation_id in FORMATION_SLOTS:
+        positions = list(FORMATION_SLOTS[formation_id])
+    else:
+        positions = build_positions(
+            formation
+        )
+
+    candidates = prepare_candidates(
+        positions,
+        players,
+        style=style,
+    )
+
+    # Per l'ottimizzazione utilizziamo prima le posizioni
+    # con meno candidati.
+    search_positions = sorted(
+        positions,
+        key=lambda position: len(
+            candidates.get(position, [])
+        )
+    )
+
+    assignments = optimize_assignments(
+        search_positions,
+        players,
+        style=style,
+    )
+
+    # L'ordine di ricerca non deve influenzare
+    # la visualizzazione finale.
+    assignments = reorder_assignments(
+        assignments,
+        formation,
+        positions
+    )
+
+    positions_filled = sum(
+        1
+        for assignment in assignments
+        if assignment["player"] is not None
+    )
+
+    players_used = len({
+        assignment["player"].player_id
+        for assignment in assignments
+        if assignment["player"] is not None
+    })
+
+    adaptations = sum(
+        1
+        for assignment in assignments
+        if (
+            assignment["player"] is not None
+            and assignment["compatibility"] < 1.0
+        )
+    )
+
+    missing_positions = sum(
+        1
+        for assignment in assignments
+        if assignment["player"] is None
+    )
+
+    if positions_filled > 0:
+        quality_score = (
+            sum(
+                assignment["score"]
+                for assignment in assignments
+            )
+            / positions_filled
+        )
+    else:
+        quality_score = 0.0
+
+    completeness = positions_filled / 11
+
+    missing_penalty = missing_positions * 20.0
+    adaptation_penalty = adaptations * 2.0
+
+    emergency_penalty = (
+        missing_penalty
+        + adaptation_penalty
+    )
+
+    final_score = (
+        quality_score
+        + completeness * 20.0
+        - emergency_penalty
+    )
+
+    if final_score < 0:
+        final_score = 0.0
+
+    if missing_positions == 0 and adaptations == 0:
+        verdict = "FORMAZIONE COMPLETA"
+
+    elif missing_positions == 0:
+        verdict = "FORMAZIONE CON ADATTAMENTI"
+
+    elif positions_filled >= 9:
+        verdict = "FORMAZIONE DI EMERGENZA"
+
+    else:
+        verdict = "FORMAZIONE FORTEMENTE INCOMPLETA"
+
+    return {
+        "assignments": assignments,
+        "players_used": players_used,
+        "positions_filled": positions_filled,
+        "adaptations": adaptations,
+        "missing_positions": missing_positions,
+        "quality_score": quality_score,
+        "completeness": completeness,
+        "emergency_penalty": emergency_penalty,
+        "final_score": final_score,
+        "verdict": verdict,
+    }
+
+
+def analyze_formations(
+    team: Team,
+    style: Optional[str] = None,
+):
+
+    results = []
+
+    # Formazioni reali verificate tramite Soccerverse MCP.
+    # Lo slot order è quello restituito da analyse_matchup.
+    real_formations = {
+        7: {
+            "name": "5-3-2",
+            "positions": FORMATION_SLOTS[7],
+        },
+        11: {
+            "name": "4-1-4-1",
+            "positions": FORMATION_SLOTS[11],
+        },
+        12: {
+            "name": "4-2-3-1",
+            "positions": FORMATION_SLOTS[12],
+        },
+        13: {
+            "name": "4-1-2-2-1v2",
+            "positions": FORMATION_SLOTS[13],
+        },
+        15: {
+            "name": "4-3-1-2",
+            "positions": FORMATION_SLOTS[15],
+        },
+        18: {
+            "name": "1-4-3-2v2",
+            "positions": FORMATION_SLOTS[18],
+        },
+        20: {
+            "name": "4-2-2-2",
+            "positions": FORMATION_SLOTS[20],
+        },
+    }
+
+    for formation_id, data in real_formations.items():
+
+        formation = {
+            position: data["positions"].count(position)
+            for position in set(data["positions"])
+        }
+
+        lineup = find_best_lineup(
+            team,
+            formation,
+            formation_id=formation_id,
+            style=style,
+        )
+
+        results.append({
+            "formation_id": formation_id,
+            "name": data["name"],
+            "score": lineup["final_score"],
+            "lineup": lineup,
+        })
+
+    results.sort(
+        key=lambda result: (
+            result["lineup"]["positions_filled"],
+            result["score"],
+        ),
+        reverse=True
+    )
+
+    return results

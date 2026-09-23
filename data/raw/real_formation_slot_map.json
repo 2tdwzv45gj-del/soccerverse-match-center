@@ -1,0 +1,60 @@
+{
+  "source": "Soccerverse MCP analyse_matchup",
+  "verified_only": true,
+  "formations": [
+    {
+      "formation_id": 11,
+      "formation": "4-1-4-1",
+      "slots": [
+        {
+          "slot": 0,
+          "position": "GK"
+        },
+        {
+          "slot": 1,
+          "position": "DFR"
+        },
+        {
+          "slot": 2,
+          "position": "DFL"
+        },
+        {
+          "slot": 3,
+          "position": "DFC"
+        },
+        {
+          "slot": 4,
+          "position": "DFC"
+        },
+        {
+          "slot": 5,
+          "position": "MFC"
+        },
+        {
+          "slot": 6,
+          "position": "MFR"
+        },
+        {
+          "slot": 7,
+          "position": "MFC"
+        },
+        {
+          "slot": 8,
+          "position": "FWC"
+        },
+        {
+          "slot": 9,
+          "position": "DMC"
+        },
+        {
+          "slot": 10,
+          "position": "MFL"
+        }
+      ],
+      "sources": [
+        "local:/tmp/mcp_matchup.json",
+        "root.recommended_formation"
+      ]
+    }
+  ]
+}

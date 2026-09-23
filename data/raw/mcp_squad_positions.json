@@ -1,0 +1,728 @@
+{
+  "605": {
+    "club_id": 605,
+    "players": [
+      {
+        "player_id": 9991,
+        "player_name": "Lucas Veríssimo",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 77,
+        "fitness": 45,
+        "available": true
+      },
+      {
+        "player_id": 15891,
+        "player_name": "Simon Hedlund",
+        "positions": "LM, RM, AMR, FR",
+        "multi_position": 37504,
+        "rating": 70,
+        "fitness": 58,
+        "available": true
+      },
+      {
+        "player_id": 3620,
+        "player_name": "Albi Doka",
+        "positions": "AMR",
+        "multi_position": 4096,
+        "rating": 68,
+        "fitness": 64,
+        "available": false
+      },
+      {
+        "player_id": 178372,
+        "player_name": "Erolind Krasniqi",
+        "positions": "LB, DMC, RM, AMC",
+        "multi_position": 2594,
+        "rating": 65,
+        "fitness": 85,
+        "available": true
+      },
+      {
+        "player_id": 373653,
+        "player_name": "Daniil Tarassenkov",
+        "positions": "RB",
+        "multi_position": 8,
+        "rating": 65,
+        "fitness": 83,
+        "available": true
+      },
+      {
+        "player_id": 30061,
+        "player_name": "Amirhossein Yahyazadeh",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 64,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 321770,
+        "player_name": "Ardit Nikaj",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 507657,
+        "player_name": "Benjamín Gonzalo Guzmán Pérez",
+        "positions": "FL",
+        "multi_position": 8192,
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 511688,
+        "player_name": "Héctor Nahuel Alejandro Zapatiel",
+        "positions": "CM, RM",
+        "multi_position": 768,
+        "rating": 64,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 152714,
+        "player_name": "Marcos de Oliveira",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 63,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 513164,
+        "player_name": "Alcides Javier Valdez Torres",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 63,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 4353,
+        "player_name": "Klevis Shaqe",
+        "positions": "LB",
+        "multi_position": 2,
+        "rating": 62,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 74636,
+        "player_name": "Elvis Prençi",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 62,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 392036,
+        "player_name": "Etienne Tare",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 62,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 281227,
+        "player_name": "Bismark Kwarema",
+        "positions": "FL",
+        "multi_position": 8192,
+        "rating": 61,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 290148,
+        "player_name": "Yuri dos Santos",
+        "positions": "DMC",
+        "multi_position": 32,
+        "rating": 61,
+        "fitness": 82,
+        "available": true
+      },
+      {
+        "player_id": 363898,
+        "player_name": "Kevin Hysolli",
+        "positions": "RB",
+        "multi_position": 8,
+        "rating": 61,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 363899,
+        "player_name": "Ergi Zenullari",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 61,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 1832,
+        "player_name": "Marco Alia",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 60,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 125405,
+        "player_name": "Borja Díaz Herrero",
+        "positions": "DMC",
+        "multi_position": 32,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 169112,
+        "player_name": "Danila Sokirchenko",
+        "positions": "LB, RB",
+        "multi_position": 10,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 311563,
+        "player_name": "Kristian Rroku",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 385537,
+        "player_name": "Foti Çuçka",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 136060,
+        "player_name": "Riliwan Rabiu",
+        "positions": "DMC",
+        "multi_position": 32,
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 512689,
+        "player_name": "Foly Amegatse",
+        "positions": "LB, CB",
+        "multi_position": 6,
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      }
+    ]
+  },
+  "3340": {
+    "club_id": 3340,
+    "players": [
+      {
+        "player_id": 3691,
+        "player_name": "Dajan Shehi",
+        "positions": "LB",
+        "multi_position": 2,
+        "rating": 64,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 3704,
+        "player_name": "Patrik Bardhi",
+        "positions": "FC, FR",
+        "multi_position": 49152,
+        "rating": 63,
+        "fitness": 79,
+        "available": true
+      },
+      {
+        "player_id": 3623,
+        "player_name": "Eni Imami",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 62,
+        "fitness": 89,
+        "available": true
+      },
+      {
+        "player_id": 3645,
+        "player_name": "Shkëlzen Ruçi",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 62,
+        "fitness": 94,
+        "available": true
+      },
+      {
+        "player_id": 3789,
+        "player_name": "Jurgen Vrapi",
+        "positions": "DMC",
+        "multi_position": 32,
+        "rating": 62,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 25874,
+        "player_name": "Manfredas Ruzgis",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 62,
+        "fitness": 89,
+        "available": true
+      },
+      {
+        "player_id": 293318,
+        "player_name": "Ysni Ismaili",
+        "positions": "RB",
+        "multi_position": 8,
+        "rating": 62,
+        "fitness": 78,
+        "available": true
+      },
+      {
+        "player_id": 437037,
+        "player_name": "Ionuț Albu",
+        "positions": "LB",
+        "multi_position": 2,
+        "rating": 62,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 298011,
+        "player_name": "Segerso Geci",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 61,
+        "fitness": 95,
+        "available": true
+      },
+      {
+        "player_id": 385752,
+        "player_name": "Kevin Dalipi",
+        "positions": "CM",
+        "multi_position": 256,
+        "rating": 61,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 189040,
+        "player_name": "Nikolin Duka",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 60,
+        "fitness": 97,
+        "available": true
+      },
+      {
+        "player_id": 384605,
+        "player_name": "Irgi Kasalla",
+        "positions": "AMC",
+        "multi_position": 2048,
+        "rating": 60,
+        "fitness": 88,
+        "available": false
+      },
+      {
+        "player_id": 3912,
+        "player_name": "Odirah Ntephe",
+        "positions": "DMC",
+        "multi_position": 32,
+        "rating": 59,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 25867,
+        "player_name": "Xhuljo Tabaku",
+        "positions": "RB, DMC, CM, AMC",
+        "multi_position": 2344,
+        "rating": 59,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 37011,
+        "player_name": "Amadou Ciss",
+        "positions": "AML, AMR, FC",
+        "multi_position": 21504,
+        "rating": 59,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 290756,
+        "player_name": "Dijar Nikqi",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 340684,
+        "player_name": "Arbër Jata",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 391741,
+        "player_name": "Agim Xhabafti",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 59,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 216576,
+        "player_name": "Idris Nuradeen",
+        "positions": "CM, FC, FR",
+        "multi_position": 49408,
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 315989,
+        "player_name": "Argel Avdiu",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 345184,
+        "player_name": "Marios Paja",
+        "positions": "DML, AMC",
+        "multi_position": 2064,
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 273259,
+        "player_name": "Okseold Sefa",
+        "positions": "LM",
+        "multi_position": 128,
+        "rating": 57,
+        "fitness": 97,
+        "available": true
+      },
+      {
+        "player_id": 286924,
+        "player_name": "Evans Aneni",
+        "positions": "LB",
+        "multi_position": 2,
+        "rating": 57,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 209939,
+        "player_name": "Beni Nsango",
+        "positions": "DMC, LM, CM",
+        "multi_position": 416,
+        "rating": 56,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 3885,
+        "player_name": "Gresild Lika",
+        "positions": "RM",
+        "multi_position": 512,
+        "rating": 55,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 175540,
+        "player_name": "David Schober",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 55,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 387453,
+        "player_name": "Kevin Shkreta",
+        "positions": "CM",
+        "multi_position": 256,
+        "rating": 54,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 454430,
+        "player_name": "Simone Addessi",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 52,
+        "fitness": 100,
+        "available": true
+      }
+    ]
+  },
+  "50": {
+    "club_id": 50,
+    "players": [
+      {
+        "player_id": 1100,
+        "player_name": "Erling Braut Haaland",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 96,
+        "fitness": 87,
+        "available": true
+      },
+      {
+        "player_id": 2291,
+        "player_name": "Mateo Kovačić",
+        "positions": "DMC, LM, CM, AMC",
+        "multi_position": 2464,
+        "rating": 96,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 44,
+        "player_name": "Rodrigo Hernández Cascante",
+        "positions": "DMC, CM",
+        "multi_position": 288,
+        "rating": 95,
+        "fitness": 78,
+        "available": false
+      },
+      {
+        "player_id": 636,
+        "player_name": "Bernardo Mota Veiga",
+        "positions": "DMC, RM, AMC, AMR",
+        "multi_position": 6688,
+        "rating": 93,
+        "fitness": 72,
+        "available": true
+      },
+      {
+        "player_id": 5,
+        "player_name": "Manuel Akanji",
+        "positions": "LB, CB, RB, DMC",
+        "multi_position": 46,
+        "rating": 91,
+        "fitness": 88,
+        "available": true
+      },
+      {
+        "player_id": 626,
+        "player_name": "John Stones",
+        "positions": "CB, RB, DMC",
+        "multi_position": 44,
+        "rating": 91,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 631,
+        "player_name": "Philip Foden",
+        "positions": "AML, AMC, AMR, FC",
+        "multi_position": 23552,
+        "rating": 90,
+        "fitness": 90,
+        "available": true
+      },
+      {
+        "player_id": 129033,
+        "player_name": "Joško Gvardiol",
+        "positions": "LB, CB",
+        "multi_position": 6,
+        "rating": 90,
+        "fitness": 72,
+        "available": true
+      },
+      {
+        "player_id": 567,
+        "player_name": "Rúben dos Santos",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 89,
+        "fitness": 93,
+        "available": true
+      },
+      {
+        "player_id": 629,
+        "player_name": "Kevin De Bruyne",
+        "positions": "AMC, FC",
+        "multi_position": 18432,
+        "rating": 89,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 41621,
+        "player_name": "Matheus Nunes",
+        "positions": "RB, DMC, RM, AML",
+        "multi_position": 1576,
+        "rating": 89,
+        "fitness": 90,
+        "available": true
+      },
+      {
+        "player_id": 61142,
+        "player_name": "Dominik Greif",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 87,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 308814,
+        "player_name": "Luka Stojković",
+        "positions": "LM, RM, AMC, AMR",
+        "multi_position": 6784,
+        "rating": 87,
+        "fitness": 77,
+        "available": true
+      },
+      {
+        "player_id": 1422,
+        "player_name": "Jérémy Doku",
+        "positions": "AML, AMC, AMR, FL",
+        "multi_position": 15360,
+        "rating": 86,
+        "fitness": 81,
+        "available": true
+      },
+      {
+        "player_id": 284230,
+        "player_name": "Rico Lewis",
+        "positions": "LB, RB, DMC, AMC",
+        "multi_position": 2090,
+        "rating": 86,
+        "fitness": 80,
+        "available": true
+      },
+      {
+        "player_id": 313353,
+        "player_name": "Promise Akinpelu",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 86,
+        "fitness": 98,
+        "available": true
+      },
+      {
+        "player_id": 266657,
+        "player_name": "Sávio Moreira",
+        "positions": "AML, AMC, AMR, FL",
+        "multi_position": 15360,
+        "rating": 85,
+        "fitness": 74,
+        "available": true
+      },
+      {
+        "player_id": 307123,
+        "player_name": "Nico O'Reilly",
+        "positions": "LB, DMC, LM, AML",
+        "multi_position": 1186,
+        "rating": 85,
+        "fitness": 75,
+        "available": true
+      },
+      {
+        "player_id": 404656,
+        "player_name": "Jahmai Simpson-Pusey",
+        "positions": "CB",
+        "multi_position": 4,
+        "rating": 82,
+        "fitness": 76,
+        "available": true
+      },
+      {
+        "player_id": 278059,
+        "player_name": "Adrion Pajaziti",
+        "positions": "DMC, RM",
+        "multi_position": 544,
+        "rating": 79,
+        "fitness": 84,
+        "available": true
+      },
+      {
+        "player_id": 278128,
+        "player_name": "Joshua Kamani Wilson-Esbrand",
+        "positions": "LB",
+        "multi_position": 2,
+        "rating": 71,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 43729,
+        "player_name": "Ilya Lantratov",
+        "positions": "GK",
+        "multi_position": 1,
+        "rating": 70,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 284409,
+        "player_name": "Divin Mubama",
+        "positions": "FC",
+        "multi_position": 16384,
+        "rating": 68,
+        "fitness": 86,
+        "available": false
+      },
+      {
+        "player_id": 345426,
+        "player_name": "Henrique Miguel Sousa Arreiol",
+        "positions": "AMC",
+        "multi_position": 2048,
+        "rating": 66,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 382344,
+        "player_name": "Anthony Junior Munda",
+        "positions": "DMC",
+        "multi_position": 32,
+        "rating": 62,
+        "fitness": 100,
+        "available": true
+      },
+      {
+        "player_id": 394666,
+        "player_name": "Player #394666",
+        "positions": "FC, FR",
+        "multi_position": 49152,
+        "rating": 58,
+        "fitness": 100,
+        "available": true
+      }
+    ]
+  }
+}

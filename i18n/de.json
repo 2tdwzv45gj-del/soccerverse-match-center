@@ -1,0 +1,27 @@
+{
+  "search": {
+    "quick_search": "SCHNELLSUCHE",
+    "placeholder": "Direkt nach einem Verein suchen…",
+    "button": "SUCHEN",
+    "double_click_hint": "Doppelklicke auf ein Spiel, um das Match Center zu öffnen.",
+    "enter_team": "Vereinsnamen eingeben.",
+    "searching": "SUCHE LÄUFT…",
+    "error": "Fehler",
+    "load_error": "Fehler beim Laden der Spiele",
+    "results": "ERGEBNISSE"
+  },
+  "world": {
+    "brand": "SOCCERVERSE",
+    "subtitle": "WELTKARTE  •  MATCH CENTER",
+    "breadcrumb": "WELT",
+    "title": "WELTKARTE",
+    "description": "Wähle ein Land, um seine Ligen zu öffnen und direkt zu den Vereinen zu gelangen.",
+    "saved_clubs": "MEINE VEREINE  •  10 PLÄTZE",
+    "remove": "ENTFERNEN",
+    "filter_countries": "Länder filtern…",
+    "refresh": "↻  AKTUALISIEREN",
+    "matches": "SPIELE",
+    "save_club": "★  VEREIN SPEICHERN",
+    "back_club": "←  VEREIN"
+  }
+}

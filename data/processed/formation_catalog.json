@@ -1,0 +1,711 @@
+{
+  "version": 1,
+  "description": "Soccerverse formation evidence catalog",
+  "formations": {
+    "1": {
+      "formation_id": 1,
+      "name": "4-3-3",
+      "samples": 1,
+      "clubs": [
+        "605"
+      ],
+      "fixtures": [
+        334220
+      ],
+      "status": "partial",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "LB",
+          "structural_hint": "MID",
+          "automatic_group": "DEF-L"
+        },
+        "6": {
+          "dominant_position": "DMC",
+          "structural_hint": "MID",
+          "automatic_group": "DM"
+        },
+        "7": {
+          "dominant_position": "DMC",
+          "structural_hint": "MID",
+          "automatic_group": "DM"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "LM",
+          "structural_hint": "ATT-W",
+          "automatic_group": "MID-R"
+        },
+        "10": {
+          "dominant_position": "FL",
+          "structural_hint": "ATT-W",
+          "automatic_group": "ATT"
+        }
+      }
+    },
+    "7": {
+      "formation_id": 7,
+      "name": "5-3-2",
+      "samples": 6,
+      "clubs": [
+        "3340",
+        "605"
+      ],
+      "fixtures": [
+        334195,
+        334200,
+        334208,
+        334209,
+        334222,
+        334228
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "DMC",
+          "structural_hint": "DEF/DM",
+          "automatic_group": "DM"
+        },
+        "5": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "6": {
+          "dominant_position": "CM",
+          "structural_hint": "MID",
+          "automatic_group": "DM"
+        },
+        "7": {
+          "dominant_position": "DMC",
+          "structural_hint": "MID/DM",
+          "automatic_group": "DM"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "AMC",
+          "structural_hint": "MID/DM/AMC",
+          "automatic_group": "AMC"
+        }
+      }
+    },
+    "8": {
+      "formation_id": 8,
+      "name": "UNKNOWN",
+      "samples": 1,
+      "clubs": [
+        "49"
+      ],
+      "fixtures": [
+        363194
+      ],
+      "status": "partial",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF",
+          "automatic_group": "DEF-L"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF",
+          "automatic_group": "DEF-L"
+        },
+        "6": {
+          "dominant_position": "AMC",
+          "structural_hint": "MID/AMC",
+          "automatic_group": "AMC"
+        },
+        "7": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF",
+          "automatic_group": "DEF-L"
+        },
+        "8": {
+          "dominant_position": "AML",
+          "structural_hint": "ATT-W",
+          "automatic_group": "MID-L"
+        },
+        "9": {
+          "dominant_position": "AMC",
+          "structural_hint": "ATT-W/AMC",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "AML",
+          "structural_hint": "ATT-W",
+          "automatic_group": "ATT"
+        }
+      }
+    },
+    "11": {
+      "formation_id": 11,
+      "name": "4-1-4-1",
+      "samples": 1,
+      "clubs": [
+        "3340"
+      ],
+      "fixtures": [
+        334216
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "6": {
+          "dominant_position": "RM",
+          "structural_hint": "MID-R",
+          "automatic_group": "MID-R"
+        },
+        "7": {
+          "dominant_position": "CM",
+          "structural_hint": "MID",
+          "automatic_group": "UNKNOWN"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "10": {
+          "dominant_position": "DML",
+          "structural_hint": "DM/AMC",
+          "automatic_group": "DEF-L"
+        }
+      }
+    },
+    "12": {
+      "formation_id": 12,
+      "name": "4-2-3-1",
+      "samples": 2,
+      "clubs": [
+        "3340"
+      ],
+      "fixtures": [
+        334204,
+        334212
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "6": {
+          "dominant_position": "RM",
+          "structural_hint": "MID-R",
+          "automatic_group": "MID-R"
+        },
+        "7": {
+          "dominant_position": "CM",
+          "structural_hint": "MID",
+          "automatic_group": "DM"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "DML",
+          "structural_hint": "AMC/DM",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "LM",
+          "structural_hint": "MID-L",
+          "automatic_group": "MID-L"
+        }
+      }
+    },
+    "13": {
+      "formation_id": 13,
+      "name": "4-1-2-2-1v2",
+      "samples": 5,
+      "clubs": [
+        "20406",
+        "605"
+      ],
+      "fixtures": [
+        334183,
+        334191,
+        334197,
+        334203,
+        334216
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "CM",
+          "structural_hint": "MID",
+          "automatic_group": "MID-R"
+        },
+        "6": {
+          "dominant_position": "AMR",
+          "structural_hint": "MID-R",
+          "automatic_group": "MID-R"
+        },
+        "7": {
+          "dominant_position": "LM",
+          "structural_hint": "MID-L/R",
+          "automatic_group": "MID-R"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "LB",
+          "structural_hint": "DM/AMC",
+          "automatic_group": "DEF-L"
+        }
+      }
+    },
+    "15": {
+      "formation_id": 15,
+      "name": "4-3-1-2",
+      "samples": 3,
+      "clubs": [
+        "2256",
+        "3340"
+      ],
+      "fixtures": [
+        334183,
+        334189,
+        334197
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "CM",
+          "structural_hint": "MID",
+          "automatic_group": "ATT"
+        },
+        "6": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "7": {
+          "dominant_position": "AMC",
+          "structural_hint": "AMC",
+          "automatic_group": "AMC"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        }
+      }
+    },
+    "18": {
+      "formation_id": 18,
+      "name": "1-4-3-2v2",
+      "samples": 1,
+      "clubs": [
+        "3339"
+      ],
+      "fixtures": [
+        334194
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "RB",
+          "structural_hint": "DEF-R",
+          "automatic_group": "DEF-R"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "6": {
+          "dominant_position": "AML",
+          "structural_hint": "MID-L/R",
+          "automatic_group": "MID-L"
+        },
+        "7": {
+          "dominant_position": "CM",
+          "structural_hint": "MID",
+          "automatic_group": "UNKNOWN"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "FL",
+          "structural_hint": "ATT-W",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "AML",
+          "structural_hint": "ATT-W",
+          "automatic_group": "MID-L"
+        }
+      }
+    },
+    "20": {
+      "formation_id": 20,
+      "name": "4-2-2-2",
+      "samples": 1,
+      "clubs": [
+        "50"
+      ],
+      "fixtures": [
+        363194
+      ],
+      "status": "verified",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF",
+          "automatic_group": "DEF-L"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "5": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "6": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM/MID",
+          "automatic_group": "MID-R"
+        },
+        "7": {
+          "dominant_position": "RB",
+          "structural_hint": "MID",
+          "automatic_group": "DEF-R"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "AML",
+          "structural_hint": "ATT-W/AMC",
+          "automatic_group": "MID-L"
+        }
+      }
+    },
+    "23": {
+      "formation_id": 23,
+      "name": "3-2-2-2-1",
+      "samples": 1,
+      "clubs": [
+        "2256"
+      ],
+      "fixtures": [
+        334189
+      ],
+      "status": "partial",
+      "slots": {
+        "0": {
+          "dominant_position": "GK",
+          "structural_hint": "GK",
+          "automatic_group": "GK"
+        },
+        "1": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "2": {
+          "dominant_position": "LB",
+          "structural_hint": "DEF-L",
+          "automatic_group": "DEF-L"
+        },
+        "3": {
+          "dominant_position": "CB",
+          "structural_hint": "CB",
+          "automatic_group": "CB"
+        },
+        "4": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "5": {
+          "dominant_position": "DMC",
+          "structural_hint": "DM",
+          "automatic_group": "DM"
+        },
+        "6": {
+          "dominant_position": "DMR",
+          "structural_hint": "MID-R",
+          "automatic_group": "DEF-R"
+        },
+        "7": {
+          "dominant_position": "LM",
+          "structural_hint": "MID-L",
+          "automatic_group": "MID-L"
+        },
+        "8": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "9": {
+          "dominant_position": "FC",
+          "structural_hint": "ATT",
+          "automatic_group": "ATT"
+        },
+        "10": {
+          "dominant_position": "FL",
+          "structural_hint": "ATT-W",
+          "automatic_group": "ATT"
+        }
+      }
+    }
+  }
+}

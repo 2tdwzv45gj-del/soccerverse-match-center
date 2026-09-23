@@ -1,0 +1,76 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+/* ===== SV LIVE SCORE - TIMELINE ===== */
+.timeline{margin-top:28px}
+.timelineHeader{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:18px}
+.timelineHeader span{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;opacity:.55;margin-bottom:4px}
+.timelineHeader h2{margin:0;font-size:24px;line-height:1.1}
+.timeline>div:not(.timelineHeader){position:relative;display:flex;flex-direction:column;gap:8px}
+.timeline>div:not(.timelineHeader)::before{content:;position:absolute;left:68px;top:14px;bottom:14px;width:1px;background:rgba(255,255,255,.10)}
+.eventItem{position:relative;display:grid;grid-template-columns:48px 40px minmax(0,1fr);align-items:center;min-height:58px;padding:9px 12px;border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(255,255,255,.025);transition:transform .2s ease,background .2s ease,border-color .2s ease}
+.eventItem:hover{transform:translateX(2px);background:rgba(255,255,255,.045)}
+.eventTime{font-size:13px;font-weight:700;opacity:.62;text-align:left;z-index:1}
+.eventIcon{position:relative;z-index:2;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#111;border:1px solid rgba(255,255,255,.12);font-size:15px}
+.eventContent{display:flex;flex-direction:column;gap:3px;min-width:0;padding-left:8px}
+.eventContent strong{font-size:12px;letter-spacing:.05em;font-weight:800}
+.eventContent span{font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.eventContent small{font-size:11px;opacity:.52;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.eventItem.goal{border-color:rgba(80,220,130,.32);background:rgba(80,220,130,.075)}
+.eventItem.goal .eventIcon{border-color:rgba(80,220,130,.45)}
+.eventItem.goal .eventContent strong{font-size:13px}
+.eventItem.important{border-color:rgba(255,255,255,.10)}
+.eventItem.substitutionEvent{background:rgba(120,160,255,.045)}
+.eventItem.substitutionEvent .eventContent strong{opacity:.72}
+.eventItem.substitutionEvent .eventIcon{font-size:14px}
+.timeline article{animation:svTimelineIn .25s ease-out}
+@keyframes svTimelineIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media (max-width:600px){.timelineHeader h2{font-size:21px}.timeline>div:not(.timelineHeader)::before{left:56px}.eventItem{grid-template-columns:38px 34px minmax(0,1fr);padding:8px 9px;min-height:54px}.eventTime{font-size:12px}.eventIcon{width:27px;height:27px;font-size:14px}.eventContent{padding-left:5px}.eventContent span{font-size:13px}.eventContent small{font-size:10px}}

@@ -1,0 +1,17 @@
+{
+  "base_url": "https://services.soccerverse.com/api",
+  "player_paths": [
+    "/dumps/player_earnings",
+    "/dumps/share_orders/players",
+    "/fixture_history/players/{fixture_id}",
+    "/player/history/{player_id}",
+    "/player/transfer_history",
+    "/player_field_time/by-player/{player_id}",
+    "/player_field_time/{club_id}",
+    "/players",
+    "/players/detailed",
+    "/players/loan_history",
+    "/players/morale_history/{player_id}",
+    "/v1/player/{player_id}"
+  ]
+}

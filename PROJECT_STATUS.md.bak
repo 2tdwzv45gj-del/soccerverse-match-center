@@ -1,0 +1,593 @@
+# SOCCERVERSE TACTICAL ADVISOR — PROJECT STATUS
+
+Ultimo aggiornamento: 1 settembre 2026
+
+---
+
+# STATO ATTUALE
+
+Il progetto è un Tactical Advisor per Soccerverse.
+
+Obiettivo finale:
+
+costruire un sistema solido, affidabile e modulare capace di:
+- leggere una squadra tramite Club ID;
+- recuperare la rosa reale;
+- distinguere disponibili, infortunati e squalificati;
+- valutare i giocatori nelle posizioni;
+- calcolare le skill effettive fuori posizione;
+- valutare automaticamente più moduli;
+- proporre la migliore formazione possibile;
+- arrivare progressivamente a una comprensione completa delle meccaniche reali di Soccerverse.
+
+La parte grafica NON è prioritaria.
+Prima viene il motore tattico corretto.
+
+---
+
+# PUNTO ESATTO DI RIPARTENZA
+
+## PROSSIMO OBIETTIVO
+
+Decodificare il significato reale di:
+
+formation_id
+
+nei dati tattici Soccerverse.
+
+Abbiamo verificato che i dati storici restituiscono ad esempio:
+
+- formation_id = 18
+- formation_id = 1
+
+ma il REST API pubblico non espone una tabella:
+
+formation_id -> nome formazione -> posizioni/slot
+
+NON inventare questa mappatura.
+
+---
+
+# COSA È STATO VERIFICATO
+
+## 1. TEAM SELECTOR DINAMICO
+
+Completato.
+
+`main.py` accetta un Club ID inserito dall'utente.
+
+Il sistema NON è più legato a Rhode Island.
+
+Test effettuati con più Club ID.
+
+---
+
+## 2. DATI CLUB
+
+Endpoint funzionante:
+
+/api/clubs/detailed
+
+Permette di recuperare dati reali del club.
+
+Esempio Club ID 22855:
+
+- club_id = 22855
+- manager_name = SirAlex79PE
+- division = 2
+- league_id = 1991
+- league_position = 3
+- avg_player_rating = 62
+- avg_shooting = 65
+- avg_passing = 63
+- avg_tackling = 66
+- gk_rating = 65
+
+Il campo:
+
+default_formation
+
+è risultato 0 nei club testati.
+
+Conclusione:
+
+default_formation NON è stato utilizzato per decodificare formation_id.
+
+---
+
+## 3. POSITION BITMASKS
+
+Verificati.
+
+Mapping osservato:
+
+GK   = 1
+LB   = 2
+CB   = 4
+RB   = 8
+DML  = 16
+DMC  = 32
+DMR  = 64
+LM   = 128
+CM   = 256
+RM   = 512
+AML  = 1024
+AMC/AM = 2048
+AMR  = 4096
+FL   = 8192
+FC   = 16384
+FR   = 32768
+
+Alcune posizioni come DML, AMR e FR possono non essere presenti nella rosa di un singolo club, ma i bitmask ufficiali sono stati ricostruiti e verificati.
+
+---
+
+# 4. MATRICE UFFICIALE FUORI POSIZIONE
+
+È stata trovata nella pagina ufficiale Backend Game Logic di Soccerverse.
+
+La matrice ufficiale è:
+
+g_grid_outta_pos_multi[16][9][7]
+
+Dimensione:
+
+16 x 9 x 7
+
+La matrice rappresenta la percentuale da sottrarre alle skill:
+
+- goalkeeping
+- tackling
+- passing
+- shooting
+
+quando un giocatore viene utilizzato fuori posizione.
+
+Sono presenti valori da 0 a 40.
+
+40 = penalità massima / posizione non utilizzabile nel modello.
+
+Questa matrice NON deve essere sostituita con una matrice inventata.
+
+---
+
+# 5. SOCCERVERSE POSITION GRID
+
+Creato:
+
+src/soccerverse_position_grid.py
+
+È stato costruito un adattatore interno per leggere la matrice ufficiale.
+
+Le 16 posizioni ufficiali sono state associate a coordinate canoniche della griglia.
+
+Coordinate attuali:
+
+GK  = (0,3)
+
+RB  = (1,0)
+CB  = (1,3)
+LB  = (1,6)
+
+DMR = (3,0)
+DMC = (3,3)
+DML = (3,6)
+
+RM  = (5,0)
+CM  = (5,3)
+LM  = (5,6)
+
+AMR = (6,0)
+AM  = (6,3)
+AML = (6,6)
+
+FR  = (7,0)
+FC  = (7,3)
+FL  = (7,6)
+
+ATTENZIONE:
+
+queste coordinate sono un modello interno costruito sulla griglia ufficiale.
+
+Non sono ancora una prova del mapping delle FORMAZIONI.
+
+---
+
+# 6. POSITION ENGINE
+
+`src/position_engine.py`
+
+Il motore ora utilizza la griglia Soccerverse anziché la vecchia tabella semplificata.
+
+È presente normalizzazione:
+
+AMC -> AM
+
+perché il progetto/API può usare AMC mentre la matrice ufficiale Soccerverse usa AM.
+
+La posizione esplicitamente presente in:
+
+player.positions
+
+ha priorità e viene considerata naturale.
+
+La penalità viene altrimenti letta dalla griglia ufficiale in base a:
+
+posizione naturale -> posizione richiesta
+
+---
+
+# 7. EFFECTIVE SKILLS
+
+Creato/verificato:
+
+src/effective_skills.py
+
+Test eseguito con successo.
+
+Esempio:
+
+POSIZIONE NATURALE
+GK:       10.00
+Tackling: 35.00
+Passing:  70.00
+Shooting: 85.00
+Overall:  85.00
+
+POSIZIONE ADATTATA
+GK:        7.50
+Tackling: 26.25
+Passing:  52.50
+Shooting: 63.75
+Overall:  63.75
+
+Verificato che fuori posizione le skill non aumentano.
+
+Test:
+
+test_effective_skills.py
+
+PASSATO.
+
+---
+
+# 8. POSITION PENALTY
+
+Esempio verificato:
+
+FC -> AMC/AM
+
+penalty = 25%
+
+compatibility = 0.75
+
+La compatibilità viene derivata dalla penalità.
+
+---
+
+# 9. FIXTURE HISTORY TACTICS
+
+Endpoint REST verificato:
+
+/api/fixture_history/tactics/{fixture_id}
+
+Esempio:
+
+fixture_id = 1
+
+restituisce dati reali.
+
+Per il club 605:
+
+formation_id = 18
+play_style = 2
+
+Per il club 694:
+
+formation_id = 1
+play_style = 0
+
+---
+
+# 10. STRUTTURA REALE tactic_actions
+
+Abbiamo verificato che:
+
+tactic_actions[].lineup
+
+è una lista di 18 oggetti.
+
+Ogni elemento contiene:
+
+player_id
+tempo
+tackling_style
+
+Esempio:
+
+{
+    "player_id": 1832,
+    "tempo": 2,
+    "tackling_style": 1
+}
+
+IMPORTANTE:
+
+lineup NON contiene direttamente la posizione tattica.
+
+NON assumere:
+
+lineup[0] = GK
+lineup[1] = LB
+ecc.
+
+Questa ipotesi è stata scartata.
+
+---
+
+# 11. TEAM SHEET / start_ix
+
+Endpoint:
+
+/api/fixture_history/players/{fixture_id}
+
+restituisce record giocatore con:
+
+player_id
+team
+start_ix
+time_started
+time_finished
+rating
+ecc.
+
+Abbiamo verificato che:
+
+start_ix
+
+identifica lo slot del giocatore nella teamsheet del fixture.
+
+I primi 11 slot corrispondono ai giocatori inizialmente schierati.
+
+Gli altri slot possono essere riserve o giocatori entrati successivamente.
+
+IMPORTANTE:
+
+start_ix NON è la posizione tattica.
+
+---
+
+# 12. SET TACTICS
+
+Per alcuni club:
+
+set_tactics.team_sheet
+
+contiene i 18 player_id.
+
+Per altri dati storici, la teamsheet può non essere popolata come fonte utile.
+
+Per questo motivo:
+
+tactic_actions + fixture player data
+
+sono più importanti per il reverse engineering storico.
+
+---
+
+# 13. OPENAPI
+
+L'OpenAPI REST è stato recuperato:
+
+/api/openapi.json
+
+Endpoint rilevanti individuati:
+
+/fixture_history/tactics/{fixture_id}
+/fixture_history/players/{fixture_id}
+/v1/match/{fixture_id}
+/v1/match/{fixture_id}/commentary
+/commentary/match_events/{fixture_id}
+/commentary/match_commentary/{fixture_id}
+/player_field_time/{club_id}
+/player_field_time/by-player/{player_id}
+
+NON è presente un endpoint REST pubblico evidente che restituisca:
+
+formation_id -> formation definition
+
+---
+
+# 14. GSP
+
+È stato tentato accesso diretto a:
+
+services.soccerverse.com/gsp/
+
+La richiesta diretta da curl ha restituito:
+
+HTTP 403
+
+Cloudflare.
+
+NON forzare il bypass.
+
+La ricerca del metodo:
+
+get_club_tactics
+
+ha indicato che esiste una fonte GSP relativa alle tattiche, ma non è stata utilizzata direttamente a causa del blocco Cloudflare.
+
+---
+
+# 15. BACKEND GAME LOGIC
+
+È stata scaricata la pagina ufficiale:
+
+Backend Game Logic
+
+e salvata localmente in:
+
+/tmp/backend_game_logic.html
+
+Sono state trovate informazioni fondamentali.
+
+La documentazione dice che l'autopick:
+
+- sceglie casualmente 4-4-2, 4-3-3 oppure 4-5-1;
+- trova il miglior giocatore per ciascuna posizione;
+- considera anche la fitness;
+- penalizza i giocatori fuori posizione;
+- utilizza la matrice g_grid_outta_pos_multi.
+
+Questo conferma la logica generale del Tactical Advisor.
+
+---
+
+# 16. COSA NON È ANCORA RISOLTO
+
+## FORMATION ID -> FORMAZIONE REALE
+
+Questo è il principale punto aperto.
+
+Non sappiamo ancora con certezza:
+
+formation_id = 18 -> ?
+
+formation_id = 1 -> ?
+
+ecc.
+
+Non conosciamo ancora il catalogo completo:
+
+formation_id
+    ->
+nome formazione
+    ->
+11 slot
+    ->
+posizioni Soccerverse
+
+NON usare una mappatura inventata.
+
+---
+
+# STATO DEI FILE IMPORTANTI
+
+Verificati con py_compile:
+
+src/position_engine.py
+src/soccerverse_position_grid.py
+src/effective_skills.py
+src/player_evaluator_v2.py
+src/formation_engine_v2.py
+main.py
+
+Compilazione superata.
+
+Test specifico:
+
+test_effective_skills.py
+
+PASSATO.
+
+Test position bitmask:
+
+test_position_bitmasks.py
+
+PASSATO.
+
+Test position grid:
+
+test_soccerverse_position_grid.py
+
+PASSATO.
+
+---
+
+# FILE / RISORSE TEMPORANEE UTILI
+
+/tmp/backend_game_logic.html
+
+/tmp/soccerverse_openapi.json
+
+/tmp/tactics_1.json
+
+/tmp/players_1.json
+
+Questi file sono stati utilizzati durante il reverse engineering.
+
+---
+
+# ULTIMA CONCLUSIONE
+
+Il sistema è ormai passato da una logica puramente ipotetica a una base fondata su dati reali Soccerverse.
+
+Sono state validate:
+
+- API giocatori
+- Club ID dinamico
+- dati club
+- position bitmask
+- matrice ufficiale fuori posizione
+- effective skills
+- penalty/compatibility
+- fixture tactics
+- struttura lineup
+- start_ix
+- OpenAPI
+- Backend Game Logic
+
+Il prossimo lavoro NON è rifare queste parti.
+
+Il prossimo lavoro è:
+
+1. trovare la definizione reale delle formazioni;
+2. decodificare formation_id;
+3. collegare formation_id agli 11 slot;
+4. integrare gli slot reali nel formation_engine_v2;
+5. verificare il Tactical Advisor contro formazioni reali;
+6. solo dopo migliorare scoring, adattamenti e qualità della raccomandazione.
+
+---
+
+# REGOLA DI RIPRESA
+
+Quando si riprende il progetto:
+
+"Riprendiamo Soccerverse da dove ci siamo fermati."
+
+significa:
+
+1. leggere questo PROJECT_STATUS.md;
+2. verificare lo stato effettivo dei file;
+3. NON rifare il lavoro già validato;
+4. NON inventare il mapping formation_id;
+5. ripartire dalla ricerca della definizione reale delle formazioni.
+
+Rhode Island NON è una configurazione fissa.
+
+Il sistema deve rimanere completamente dinamico.
+
+---
+
+# OBIETTIVO FINALE
+
+Costruire un Tactical Advisor Soccerverse:
+
+- dinamico
+- accurato
+- basato sulle meccaniche reali
+- modulare
+- verificabile
+- progressivamente sempre più completo
+
+La parte grafica verrà affrontata successivamente.
+
+Prima:
+
+MECCANICA -> DATI -> MODELLO -> VALIDAZIONE
+
+Poi:
+
+INTERFACCIA -> GRAFICA -> UX

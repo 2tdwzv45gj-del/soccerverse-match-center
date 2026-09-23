@@ -1,0 +1,582 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation";
+import ReplayPlayer from "@/lib/replay/ReplayPlayer";
+
+type MatchData = {
+  fixtureId: number;
+  fixture: Record<string, any>;
+  events: Record<string, any>[];
+  commentary: Record<string, any>[];
+  substitutions: Record<string, any>[];
+  stadium?: { id: number; name: string; image: string } | null;
+};
+
+type Club = {
+  id: number;
+  name: string;
+  colors: number[] | null;
+  logo: string | null;
+};
+
+function clubColor(club: Club | null) {
+  if (club?.colors?.length === 3) {
+    return "rgb(" + club.colors.join(", ") + ")";
+  }
+
+  return "#55c2ff";
+}
+
+function eventType(event: Record<string, any>) {
+  return String(
+    event.event_type || event.type || "EVENT"
+  ).toUpperCase();
+}
+
+function eventIcon(type: string) {
+  if (type === "GOAL") return "⚽";
+  if (type === "YELLOWCARD") return "🟨";
+  if (type === "SECONDYELLOWCARD") return "🟨🟥";
+  if (type === "REDCARD") return "🟥";
+  if (type === "SUB") return "🔄";
+  if (type === "SHOT") return "🎯";
+  if (type === "SAVE") return "🧤";
+  if (type === "FOUL") return "⚠️";
+
+  return "•";
+}
+
+function eventLabel(type: string) {
+  const labels: Record<string, string> = {
+    GOAL: "GOAL",
+    YELLOWCARD: "YELLOW CARD",
+    SECONDYELLOWCARD: "SECOND YELLOW",
+    REDCARD: "RED CARD",
+    SUB: "SUBSTITUTION",
+    SHOT: "SHOT",
+    SAVE: "SAVE",
+    CHANCE: "CHANCE",
+    ASSISTEDCHANCE: "ASSISTED CHANCE",
+    OFFTARGET: "OFF TARGET",
+    FOUL: "FOUL",
+    WARNED: "WARNING",
+    TACKLE: "TACKLE",
+  };
+
+  return labels[type] || type.replaceAll("_", " ");
+}
+
+export default function MatchDetailPage() {
+  const params = useParams<{ fixtureId: string }>();
+  const router = useRouter();
+
+  const [data, setData] = useState<MatchData | null>(null);
+  const [home, setHome] = useState<Club | null>(null);
+  const [away, setAway] = useState<Club | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [replayScore, setReplayScore] = useState<string | null>(null);
+  const [replayMinute, setReplayMinute] = useState<number>(0);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    async function load() {
+      try {
+        setLoading(true);
+        setError("");
+
+        const response = await fetch(
+          "/api/match/" + params.fixtureId,
+          { cache: "no-store" }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok) {
+          throw new Error(
+            result?.error || "Impossibile caricare la partita."
+          );
+        }
+
+        setData(result);
+
+        const fixture = result.fixture;
+
+        const homeResponse = await fetch(
+          "/api/club/" + Number(fixture.home_club),
+          { cache: "no-store" }
+        );
+
+        const awayResponse = await fetch(
+          "/api/club/" + Number(fixture.away_club),
+          { cache: "no-store" }
+        );
+
+        if (homeResponse.ok) {
+          setHome(await homeResponse.json());
+        }
+
+        if (awayResponse.ok) {
+          setAway(await awayResponse.json());
+        }
+      } catch (err) {
+        setError(
+          err instanceof Error
+            ? err.message
+            : "Errore durante il caricamento."
+        );
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    load();
+  }, [params.fixtureId]);
+
+  if (loading) {
+    return (
+      <main className="matchPage">
+        <div className="matchContainer">
+          <button
+            className="backButton"
+            onClick={() => router.back()}
+          >
+            ← Match Center
+          </button>
+
+          <div className="matchLoading">
+            Caricamento partita…
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  if (error || !data) {
+    return (
+      <main className="matchPage">
+        <div className="matchContainer">
+          <button
+            className="backButton"
+            onClick={() => router.back()}
+          >
+            ← Match Center
+          </button>
+
+          <div className="matchError">
+            {error || "Partita non trovata."}
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  const fixture = data.fixture;
+
+  const homeName =
+    home?.name ||
+    fixture.home_club_name ||
+    "Club " + fixture.home_club;
+
+  const awayName =
+    away?.name ||
+    fixture.away_club_name ||
+    "Club " + fixture.away_club;
+
+  const homeGoals = Number(
+    fixture.home_goals ?? 0
+  );
+
+  const awayGoals = Number(
+    fixture.away_goals ?? 0
+  );
+
+  const eventMinute = (event: any) => {
+    const raw = event.time ?? event.time_minutes ?? event.time_display ?? 0;
+    const match = String(raw).match(/\d+/);
+    return match ? Number(match[0]) : 0;
+  };
+
+  const events = [...data.events].sort(
+    (a, b) => eventMinute(a) - eventMinute(b)
+  );
+
+  const visibleEvents = events.filter((event) =>
+    eventMinute(event) <= replayMinute
+  );
+
+  const visibleSubstitutions = data.substitutions.filter((sub) =>
+    Number(sub.time ?? 0) <= replayMinute
+  );
+
+  return (
+    <main className="matchPage">
+      <div className="matchContainer">
+
+        <button
+          className="backButton"
+          onClick={() => router.back()}
+        >
+          ← Match Center
+        </button>
+
+        <section className="scoreHeader">
+
+          <div className="competition">
+            {fixture.comp_name ||
+              fixture.league_name ||
+              "SOCCERVERSE MATCH"}
+          </div>
+
+          <div className="fixtureMeta">
+            FIXTURE #{data.fixtureId}
+          </div>
+
+          <div className="scoreTeams">
+
+            <div className="scoreTeam">
+
+              <div
+                className="scoreLogo"
+                style={{
+                  borderColor: clubColor(home),
+                }}
+              >
+                {home?.logo ? (
+                  <img
+                    src={home.logo}
+                    alt={homeName}
+                  />
+                ) : (
+                  <span>⚽</span>
+                )}
+              </div>
+
+              <h1>{homeName}</h1>
+
+              <small>HOME</small>
+
+            </div>
+
+            <div className="bigScore">
+
+              <strong>
+                {homeGoals} - {awayGoals}
+              </strong>
+
+              <span>
+                {fixture.datetime ||
+                  fixture.date ||
+                  ""}
+              </span>
+
+            </div>
+
+            <div className="scoreTeam">
+
+              <div
+                className="scoreLogo"
+                style={{
+                  borderColor: clubColor(away),
+                }}
+              >
+                {away?.logo ? (
+                  <img
+                    src={away.logo}
+                    alt={awayName}
+                  />
+                ) : (
+                  <span>⚽</span>
+                )}
+              </div>
+
+              <h1>{awayName}</h1>
+
+              <small>AWAY</small>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {data.stadium && (
+          <section
+            style={{
+              position: "relative",
+              overflow: "hidden",
+              minHeight: "240px",
+              marginTop: "24px",
+              borderRadius: "24px",
+              border: "1px solid rgba(255,255,255,0.08)",
+              background: "#0d141e",
+              boxShadow: "0 18px 50px rgba(0,0,0,0.28)",
+            }}
+          >
+            <img
+              src={data.stadium.image}
+              alt={data.stadium.name}
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
+
+            <div
+              style={{
+                position: "absolute",
+                inset: 0,
+                background:
+                  "linear-gradient(90deg, rgba(5,9,14,0.96) 0%, rgba(5,9,14,0.72) 45%, rgba(5,9,14,0.25) 100%)",
+              }}
+            />
+
+            <div
+              style={{
+                position: "relative",
+                zIndex: 1,
+                minHeight: "240px",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-end",
+                padding: "30px",
+              }}
+            >
+              <span
+                style={{
+                  fontSize: "11px",
+                  fontWeight: 800,
+                  letterSpacing: "0.18em",
+                  color: "rgba(255,255,255,0.55)",
+                }}
+              >
+                MATCH VENUE
+              </span>
+
+              <h2
+                style={{
+                  margin: "7px 0 0",
+                  fontSize: "30px",
+                  lineHeight: 1.08,
+                  fontWeight: 800,
+                  color: "#fff",
+                }}
+              >
+                🏟️ {data.stadium.name}
+              </h2>
+
+              <span
+                style={{
+                  marginTop: "8px",
+                  fontSize: "12px",
+                  color: "rgba(255,255,255,0.52)",
+                }}
+              >
+                Soccerverse Stadium · ID {data.stadium.id}
+              </span>
+            </div>
+          </section>
+        )}
+
+        <ReplayPlayer
+          data={{
+            fixture: {
+              home_club: Number(data.fixture.home_club),
+              away_club: Number(data.fixture.away_club),
+              home_club_name: homeName,
+              away_club_name: awayName,
+            },
+            events: data.events.map((event) => ({
+              event_type: event.event_type,
+              time: Number(event.time ?? event.time_minutes ?? 0),
+              club_id: event.club_id ?? null,
+              player_id: event.player_id ?? null,
+              event_player_id: event.event_player_id ?? null,
+              match_event_id: event.match_event_id ?? null,
+            })),
+            commentary: data.commentary.map((event) => ({
+              comm_sub_event_id: Number(event.comm_sub_event_id),
+              comm_event_id: Number(event.comm_event_id),
+              time: Number(event.time),
+              category: String(event.category ?? ""),
+              player_one_id: event.player_one_id ?? null,
+              player_one_name: event.player_one_name ?? null,
+              player_two_id: event.player_two_id ?? null,
+              player_two_name: event.player_two_name ?? null,
+              club_one_id: event.club_one_id ?? null,
+              club_one_name: event.club_one_name ?? null,
+            })),
+          }}
+          homeName={homeName}
+          awayName={awayName}
+          onStateChange={(state) => {
+            setReplayScore(`${state.home_score}-${state.away_score}`);
+            setReplayMinute(state.match_minute);
+          }}
+        />
+
+        <section className="timeline">
+
+          <div className="timelineHeader">
+
+            <div>
+              <span>MATCH CENTER</span>
+              <h2>Timeline</h2>
+            </div>
+
+            <div className="eventCount">
+              {visibleEvents.length} / {events.length} EVENTS
+            </div>
+
+          </div>
+
+          {visibleEvents.length === 0 ? (
+
+            <div className="noEvents">
+              Nessun evento disponibile
+              per questa partita.
+            </div>
+
+          ) : (
+
+            <div className="eventList">
+
+              {visibleEvents.map((event, index) => {
+
+                const type = eventType(event);
+
+                const player =
+                  event.player_name ||
+                  event.scorer_name ||
+                  event.player ||
+                  "";
+
+                const club =
+                  event.club_name ||
+                  event.club_one_name ||
+                  event.team_name ||
+                  "";
+
+                const time = eventMinute(event);
+
+                const important =
+                  type === "GOAL" ||
+                  type === "YELLOWCARD" ||
+                  type === "SECONDYELLOWCARD" ||
+                  type === "REDCARD" ||
+                  type === "SUB";
+
+                return (
+                  <article
+                    className={
+                      "eventItem " +
+                      (important
+                        ? "important "
+                        : "") +
+                      (type === "GOAL"
+                        ? "goal"
+                        : "")
+                    }
+                    key={
+                      String(index) +
+                      "-" +
+                      String(time)
+                    }
+                  >
+
+                    <div className="eventTime">
+                      {time > 0
+                        ? String(time) + "'"
+                        : ""}
+                    </div>
+
+                    <div className="eventIcon">
+                      {eventIcon(type)}
+                    </div>
+
+                    <div className="eventContent">
+
+                      <strong>
+                        {eventLabel(type)}
+                      </strong>
+
+                      {player && (
+                        <span>{player}</span>
+                      )}
+
+                      {club && (
+                        <small>{club}</small>
+                      )}
+
+                    </div>
+
+                  </article>
+                );
+              })}
+
+            </div>
+          )}
+
+        </section>
+
+        {visibleSubstitutions.length > 0 && (
+
+          <section className="substitutions">
+
+            <div className="timelineHeader">
+
+              <div>
+                <span>MATCH CENTER</span>
+                <h2>Substitutions</h2>
+              </div>
+
+            </div>
+
+            <div className="subList">
+
+              {visibleSubstitutions.map(
+                (sub, index) => (
+
+                  <article
+                    className="subItem"
+                    key={index}
+                  >
+
+                    <strong>
+                      {sub.time !== undefined
+                        ? String(sub.time) + "'"
+                        : ""}
+                    </strong>
+
+                    <span>
+                      {sub.player_out_name ||
+                        sub.player_out ||
+                        "Player out"}
+                    </span>
+
+                    <b>→</b>
+
+                    <span>
+                      {sub.player_in_name ||
+                        sub.player_in ||
+                        "Player in"}
+                    </span>
+
+                  </article>
+
+                )
+              )}
+
+            </div>
+
+          </section>
+
+        )}
+
+      </div>
+    </main>
+  );
+}
