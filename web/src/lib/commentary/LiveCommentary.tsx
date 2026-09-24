@@ -5,17 +5,18 @@ import styles from "./LiveCommentary.module.css";
 
 type Props = {
   item: LiveCommentaryItem | null;
+  translations: Record<string, string>;
 };
 
-export default function LiveCommentary({ item }: Props) {
+export default function LiveCommentary({ item, translations: t }: Props) {
   return (
     <section className={styles.liveCommentary}>
       <div className={styles.liveCommentaryHeader}>
         <div>
-          <span>LIVE COMMENTARY</span>
-          <h2>Match action</h2>
+          <span>{t.liveCommentary}</span>
+          <h2>{t.matchAction}</h2>
         </div>
-        <div className={styles.liveDot}>LIVE</div>
+        <div className={styles.liveDot}>{t.live}</div>
       </div>
       <div className={styles.liveCommentaryBody}>
         {item ? (
@@ -34,8 +35,8 @@ export default function LiveCommentary({ item }: Props) {
             <div className={styles.liveCommentaryTime}>—</div>
             <div className={styles.liveCommentaryIcon}>⚽</div>
             <div className={styles.liveCommentaryText}>
-              <strong>WAITING FOR KICK-OFF</strong>
-              <span>La partita sta per iniziare</span>
+              <strong>{t.waitingKickoff}</strong>
+              <span>{t.kickoffMessage}</span>
             </div>
           </>
         )}

@@ -11,6 +11,10 @@ export type LanguageCode = (typeof languages)[number]["code"];
 
 export const translations: Record<LanguageCode, Record<string, string>> = {
   it: {
+    matchAction: "Azioni della partita",
+    kickoffMessage: "La partita sta per iniziare",
+    live: "LIVE",
+    waitingKickoff: "IN ATTESA DEL CALCIO D'INIZIO",
     appTitle: "SV LIVE SCORE",
     tipMe: "☕ TIP ME WITH SVC",
     matchesCount: "MATCH",
@@ -65,6 +69,10 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   en: {
+    matchAction: "Match action",
+    kickoffMessage: "The match is about to start",
+    live: "LIVE",
+    waitingKickoff: "WAITING FOR KICK-OFF",
     appTitle: "SV LIVE SCORE",
     tipMe: "☕ TIP ME WITH SVC",
     matchesCount: "MATCH",
@@ -119,6 +127,10 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   es: {
+    matchAction: "Acción del partido",
+    kickoffMessage: "El partido está a punto de comenzar",
+    live: "EN VIVO",
+    waitingKickoff: "ESPERANDO EL INICIO",
     appTitle: "SV LIVE SCORE",
     tipMe: "☕ DAME UNA PROPINA CON SVC",
     matchesCount: "PARTIDOS",
@@ -173,6 +185,10 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   fr: {
+    matchAction: "Actions du match",
+    kickoffMessage: "Le match va commencer",
+    live: "EN DIRECT",
+    waitingKickoff: "EN ATTENTE DU COUP D'ENVOI",
     appTitle: "SV LIVE SCORE",
     tipMe: "☕ DONNEZ-MOI UN POURBOIRE EN SVC",
     matchesCount: "MATCHS",
@@ -227,6 +243,10 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   de: {
+    matchAction: "Spielaktionen",
+    kickoffMessage: "Das Spiel beginnt gleich",
+    live: "LIVE",
+    waitingKickoff: "WARTEN AUF DEN ANPFIFF",
     appTitle: "SV LIVE SCORE",
     tipMe: "☕ MIT SVC UNTERSTÜTZEN",
     matchesCount: "SPIELE",
@@ -281,6 +301,10 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   pt: {
+    matchAction: "Ações do jogo",
+    kickoffMessage: "O jogo está prestes a começar",
+    live: "AO VIVO",
+    waitingKickoff: "A AGUARDAR O INÍCIO",
     appTitle: "SV LIVE SCORE",
     tipMe: "☕ DAR UMA GORJETA COM SVC",
     matchesCount: "PARTIDAS",

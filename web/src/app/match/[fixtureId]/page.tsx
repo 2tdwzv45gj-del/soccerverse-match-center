@@ -5,6 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import ReplayPlayer from "@/lib/replay/ReplayPlayer";
 import LiveCommentary from "@/lib/commentary/LiveCommentary";
 import { buildLiveCommentary, getCurrentCommentary } from "@/lib/commentary/commentaryComposer";
+import { translations, LanguageCode } from "@/lib/i18n/translations";
 
 import type {
   ReplayMode,
@@ -95,6 +96,8 @@ export default function MatchDetailPage() {
   const params = useParams<{ fixtureId: string }>();
   const router = useRouter();
 
+  const [language, setLanguage] = useState<LanguageCode>("it");
+
   const [data, setData] = useState<MatchData | null>(null);
   const [home, setHome] = useState<Club | null>(null);
   const [away, setAway] = useState<Club | null>(null);
@@ -107,6 +110,21 @@ export default function MatchDetailPage() {
   const [showLineups, setShowLineups] = useState(false);
   const [liveCommentary, setLiveCommentary] = useState<ReturnType<typeof buildLiveCommentary>>([]);
   const [error, setError] = useState("");
+
+  useEffect(() => {
+    const saved = localStorage.getItem("sv-live-score-language") as LanguageCode | null;
+    if (saved && translations[saved]) setLanguage(saved);
+
+    const handleLanguageChange = () => {
+      const current = localStorage.getItem("sv-live-score-language") as LanguageCode | null;
+      if (current && translations[current]) setLanguage(current);
+    };
+
+    window.addEventListener("sv-language-change", handleLanguageChange);
+    return () => window.removeEventListener("sv-language-change", handleLanguageChange);
+  }, []);
+
+  const t = translations[language];
 
   useEffect(() => {
     async function load() {
@@ -331,7 +349,7 @@ export default function MatchDetailPage() {
               </div>
 
               <h1>{homeName}</h1>
-              <small>HOME</small>
+              <small>{t.home}</small>
 
               <div className="scoreTeamEvents">
                 {validGoalEvents
@@ -380,7 +398,7 @@ export default function MatchDetailPage() {
             <div className="bigScore">
               <strong>{replayScore ?? `${finalHomeGoals} - ${finalAwayGoals}`}</strong>
               <span>{fixture.datetime || fixture.date || ""}</span>
-              <em>REPLAY</em>
+              <em>{t.replay}</em>
             </div>
 
             <div className="scoreTeam scoreTeamAway">
@@ -399,7 +417,7 @@ export default function MatchDetailPage() {
               </div>
 
               <h1>{awayName}</h1>
-              <small>AWAY</small>
+              <small>{t.away}</small>
 
               <div className="scoreTeamEvents">
                 {validGoalEvents
@@ -451,7 +469,7 @@ export default function MatchDetailPage() {
         {replayTactics && (
           <section className="tacticsSection">
             <div className="tacticsHeader">
-              <span>TACTICS & MENTALITY</span>
+              <span>{t.tacticsMentality}</span>
             </div>
 
             <div className="tacticsGrid">
@@ -819,7 +837,7 @@ export default function MatchDetailPage() {
           }}
         />
 
-        <LiveCommentary item={currentCommentary} />
+        <LiveCommentary item={currentCommentary} translations={t} />
       </div>
     </main>
   );
