@@ -32,6 +32,11 @@ export async function GET() {
       eth: crypto?.ethereum?.usd ?? null,
       pol: crypto?.["polygon-ecosystem-token"]?.usd ?? null,
       updatedAt: Date.now(),
+      debug: {
+        soccerverseKeys: Object.keys(soccerverse ?? {}),
+        soccerverseData: soccerverse,
+        coinGeckoData: crypto,
+      },
     });
   } catch (error) {
     console.error("MARKET API ERROR:", error);
@@ -42,7 +47,7 @@ export async function GET() {
         eth: null,
         pol: null,
         updatedAt: Date.now(),
-        error: "Unable to load market data",
+        error: error instanceof Error ? error.message : String(error),
       },
       { status: 200 }
     );
