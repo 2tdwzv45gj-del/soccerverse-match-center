@@ -730,3 +730,41 @@
     width: 100%;
   }
 }
+
+/* SV LIVE SCORE — MOBILE HEADER FIX */
+@media (max-width: 650px) {
+  .header {
+    height: auto;
+    min-height: 72px;
+    padding: 12px 0;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  .brand h1 {
+    font-size: 15px;
+  }
+
+  .brand p {
+    font-size: 10px;
+  }
+
+  .status {
+    flex: 0 0 auto;
+    font-size: 9px;
+  }
+
+  .container {
+    width: calc(100% - 24px);
+    max-width: none;
+  }
+
+  .page {
+    overflow-x: hidden;
+  }
+}
