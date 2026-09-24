@@ -452,7 +452,6 @@ export default function MatchDetailPage() {
           <section className="tacticsSection">
             <div className="tacticsHeader">
               <span>TACTICS & MENTALITY</span>
-              <small>{replayMinute}&apos;</small>
             </div>
 
             <div className="tacticsGrid">
