@@ -296,6 +296,7 @@ export default function ReplayPlayer({
 
   return (
     <section
+      className="replayPlayer"
       style={{
         marginTop: 24,
         marginBottom: 28,
