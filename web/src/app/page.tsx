@@ -498,6 +498,18 @@ export default function Home() {
           </section>
         )}
 
+        <section className={styles.aboutCard}>
+          <div className={styles.aboutContent}>
+            <span className={styles.aboutEyebrow}>{t.aboutTitle}</span>
+            <p className={styles.aboutCopy}>{t.aboutCopy}</p>
+            <div className={styles.aboutMeta}>
+              <span>{t.aboutAuthor}</span>
+              <a href="https://soccerversetool.vercel.app/" target="_blank" rel="noreferrer">{t.aboutFriend}</a>
+              <a href="https://play.soccerverse.com/profile?user=SirAlex79" target="_blank" rel="noreferrer">Soccerverse Profile</a>
+            </div>
+          </div>
+        </section>
+
         <section className={styles.supportCard}>
           <div className={styles.supportGlow} />
           <div className={styles.supportContent}>
