@@ -241,7 +241,8 @@ export default function Home() {
       <div className={styles.backgroundGlow} />
 
       <section className={styles.container}>
-        <header className={styles.header}>\n            <LanguageSelector />
+        <header className={styles.header}>
+          <LanguageSelector />
           <div className={styles.brand}>
             <div className={styles.logo}>⚽</div>
             <div>
