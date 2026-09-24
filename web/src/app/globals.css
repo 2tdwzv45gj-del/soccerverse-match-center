@@ -441,12 +441,12 @@ a {
     min-height: 32px;
   }
 
-  .replayPlayer > div:nth-child(4) {
+  .replayPlayer > div:nth-child(5) {
     gap: 8px !important;
     margin-top: 14px !important;
   }
 
-  .replayPlayer > div:nth-child(4) button {
+  .replayPlayer > div:nth-child(5) button {
     flex: 1 1 0;
     min-width: 0;
     padding: 10px 12px !important;
@@ -471,94 +471,9 @@ a {
     font-size: 24px !important;
   }
 
-  .replayPlayer > div:nth-child(4) button {
+  .replayPlayer > div:nth-child(5) button {
     font-size: 11px !important;
     padding: 9px 8px !important;
   }
 }
 
-/* SV LIVE SCORE — Replay Player mobile refinement */
-.replayPlayer {
-  min-width: 0;
-}
-
-.replayPlayer input[type="range"] {
-  height: 6px;
-}
-
-@media (max-width: 650px) {
-  .replayPlayer {
-    padding: 16px !important;
-    border-radius: 18px !important;
-  }
-
-  .replayPlayer > div:first-child {
-    gap: 10px !important;
-    margin-bottom: 14px !important;
-  }
-
-  .replayPlayer > div:first-child h2 {
-    font-size: 19px !important;
-  }
-
-  .replayPlayer > div:first-child strong {
-    font-size: 22px !important;
-  }
-
-  .replayPlayer > div:nth-child(2) {
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) !important;
-    gap: 8px !important;
-    padding: 12px 4px 16px !important;
-  }
-
-  .replayPlayer > div:nth-child(2) > div {
-    min-width: 0;
-    font-size: 15px !important;
-    overflow-wrap: anywhere;
-    line-height: 1.15;
-  }
-
-  .replayPlayer > div:nth-child(2) > div:nth-child(2) {
-    font-size: 27px !important;
-    white-space: nowrap;
-  }
-
-  .replayPlayer input[type="range"] {
-    min-height: 32px;
-  }
-
-  .replayPlayer > div:nth-child(4) {
-    gap: 8px !important;
-    margin-top: 14px !important;
-  }
-
-  .replayPlayer > div:nth-child(4) button {
-    flex: 1 1 0;
-    min-width: 0;
-    padding: 10px 12px !important;
-    font-size: 12px !important;
-  }
-}
-
-@media (max-width: 420px) {
-  .replayPlayer {
-    padding: 14px !important;
-  }
-
-  .replayPlayer > div:nth-child(2) {
-    gap: 5px !important;
-  }
-
-  .replayPlayer > div:nth-child(2) > div {
-    font-size: 13px !important;
-  }
-
-  .replayPlayer > div:nth-child(2) > div:nth-child(2) {
-    font-size: 24px !important;
-  }
-
-  .replayPlayer > div:nth-child(4) button {
-    font-size: 11px !important;
-    padding: 9px 8px !important;
-  }
-}
