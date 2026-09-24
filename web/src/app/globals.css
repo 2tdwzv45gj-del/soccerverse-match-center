@@ -354,3 +354,39 @@ a {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
 }
+
+/* SV LIVE SCORE — Match Header mobile refinement */
+@media (max-width: 760px) {
+  .scoreTeam h1 {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.08;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .scoreTeams {
+    grid-template-columns: minmax(0, 1fr) 88px minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .scoreTeam h1 {
+    max-width: 105px;
+    min-height: 32px;
+    font-size: 15px;
+    line-height: 1.05;
+    overflow-wrap: anywhere;
+  }
+
+  .scoreLogoLarge {
+    width: 62px !important;
+    height: 62px !important;
+  }
+
+  .bigScore strong {
+    font-size: 34px;
+  }
+}
