@@ -11,6 +11,7 @@ export type LanguageCode = (typeof languages)[number]["code"];
 
 export const translations: Record<LanguageCode, Record<string, string>> = {
   it: {
+    startingLineups: "FORMAZIONI INIZIALI",
     matchAction: "Azioni della partita",
     kickoffMessage: "La partita sta per iniziare",
     live: "LIVE",
@@ -69,6 +70,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   en: {
+    startingLineups: "STARTING LINEUPS",
     matchAction: "Match action",
     kickoffMessage: "The match is about to start",
     live: "LIVE",
@@ -127,6 +129,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   es: {
+    startingLineups: "ALINEACIONES INICIALES",
     matchAction: "Acción del partido",
     kickoffMessage: "El partido está a punto de comenzar",
     live: "EN VIVO",
@@ -185,6 +188,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   fr: {
+    startingLineups: "COMPOSITIONS DE DÉPART",
     matchAction: "Actions du match",
     kickoffMessage: "Le match va commencer",
     live: "EN DIRECT",
@@ -243,6 +247,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   de: {
+    startingLineups: "STARTAUFSTELLUNGEN",
     matchAction: "Spielaktionen",
     kickoffMessage: "Das Spiel beginnt gleich",
     live: "LIVE",
@@ -301,6 +306,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   pt: {
+    startingLineups: "ONZES INICIAIS",
     matchAction: "Ações do jogo",
     kickoffMessage: "O jogo está prestes a começar",
     live: "AO VIVO",

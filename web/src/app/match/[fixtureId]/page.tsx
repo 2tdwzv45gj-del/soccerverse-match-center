@@ -636,7 +636,7 @@ export default function MatchDetailPage() {
               color: "#55c2ff",
             }}
           >
-            👥 FORMAZIONI INIZIALI
+            👥 {t.startingLineups}
           </button>
         </div>
 
@@ -670,7 +670,7 @@ export default function MatchDetailPage() {
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 18 }}>
                 <div>
                   <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: ".14em", opacity: .6 }}>
-                    STARTING LINEUPS
+                    {t.startingLineups}
                   </div>
                   <div style={{ fontSize: 22, fontWeight: 900, marginTop: 4 }}>
                     {homeName} <span style={{ opacity: .4 }}>VS</span> {awayName}
