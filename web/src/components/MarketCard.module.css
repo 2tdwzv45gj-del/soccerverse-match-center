@@ -1,0 +1,101 @@
+.card {
+  width: 100%;
+  margin: 0 auto 18px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.title {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.live {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 6px rgba(74, 222, 128, 0.7);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  white-space: nowrap;
+}
+
+.asset {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+
+.svc {
+  color: #facc15;
+}
+
+.eth {
+  color: #60a5fa;
+}
+
+.pol {
+  color: #9ca3af;
+}
+
+.pair {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.value {
+  margin-left: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+@media (max-width: 650px) {
+  .card {
+    margin-bottom: 14px;
+    padding: 9px 11px;
+  }
+
+  .prices {
+    gap: 10px 14px;
+  }
+
+  .asset,
+  .value {
+    font-size: 10px;
+  }
+}

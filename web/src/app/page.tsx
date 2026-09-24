@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import LanguageSelector from "@/components/LanguageSelector";
+import MarketCard from "@/components/MarketCard";
 import { translations, LanguageCode } from "@/lib/i18n/translations";
 import styles from "./page.module.css";
 
@@ -266,8 +267,9 @@ export default function Home() {
             {t.heroText}
           </p>
 
-          <div className={styles.searchBox}>
-            <label htmlFor="clubId">{t.clubId}</label>
+          <div className={styles.searchArea}>
+            <div className={styles.searchBox}>
+              <label htmlFor="clubId">{t.clubId}</label>
 
             <div className={styles.searchRow}>
               <input
@@ -289,9 +291,14 @@ export default function Home() {
               </button>
             </div>
 
-            {error && (
-              <p className={styles.error}>{error}</p>
-            )}
+              {error && (
+                <p className={styles.error}>{error}</p>
+              )}
+            </div>
+
+            <div className={styles.marketInline}>
+              <MarketCard />
+            </div>
           </div>
 
           {favorites.length > 0 && (

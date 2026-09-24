@@ -2,12 +2,44 @@ import { NextResponse } from "next/server";
 
 export const revalidate = 30;
 
+async function getSoccerverseMarket() {
+  const response = await fetch("https://mcp.soccerverse.io/mcp", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      jsonrpc: "2.0",
+      id: 1,
+      method: "tools/call",
+      params: {
+        name: "get_market_data",
+        arguments: {},
+      },
+    }),
+    next: { revalidate: 30 },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Soccerverse MCP HTTP ${response.status}`);
+  }
+
+  const rpc = await response.json();
+  const text = rpc?.result?.content?.find(
+    (item: any) => item?.type === "text"
+  )?.text;
+
+  if (!text) {
+    throw new Error("Soccerverse MCP returned no market data");
+  }
+
+  return JSON.parse(text);
+}
+
 export async function GET() {
   try {
-    const [soccerverseResponse, cryptoResponse] = await Promise.all([
-      fetch("https://services.soccerverse.com/api/ticker", {
-        next: { revalidate: 30 },
-      }),
+    const [market, cryptoResponse] = await Promise.all([
+      getSoccerverseMarket(),
       fetch(
         "https://api.coingecko.com/api/v3/simple/price?ids=ethereum%2Cpolygon-ecosystem-token&vs_currencies=usd",
         {
@@ -16,27 +48,17 @@ export async function GET() {
       ),
     ]);
 
-    if (!soccerverseResponse.ok) {
-      throw new Error(`Soccerverse HTTP ${soccerverseResponse.status}`);
-    }
-
     if (!cryptoResponse.ok) {
       throw new Error(`CoinGecko HTTP ${cryptoResponse.status}`);
     }
 
-    const soccerverse = await soccerverseResponse.json();
     const crypto = await cryptoResponse.json();
 
     return NextResponse.json({
-      svc: soccerverse?.svc_usdc ?? soccerverse?.svc_price ?? null,
+      svc: market?.SVC2USDC ?? null,
       eth: crypto?.ethereum?.usd ?? null,
       pol: crypto?.["polygon-ecosystem-token"]?.usd ?? null,
       updatedAt: Date.now(),
-      debug: {
-        soccerverseKeys: Object.keys(soccerverse ?? {}),
-        soccerverseData: soccerverse,
-        coinGeckoData: crypto,
-      },
     });
   } catch (error) {
     console.error("MARKET API ERROR:", error);
