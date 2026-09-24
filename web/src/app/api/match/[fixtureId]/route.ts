@@ -206,11 +206,75 @@ export async function GET(
       ? commentary
       : commentary?.commentary ?? [];
 
-    return NextResponse.json({
+    // Normalize ONLY GOAL events using fixture player data.
+    // Soccerverse may occasionally return an incorrect club_id on a GOAL.
+    // GOALCANCELLED and every other event are intentionally left untouched.
+    const fixturePlayerClubById = new Map<number, number>();
+
+    if (Array.isArray(fixturePlayerData)) {
+      for (const player of fixturePlayerData) {
+        const playerId = Number(player?.player_id);
+        const clubId = Number(player?.club_id);
+
+        if (
+          Number.isFinite(playerId) &&
+          playerId > 0 &&
+          Number.isFinite(clubId) &&
+          clubId > 0
+        ) {
+          fixturePlayerClubById.set(playerId, clubId);
+        }
+      }
+    }
+
+    const normalizedEvents = Array.isArray(events)
+      ? events.map((event: any) => {
+          const eventType = String(event?.event_type ?? "").toUpperCase();
+
+          // IMPORTANT:
+          // Only GOAL events are normalized.
+          // GOALCANCELLED remains completely unchanged.
+          if (eventType !== "GOAL") {
+            return event;
+          }
+
+          const playerId = Number(
+            event?.player_id ?? event?.event_player_id
+          );
+
+          const playerClubId = fixturePlayerClubById.get(playerId);
+
+          if (playerClubId === undefined) {
+            return event;
+          }
+
+          const eventClubId = Number(event?.club_id);
+
+          if (eventClubId !== playerClubId) {
+            console.log(
+              "[GOAL CLUB FIX]",
+              "fixture=" + id,
+              "match_event_id=" + String(event?.match_event_id ?? ""),
+              "player_id=" + String(playerId),
+              "old_club_id=" + String(eventClubId),
+              "new_club_id=" + String(playerClubId)
+            );
+
+            return {
+              ...event,
+              club_id: playerClubId,
+            };
+          }
+
+          return event;
+        })
+      : [];
+
+  return NextResponse.json({
       fixtureId: id,
       fixture,
       stadium,
-      events: Array.isArray(events) ? events : [],
+      events: normalizedEvents,
       commentary: Array.isArray(commentaryItems)
         ? commentaryItems
         : [],
