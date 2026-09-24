@@ -11,6 +11,9 @@ export type LanguageCode = (typeof languages)[number]["code"];
 
 export const translations: Record<LanguageCode, Record<string, string>> = {
   it: {
+    appTitle: "SV LIVE SCORE",
+    tipMe: "☕ TIP ME WITH SVC",
+    matchesCount: "MATCH",
     online: "ONLINE",
     matchCenter: "SOCCERVERSE MATCH CENTER",
     followMatches: "Segui le tue partite.",
@@ -62,6 +65,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   en: {
+    appTitle: "SV LIVE SCORE",
+    tipMe: "☕ TIP ME WITH SVC",
+    matchesCount: "MATCH",
     online: "ONLINE",
     matchCenter: "SOCCERVERSE MATCH CENTER",
     followMatches: "Follow your matches.",
@@ -113,6 +119,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   es: {
+    appTitle: "SV LIVE SCORE",
+    tipMe: "☕ DAME UNA PROPINA CON SVC",
+    matchesCount: "PARTIDOS",
     online: "EN LÍNEA",
     matchCenter: "CENTRO DE PARTIDOS SOCCERVERSE",
     followMatches: "Sigue tus partidos.",
@@ -164,6 +173,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   fr: {
+    appTitle: "SV LIVE SCORE",
+    tipMe: "☕ DONNEZ-MOI UN POURBOIRE EN SVC",
+    matchesCount: "MATCHS",
     online: "EN LIGNE",
     matchCenter: "CENTRE DE MATCHS SOCCERVERSE",
     followMatches: "Suivez vos matchs.",
@@ -215,6 +227,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   de: {
+    appTitle: "SV LIVE SCORE",
+    tipMe: "☕ MIT SVC UNTERSTÜTZEN",
+    matchesCount: "SPIELE",
     online: "ONLINE",
     matchCenter: "SOCCERVERSE MATCH CENTER",
     followMatches: "Verfolge deine Spiele.",
@@ -266,6 +281,9 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
   },
 
   pt: {
+    appTitle: "SV LIVE SCORE",
+    tipMe: "☕ DAR UMA GORJETA COM SVC",
+    matchesCount: "PARTIDAS",
     online: "ONLINE",
     matchCenter: "CENTRO DE PARTIDAS SOCCERVERSE",
     followMatches: "Acompanha os teus jogos.",

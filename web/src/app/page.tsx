@@ -244,20 +244,20 @@ export default function Home() {
           <div className={styles.brand}>
             <div className={styles.logo}>⚽</div>
             <div>
-              <h1>SV LIVE SCORE</h1>
+              <h1>{t.appTitle}</h1>
               <p>{t.matchCenter}</p>
             </div>
           </div>
 
           <div className={styles.status}>
             <span className={styles.statusDot} />
-            ONLINE
+            {t.online}
           </div>
         </header>
 
         <section className={styles.hero}>
           <span className={styles.eyebrow}>
-            SOCCERVERSE MATCH CENTER
+            {t.matchCenter}
           </span>
 
           <h2>{t.followMatches}</h2>
@@ -378,7 +378,7 @@ export default function Home() {
                   {t.clubFound}
                 </span>
                 <h3>{club.name}</h3>
-                <p>Club ID {club.id}</p>
+                <p>{t.clubId} {club.id}</p>
               </div>
 
               <button
@@ -399,7 +399,7 @@ export default function Home() {
                 }
               >
                 {isFavorite ? "★" : "☆"}
-                <span>{isFavorite ? "PREFERITO" : "SALVA"}</span>
+                <span>{isFavorite ? t.favorite : t.save}</span>
               </button>
             </section>
 
@@ -407,13 +407,13 @@ export default function Home() {
               <div className={styles.sectionHeader}>
                 <div>
                   <span className={styles.eyebrow}>
-                    MATCH CENTER
+                    {t.matchCenterTitle}
                   </span>
                   <h3>{club.name}</h3>
                 </div>
 
                 <span className={styles.liveBadge}>
-                  {matches.length} MATCH
+                  {matches.length} {t.matchesCount}
                 </span>
               </div>
 
@@ -471,7 +471,7 @@ export default function Home() {
             <div className={styles.sectionHeader}>
               <div>
                 <span className={styles.eyebrow}>
-                  MATCH CENTER
+                  {t.matchCenterTitle}
                 </span>
                 <h3>{t.yourMatches}</h3>
               </div>
@@ -508,13 +508,13 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              ☕ TIP ME WITH SVC
+              {t.tipMe}
             </a>
           </div>
         </section>
 
         <footer className={styles.footer}>
-          <span>SV LIVE SCORE</span>
+          <span>{t.appTitle}</span>
 
           <a
             href="https://play.soccerverse.com/profile?user=SirAlex79"
