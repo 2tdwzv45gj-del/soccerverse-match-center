@@ -6,7 +6,10 @@ import ReplayPlayer from "@/lib/replay/ReplayPlayer";
 import LiveCommentary from "@/lib/commentary/LiveCommentary";
 import { buildLiveCommentary, getCurrentCommentary } from "@/lib/commentary/commentaryComposer";
 
-import type { ReplayMode } from "@/lib/replay/types";
+import type {
+  ReplayMode,
+  ReplayTacticsState,
+} from "@/lib/replay/types";
 type MatchData = {
   fixtureId: number;
   fixture: Record<string, any>;
@@ -98,6 +101,8 @@ export default function MatchDetailPage() {
   const [loading, setLoading] = useState(true);
   const [replayScore, setReplayScore] = useState<string | null>(null);
   const [replayMinute, setReplayMinute] = useState<number>(0);
+  const [replayTactics, setReplayTactics] =
+    useState<ReplayTacticsState | null>(null);
   const [replayMode, setReplayMode] = useState<ReplayMode>("M5");
   const [showLineups, setShowLineups] = useState(false);
   const [liveCommentary, setLiveCommentary] = useState<ReturnType<typeof buildLiveCommentary>>([]);
@@ -443,25 +448,76 @@ export default function MatchDetailPage() {
           </div>
         </section>
 
-        {data.tactics?.home && data.tactics?.away && (
+        {replayTactics && (
           <section className="tacticsSection">
             <div className="tacticsHeader">
               <span>TACTICS & MENTALITY</span>
+              <small>{replayMinute}&apos;</small>
             </div>
 
             <div className="tacticsGrid">
               <div className="tacticsTeam">
                 <div className="tacticsTeamName">{homeName}</div>
-                <div className="tacticsFormation">{data.tactics.home.formation ?? "—"}</div>
-                <div className="tacticsStyle">{data.tactics.home.play_style ?? "—"}</div>
+                <div className="tacticsFormation">
+                  {replayTactics.home.formation ?? "—"}
+                </div>
+                <div className="tacticsStyle">
+                  {replayTactics.home.play_style ?? "—"}
+                </div>
+                {replayTactics.home.changed &&
+                  replayTactics.home.change_minute !== null && (
+                    <div className="tacticsChanged">
+                      CHANGED @ {replayTactics.home.change_minute}&apos;
+                    </div>
+                  )}
+                {replayTactics.home.timeline.length > 0 && (
+                  <div className="tacticsTimeline">
+                    {replayTactics.home.timeline
+                      .filter(
+                        (item) =>
+                          item.time !== undefined &&
+                          Number(item.time) <= replayMinute,
+                      )
+                      .map((item, index) => (
+                        <span key={`home-tactic-${item.time}-${index}`}>
+                          {item.time}&apos; {item.play_style ?? "—"}
+                        </span>
+                      ))}
+                  </div>
+                )}
               </div>
 
               <div className="tacticsVs">VS</div>
 
               <div className="tacticsTeam">
                 <div className="tacticsTeamName">{awayName}</div>
-                <div className="tacticsFormation">{data.tactics.away.formation ?? "—"}</div>
-                <div className="tacticsStyle">{data.tactics.away.play_style ?? "—"}</div>
+                <div className="tacticsFormation">
+                  {replayTactics.away.formation ?? "—"}
+                </div>
+                <div className="tacticsStyle">
+                  {replayTactics.away.play_style ?? "—"}
+                </div>
+                {replayTactics.away.changed &&
+                  replayTactics.away.change_minute !== null && (
+                    <div className="tacticsChanged">
+                      CHANGED @ {replayTactics.away.change_minute}&apos;
+                    </div>
+                  )}
+                {replayTactics.away.timeline.length > 0 && (
+                  <div className="tacticsTimeline">
+                    {replayTactics.away.timeline
+                      .filter(
+                        (item) =>
+                          item.time !== undefined &&
+                          Number(item.time) <= replayMinute,
+                      )
+                      .map((item, index) => (
+                        <span key={`away-tactic-${item.time}-${index}`}>
+                          {item.time}&apos; {item.play_style ?? "—"}
+                        </span>
+                      ))}
+                  </div>
+                )}
               </div>
             </div>
           </section>
@@ -753,12 +809,14 @@ export default function MatchDetailPage() {
             })),
             injuries: data.injuries ?? [],
             startingPlayers: data.startingPlayers ?? [],
+            tactics: data.tactics ?? undefined,
           }}
           homeName={homeName}
           awayName={awayName}
           onStateChange={(state) => {
             setReplayScore(`${state.home_score}-${state.away_score}`);
             setReplayMinute(state.match_minute);
+            setReplayTactics(state.tactics);
           }}
         />
 

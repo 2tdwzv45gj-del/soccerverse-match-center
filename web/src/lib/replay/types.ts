@@ -65,6 +65,30 @@ export interface ScoreSnapshot {
   away_score: number;
 }
 
+export interface ReplayTacticTimelineItem {
+  time?: number;
+  formation_id?: number | null;
+  formation_name?: string | null;
+  play_style?: string | null;
+  play_style_int?: number | null;
+  situation?: number | null;
+  goal_margin?: number | null;
+}
+
+export interface ReplayTacticState {
+  formation: string | null;
+  formation_id: number | null;
+  play_style: string | null;
+  changed: boolean;
+  change_minute: number | null;
+  timeline: ReplayTacticTimelineItem[];
+}
+
+export interface ReplayTacticsState {
+  home: ReplayTacticState;
+  away: ReplayTacticState;
+}
+
 export interface ReplayState {
   replay_mode: ReplayMode;
   elapsed_seconds: number;
@@ -73,4 +97,5 @@ export interface ReplayState {
   visible_scenes: ReplayScheduleItem[];
   home_score: number;
   away_score: number;
+  tactics: ReplayTacticsState;
 }

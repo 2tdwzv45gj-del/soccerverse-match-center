@@ -42,6 +42,10 @@ export interface MatchReplayData {
   commentary: CommentarySubEvent[];
   injuries: Array<{ minute: number; player_id: number; player_name: string; club_id: number; club_name: string; side: string }>;
   startingPlayers: Array<{ player_id: number; player_name: string; side: string; club_id: number; start_ix: number }>;
+  tactics?: {
+    home?: Record<string, any> | null;
+    away?: Record<string, any> | null;
+  };
 }
 
 export interface ReplayClubNames {
@@ -56,6 +60,47 @@ export interface ReplayPlayerResolver {
 export interface ReplayViewState extends ReplayState {
   current_kind: string | null;
   current_action_id: number | null;
+}
+
+function buildReplayTactics(
+  tactics: MatchReplayData["tactics"],
+) {
+  const buildSide = (
+    side: Record<string, any> | null | undefined,
+  ) => {
+    const timeline = Array.isArray(side?.situational_styles)
+      ? side.situational_styles
+      : [];
+
+    const initialStyle =
+      typeof side?.play_style === "string"
+        ? side.play_style
+        : null;
+
+    const initialFormation =
+      typeof side?.formation === "string"
+        ? side.formation
+        : null;
+
+    const initialFormationId =
+      Number.isFinite(Number(side?.formation_id))
+        ? Number(side?.formation_id)
+        : null;
+
+    return {
+      formation: initialFormation,
+      formation_id: initialFormationId,
+      play_style: initialStyle,
+      changed: false,
+      change_minute: null,
+      timeline,
+    };
+  };
+
+  return {
+    home: buildSide(tactics?.home),
+    away: buildSide(tactics?.away),
+  };
 }
 
 export class MatchReplayController {
@@ -209,6 +254,7 @@ export class MatchReplayController {
         matchData.events,
         this.schedule,
         mode,
+        buildReplayTactics(matchData.tactics),
       );
   }
 
