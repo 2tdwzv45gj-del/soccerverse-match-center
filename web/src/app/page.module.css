@@ -133,7 +133,7 @@
   .searchArea {
     flex-direction: column;
     align-items: stretch;
-    gap: 18px;
+    gap: 8px;
   }
 
   .searchArea .searchBox {
@@ -163,6 +163,10 @@
   letter-spacing: 0.12em;
   margin: 0 0 9px 3px;
 }
+
+  .searchArea .searchBox {
+    flex: none;
+  }
 
 .searchRow {
   display: flex;
@@ -276,11 +280,15 @@
   }
 
   .hero {
-    padding: 65px 0 50px;
+    padding: 35px 0 25px;
   }
 
   .hero h2 {
-    font-size: 46px;
+    font-size: 34px;
+  }
+
+  .searchArea .searchBox {
+    flex: none;
   }
 
   .searchRow {
@@ -621,7 +629,7 @@
 .matchCardNext{border-color:rgba(74,222,128,.38)!important;background:linear-gradient(135deg,rgba(74,222,128,.07),rgba(255,255,255,.025));box-shadow:0 0 22px rgba(74,222,128,.08)}.matchCardNext .scoreBlock strong{font-size:20px!important}.matchCardNext .teamLogo{width:40px!important;height:40px!important;flex-basis:40px}.matchCardNext .teamLogo img{width:30px!important;height:30px!important}.matchCardNext .matchDate{color:#b9c5d6;font-weight:600}.matchCardNext .matchMeta{color:#8d9aae}.matchCardNext .nextBadge{box-shadow:0 0 12px rgba(74,222,128,.18)}
 
 .favoriteChip,.favoriteChipActive{display:inline-flex;align-items:center;gap:7px}.favoriteChipLogo{width:24px;height:24px;object-fit:contain;flex:0 0 24px;border-radius:6px}/* SV LIVE SCORE — COMPACT HOME CALENDAR */
-.featuredGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.matchCard{padding:14px 16px;border-radius:14px}.matchCardTop{display:flex;align-items:center;justify-content:space-between;gap:10px}.matchDate{margin-top:7px;font-size:11px;color:#7f8b9f}.matchCard .teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;margin-top:12px}.matchCard .team{display:flex;align-items:center;gap:7px;min-width:0}.matchCard .teamLogo{width:34px!important;height:34px!important;flex:0 0 34px;border-radius:8px!important;box-shadow:none!important}.matchCard .teamLogo img{width:25px!important;height:25px!important;object-fit:contain}.matchCard .team span{font-size:12px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchCard .scoreBlock{min-width:34px;text-align:center}.matchCard .scoreBlock strong{font-size:16px;letter-spacing:-.02em}.matchMeta{display:flex;justify-content:space-between;gap:10px;margin-top:10px;font-size:10px;color:#687589}.calendarHeader{margin-top:20px;margin-bottom:8px}.calendar{display:flex;flex-direction:column;gap:6px}.matchRow{display:grid;grid-template-columns:88px minmax(0,1fr) 44px minmax(0,1fr) 125px;align-items:center;gap:10px;min-height:50px;padding:7px 10px;border:1px solid rgba(255,255,255,.07);border-radius:11px;background:rgba(255,255,255,.018);transition:background .15s ease,border-color .15s ease}.matchRow:hover{background:rgba(255,255,255,.035);border-color:rgba(85,194,255,.18)}.rowDate{display:flex;flex-direction:column;gap:1px;min-width:0}.rowDate strong{font-size:10px;line-height:1.15;color:#dce3ed;font-weight:700}.rowDate span{font-size:10px;color:#667286}.teamCompact{display:flex;align-items:center;gap:7px;min-width:0}.rowLogo{width:30px!important;height:30px!important;flex:0 0 30px;display:grid;place-items:center;border-radius:7px!important;background:rgba(255,255,255,.025);box-shadow:none!important}.rowLogo img{width:22px!important;height:22px!important;object-fit:contain}.teamCompact span{min-width:0;font-size:11px;line-height:1.15;color:#e7ebf2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rowScore{text-align:center;font-size:12px;font-weight:800;color:#dce3ed}.rowCompetition{min-width:0;text-align:right;font-size:10px;color:#667286;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media (max-width:650px){.featuredGrid{grid-template-columns:1fr}.matchRow{grid-template-columns:68px minmax(0,1fr) 34px minmax(0,1fr);gap:7px;padding:7px 8px}.rowCompetition{display:none}.rowLogo{width:26px!important;height:26px!important;flex-basis:26px}.rowLogo img{width:19px!important;height:19px!important}.teamCompact span{font-size:10px}.matchCard .teamLogo{width:30px!important;height:30px!important;flex-basis:30px}.matchCard .teamLogo img{width:22px!important;height:22px!important}}
+.featuredGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.matchCard{padding:14px 16px;border-radius:14px}.matchCardTop{display:flex;align-items:center;justify-content:space-between;gap:10px}.matchDate{margin-top:7px;font-size:11px;color:#7f8b9f}.matchCard .teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;margin-top:12px}.matchCard .team{display:flex;align-items:center;gap:7px;min-width:0}.matchCard .teamLogo{width:34px!important;height:34px!important;flex:0 0 34px;border-radius:8px!important;box-shadow:none!important}.matchCard .teamLogo img{width:25px!important;height:25px!important;object-fit:contain}.matchCard .team span{font-size:12px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchCard .scoreBlock{min-width:34px;text-align:center}.matchCard .scoreBlock strong{font-size:16px;letter-spacing:-.02em}.matchMeta{display:flex;justify-content:space-between;gap:10px;margin-top:10px;font-size:10px;color:#687589}.calendarHeader{margin-top:20px;margin-bottom:8px}.calendar{display:flex;flex-direction:column;gap:6px}.matchRow{display:grid;grid-template-columns:88px minmax(0,1fr) 44px minmax(0,1fr) 125px;align-items:center;gap:10px;min-height:50px;padding:7px 10px;border:1px solid rgba(255,255,255,.07);border-radius:11px;background:rgba(255,255,255,.018);transition:background .15s ease,border-color .15s ease}.matchRow:hover{background:rgba(255,255,255,.035);border-color:rgba(85,194,255,.18)}.rowDate{display:flex;flex-direction:column;gap:1px;min-width:0}.rowDate strong{font-size:10px;line-height:1.15;color:#dce3ed;font-weight:700}.rowDate span{font-size:10px;color:#667286}.teamCompact{display:flex;align-items:center;gap:7px;min-width:0}.rowLogo{width:30px!important;height:30px!important;flex:0 0 30px;display:grid;place-items:center;border-radius:7px!important;background:rgba(255,255,255,.025);box-shadow:none!important}.rowLogo img{width:22px!important;height:22px!important;object-fit:contain}.teamCompact span{min-width:0;font-size:11px;line-height:1.15;color:#e7ebf2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rowScore{text-align:center;font-size:12px;font-weight:800;color:#dce3ed}.rowCompetition{min-width:0;text-align:right;font-size:10px;color:#667286;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media (max-width:650px){.featuredGrid{grid-template-columns:1fr;gap:8px}.matchRow{grid-template-columns:68px minmax(0,1fr) 34px minmax(0,1fr);gap:5px;min-height:42px;padding:5px 7px}.calendar{gap:4px}.calendarHeader{margin-top:12px;margin-bottom:6px}.rowCompetition{display:none}.rowLogo{width:26px!important;height:26px!important;flex-basis:26px}.rowLogo img{width:19px!important;height:19px!important}.teamCompact span{font-size:10px}.matchCard{padding:10px 12px}.matchCard .teams{margin-top:8px}.matchCard .teamLogo{width:30px!important;height:30px!important;flex-basis:30px}.matchCard .teamLogo img{width:22px!important;height:22px!important}.matchMeta{margin-top:7px}}
 .matchRowPlayed{opacity:.82}.matchRowUpcoming{border-color:rgba(74,222,128,.16);background:rgba(74,222,128,.025)}.matchRowUpcoming .rowScore{color:#8ee6a8}
 
 .matchCard{cursor:pointer;transition:transform .16s ease,background .16s ease,border-color .16s ease,box-shadow .16s ease}.matchCard:hover{transform:translateY(-2px);background:rgba(255,255,255,.035);border-color:rgba(85,194,255,.28)!important;box-shadow:0 8px 24px rgba(0,0,0,.18)}.matchCard:focus-visible,.matchRow:focus-visible{outline:2px solid rgba(85,194,255,.8);outline-offset:2px}.matchRow{cursor:pointer}.matchCard{position:relative;overflow:hidden;border-color:color-mix(in srgb,var(--home-color,#55c2ff) 35%,rgba(255,255,255,.08))!important;background:linear-gradient(135deg,color-mix(in srgb,var(--home-color,#55c2ff) 12%,transparent),rgba(255,255,255,.018))}.matchCard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--home-color,#55c2ff);box-shadow:0 0 16px var(--home-color,#55c2ff)}.matchCard:hover{border-color:var(--home-color,#55c2ff)!important;box-shadow:0 8px 28px color-mix(in srgb,var(--home-color,#55c2ff) 22%,transparent)}.matchCard .scoreBlock strong{color:var(--home-color,#55c2ff)}.matchRowUpcoming{position:relative;overflow:hidden;border-color:color-mix(in srgb,var(--home-color,#55c2ff) 30%,rgba(255,255,255,.07))!important;background:linear-gradient(90deg,color-mix(in srgb,var(--home-color,#55c2ff) 8%,transparent),rgba(255,255,255,.018))}.matchRowUpcoming::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--home-color,#55c2ff);box-shadow:0 0 12px var(--home-color,#55c2ff)}.matchRowUpcoming .rowScore{color:var(--home-color,#55c2ff)!important}@media (max-width:650px){.favoriteList{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}.favoriteChip,.favoriteChipActive{flex:0 0 auto;white-space:nowrap}}/* SV LIVE SCORE — END COMPACT HOME CALENDAR */
