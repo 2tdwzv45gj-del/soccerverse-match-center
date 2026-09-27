@@ -33,7 +33,7 @@ type MatchData = {
     club_id: number;
     start_ix: number;
   }[];
-  stadium?: { id: number; name: string; image: string } | null;
+  stadium?: { id: number; name: string; image: string; capacity: number; attendance: number } | null;
 };
 
 type Club = {
@@ -617,6 +617,10 @@ export default function MatchDetailPage() {
               >
                 Soccerverse Stadium · ID {data.stadium.id}
               </span>
+
+              <div style={{ marginTop: "10px", fontSize: "13px", fontWeight: 700, color: "rgba(255,255,255,0.78)" }}>
+                TOT CAPACITY: {data.stadium.capacity.toLocaleString()} · ATTENDANCE: {data.stadium.attendance.toLocaleString()}
+              </div>
             </div>
           </section>
         )}

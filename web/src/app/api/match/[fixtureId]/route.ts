@@ -273,7 +273,7 @@ export async function GET(
   return NextResponse.json({
       fixtureId: id,
       fixture,
-      stadium,
+      stadium: stadium ? { ...stadium, capacity: Number(homeAnalysis?.league_standing?.stadium_size ?? 0), attendance: Number(fixture?.attendance ?? 0) } : null,
       events: normalizedEvents,
       commentary: Array.isArray(commentaryItems)
         ? commentaryItems
