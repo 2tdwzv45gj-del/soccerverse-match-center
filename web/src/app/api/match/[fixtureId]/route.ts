@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { readFile } from "fs/promises";
 import path from "path";
 
-const MCP_URL = "https://mcp.soccerverse.io/mcp";
+const MCP_URL = "https://mcp.soccerverse.com/mcp";
 const REST_URL = "https://services.soccerverse.com/api";
 
 const STADIUM_PACK_PATH = path.join(

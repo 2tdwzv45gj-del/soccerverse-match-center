@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export const revalidate = 30;
 
 async function getSoccerverseMarket() {
-  const response = await fetch("https://mcp.soccerverse.io/mcp", {
+  const response = await fetch("https://mcp.soccerverse.com/mcp", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

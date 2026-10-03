@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const MCP_URL = "https://mcp.soccerverse.io/mcp";
+const MCP_URL = "https://mcp.soccerverse.com/mcp";
 
 async function mcpCall(
   toolName: string,
