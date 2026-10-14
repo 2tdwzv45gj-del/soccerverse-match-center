@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { mcpCall } from "@/lib/mcp/client";
 import { readFile } from "fs/promises";
 import path from "path";
 
@@ -34,8 +35,17 @@ async function getPlayerNames() {
 }
 
 
+async function optionalMcpCall(toolName: string, args: any) {
+  try {
+    return await mcpCall(toolName, args);
+  } catch (error) {
+    console.warn("[MATCH OPTIONAL MCP] " + toolName + ":", error);
+    return null;
+  }
+}
+
 async function analyseClub(clubId: number) {
-  return mcpCall("analyse_club", { club_id: clubId });
+  return optionalMcpCall("analyse_club", { club_id: clubId });
 }
 
 async function getStadium(stadiumId: unknown) {
@@ -73,68 +83,6 @@ async function getStadium(stadiumId: unknown) {
 }
 
 
-async function mcpCall(
-  toolName: string,
-  arguments_: Record<string, unknown>
-) {
-  const response = await fetch(MCP_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json, text/event-stream",
-    },
-    body: JSON.stringify({
-      jsonrpc: "2.0",
-      id: Date.now(),
-      method: "tools/call",
-      params: {
-        name: toolName,
-        arguments: arguments_,
-      },
-    }),
-    cache: "no-store",
-  });
-
-  if (!response.ok) {
-    throw new Error("MCP request failed: " + response.status);
-  }
-
-  const text = await response.text();
-
-  for (const line of text.split("\n")) {
-    if (line.startsWith("data:")) {
-      try {
-        return extractResult(JSON.parse(line.slice(5).trim()));
-      } catch {}
-    }
-  }
-
-  try {
-    return extractResult(JSON.parse(text));
-  } catch {
-    throw new Error("Invalid MCP response");
-  }
-}
-
-function extractResult(payload: any): any {
-  const content = payload?.result?.content;
-
-  if (Array.isArray(content)) {
-    const item = content.find(
-      (entry: any) => entry?.type === "text"
-    );
-
-    if (item?.text) {
-      try {
-        return JSON.parse(item.text);
-      } catch {
-        return item.text;
-      }
-    }
-  }
-
-  return payload?.result ?? payload;
-}
 
 export async function GET(
   _request: Request,
@@ -152,16 +100,19 @@ export async function GET(
 
     const id = Number(fixtureId);
 
-    const [fixture, events, commentary, substitutions, fixturePlayerData] =
-      await Promise.all([
-        mcpCall("get_fixture", { fixture_id: id }),
-        mcpCall("get_match_events", { fixture_id: id }),
-        mcpCall("get_match_commentary", { fixture_id: id }),
-        mcpCall("get_match_subs", { fixture_id: id }),
-        mcpCall("get_fixture_player_data", { fixture_id: id }),
-      ]);
+    const fixture = await mcpCall("get_fixture", { fixture_id: id });
 
-    const [homeAnalysis, awayAnalysis] = await Promise.all([analyseClub(Number(fixture?.home_club)), analyseClub(Number(fixture?.away_club))]);
+    const events =
+      (await optionalMcpCall("get_match_events", { fixture_id: id })) ?? [];
+    const commentary =
+      (await optionalMcpCall("get_match_commentary", { fixture_id: id })) ?? [];
+    const substitutions =
+      (await optionalMcpCall("get_match_subs", { fixture_id: id })) ?? [];
+    const fixturePlayerData =
+      (await optionalMcpCall("get_fixture_player_data", { fixture_id: id })) ?? [];
+
+    const homeAnalysis = await analyseClub(Number(fixture?.home_club));
+    const awayAnalysis = await analyseClub(Number(fixture?.away_club));
 
   const findFixtureTactics = (analysis: any) => {
     const fixtureTactics =
