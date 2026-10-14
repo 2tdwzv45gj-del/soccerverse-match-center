@@ -102,6 +102,17 @@ export default function MatchDetailPage() {
   const [home, setHome] = useState<Club | null>(null);
   const [away, setAway] = useState<Club | null>(null);
   const [loading, setLoading] = useState(true);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+
+  useEffect(() => {
+    if (!loading) return;
+    setElapsedSeconds(0);
+    const startedAt = Date.now();
+    const timer = window.setInterval(() => {
+      setElapsedSeconds(Math.floor((Date.now() - startedAt) / 1000));
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, [loading]);
   const [replayScore, setReplayScore] = useState<string | null>(null);
   const [replayMinute, setReplayMinute] = useState<number>(0);
   const [replayTactics, setReplayTactics] =
@@ -192,9 +203,31 @@ export default function MatchDetailPage() {
             ← Match Center
           </button>
 
-          <div className="matchLoading">
-            Caricamento partita…
-          </div>
+          <section className="matchLoading" aria-live="polite" aria-busy="true">
+            <div className="matchLoadingPanel">
+              <div className="matchLoadingBrand">SOCCERVERSE <span>· MATCH CENTER</span></div>
+              <div className="matchLoadingVisual" aria-hidden="true">
+                <div className="matchLoadingRing"></div>
+                <div className="matchLoadingBall">⚽</div>
+              </div>
+              <div className="matchLoadingEyebrow">
+                <span className="matchLoadingDot"></span>
+                CONNECTION IN PROGRESS
+              </div>
+              <h1 className="matchLoadingTitle">WAITING FOR SERVER</h1>
+              <p className="matchLoadingSubtitle">Establishing connection with Soccerverse...</p>
+              <p className="matchLoadingDescription">Please wait, loading match data</p>
+              <div className="matchLoadingProgress" role="progressbar" aria-label="Loading match data">
+                <div className="matchLoadingProgressBar"></div>
+              </div>
+              <div className="matchLoadingFooter">
+                <span>CONNECTING TO SOCCERVERSE</span>
+                <span className="matchLoadingTimer">
+                  {String(Math.floor(elapsedSeconds / 60)).padStart(2, "0")}:{String(elapsedSeconds % 60).padStart(2, "0")}
+                </span>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
     );

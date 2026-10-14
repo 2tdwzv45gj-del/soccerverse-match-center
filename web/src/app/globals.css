@@ -508,3 +508,148 @@ a {
   }
 }
 
+
+/* Soccerverse match loading screen */
+.matchLoading {
+  min-height: min(72vh, 720px);
+  display: grid;
+  place-items: center;
+  padding: 32px 18px;
+  color: #f5f7fb;
+  text-align: center;
+}
+.matchLoadingPanel {
+  width: min(100%, 560px);
+  padding: clamp(28px, 6vw, 54px) clamp(20px, 5vw, 48px);
+  border: 1px solid rgba(148, 163, 184, .17);
+  border-radius: 24px;
+  background: radial-gradient(ellipse at 50% 15%, rgba(35, 90, 75, .23), transparent 55%), linear-gradient(145deg, #111820, #090d12 72%);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, .38), inset 0 1px rgba(255, 255, 255, .035);
+  overflow: hidden;
+}
+.matchLoadingBrand {
+  color: #e5eaf0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .2em;
+}
+.matchLoadingBrand span {
+  color: #7f8c9c;
+  font-weight: 600;
+}
+.matchLoadingVisual {
+  position: relative;
+  width: 112px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  margin: 36px auto 30px;
+}
+.matchLoadingRing {
+  position: absolute;
+  inset: 3px;
+  border: 2px solid rgba(104, 226, 174, .13);
+  border-top-color: #69e2ae;
+  border-right-color: rgba(105, 226, 174, .65);
+  border-radius: 50%;
+  animation: matchLoadingSpin 1.5s linear infinite;
+}
+.matchLoadingBall {
+  font-size: 43px;
+  filter: drop-shadow(0 0 18px rgba(105, 226, 174, .22));
+  animation: matchLoadingFloat 1.8s ease-in-out infinite;
+}
+.matchLoadingEyebrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  color: #77e5b4;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .17em;
+}
+.matchLoadingDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #77e5b4;
+  box-shadow: 0 0 12px rgba(119, 229, 180, .8);
+  animation: matchLoadingPulse 1.4s ease-in-out infinite;
+}
+.matchLoadingTitle {
+  margin: 17px 0 12px;
+  color: #f8fafc;
+  font-size: clamp(24px, 5vw, 34px);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: .045em;
+}
+.matchLoadingSubtitle {
+  margin: 0;
+  color: #c0cad5;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.matchLoadingDescription {
+  margin: 8px 0 28px;
+  color: #788697;
+  font-size: 12px;
+}
+.matchLoadingProgress {
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #222d36;
+  overflow: hidden;
+}
+.matchLoadingProgressBar {
+  width: 38%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #3aa77b, #8cf0bf, #3aa77b);
+  box-shadow: 0 0 14px rgba(105, 226, 174, .45);
+  animation: matchLoadingTravel 1.7s ease-in-out infinite;
+}
+.matchLoadingFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 15px;
+  color: #6f7e8e;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .09em;
+}
+.matchLoadingTimer {
+  color: #b9c6d2;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .12em;
+}
+@keyframes matchLoadingSpin {
+  to { transform: rotate(360deg); }
+}
+@keyframes matchLoadingFloat {
+  0%, 100% { transform: translateY(0) rotate(-7deg); }
+  50% { transform: translateY(-7px) rotate(7deg); }
+}
+@keyframes matchLoadingPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .3; }
+}
+@keyframes matchLoadingTravel {
+  0% { transform: translateX(-110%); }
+  100% { transform: translateX(290%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .matchLoadingRing, .matchLoadingBall, .matchLoadingDot, .matchLoadingProgressBar {
+    animation-duration: 8s;
+  }
+}
+@media (max-width: 420px) {
+  .matchLoading { min-height: 65vh; padding: 22px 8px; }
+  .matchLoadingPanel { border-radius: 18px; }
+  .matchLoadingFooter { font-size: 8px; }
+}
